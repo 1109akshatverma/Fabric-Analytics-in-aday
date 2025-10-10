@@ -116,13 +116,9 @@ BI Desktop to understand the transformations and the model.
 
 5. **Automatically sign in to all desktop apps and websites on this device?** dialog opens. Select **Yes, all apps**.
 
-    ![A screenshot of a computer](../media/lab-01/image13.png)
-    
-9. **Stay Signed in to all your apps** dialog opens. Select **OK**.
+    <img width="652" height="635" alt="image" src="https://github.com/user-attachments/assets/bcb16236-9722-4990-bc7c-a49005fe8cca" />
 
-    ![A screenshot of a computer](../media/lab-1/image10.png)
-
-10. **You're all set!** Dialog opens. Select **Done**.
+1. **You're all set!** Dialog opens. Select **Done**.
 
 Power BI Desktop will now open.
 
