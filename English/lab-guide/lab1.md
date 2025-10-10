@@ -100,28 +100,27 @@ BI Desktop to understand the transformations and the model.
 
    * Email/Username: <inject key="AzureAdUserEmail"></inject>
 
+      <img width="496" height="279" alt="image" src="https://github.com/user-attachments/assets/ca0a79a8-66bc-4ef0-b03b-b5c68eda27d3" />
+
 3. On the Sign into Microsoft Azure tab, you will see the login screen, enter the following Email/ Username and then click on **Next**.
 
    * Email/Username: <inject key="AzureAdUserEmail"></inject>
 
-4. Select **Continue**.
-
-    ![A screenshot to copy
-credentials](../media/lab-1/image8.png)
+     <img width="648" height="626" alt="image" src="https://github.com/user-attachments/assets/380f6b74-39d3-4dc7-9c61-05370b893fa8" />
 
 4. Now enter the following **Password** and click on **Sign in**.
 
     * Password: <inject key="AzureAdUserPassword"></inject>
 
-      ![A screenshot to copy credentials](../media/lab-01/21042025(5).png)
+      <img width="648" height="634" alt="image" src="https://github.com/user-attachments/assets/cb0f0e87-6594-4a62-8c89-54a03d6c894e" />
 
 5. **Automatically sign in to all desktop apps and websites on this device?** dialog opens. Select **Yes, all apps**.
 
     ![A screenshot of a computer](../media/lab-01/image13.png)
+    
 9. **Stay Signed in to all your apps** dialog opens. Select **OK**.
 
-    ![A screenshot of a
-computer](../media/lab-1/image10.png)
+    ![A screenshot of a computer](../media/lab-1/image10.png)
 
 10. **You're all set!** Dialog opens. Select **Done**.
 
