@@ -138,7 +138,7 @@ Now we need to ingest the People data into the Lakehouse.
     radio button is selected, since we are creating a new table.
 
 5. We want to create the table in the Lakehouse we created earlier. In
-    the left panel, navigate to **Lakehouse -> FAIAD_<inject key="Deployment ID" enableCopy="false"/>.**
+    the left panel, navigate to **Lakehouse -> FAIAD_<inject key="Deployment ID" enableCopy="false"/>**
 
 6. Select **lh_FAIAD**
 
