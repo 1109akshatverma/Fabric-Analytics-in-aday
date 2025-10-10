@@ -1,6 +1,25 @@
 
 # Microsoft Fabric - Fabric Analyst in a Day - Lab 2
 
+![](../media/lab-2/main2.png)
+
+# Contents
+- Introduction
+- Fabric License
+    - Task 1: Enable a Microsoft Fabric trial license
+- Fabric Workspace
+    - Task 2: Create a Fabric Workspace
+    - Task 3: Create a Lakehouse
+- Overview of Fabric Experiences
+    - Task 4: Data Factory Experience
+    - Task 5: Industry Solutions Experience
+    - Task 6: Real-Time Intelligence Experience
+    - Task 7: Data Engineering Experience
+    - Task 8: Data Science Experience
+    - Task 9: Data Warehouse Experience
+    - Task 10: Databases Experience
+- References
+
 # Introduction 
 
 Today you will learn about various key features of Microsoft Fabric.
