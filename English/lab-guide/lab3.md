@@ -629,8 +629,8 @@ automatically generated](../media/lab-3/image48.png)
 
     ![](../media/lab-3/image50.png)
 
-If it is easier, delete all the code in the Advanced Editor and paste
-the below code into Advanced Editor.
+    If it is easier, delete all the code in the Advanced Editor and paste
+    the below code into Advanced Editor.
 
     ```
     let
@@ -848,7 +848,7 @@ Read the more in-depth Fabric experience announcement blogs:
 - [Dataverse and Microsoft Fabric integration
   blog](https://aka.ms/Dataverse-Fabric-Blog)
 
-© 2023 Microsoft Corporation. All rights reserved.
+© 2025 Microsoft Corporation. All rights reserved.
 
 By using this demo/lab, you agree to the following terms:
 
