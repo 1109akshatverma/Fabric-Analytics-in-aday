@@ -26,7 +26,7 @@ are updated at different times. To minimize the number of data refreshes
 for Dataflows, we are going to create individual Dataflows for Snowflake
 and SharePoint data sources.
 
-**Note:** Multiple data sources are supported in a single Dataflow.
+>**Note:** Multiple data sources are supported in a single Dataflow.
 
 The IT team has already established a link to Dataverse and applied the
 necessary data transformations, mirroring those in the Power BI Desktop
@@ -83,7 +83,7 @@ By the end of this lab, you will have learned:
     
     ![A screenshot of a computer](../media/lab-4/image8.png)
 
-    **Note**: If you are working in the lab environment, please select the
+    >**Note**: If you are working in the lab environment, please select the
     ellipsis on the top right of the screen. Use the slider to **enable**
     **VM Native Clipboard**. Select OK in the dialog. Once done pasting the
     queries you can disable this option.
@@ -110,7 +110,7 @@ connection](../media/lab-4/image11.png)
 
 4. Select **Connect**.
 
-   > **Note:** You will be signed in using your credentials. They will be
+   >**Note:** You will be signed in using your credentials. They will be
     different than the screenshot below.
 
     ![](../media/lab-4/image12.png)
@@ -151,7 +151,7 @@ Now we need to ingest the People data into the Lakehouse.
 9. Choose destination settings dialog opens. Make sure "**Use automatic
     settings**" is **enabled**.
 
-    **Note**: You can disable automatic settings and notice you have options
+    >**Note**: You can disable automatic settings and notice you have options
     to set Update method and Schema options. Once done exploring, make sure
     "**Use automatic settings**" is **enabled**.
 
@@ -170,7 +170,7 @@ computer](../media/lab-4/image16.png)
 
     ![](../media/lab-4/image17.png)
 
-    **Note:** You will be navigated back to **FAIAD_<inject key="Deployment ID" enableCopy="false"/> workspace**. It may take a few moments for the Dataflow to finish
+    >**Note:** You will be navigated back to **FAIAD_<inject key="Deployment ID" enableCopy="false"/> workspace**. It may take a few moments for the Dataflow to finish
     running.
 
 3. **Dataflow 1** is the dataflow we were working on. Let's rename it
@@ -203,7 +203,7 @@ computer](../media/lab-4/image16.png)
     ![A screenshot of a computer AI-generated content may be
     incorrect.](../media/lab-4/image20.png)
 
-    **Note:** If you do not see the newly created tables, select the
+    >**Note:** If you do not see the newly created tables, select the
     ellipsis next to Tables and select refresh to refresh the Tables.
 
 ## Task 5: Copy Snowflake queries to Dataflow
@@ -250,7 +250,7 @@ computer](../media/lab-4/image16.png)
 
 9. In the **Dataflow pane** select the **center pane**, enter **Ctrl+V** (currently right click Paste is not supported). If you are using MAC device, please use Cmd+V to paste.
 
-    **Note**: If you are working in the lab environment, please select the
+    >**Note**: If you are working in the lab environment, please select the
     **ellipsis (...)** on the top right of the screen. Use the slider to
     **enable** **VM Native Clipboard**. Select OK in the dialog. Once done
     pasting the queries you can disable this option.
@@ -280,7 +280,7 @@ will see a warning message requesting you to configure the connection.
 
     * **Snowflake Password:** <inject key="SnowFlake Password"></inject>
 
-    **Note**: If you encounter any issues connecting to Snowflake using the
+    >**Note**: If you encounter any issues connecting to Snowflake using the
     credentials from the environment details, please use the credentials
     provided below.
 
@@ -377,7 +377,7 @@ computer](../media/lab-4/image30.png)
     ![A screenshot of a computer AI-generated content may be
     incorrect.](../media/lab-4/image33.png)
 
-    **Note:** If you do not see the newly created tables, select the
+    >**Note:** If you do not see the newly created tables, select the
     ellipsis next to Tables and select refresh to refresh the Tables.
 
 Now let's create a shortcut to bring in data from Dataverse.
@@ -401,7 +401,7 @@ computer](../media/lab-4/image35.png)
 3. New shortcut dialog opens. Under **External sources**, select
     **Dataverse**.
 
-    **Note**: In the previous lab, we followed similar steps to create a
+    >**Note**: In the previous lab, we followed similar steps to create a
     shortcut to Azure Data Lake Storage Gen2.
 
     ![A screenshot of a computer](../media/lab-4/image36.png)
@@ -417,8 +417,9 @@ computer](../media/lab-4/image35.png)
     ![](../media/lab-4/image37.png)
 
 7. From the sign in dialog box, select the **user account** you have
-    been using for these labs. **Note**: Your account will be different
-    than the screenshot below.
+    been using for these labs. 
+    
+    >**Note**: Your account will be different than the screenshot below.
 
     ![A screenshot to select account](../media/lab-4/image38.png)
 

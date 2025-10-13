@@ -1,4 +1,3 @@
-
 # Microsoft Fabric - Fabric Analyst in a Day - Lab 3
 
 ![](../media/lab-3/main3.png)
@@ -123,7 +122,7 @@ into the lakehouse. This is like creating shortcuts in Windows desktop.
 
     k. Warehouse.StockItems
 
-    **Note:** Sales.Invoices_May is the only directory that is **not**
+    >**Note:** Sales.Invoices_May is the only directory that is **not**
     selected.
 
     ![](../media/lab-3/image9.png)
@@ -160,7 +159,7 @@ into the lakehouse. This is like creating shortcuts in Windows desktop.
 
     j. Warehouse.StockItems to **ProductItem**
 
-    > **Note**: Double check the names. A typo may cause errors during the lab.
+    > >**Note**: Double check the names. A typo may cause errors during the lab.
 
 18. Select **Create** to create the Shortcut.
 
@@ -217,7 +216,7 @@ window](../media/lab-3/image15.png)
     icon (towards the right). You will be navigated to Power Query
     editor.
     
-    ***Note:** You may have to scroll to the right or re-open your
+    *>**Note:** You may have to scroll to the right or re-open your
     visual query tab if you do not immediately see this icon*
 
     ![](../media/lab-3/image16.png)
@@ -316,7 +315,7 @@ window](../media/lab-3/image15.png)
 23. With **Merge** query selected (1), from the ribbon select **Home (2)
     -> Choose columns (3) -> Choose columns (4)**.
 
-    **Note:** If the Choose columns option is not visible, you can find it
+    >**Note:** If the Choose columns option is not visible, you can find it
     under Manage columns.
 
     ![](../media/lab-3/image23.png)
@@ -361,7 +360,7 @@ window](../media/lab-3/image15.png)
     We will be navigated to the Visual query editor. Let's now save this
     query as a view.
 
-    **Note**: All the steps we performed using Power Query editor can be
+    >**Note**: All the steps we performed using Power Query editor can be
     performed using Visual query editor as well.
 
 30. From the Visual query editor menu select **Save as view**.
@@ -490,7 +489,7 @@ view using Visual query without opening the Power Query option.
 
     ![](../media/lab-3/image36.png)
 
-    **Note**: The **Customer** box should have a blue border, if enable load
+    >**Note**: The **Customer** box should have a blue border, if enable load
     is checked.
 
 20. From the Visual query menu, select **Save as view**.
@@ -582,7 +581,7 @@ incorrect.](../media/lab-3/image44.png)
 
     ![](../media/lab-3/image45.png)
 
-    **Note:** If you're unable to find the Advanced Editor, you can access
+    >**Note:** If you're unable to find the Advanced Editor, you can access
     it under **Home -> Query -> Advanced Editor**.
 
 16. **Select code from Line 3** (#"Expanded Invoice" ...) all the way
@@ -613,7 +612,7 @@ incorrect.](../media/lab-3/image44.png)
 24. Enter **Ctrl+V** on your keyboard to paste the code you copied from
     Power BI Desktop.
 
-    **Note**: If you are working in the lab environment, please select the
+    >**Note**: If you are working in the lab environment, please select the
     **ellipsis (...)** on the top right of the screen. Use the slider to
     **enable** **VM Native Clipboard**. Select OK in the dialog. Once done
     pasting the queries you can disable this option.
@@ -725,7 +724,7 @@ move things along, we are going to copy code into Advanced Editor.
 
     ![](../media/lab-3/image59.png)
 
-    **Note:** If you're unable to find the Advanced Editor, you can access
+    >**Note:** If you're unable to find the Advanced Editor, you can access
     it under **Home -> Query -> Advanced Editor**.
 
 12. **Select all the code** in Advanced editor and **delete** it.

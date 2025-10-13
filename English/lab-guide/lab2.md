@@ -42,10 +42,10 @@ By the end of this lab, you will have learned:
     Portal](https://app.powerbi.com/). You will be navigated to the
     login page.
 
-    **Note:** If you're using the lab environment, it may sign you
+    >**Note:** If you're using the lab environment, it may sign you
     automatically.
 
-    **Note:** If you are not using the lab environment and have an existing
+    >**Note:** If you are not using the lab environment and have an existing
     Power BI account, you may want to use the browser in private / incognito
     mode.
 
@@ -85,13 +85,12 @@ By the end of this lab, you will have learned:
 
 8. Select **Free trial**.
 
-    ![A screenshot of start
-trial](../media/lab-2/image9.png)
+    ![](../media/lab-2/image9.png)
 
 9. Upgrade to a free Microsoft Fabric trial dialog opens. Select
     **Activate**.
     
-    **Note:** Leave the region to whatever the default is. The
+    >**Note:** Leave the region to whatever the default is. The
     instructor will give more details about this when reviewing the
     lab.
 
@@ -126,7 +125,7 @@ trial](../media/lab-2/image9.png)
 
 4. In the **Name** field enter **FAIAD_<inject key="Deployment ID" enableCopy="false"/>**
     
-    ***Note:** The workspace name must be unique. Make sure a green
+    *>**Note:** The workspace name must be unique. Make sure a green
     check mark with "This name is available" is displayed below the
     Name field.
 
@@ -167,10 +166,10 @@ this next.
 3. A new lakehouse dialog will appear. Enter **lh_FAIAD** in the Name
     textbox.
     
-    **Note:** lh here refers to Lakehouse. We are prefixing lh so that
+    >**Note:** lh here refers to Lakehouse. We are prefixing lh so that
     it is easy to identify and search.
     
-    **Note:** The preview feature of **Lakehouse Schemas** is very
+    >**Note:** The preview feature of **Lakehouse Schemas** is very
     interesting so it is something you should be aware of. Since it is
     in **Preview** state, we will ignore it so there is no negative
     impact on the lab experience. Once the feature is general available
@@ -486,7 +485,7 @@ this next.
     a. **Lakehouse**: Used to store big data for cleaning, querying,
     reporting, and sharing.
 
-    b. **Notebook**: Used for data ingestion, preparation, analysis and
+    b. >**Notebook**: Used for data ingestion, preparation, analysis and
     other data-related tasks using various languages like Python, and Scala.
 
     c. **Environment**: Used to set up shared libraries, spark compute
@@ -567,7 +566,7 @@ this next.
     b. **Experiment**: Used to create, run, and track the development of
     multiple models.
 
-    c. **Notebook**: Used to explore data and build machine learning
+    c. >**Notebook**: Used to explore data and build machine learning
     solutions.
 
     d. **Environment**: Used to set up shared libraries, spark compute
@@ -630,7 +629,7 @@ this next.
     b. **Sample Warehouse**: Used to explore and test data warehousing
     capabilities with pre-configured datasets and models.
 
-    c. **Notebook**: Used for creating and sharing interactive data
+    c. >**Notebook**: Used for creating and sharing interactive data
     analysis and visualization tasks.
 
     d. **Mirrored Azure SQL Database**: Used to mirror Azure SQL Database.

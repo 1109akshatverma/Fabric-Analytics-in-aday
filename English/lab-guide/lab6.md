@@ -87,7 +87,7 @@ By the end of this lab, you will have learned:
     There is also an option to view queries that are shared with you
     using the **Shared queries** folder.
 
-    **Note**: Visual queries you had created in earlier labs are also
+    >**Note**: Visual queries you had created in earlier labs are also
     available under My queries folder.
 
     ![](../media/lab-6/image8.png)
@@ -188,7 +188,7 @@ By the end of this lab, you will have learned:
     visuals created with fields from these views will be in direct query
     mode and not direct lake mode.
 
-    **Note**: Direct lake mode is faster than direct query mode.
+    >**Note**: Direct lake mode is faster than direct query mode.
 
 ## Task 4: Create Relationships
 
@@ -255,7 +255,7 @@ let's get to the right place
     and **Product** tables. Select **StockItemID** from the **Sales**
     table and **StockItemID** from the **Product** table.
 
-    **Note:** All our updates are automatically saved.
+    >**Note:** All our updates are automatically saved.
 
     **Checkpoint:** Your model should have the three relationships between
     Sales and Reseller tables, Sales and Date and Sales and Product tables

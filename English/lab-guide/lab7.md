@@ -90,11 +90,11 @@ lab, we will re-create the report we have in Power BI.
 
     ![](../media/lab-7/image11.png)
 
-    **Checkpoint:** You will have a report which looks like the screenshot
+    >**Checkpoint:** You will have a report which looks like the screenshot
     below. There are a few KPIs and some trend visuals. This is a good start
     if you are analyzing a new model and need a jumpstart.
 
-    **Note:** Notice on the top menu, you have the option to Edit the report
+    >**Note:** Notice on the top menu, you have the option to Edit the report
     or view some of the data as tables. Feel free to explore these options.
 
 9. Let's save this report. From the top menu, select **Save**.
@@ -102,7 +102,7 @@ lab, we will re-create the report we have in Power BI.
 10. Save your report dialog opens. Name the report as
     **rpt_Sales_Auto_Report**
 
-    **Note:** we are prefixing report name with rpt which is short for
+    >**Note:** we are prefixing report name with rpt which is short for
     report.
 
 11. Make sure the report is saved in your workspace, **FAIAD_<inject key="Deployment ID" enableCopy="false"/>**
@@ -111,7 +111,7 @@ lab, we will re-create the report we have in Power BI.
 
     ![](../media/lab-7/image12.png)
         
-    **Note:** Auto-created report may look different for you as it is
+    >**Note:** Auto-created report may look different for you as it is
     "auto-created". It also depends on the relationships and measures you
     created in the previous lab (Lab 6).
 
@@ -292,7 +292,7 @@ changes to the model.
 
 2. Save your report dialog opens. Name the report as **rpt_Sales_Report**.
 
-    **Note:** We are prefixing report name with rpt which is short for
+    >**Note:** We are prefixing report name with rpt which is short for
     report.
 
 3. Make sure the report is saved in **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** workspace.
@@ -356,7 +356,7 @@ changes to the model.
 
     ![](../media/lab-7/image30.png)
 
-    **Note:** The months are sorted alphabetically. Let's fix this.
+    >**Note:** The months are sorted alphabetically. Let's fix this.
 
     ![](../media/lab-7/image31.png)
 

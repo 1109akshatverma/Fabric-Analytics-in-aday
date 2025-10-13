@@ -16,7 +16,7 @@
 # Document Structure
 The lab includes steps for the user to follow along with associated screenshots that provide visual aid. In each screenshot, sections are highlighted with orange boxes to indicate the area(s) user should focus on.
 
-**Note:** Some of the screenshots may be out of date due to ongoing product updates
+>**Note:** Some of the screenshots may be out of date due to ongoing product updates
 
 # Scenario / Problem Statement
 
@@ -129,7 +129,7 @@ by Territory, Product Group, and Reseller Company.
 
 ![A screenshot of Power BI Desktop report](../media/lab-1/image11.png)
 
-**Note:** In this training, we are focusing on data acquisition,
+>**Note:** In this training, we are focusing on data acquisition,
 transformation, and modeling using tools available in Fabric. We will
 not be focusing on report development or navigation. Let's spend a
 couple of minutes understanding the report and move to the next steps.
@@ -304,7 +304,7 @@ credentials provided in the Environment tab.*
 
     - **Snowflake Password:** 8UpfRpExVDXv2AC1
 
-    >**Note:** Please Do Not enter the wrong username or password more than three times, as this will lock the Snowflake account for everyone. If you’re having trouble logging in, please contact `cloudlabs-support@spektrasystems.com` instead of trying multiple times.
+    >>**Note:** Please Do Not enter the wrong username or password more than three times, as this will lock the Snowflake account for everyone. If you’re having trouble logging in, please contact `cloudlabs-support@spektrasystems.com` instead of trying multiple times.
 
 14. Notice the **SnowflakeData** folder has Supplier dimension and
     PO(Order / Spend) fact.
