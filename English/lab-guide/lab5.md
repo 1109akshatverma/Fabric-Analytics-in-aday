@@ -167,9 +167,9 @@ Let's use Data Pipeline to solve this.
 
 1. Let's navigate back to the Fabric workspace, **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** by selecting the workspace in the left panel.
 
-2. From the top menu select **+ New item (1) -> Pipeline (2).**     ![A
-    screenshot of a chat AI-generated content may be
-    incorrect.](../media/lab-5/image17.png)
+2. From the top menu select **+ New item (1) -> Pipeline (2).**     
+
+    ![](../media/lab-5/image17.png)
 
 3. A new pipeline dialog opens. Name the pipeline as
     **pl_Refresh_People_SharePoint** and select **Create**.
@@ -284,7 +284,7 @@ new Data Pipeline.
 
 1. From the left panel, click **FAIAD_<inject key="Deployment ID" enableCopy="false"/>**, to be navigated to the workspace home.
 
-2. From the top menu, click **+ New item (1)** and from the popout window **,** click **Data pipeline (2)**.
+2. From the top menu, click **+ New item (1)** and from the popout window, click **Data pipeline (2)**.
 
     ![](../media/lab-5/image24.png)
 
@@ -297,11 +297,11 @@ new Data Pipeline.
 1. You will be navigated to the Data Pipeline screen. From the menu,
     select **Activities**.
 
-2. Click the **ellipsis(...)** on the right.
+2. Click the **ellipsis (...)** on the right.
 
 3. From the activity list, click **Until**.
 
-    **Until**: is an activity that is used to iterate until a condition is
+    >**Until**: is an activity that is used to iterate until a condition is
     satisfied.
 
     In our scenario, we are going to iterate and refresh the dataflow until
@@ -548,7 +548,7 @@ Yes.
     content below using any combination of expressions, functions, and
     system variables text area (1)**.
 
-11. From the bottom menu, click on the **elipses(...) (2)** select
+11. From the bottom menu, click on the **elipses (...) (2)** select
     **Variables (3) -> varSuccess (4)**. Notice
     **@variables('varSuccess')** is entered in the Add dynamic content
     below text area. Remember when we created variables, we had preset
@@ -646,7 +646,7 @@ varTempCounter.
     expression in, or use the menu to select the functions, or copy and
     paste it in.
 
-11. Click on OK.
+11. Click on **OK**.
 
     ![](../media/lab-5/image47.png)
 
@@ -744,9 +744,9 @@ the wait time.
 
 ## Task 13: Configure Schedule Refresh for Data Pipeline
 
-1. We can test the data pipeline, by selecting **Home -> Run.
+1. We can test the data pipeline, by selecting **Home -> Run**.
     
-    Note:** It may take a few minutes for the data pipeline to complete
+    >**Note:** It may take a few minutes for the data pipeline to complete
     refresh. This is a training environment, so the file in SharePoint
     is always available. Hence, your data pipeline will never fail.
 

@@ -224,76 +224,41 @@ this next.
 
     **Item types:**
 
-    a. **Dataflow Gen2:** Dataflows are like recipes for transforming data.
-        They offer over 300 different transformations that you can apply to
-        your data. This means you can clean, combine, and change your data
-        in many ways to suit your needs.
+    a. **Dataflow Gen2:** Dataflows are like recipes for transforming data. They offer over 300 different transformations that you can apply to your data. This means you can clean, combine, and change your data in many ways to suit your needs.
 
-    b. **Pipeline:** Pipelines are workflows that help you automate data
-        processes. They allow you to create flexible data workflows that can
-        be tailored to your specific requirements. This makes it easier to
-        manage and process data in a structured way.
+    b. **Pipeline:** Pipelines are workflows that help you automate data processes. They allow you to create flexible data workflows that can be tailored to your specific requirements. This makes it easier to manage and process data in a structured way.
 
-    c. **Azure Data Factory**: Azure Data Factory is a cloud-based data
-        integration service that allows you to create data-driven workflows
-        for orchestrating and automating data movement and data
-        transformation.
+    c. **Azure Data Factory**: Azure Data Factory is a cloud-based data integration service that allows you to create data-driven workflows for orchestrating and automating data movement and data transformation.
 
-    d. **Apache Airflow Job**: Apache Airflow is an open-source platform
-        used to programmatically author, schedule, and monitor workflows. In
-        Data Factory, it allows you to create, schedule, and manage complex
-        data workflows.
+    d. **Apache Airflow Job**: Apache Airflow is an open-source platform used to programmatically author, schedule, and monitor workflows. In Data Factory, it allows you to create, schedule, and manage complex data workflows.
 
-    e. **Copy Job**: Copy Job is a feature that allows you to copy data
-        from one source to another. It provides a simple and efficient way
-        to move data between different data stores.
+    e. **Copy Job**: Copy Job is a feature that allows you to copy data from one source to another. It provides a simple and efficient way to move data between different data stores.
 
-    f. **Mirrored database**: A feature for creating mirrored versions of
-        databases for backup, testing, or read-only access.
+    f. **Mirrored database**: A feature for creating mirrored versions of databases for backup, testing, or read-only access.
 
-    g. **Mirrored Oracle (preview):** a Mirroring in Fabric replicates your
-        Oracle databases into a unified platform, enabling near real-time,
-        low-latency analysis alongside other data sources.
+    g. **Mirrored Oracle (preview):** a Mirroring in Fabric replicates your Oracle databases into a unified platform, enabling near real-time, low-latency analysis alongside other data sources.
 
-    h. **Mirrored Google Big Query (preview):** Mirroring in Fabric lets
-        you continuously replicate Google BigQuery data into OneLake,
-        eliminating complex ETL and enabling seamless use across analytics,
-        AI, and data sharing.
+    h. **Mirrored Google Big Query (preview):** Mirroring in Fabric lets you continuously replicate Google BigQuery data into OneLake, eliminating complex ETL and enabling seamless use across analytics, AI, and data sharing.
 
-    i. **Variable library (preview)**: contains a list of variables and
-        their default values. It can also contain other value sets holding
-        alternate values
+    i. **Variable library (preview)**: contains a list of variables and their default values. It can also contain other value sets holding alternate values
 
     **Get Started:**
 
     To start using Data Factory, you can follow these steps:
 
-    a. **Learn to Use Data Factory**: This section helps you get started
-        with Data Factory. It provides guidance on how to begin using the
-        tool effectively.
+    a. **Learn to Use Data Factory**: This section helps you get started with Data Factory. It provides guidance on how to begin using the tool effectively.
 
-    b. **Create Your First Dataflow**: Here, you can learn how to create
-        your first dataflow. Dataflows are essential for transforming your
-        data according to your needs.
+    b. **Create Your First Dataflow**: Here, you can learn how to create your first dataflow. Dataflows are essential for transforming your data according to your needs.
 
-    c. **Create Your First Data Pipeline**: This section guides you on how
-        to create your first data pipeline. Pipelines help automate and
-        manage your data processes efficiently.
+    c. **Create Your First Data Pipeline**: This section guides you on how to create your first data pipeline. Pipelines help automate and manage your data processes efficiently.
 
-    d. **Learn to Monitor Data Factory**: Monitoring is crucial to ensure
-        that your data processes are running smoothly. This section teaches
-        you how to monitor your Data Factory activities.
+    d. **Learn to Monitor Data Factory**: Monitoring is crucial to ensure that your data processes are running smoothly. This section teaches you how to monitor your Data Factory activities.
 
-    e. **Learn to Transform Data with Dataflows**: This section helps you
-        understand how to use dataflows to transform your data effectively.
+    e. **Learn to Transform Data with Dataflows**: This section helps you understand how to use dataflows to transform your data effectively.
 
-    f. **Create Your First API for GraphQL**: If you are interested in
-        using APIs with GraphQL, this section will guide you on how to get
-        started.
+    f. **Create Your First API for GraphQL**: If you are interested in using APIs with GraphQL, this section will guide you on how to get started.
 
-    g. **Create Your First User Data Functions**: This section helps you
-        create user data functions, which are useful for managing and
-        transforming user data.
+    g. **Create Your First User Data Functions**: This section helps you create user data functions, which are useful for managing and transforming user data.
 
     ![](../media/lab-2/image21.png)
 
@@ -323,54 +288,31 @@ this next.
 
     **Item types:**
 
-    a. **Sustainability solutions**: supports the ingestion,
-        standardization, and analysis of Environmental, Social, and
-        Governance (ESG) data.
+    a. **Sustainability solutions**: supports the ingestion, standardization, and analysis of Environmental, Social, and Governance (ESG) data.
 
-    b. **Retail solutions**: helps in managing large volumes of data,
-        integrating data from various sources, and providing real-time
-        analytics for prompt decision-making. Retailers can use these
-        solutions for inventory optimization, customer segmentation, sales
-        forecasting, dynamic pricing, and fraud detection.
+    b. **Retail solutions**: helps in managing large volumes of data, integrating data from various sources, and providing real-time analytics for prompt decision-making. Retailers can use these solutions for inventory optimization, customer segmentation, sales forecasting, dynamic pricing, and fraud detection.
 
-    c. **Healthcare solutions:** are strategically designed to accelerate
-        the time to value for customers by addressing the critical need to
-        efficiently transform healthcare data into a suitable format for
-        analysis.
+    c. **Healthcare solutions:** are strategically designed to accelerate the time to value for customers by addressing the critical need to efficiently transform healthcare data into a suitable format for analysis.
 
     **Get Started:**
 
     To start using Industry Solutions, follow these steps:
 
-    a. **Learn About Healthcare Data Solutions**: Click on the "Learn
-        more" button to read about healthcare data solutions and understand
-        how they can be used in your projects.
+    a. **Learn About Healthcare Data Solutions**: Click on the "Learn more" button to read about healthcare data solutions and understand how they can be used in your projects.
 
-    b. **Deploy Healthcare Data Solutions**: Click on the "Deploy" button
-        to start deploying healthcare data solutions and implement them in
-        your projects.
+    b. **Deploy Healthcare Data Solutions**: Click on the "Deploy" button to start deploying healthcare data solutions and implement them in your projects.
 
-    c. **Learn About Sustainability Solutions**: Click on the "Learn
-        more" button to read about sustainability solutions and understand
-        how they can be used in your projects.
+    c. **Learn About Sustainability Solutions**: Click on the "Learn more" button to read about sustainability solutions and understand how they can be used in your projects.
 
-    d. **Deploy Sustainability Solutions**: Click on the "Deploy" button
-        to start deploying sustainability solutions and implement them in
-        your projects.
+    d. **Deploy Sustainability Solutions**: Click on the "Deploy" button to start deploying sustainability solutions and implement them in your projects.
 
-    e. **Learn About Retail Solutions**: Click on the "Learn more" button
-        to read about retail solutions and understand how they can be used
-        in your projects.
+    e. **Learn About Retail Solutions**: Click on the "Learn more" button to read about retail solutions and understand how they can be used in your projects.
 
-    f. **Deploy Retail Solutions**: Click on the "Deploy" button to start
-        deploying retail solutions and implementing them in your
-        projects.
+    f. **Deploy Retail Solutions**: Click on the "Deploy" button to start deploying retail solutions and implementing them in your projects.
 
     ![](../media/lab-2/image24.png)
 
-3. Click on Return to workloads at the top left corner of the screen.
-    This action will take you to the main workloads page, where you can
-    explore other tools or sections.
+3. Click on Return to workloads at the top left corner of the screen. This action will take you to the main workloads page, where you can explore other tools or sections.
     
     ![](../media/lab-2/image22.png)
 
@@ -424,6 +366,7 @@ this next.
     smarter, location-aware decisions.
 
     **Get Started:**
+
     To start using Real-Time Intelligence, follow these steps:
 
     a. **End to End Experiences in Real-Time**: Click on the "Get
@@ -485,7 +428,7 @@ this next.
     a. **Lakehouse**: Used to store big data for cleaning, querying,
     reporting, and sharing.
 
-    b. >**Notebook**: Used for data ingestion, preparation, analysis and
+    b. **Notebook**: Used for data ingestion, preparation, analysis and
     other data-related tasks using various languages like Python, and Scala.
 
     c. **Environment**: Used to set up shared libraries, spark compute
@@ -566,7 +509,7 @@ this next.
     b. **Experiment**: Used to create, run, and track the development of
     multiple models.
 
-    c. >**Notebook**: Used to explore data and build machine learning
+    c. **Notebook**: Used to explore data and build machine learning
     solutions.
 
     d. **Environment**: Used to set up shared libraries, spark compute
@@ -580,6 +523,7 @@ this next.
     machine.
 
     **Get Started:**
+
     To start using Data Science, follow these steps
 
     a. **Explore a Sample**: Click on the "Select" button to use a sample
@@ -629,7 +573,7 @@ this next.
     b. **Sample Warehouse**: Used to explore and test data warehousing
     capabilities with pre-configured datasets and models.
 
-    c. >**Notebook**: Used for creating and sharing interactive data
+    c. **Notebook**: Used for creating and sharing interactive data
     analysis and visualization tasks.
 
     d. **Mirrored Azure SQL Database**: Used to mirror Azure SQL Database.
@@ -658,6 +602,7 @@ this next.
     high availability and disaster recovery.
 
     **Get Started:**
+
     To start using Data Warehouse, follow the below steps:
 
     a. **Explore a sample warehouse**: Start a new warehouse with sample
@@ -706,6 +651,7 @@ this next.
     typical database management tasks.
 
     **Get Started:**
+    
     To start using Databases, follow the below steps:
 
     a. **Explore**: Click on the "Open" to explore a sample database

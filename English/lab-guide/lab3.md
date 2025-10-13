@@ -196,8 +196,8 @@ model. We are going to create views to transform the data.
 
 2. From the top menu, click the drop down next to **New SQL query (1)**
     and then select **New visual query (2)**.
-        ![ AI-generated content may be
-    incorrect.](../media/lab-3/image14.png)
+
+    ![](../media/lab-3/image14.png)
 
 3. To build a query, we need to add tables to the Visual Query panel.
     Click on the ellipsis next to the **Cities (1)** table and select
@@ -216,12 +216,12 @@ window](../media/lab-3/image15.png)
     icon (towards the right). You will be navigated to Power Query
     editor.
     
-    *>**Note:** You may have to scroll to the right or re-open your
+    >**Note:** You may have to scroll to the right or re-open your
     visual query tab if you do not immediately see this icon*
 
     ![](../media/lab-3/image16.png)
 
-6. With **Cities(1)** query selected, from the Power Query editor
+6. With **Cities (1)** query selected, from the Power Query editor
     ribbon, select **Home (2) -> Combine (3) -> Merge queries
     dropdown (4) -> Merge queries as new (5)**. Merge queries dialog
     opens.

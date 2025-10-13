@@ -257,7 +257,7 @@ let's get to the right place
 
     >**Note:** All our updates are automatically saved.
 
-    **Checkpoint:** Your model should have the three relationships between
+    >**Checkpoint:** Your model should have the three relationships between
     Sales and Reseller tables, Sales and Date and Sales and Product tables
     as shown in the below screenshot:
 
@@ -422,7 +422,7 @@ Let's add the remaining relationships.
 
 25. Select **Save**.
 
-    **Checkpoint:** Manage relationships should look like screenshot below.
+    >**Checkpoint:** Manage relationships should look like screenshot below.
 
     ![](../media/lab-6/image33.png)
 
@@ -434,7 +434,7 @@ Let's add the remaining relationships.
 
 29. Select **Close** to close Manage relationships dialog. We are done creating all the relationships.
 
-    **Checkpoint:** Your model should look like the screenshot below.
+    >**Checkpoint:** Your model should look like the screenshot below.
 
     ![](../media/lab-6/image34.png)
 
