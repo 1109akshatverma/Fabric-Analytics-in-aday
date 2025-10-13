@@ -246,7 +246,7 @@ settings](../media/lab-1/image19.png)
 
 8. You can enter the credentials for the Dataverse data source by
     entering the **Username** and **Password**. The credentials are
-    provided below and Select **Connect**.
+    provided below and select **Connect**.
 
     - Email/Username: <inject key="AzureAdUserEmail"></inject>
 
