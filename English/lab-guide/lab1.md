@@ -304,7 +304,7 @@ credentials provided in the Environment tab.*
 
     - **Snowflake Password:** 8UpfRpExVDXv2AC1
 
-    >>**Note:** Please Do Not enter the wrong username or password more than three times, as this will lock the Snowflake account for everyone. If you’re having trouble logging in, please contact `cloudlabs-support@spektrasystems.com` instead of trying multiple times.
+    >**Note:** Please Do Not enter the wrong username or password more than three times, as this will lock the Snowflake account for everyone. If you’re having trouble logging in, please contact `cloudlabs-support@spektrasystems.com` instead of trying multiple times.
 
 14. Notice the **SnowflakeData** folder has Supplier dimension and
     PO(Order / Spend) fact.
