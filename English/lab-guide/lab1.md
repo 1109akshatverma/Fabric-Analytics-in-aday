@@ -298,7 +298,7 @@ incorrect.](../media/lab-1/image22.png)
 
     *Note: If you encounter any issues connecting to Snowflake using the
 credentials from the environment details, please use the backup
-credentials provided in the Environment tab.*
+credentials provided below.*
 
     - **Snowflake Username:** SNOWFLAKE_BACKUP
 
