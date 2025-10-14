@@ -1,4 +1,3 @@
-
 # Microsoft Fabric - Fabric Analyst in a Day - Lab 1
 
 ![](../media/lab-1/main1.png)
@@ -89,9 +88,7 @@ BI Desktop to understand the transformations and the model.
 
 ## Task 1: Set up Power BI Desktop in lab environment
 
-1. Open the **FAIAD.pbix** located in **Reports** folder on the
-    **desktop** of your lab environment. The file will open in Power BI
-    Desktop.
+1. Open the **FAIAD.pbix** located in **Reports** folder on the **desktop** of your lab environment. The file will open in Power BI Desktop.
 
     ![](../media/lab-1/image7.png)
 
@@ -142,8 +139,7 @@ couple of minutes understanding the report and move to the next steps.
     quarter over quarter during the past year. After a small rebound in
     Q3 it went down again in Q4.
 
-    ![A screenshot of Power BI Desktop report with New England
-selected](../media/lab-1/image12.png)
+    ![](../media/lab-1/image12.png)
 
 2. Let's compare this to the Rocky Mountain territory. Select **Rocky
     Mountain from Sales Territory** (Scatter plot) visual. Notice in the
@@ -151,8 +147,7 @@ selected](../media/lab-1/image12.png)
     dramatically in 2023 Q4 after being low for the previous two
     quarters.
 
-    ![A screenshot of Power BI Desktop report with Rocky Mountain
-selected](../media/lab-1/image13.png)
+    ![](../media/lab-1/image13.png)
 
 3. Select **Rocky Mountain from Sales Territory** to remove the filter.
 
@@ -161,8 +156,7 @@ selected](../media/lab-1/image13.png)
     quadrant). Notice the margin % is 52%, which is above the average of
     50%. Also, the Sales YoY% has gone up the last two quarters of 2023.
 
-    ![A screenshot of Power BI Desktop with Scatter plot
-selection](../media/lab-1/image14.png)
+    ![](../media/lab-1/image14.png)
 
 5. Select the outlier Reseller in the Scatter plot visual to **remove
     the filter**.
@@ -172,8 +166,7 @@ selection](../media/lab-1/image14.png)
     **right click on the Packaging Materials bar for Tailspin Toys** and
     from the dialog select **Drill through -> Product Detail**.
 
-    ![A screenshot of Power BI Desktop with Drill through
-selection](../media/lab-1/image15.png)
+    ![](../media/lab-1/image15.png)
 
 7. You will be navigated to the page which provides the Product
     Details. Notice there are some future orders in place as well.
@@ -182,14 +175,12 @@ selection](../media/lab-1/image15.png)
     arrow** on the top right of the page to be navigated back to the
     Sales Report.
 
-    ![A screenshot of Power BI Desktop Product Details
-page](../media/lab-1/image16.png)
+    ![](../media/lab-1/image16.png)
 
 9. Feel free to further analyze the report. Once ready let's look at
     the model view. From the left panel, select **Model view icon**.
     
-    ![A white box with black and yellow squares AI-generated content may be
-    incorrect.](../media/lab-1/image17.png)
+    ![](../media/lab-1/image17.png)
 
 10. Notice there are two fact tables, Sales and PO.
 
@@ -246,7 +237,7 @@ settings](../media/lab-1/image19.png)
 
 8. You can enter the credentials for the Dataverse data source by
     entering the **Username** and **Password**. The credentials are
-    provided below and select **Connect**.
+    provided below, and select **Connect**.
 
     - Email/Username: <inject key="AzureAdUserEmail"></inject>
 
