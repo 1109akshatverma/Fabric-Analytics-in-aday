@@ -152,9 +152,9 @@ By the end of this lab, you will have learned:
   
    >**Note:** The preview feature of **Lakehouse Schemas** is very interesting, so it is something you should be aware of. Since it is in **Preview** state, we will ignore it so there is no negative impact on the lab experience. Once the feature is generally available, we will bring it into this lab.
 
-4. Select **Create**.
+4. **Uncheck** the Lakehouse Schemas (Public preview) and Select **Create**.
 
-   ![](../media/lab-02/image17-upd.png)
+   ![](../media/lab-02/image17-upd1.png)
 
     Within a few moments, a Lakehouse is created, and you will be navigated
     to the Lakehouse interface. On the left panel, notice that below your
