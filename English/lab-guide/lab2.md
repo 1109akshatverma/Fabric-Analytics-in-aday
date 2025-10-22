@@ -166,6 +166,8 @@ this next.
 3. A new lakehouse dialog will appear. Enter **lh_FAIAD** in the Name
     textbox.
     
+    >**Note:** Please make sure to deselect the Lakehouse Schema feature, as it is now enabled by default.
+    
     >**Note:** lh here refers to Lakehouse. We are prefixing lh so that
     it is easy to identify and search.
     
@@ -179,6 +181,8 @@ this next.
     
     ![A screenshot of a computer AI-generated content may be
     incorrect.](../media/lab-2/image17.png)
+
+    >**Note:** Please make sure to deselect the Lakehouse Schema feature, as it is now enabled by default.
 
     Within a few moments, a Lakehouse is created, and you will be navigated
     to the Lakehouse explorer interface. On the top left, next to the Fabric
