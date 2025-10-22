@@ -1,4 +1,3 @@
-
 # Microsoft Fabric - Fabric Analyst in a Day - Lab 2
 
 ![](../media/lab-2/main2.png)
@@ -22,7 +21,7 @@
 
 # Introduction 
 
-Today you will learn about various key features of Microsoft Fabric.
+Today, you will learn about various key features of Microsoft Fabric.
 This is an introductory workshop intended to introduce you to the
 various product experiences and items available in Fabric. By the end of
 this workshop, you will learn how to use Lakehouse, Dataflow Gen2, Data
@@ -124,7 +123,7 @@ By the end of this lab, you will have learned:
 
 4. In the **Name** field enter **FAIAD_<inject key="Deployment ID" enableCopy="false"/>**
     
-    *>**Note:** The workspace name must be unique. Make sure a green
+    >**Note:** The workspace name must be unique. Make sure a green
     check mark with "This name is available" is displayed below the
     Name field.
 
@@ -146,7 +145,7 @@ By the end of this lab, you will have learned:
 A new workspace has been created, and you will be able to navigate into
 this workspace. We will bring data from the different data sources into
 a Lakehouse and use the data from the Lakehouse to build our model and
-report on it. The first step is to create a Lakehouse and we will do
+report on it. The first step is to create a Lakehouse, and we will do
 this next.
 
 ## Task 3: Create a Lakehouse
@@ -176,7 +175,9 @@ this next.
     we will bring it into this lab.
 
 1. Choose **FAIAD_<inject key="Deployment ID" enableCopy="false"/> (2)** as the **location**.
+
 2. Make sure **Lakehouse schemas (3)** is unchecked.
+
 3. Then, select **Create (4)** to proceed.
     
     ![](../media/lab-2/lakehouse22.png)
