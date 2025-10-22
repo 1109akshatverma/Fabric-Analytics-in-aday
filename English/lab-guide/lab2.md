@@ -117,8 +117,7 @@ By the end of this lab, you will have learned:
 2. Click **+ New workspace** **(2)** found at the bottom of the pop-out
     menu.
     
-    ![A screenshot of a computer AI-generated content may be
-    incorrect.](../media/lab-2/image13.png)
+    ![](../media/lab-2/image13.png)
 
 3. **Create a workspace** dialog opens on the right side of the
     browser.
@@ -142,8 +141,7 @@ By the end of this lab, you will have learned:
 
 8. Select **Apply** to create a new workspace.
     
-    ![A screenshot of a computer AI-generated content may be
-    incorrect.](../media/lab-2/image15.png)
+    ![](../media/lab-2/image15.png)
 
 A new workspace has been created, and you will be able to navigate into
 this workspace. We will bring data from the different data sources into
@@ -163,7 +161,7 @@ this next.
 
     ![](../media/lab-2/image16.png)
 
-3. A new lakehouse dialog will appear. Enter **lh_FAIAD** in the Name
+3. A new lakehouse dialog will appear. Enter **lh_FAIAD (1)** in the **Name**
     textbox.
     
     >**Note:** Please make sure to deselect the Lakehouse Schema feature, as it is now enabled by default.
@@ -177,10 +175,11 @@ this next.
     impact on the lab experience. Once the feature is general available
     we will bring it into this lab.
 
-4. Select **Create**
+1. Choose **FAIAD_<inject key="Deployment ID" enableCopy="false"/> (2)** as the **location**.
+2. Make sure **Lakehouse schemas (3)** is unchecked.
+3. Then, select **Create (4)** to proceed.
     
-    ![A screenshot of a computer AI-generated content may be
-    incorrect.](../media/lab-2/image17.png)
+    ![](../media/lab-2/lakehouse22.png)
 
     >**Note:** Please make sure to deselect the Lakehouse Schema feature, as it is now enabled by default.
 
@@ -275,8 +274,7 @@ this next.
 1. From the **Workloads page**, click on **Industry** Solutions to
     proceed.
     
-    ![A screenshot of a computer AI-generated content may be
-    incorrect.](../media/lab-2/image23.png)
+    ![](../media/lab-2/image23.png)
 
 2. You will be directed to the Industry Solutions Home page. Below is a
     detailed overview of its sections, designed to help you use Industry
@@ -325,8 +323,7 @@ this next.
 1. From the **Workloads** page, click on **Real-Time Intelligence** to
     proceed.
     
-    ![A screenshot of a computer AI-generated content may be
-    incorrect.](../media/lab-2/image25.png)
+    ![](../media/lab-2/image25.png)
 
 2. You will be directed to the Real-Time Intelligence Home page. Below
     is a detailed overview of its sections, designed to help you use
@@ -412,8 +409,7 @@ this next.
 
 1. From the **Workloads** page, click on **Data Engineering** to proceed.
         
-    ![A screenshot of a computer AI-generated content may be
-    incorrect.](../media/lab-2/image27.png)
+    ![](../media/lab-2/image27.png)
 
 2. You will be directed to the **Data Engineering** Home page. Below is
     a detailed overview of its sections, designed to help you use **Data
@@ -492,8 +488,7 @@ this next.
 
 1. From the **Workloads** page, click on **Data Science** to proceed.
     
-    ![A screenshot of a computer AI-generated content may be
-    incorrect.](../media/lab-2/image29.png)
+    ![](../media/lab-2/image29.png)
 
 2. You will be directed to the **Data Science** Home page. Below is a
     detailed overview of its sections, designed to help you use **Data
