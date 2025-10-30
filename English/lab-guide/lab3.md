@@ -76,7 +76,7 @@ into the lakehouse. This is like creating shortcuts in Windows desktop.
 
     ![](../media/lab-3/image7.png)
 
-6. Select N**ew connection (1)**.
+6. Select **New connection (1)**.
 
 7. Enter the following link for the **URL** property: https://stvnextblobstorage.dfs.core.windows.net/fabrikam-sales **(2):**
 
@@ -307,12 +307,14 @@ window](../media/lab-3/image15.png)
 
 22. Select **OK**.
 
-    ![](../media/lab-3/image22.png)
+    **Important:** Make sure to scroll down and select all eight columns listed in step 21. The screenshot below only displays the first 5 columns due to a UI limitation.  
+
+    ![](../media/lab-3/Picture1.png)
 
     We do not need all the columns in the **Merge** table. Make sure to only
     select those that we need.
 
-23. With **Merge** query selected (1), from the ribbon select **Home (2)
+23. With **Merge** query selected **(1)**, from the ribbon select **Home (2)
     -> Choose columns (3) -> Choose columns (4)**.
 
     >**Note:** If the Choose columns option is not visible, you can find it
@@ -336,7 +338,7 @@ window](../media/lab-3/image15.png)
 
 25. Select **OK**.
 
-    ![](../media/lab-3/image24.png)
+    ![](../media/lab-3/Picture2.png)
 
     Notice the process is like Power Query, we have all the steps recorded
     both in the Applied Steps panel on the right and the visual view. Let's
