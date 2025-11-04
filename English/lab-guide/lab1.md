@@ -284,8 +284,6 @@ incorrect.](../media/lab-1/image22.png)
     Snowflake to Snowflake and then select Connect.
 
     * **Snowflake Username:** <inject key="SnowFlake Username" enableClicktoPaste = false />
-
-    <inject key="SnowFlake Username" enableClicktoPaste = false />
     
     * **Snowflake Password:** <inject key="SnowFlake Password"></inject>
 
