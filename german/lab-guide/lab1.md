@@ -117,7 +117,7 @@ verstehen.
 
     - E-Mail-Adresse/Benutzername: <inject key="AzureAdUserEmail"></inject>
 
-    ![](../media/lab-1/image8.png)
+      ![](../media/lab-1/image8.png)
 
 5. Das Dialogfeld „Anmelden" wird geöffnet. Geben Sie den
     **Benutzernamen** erneut ein, indem Sie ihn aus der Registerkarte
@@ -135,7 +135,7 @@ verstehen.
 
     * Kennwort: <inject key="AzureAdUserPassword"></inject>
 
-    ![](../media/lab-1/image9.png)
+      ![](../media/lab-1/image9.png)
 
 9. Das Dialogfeld **Bei all Ihren Apps angemeldet bleiben** wird
     geöffnet. Klicken Sie auf **OK**.
@@ -339,10 +339,10 @@ Zusammenhang mit Reseller.
 
     - **Snowflake-Kennwort:** <inject key="SnowFlake Password"></inject>
 
-  *Hinweis: Wenn Sie Probleme beim Herstellen einer Verbindung zu
-  Snowflake mit den Anmeldeinformationen aus den Umgebungsdetails haben,
-  verwenden Sie die auf der Registerkarte „Umgebung" angegebenen
-  Backup-Anmeldeinformationen.*
+    *Hinweis: Wenn Sie Probleme beim Herstellen einer Verbindung zu
+    Snowflake mit den Anmeldeinformationen aus den Umgebungsdetails haben,
+    verwenden Sie die auf der Registerkarte „Umgebung" angegebenen
+    Backup-Anmeldeinformationen.*
 
 14. Beachten Sie, dass der Ordner **SnowflakeData** die Dimension
     „Supplier" und das Element „PO(Order / Spend)" enthält.
