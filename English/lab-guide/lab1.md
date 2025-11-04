@@ -283,7 +283,9 @@ incorrect.](../media/lab-1/image22.png)
     below. Use these credentials to connect all the tables under
     Snowflake to Snowflake and then select Connect.
 
-    * **Snowflake Username:** <inject key="SnowFlake Username" enableClicktoPaste = false /></inject>
+    * **Snowflake Username:** <inject key="SnowFlake Username" enableClicktoPaste = false />
+
+    <inject key="SnowFlake Username" enableClicktoPaste = false />
     
     * **Snowflake Password:** <inject key="SnowFlake Password"></inject>
 
