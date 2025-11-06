@@ -287,7 +287,7 @@ incorrect.](../media/lab-1/image22.png)
     
     - **Snowflake Password:** <inject key="SnowFlake Password" enableCopy="false" />
 
-    **Note: If you encounter any issues connecting to Snowflake using the credentials from the environment details, please use the backup credentials provided below.**
+    >**Note:** If you experience any issues connecting to Snowflake with the credentials above, please use the backup credentials provided below.
 
     - **Snowflake Username:** SNOWFLAKE_BACKUP
 
