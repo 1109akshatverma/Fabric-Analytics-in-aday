@@ -52,8 +52,7 @@ Am Ende dieser Übung haben Sie Folgendes gelernt:
 ## Aufgabe 1: SharePoint-Abfragen in Dataflow kopieren
 
 1. Navigieren wir nun zurück zum Fabric-Arbeitsbereich
-    **FAIAD_<inject key="Deployment ID" enableCopy="false"/> (1),** den Sie in Übung 2, Aufgabe 8 erstellt
-    haben.
+    **FAIAD_<inject key="Deployment ID" enableCopy="false"/> (1),** den Sie in Übung 2, Aufgabe 8 erstellt haben.
 
 2. Wählen Sie die Option + **Neues Element (2)** in der oberen linken
     Ecke.
@@ -113,16 +112,13 @@ Am Ende dieser Übung haben Sie Folgendes gelernt:
 
     ![](../media/lab-4/image11.png)
 
-2. Das Dialogfeld „Mit Datenquelle verbinden" wird geöffnet. Überprüfen
-    Sie, dass im Dropdown-Menü **Verbindung** die Option **Neue
-    Verbindung erstellen** ausgewählt ist.
+2. Das Dialogfeld „Mit Datenquelle verbinden" wird geöffnet. Überprüfen Sie, dass im Dropdown-Menü **Verbindung** die Option **Neue Verbindung erstellen** ausgewählt ist.
 
 3. Die **Authentifizierungsart** muss **Organisationskonto** lauten.
 
 4. Wählen Sie **Verbinden** aus.
 
-    > **Hinweis**: Sie werden mit Ihren Anmeldeinformationen angemeldet. Sie
-    > werden von denen auf dem Screenshot unten abweichen.
+    > **Hinweis**: Sie werden mit Ihren Anmeldeinformationen angemeldet. Sie werden von denen auf dem Screenshot unten abweichen.
 
     ![](../media/lab-4/image12.png)
 
@@ -189,9 +185,7 @@ Lakehouse erfasst werden.
 
     ![](../media/lab-4/image17.png)
 
-    **Hinweis:** Sie werden zum **Arbeitsbereich FAIAD_<inject key="Deployment ID" enableCopy="false"/>**
-    weitergeleitet. Es kann einige Momente dauern, bis die Ausführung des
-    Dataflows abgeschlossen ist.
+    **Hinweis:** Sie werden zum **Arbeitsbereich FAIAD_<inject key="Deployment ID" enableCopy="false"/>** weitergeleitet. Es kann einige Momente dauern, bis die Ausführung des Dataflows abgeschlossen ist.
 
 3. Wir arbeiten mit **Dataflow 1**. Benennen wir ihn um, bevor wir
     fortfahren. Klicken Sie auf die **Auslassungspunkte (...)** neben
@@ -222,8 +216,7 @@ Lakehouse erfasst werden.
 9. Beachten Sie, dass die Tabelle **People** jetzt im Lakehouse
     verfügbar ist.
 
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](../media/lab-4/image20.png)
+    ![](../media/lab-4/image20.png)
 
     **Hinweis:** Wenn die neu erstellten Tabellen nicht angezeigt werden,
     wählen Sie die Auslassungspunkte neben „Tabellen" und „Aktualisieren"
@@ -359,7 +352,7 @@ müssen die Daten von „Supplier" und „PO" im Lakehouse erfasst werden.
     weil wir eine neue Tabelle erstellen.
 
 6. Wir möchten die zuvor erstellte Tabelle in Lakehouse erstellen.
-    Navigieren Sie im linken Bereich zu** Lakehouse ->
+    Navigieren Sie im linken Bereich zu **Lakehouse ->
     FAIAD_<inject key="Deployment ID" enableCopy="false"/>.**
 
 7. Wählen Sie **lh_FAIAD** aus.
@@ -404,8 +397,7 @@ müssen die Daten von „Supplier" und „PO" im Lakehouse erfasst werden.
 
     ![](../media/lab-4/image32.png)
 
-    Sie werden zum Arbeitsbereich **FAIAD_<inject key="Deployment ID" enableCopy="false"/> weitergeleitet**. Es
-    kann einige Momente dauern, bis der Dataflow veröffentlicht wird.
+    Sie werden zum Arbeitsbereich **FAIAD_<inject key="Deployment ID" enableCopy="false"/> weitergeleitet**. Es kann einige Momente dauern, bis der Dataflow veröffentlicht wird.
 
 5. Wählen Sie **lh_FAIAD** aus, um zum Lakehouse zu navigieren.
 

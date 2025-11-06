@@ -887,8 +887,7 @@ Wartezeit festzulegen.
     ![](../media/lab-5/image54.png)
 
 11. Wählen Sie im linken Bereich Ihren Fabric-Arbeitsbereich
-    **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** aus, um zur Startseite des
-    Arbeitsbereichs zu navigieren**.**
+    **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** aus, um zur Startseite des Arbeitsbereichs zu navigieren.
 
     **Hinweis:** Im Bildschirm „Zeitplan" ist keine Option verfügbar, um Sie
     zu benachrichtigen, ob der Vorgang erfolgreich war oder nicht (wie beim

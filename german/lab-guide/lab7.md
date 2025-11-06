@@ -823,8 +823,7 @@ aktualisieren.
 
     ![](../media/lab-7/image52.png)
 
-23. Wählen Sie in der linken Menüleiste **rpt_Sales_Report** aus, um zum
-    Bericht zurückzukehren**.**
+23. Wählen Sie in der linken Menüleiste **rpt_Sales_Report** aus, um zum Bericht zurückzukehren.
 
 24. Wählen Sie im oberen Menü **Aktualisieren** aus. Beachten Sie, dass
     das Liniendiagramm nun Daten für Mai 2024 enthält. Beachten Sie

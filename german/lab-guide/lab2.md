@@ -104,7 +104,7 @@ Am Ende dieser Übung haben Sie Folgendes gelernt:
 11. Sie werden zur **Startseite von Microsoft Fabric** geleitet.
     Möglicherweise öffnet sich das Dialogfeld „Willkommen zur
     Fabric-Ansicht". Sie können entweder **Tour starten** oder
-    **Abbrechen **auswählen.
+    **Abbrechen** auswählen.
 
     ![](../media/lab-2/image12.png)
 

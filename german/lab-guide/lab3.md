@@ -628,7 +628,7 @@ Abfrage erstellt werden kann. Lassen Sie uns diese Methode ausprobieren.
     ![](../media/lab-3/image44.png)
 
 14. Wählen Sie im linken Bereich **Abfragen** unter dem Ordner
-    **ADLSData** **(1)** die Abfrage **Sales (2)** aus**.**
+    **ADLSData** **(1)** die Abfrage **Sales (2)** aus.
 
 15. Wählen Sie im Menüband die Registerkarte **Start -> Erweiterter
     Editor (3)** aus. Das Dialogfenster „Erweiterter Editor" wird
