@@ -31,7 +31,7 @@ Am Ende dieser Übung haben Sie Folgendes gelernt:
 
 # Lakehouse -- Analysieren von Daten
 
-### Aufgabe 1: Daten mithilfe von SQL abfragen
+## Aufgabe 1: Daten mithilfe von SQL abfragen
 
 1. Navigieren wir nun zurück zum Fabric-Arbeitsbereich
     **FAIAD_<inject key="Deployment ID" enableCopy="false"/>**, den Sie in Übung 2, Aufgabe 8, erstellt
@@ -106,7 +106,7 @@ Am Ende dieser Übung haben Sie Folgendes gelernt:
 
     ![](../media/lab-6/image7.png)
 
-### Aufgabe 2: T-SQL-Ergebnis veranschaulichen
+## Aufgabe 2: T-SQL-Ergebnis veranschaulichen
 
 1. Das Ergebnis der Abfrage kann auch bildlich veranschaulicht werden.
     **Markieren Sie die Abfrage** im Abfragebereich
@@ -157,7 +157,7 @@ Sie werden zum Bildschirm „SQL-Abfrage" weitergeleitet.
 
 # Lakehouse -- Semantische Modellierung
 
-### Aufgabe 3: Semantisches Modell erstellen
+## Aufgabe 3: Semantisches Modell erstellen
 
 1. Wählen Sie **Lakehouse** aus, um vom SQL-Analyse-Endpunkt zur
     Lakehouse-Ansicht zu wechseln.
@@ -214,7 +214,7 @@ Sie werden zum Bildschirm „SQL-Abfrage" weitergeleitet.
     **Hinweis:** Der Direct Lake-Modus ist schneller als der Direct
     Query-Modus.
 
-### Aufgabe 4: Beziehungen erstellen
+## Aufgabe 4: Beziehungen erstellen
 
 Wenn Sie sich nicht im neu erstellten semantischen Modell befinden,
 lassen Sie uns zur richtigen Stelle gehen.
@@ -298,7 +298,7 @@ Aus Zeitgründen können wir nicht alle Beziehungen erstellen. Sofern Zeit
 verbleibt, können Sie den fakultativen Abschnitt am Ende der Übung
 durcharbeiten. Darin werden die restlichen Beziehungen erstellt.
 
-### Aufgabe 5: Measures erstellen
+## Aufgabe 5: Measures erstellen
 
 Ergänzen wir ein paar Kennzahlen, die zur Erstellung des
 Sales-Dashboards benötigt werden.
@@ -389,7 +389,7 @@ Wir haben ein semantisches Modell erstellt, und der nächste Schritt
 besteht darin, einen Bericht zu erstellen. Dies erfolgt in der nächsten
 Übung.
 
-### Aufgabe 6: Fakultativer Abschnitt -- Beziehungen erstellen
+## Aufgabe 6: Fakultativer Abschnitt -- Beziehungen erstellen
 
 Ergänzen wir die restlichen Beziehungen.
 
@@ -494,7 +494,7 @@ Ergänzen wir die restlichen Beziehungen.
 
     ![](../media/lab-6/image33.png)
 
-### Aufgabe 7: Fakultativer Abschnitt -- Measures erstellen
+## Aufgabe 7: Fakultativer Abschnitt -- Measures erstellen
 
 Ergänzen wir die restlichen Measures.
 
@@ -596,68 +596,68 @@ Lesen Sie die detaillierteren Blogs zur Ankündigung der Fabric-Umgebung:
 - [Blog zur Dataverse- und Microsoft
   Fabric-Integration](https://aka.ms/Dataverse-Fabric-Blog)
 
-> © 2023 Microsoft Corporation. Alle Rechte vorbehalten.
->
-> Durch die Verwendung der vorliegenden Demo/Übung stimmen Sie den
-> folgenden Bedingungen zu:
->
-> Die in dieser Demo/Übung beschriebene Technologie/Funktionalität wird
-> von der Microsoft Corporation bereitgestellt, um Feedback von Ihnen zu
-> erhalten und Ihnen Wissen zu vermitteln. Sie dürfen die Demo/Übung nur
-> verwenden, um derartige Technologiefeatures und Funktionen zu bewerten
-> und Microsoft Feedback zu geben. Es ist Ihnen nicht erlaubt, sie für
-> andere Zwecke zu verwenden. Es ist Ihnen nicht gestattet, diese
-> Demo/Übung oder einen Teil derselben zu ändern, zu kopieren, zu
-> verbreiten, zu übertragen, anzuzeigen, auszuführen, zu
-> vervielfältigen, zu veröffentlichen, zu lizenzieren, zu transferieren
-> oder zu verkaufen oder aus ihr abgeleitete Werke zu erstellen.
->
-> DAS KOPIEREN ODER VERVIELFÄLTIGEN DER DEMO/ÜBUNG (ODER EINES TEILS
-> DERSELBEN) AUF EINEN/EINEM ANDEREN SERVER ODER SPEICHERORT FÜR DIE
-> WEITERE VERVIELFÄLTIGUNG ODER VERBREITUNG IST AUSDRÜCKLICH UNTERSAGT.
->
-> DIESE DEMO/ÜBUNG STELLT BESTIMMTE
-> SOFTWARE-TECHNOLOGIE-/PRODUKTFEATURES UND FUNKTIONEN, EINSCHLIESSLICH
-> POTENZIELLER NEUER FEATURES UND KONZEPTE, IN EINER SIMULIERTEN
-> UMGEBUNG OHNE KOMPLEXE EINRICHTUNG ODER INSTALLATION FÜR DEN
-> OBEN BESCHRIEBENEN ZWECK BEREIT. DIE TECHNOLOGIE/KONZEPTE IN DIESER
-> DEMO/
-> ÜBUNG ZEIGEN MÖGLICHERWEISE NICHT DAS VOLLSTÄNDIGE FUNKTIONSSPEKTRUM
-> UND FUNKTIONIEREN MÖGLICHERWEISE NICHT WIE DIE ENDGÜLTIGE VERSION.
-> UNTER UMSTÄNDEN VERÖFFENTLICHEN WIR AUCH KEINE ENDGÜLTIGE VERSION
-> DERARTIGER FEATURES ODER KONZEPTE. IHRE ERFAHRUNG BEI DER VERWENDUNG
-> DERARTIGER FEATURES UND FUNKTIONEN IN EINER PHYSISCHEN UMGEBUNG KANN
-> FERNER ABWEICHEND SEIN.
->
-> **FEEDBACK.** Wenn Sie Feedback zu den Technologiefeatures, Funktionen
-> und/oder Konzepten geben, die in dieser Demo/Übung beschrieben werden,
-> gewähren Sie Microsoft das Recht, Ihr Feedback in jeglicher Weise und
-> für jeglichen Zweck kostenlos zu verwenden, zu veröffentlichen und
-> gewerblich zu nutzen. Außerdem treten Sie Dritten kostenlos sämtliche
-> Patentrechte ab, die erforderlich sind, damit deren Produkte,
-> Technologien und Dienste bestimmte Teile einer Software oder eines
-> Dienstes von Microsoft, welche/welcher das Feedback enthält, verwenden
-> oder eine Verbindung zu dieser/diesem herstellen können. Sie geben
-> kein Feedback, das einem Lizenzvertrag unterliegt, aufgrund dessen
-> Microsoft Drittparteien eine Lizenz für seine Software oder
-> Dokumentation gewähren muss, weil wir Ihr Feedback in diese aufnehmen.
-> Diese Rechte bestehen nach Ablauf dieser Vereinbarung fort.
->
-> DIE MICROSOFT CORPORATION LEHNT HIERMIT JEGLICHE GEWÄHRLEISTUNGEN UND
-> GARANTIEN IN BEZUG AUF DIE DEMO/ÜBUNG AB, EINSCHLIESSLICH ALLER
-> AUSDRÜCKLICHEN, KONKLUDENTEN ODER GESETZLICHEN GEWÄHRLEISTUNGEN UND
-> GARANTIEN DER HANDELSÜBLICHKEIT, DER EIGNUNG FÜR EINEN BESTIMMTEN
-> ZWECK, DES RECHTSANSPRUCHS UND DER NICHTVERLETZUNG VON RECHTEN
-> DRITTER. MICROSOFT MACHT KEINERLEI ZUSICHERUNGEN BZW. ERHEBT KEINERLEI
-> ANSPRÜCHE IM HINBLICK AUF DIE RICHTIGKEIT DER ERGEBNISSE UND DES AUS
-> DER VERWENDUNG DER DEMO/ÜBUNG RESULTIERENDEN ARBEITSERGEBNISSES BZW.
-> BEZÜGLICH DER EIGNUNG DER IN DER DEMO/ÜBUNG ENTHALTENEN INFORMATIONEN
-> FÜR EINEN BESTIMMTEN ZWECK.
->
-> **HAFTUNGSAUSSCHLUSS**
->
-> Diese Demo/Übung enthält nur einen Teil der neuen Features und
-> Verbesserungen in Microsoft Power BI. Einige Features können sich
-> unter Umständen in zukünftigen Versionen des Produkts ändern. In
-> dieser Demo/Übung erhalten Sie Informationen über einige, aber nicht
-> über alle neuen Features.
+© 2025 Microsoft Corporation. Alle Rechte vorbehalten.
+
+Durch die Verwendung der vorliegenden Demo/Übung stimmen Sie den
+folgenden Bedingungen zu:
+
+Die in dieser Demo/Übung beschriebene Technologie/Funktionalität wird
+von der Microsoft Corporation bereitgestellt, um Feedback von Ihnen zu
+erhalten und Ihnen Wissen zu vermitteln.
+Sie dürfen die Demo/Übung nur verwenden, um derartige
+Technologiefeatures und Funktionen zu bewerten und Microsoft Feedback
+zu geben. Es ist Ihnen nicht erlaubt, sie für andere Zwecke
+zu verwenden. Es ist Ihnen nicht gestattet, diese Demo/Übung oder
+einen Teil derselben zu ändern, zu kopieren, zu verbreiten, zu
+übertragen, anzuzeigen, auszuführen, zu vervielfältigen,
+zu veröffentlichen, zu lizenzieren, zu transferieren oder zu verkaufen
+oder aus ihr abgeleitete Werke zu erstellen.
+
+DAS KOPIEREN ODER VERVIELFÄLTIGEN DER DEMO/ÜBUNG (ODER EINES TEILS
+DERSELBEN. AUF EINEN/EINEM ANDEREN SERVER ODER SPEICHERORT FÜR DIE
+WEITERE VERVIELFÄLTIGUNG ODER VERBREITUNG IST AUSDRÜCKLICH UNTERSAGT.
+
+DIESE DEMO/ÜBUNG STELLT BESTIMMTE
+SOFTWARE-TECHNOLOGIE-/PRODUKTFEATURES UND FUNKTIONEN, EINSCHLIESSLICH
+POTENZIELLER NEUER FEATURES UND KONZEPTE, IN EINER SIMULIERTEN
+UMGEBUNG OHNE KOMPLEXE EINRICHTUNG ODER INSTALLATION FÜR DEN OBEN
+BESCHRIEBENEN ZWECK BEREIT. DIE TECHNOLOGIE/KONZEPTE IN DIESER
+DEMO/ÜBUNG ZEIGEN MÖGLICHERWEISE NICHT DAS VOLLSTÄNDIGE
+FUNKTIONSSPEKTRUM UND FUNKTIONIEREN MÖGLICHERWEISE NICHT WIE DIE
+ENDGÜLTIGE VERSION. UNTER UMSTÄNDEN VERÖFFENTLICHEN WIR AUCH KEINE
+ENDGÜLTIGE VERSION DERARTIGER FEATURES ODER KONZEPTE. IHRE ERFAHRUNG
+BEI DER VERWENDUNG DERARTIGER FEATURES UND FUNKTIONEN IN EINER
+PHYSISCHEN UMGEBUNG KANN FERNER ABWEICHEND SEIN.
+
+**FEEDBACK.** Wenn Sie Feedback zu den Technologiefeatures, Funktionen
+und/oder Konzepten geben, die in dieser Demo/Übung beschrieben werden,
+gewähren Sie Microsoft das Recht, Ihr Feedback in jeglicher Weise und
+für jeglichen Zweck kostenlos zu verwenden, zu veröffentlichen und
+gewerblich zu nutzen. Außerdem treten Sie Dritten kostenlos sämtliche
+Patentrechte ab, die erforderlich sind, damit deren Produkte,
+Technologien und Dienste bestimmte Teile einer Software oder eines
+Dienstes von Microsoft, welche/welcher das Feedback enthält, verwenden
+oder eine Verbindung zu dieser/diesem herstellen können. Sie geben
+kein Feedback, das einem Lizenzvertrag unterliegt, aufgrund dessen
+Microsoft Drittparteien eine Lizenz für seine Software oder
+Dokumentation gewähren muss, weil wir Ihr Feedback in diese aufnehmen.
+Diese Rechte bestehen nach Ablauf dieser Vereinbarung fort.
+
+DIE MICROSOFT CORPORATION LEHNT HIERMIT JEGLICHE GEWÄHRLEISTUNGEN UND
+GARANTIEN IN BEZUG AUF DIE DEMO/ÜBUNG AB, EINSCHLIESSLICH ALLER
+AUSDRÜCKLICHEN, KONKLUDENTEN ODER GESETZLICHEN GEWÄHRLEISTUNGEN UND
+GARANTIEN DER HANDELSÜBLICHKEIT, DER EIGNUNG FÜR EINEN BESTIMMTEN
+ZWECK, DES RECHTSANSPRUCHS UND DER NICHTVERLETZUNG VON RECHTEN
+DRITTER. MICROSOFT MACHT KEINERLEI ZUSICHERUNGEN BZW. ERHEBT KEINERLEI
+ANSPRÜCHE IM HINBLICK AUF DIE RICHTIGKEIT DER ERGEBNISSE UND DES AUS
+DER VERWENDUNG DER DEMO/ÜBUNG RESULTIERENDEN ARBEITSERGEBNISSES BZW.
+BEZÜGLICH DER EIGNUNG DER IN DER DEMO/ÜBUNG ENTHALTENEN INFORMATIONEN
+FÜR EINEN BESTIMMTEN ZWECK.
+
+**HAFTUNGSAUSSCHLUSS**
+
+Diese Demo/Übung enthält nur einen Teil der neuen Features und
+Verbesserungen in Microsoft Power BI. Einige Features können sich
+unter Umständen in zukünftigen Versionen des Produkts ändern. In
+dieser Demo/Übung erhalten Sie Informationen über einige, aber nicht
+über alle neuen Features.

@@ -59,7 +59,7 @@ Inhalt dieser Übung:
 
 # Dataflow Gen2
 
-### Aufgabe 1: Geplante Aktualisierung für den Lieferanten-Dataflow konfigurieren
+## Aufgabe 1: Geplante Aktualisierung für den Lieferanten-Dataflow konfigurieren
 
 Beginnen wir damit, eine geplante Aktualisierung des
 Lieferanten-Dataflows zu konfigurieren.
@@ -178,7 +178,7 @@ dieses Problem zu beheben.
 
 # Datenpipeline
 
-### Aufgabe 2: Datenpipeline erstellen
+## Aufgabe 2: Datenpipeline erstellen
 
 1. Wir navigieren zurück zum Fabric-Arbeitsbereich,
     **FAIAD_<inject key="Deployment ID" enableCopy="false"/>**, indem wir den Arbeitsbereich im linken
@@ -231,7 +231,7 @@ dieses Problem zu beheben.
 
     ![](../media/lab-5/image21.png)
 
-### Aufgabe 3: Einfache Datenpipeline erstellen
+## Aufgabe 3: Einfache Datenpipeline erstellen
 
 Beginnen wir mit der Erstellung der Pipeline. Wir benötigen eine
 Aktivität, um den Dataflow zu aktualisieren. Lassen Sie uns nach einer
@@ -302,7 +302,7 @@ bietet (wie es schon bei früheren Dataflows erfolgt ist):
 - Die Pipeline bietet die Möglichkeit, andere Aufgaben auszuführen und
   den Dataflow zu aktualisieren.
 
-### Aufgabe 4: Neue Datenpipeline erstellen
+## Aufgabe 4: Neue Datenpipeline erstellen
 
 Fügen wir unserem Szenario etwas mehr Komplexität hinzu. Wir haben
 festgestellt, dass, wenn die Daten nicht um 9:00 Uhr morgens verfügbar
@@ -326,7 +326,7 @@ neuen Datenpipeline erreicht werden kann.
 
     ![](../media/lab-5/image25.png)
 
-### Aufgabe 5: Until-Aktivität erstellen
+## Aufgabe 5: Until-Aktivität erstellen
 
 1. Sie werden zum Bildschirm „Datenpipeline" weitergeleitet. Wählen Sie
     im Menü die Option **Aktivitäten** aus.
@@ -343,7 +343,7 @@ neuen Datenpipeline erreicht werden kann.
 
     ![](../media/lab-5/image26.png)
 
-### Aufgabe 6: Variablen erstellen
+## Aufgabe 6: Variablen erstellen
 
 1. Wir müssen Variablen für die Iteration und Festlegung des Status
     festlegen. Wählen Sie den **leeren Bereich** im Bereich für
@@ -397,7 +397,7 @@ neuen Datenpipeline erreicht werden kann.
 
     ![](../media/lab-5/image28.png)
 
-### Aufgabe 7: Until-Aktivität konfigurieren
+## Aufgabe 7: Until-Aktivität konfigurieren
 
 1. Wählen Sie die **Bis**-Aktivität aus.
 
@@ -533,7 +533,7 @@ variables('varSuccess')))**
 
     ![](../media/lab-5/image37.png)
 
-### Aufgabe 8: Dataflow-Aktivität konfigurieren
+## Aufgabe 8: Dataflow-Aktivität konfigurieren
 
 1. Sie werden zum Designbildschirm weitergeleitet. Wählen Sie bei
     ausgewählter **Bis-Aktivität** im **unteren Bereich** die Option
@@ -569,7 +569,7 @@ variables('varSuccess')))**
 
     ![](../media/lab-5/image40.png)
 
-### Aufgabe 9: Erste Aktivität „Variable festlegen" konfigurieren
+## Aufgabe 9: Erste Aktivität „Variable festlegen" konfigurieren
 
 Wir haben die Dataflow-Aktivität wie zuvor in der Übung konfiguriert.
 Nun fügen wir neue Logik hinzu. Wenn die Dataflow-Aktualisierung
@@ -655,7 +655,7 @@ eine Variable festlegen. Das bedeutet, dass wir die Zählervariable
 hinzufügen (varCounter = varCounter + 1). Daher nutzen wir die Variable
 „varTempCounter".
 
-### Aufgabe 10: Zweite Aktivität „Variable festlegen" konfigurieren
+## Aufgabe 10: Zweite Aktivität „Variable festlegen" konfigurieren
 
 1. Wählen Sie im oberen Menü **Aktivitäten -> Variable festlegen**
     aus. Die Aktivität „Variable festlegen" wird dem Designcanvas
@@ -702,7 +702,7 @@ hinzufügen (varCounter = varCounter + 1). Daher nutzen wir die Variable
 Nun müssen wir den Wert der Variablen „varCounter" auf den Wert
 „varTempCounter" festlegen.
 
-### Aufgabe 11: Dritte Aktivität „Variable festlegen" konfigurieren
+## Aufgabe 11: Dritte Aktivität „Variable festlegen" konfigurieren
 
 1. Wählen Sie im oberen Menü **Aktivitäten -> Variable festlegen**
     aus. Die Aktivität „Variable festlegen" wird dem Designcanvas
@@ -750,7 +750,7 @@ Nun müssen wir den Wert der Variablen „varCounter" auf den Wert
     varTempCounter) fest. Am Ende jeder Iteration haben sowohl varCounter
     als auch varTempCounter denselben Wert.
 
-### Aufgabe 12: Wait-Aktivität konfigurieren
+## Aufgabe 12: Wait-Aktivität konfigurieren
 
 Als nächstes müssen wir 5 Minuten/300 Sekunden warten, wenn die
 Dataflow-Aktualisierung beim ersten Mal fehlschlägt, bevor wir es erneut
@@ -844,7 +844,7 @@ Wartezeit festzulegen.
 
     ![](../media/lab-5/image52.png)
 
-### Aufgabe 13: Geplante Aktualisierung für die Datenpipeline konfigurieren
+## Aufgabe 13: Geplante Aktualisierung für die Datenpipeline konfigurieren
 
 1. Wir können die Datenpipeline testen, indem wir **Startseite ->
     Ausführen** auswählen.
@@ -966,67 +966,68 @@ Lesen Sie die detaillierteren Blogs zur Ankündigung der Fabric-Umgebung:
 - [Blog zur Dataverse- und Microsoft
   Fabric-Integration](https://aka.ms/Dataverse-Fabric-Blog)
 
-> © 2023 Microsoft Corporation. Alle Rechte vorbehalten.
->
-> Durch die Verwendung der vorliegenden Demo/Übung stimmen Sie den
-> folgenden Bedingungen zu:
->
-> Die in dieser Demo/Übung beschriebene Technologie/Funktionalität wird
-> von der Microsoft Corporation bereitgestellt, um Feedback von Ihnen zu
-> erhalten und Ihnen Wissen zu vermitteln. Sie dürfen die Demo/Übung nur
-> verwenden, um derartige Technologiefeatures und Funktionen zu bewerten
-> und Microsoft Feedback zu geben. Es ist Ihnen nicht erlaubt, sie für
-> andere Zwecke zu verwenden. Es ist Ihnen nicht gestattet, diese
-> Demo/Übung oder einen Teil derselben zu ändern, zu kopieren, zu
-> verbreiten, zu übertragen, anzuzeigen, auszuführen, zu
-> vervielfältigen, zu veröffentlichen, zu lizenzieren, zu transferieren
-> oder zu verkaufen oder aus ihr abgeleitete Werke zu erstellen.
->
-> DAS KOPIEREN ODER VERVIELFÄLTIGEN DER DEMO/ÜBUNG (ODER EINES TEILS
-> DERSELBEN) AUF EINEN/EINEM ANDEREN SERVER ODER SPEICHERORT FÜR DIE
-> WEITERE VERVIELFÄLTIGUNG ODER VERBREITUNG IST AUSDRÜCKLICH UNTERSAGT.
->
-> DIESE DEMO/ÜBUNG STELLT BESTIMMTE
-> SOFTWARE-TECHNOLOGIE-/PRODUKTFEATURES UND FUNKTIONEN, EINSCHLIESSLICH
-> POTENZIELLER NEUER FEATURES UND KONZEPTE, IN EINER SIMULIERTEN
-> UMGEBUNG OHNE KOMPLEXE EINRICHTUNG ODER INSTALLATION FÜR DEN OBEN
-> BESCHRIEBENEN ZWECK BEREIT. DIE TECHNOLOGIE/KONZEPTE IN DIESER
-> DEMO/ÜBUNG ZEIGEN MÖGLICHERWEISE NICHT DAS VOLLSTÄNDIGE
-> FUNKTIONSSPEKTRUM UND FUNKTIONIEREN MÖGLICHERWEISE NICHT WIE DIE
-> ENDGÜLTIGE VERSION. UNTER UMSTÄNDEN VERÖFFENTLICHEN WIR AUCH KEINE
-> ENDGÜLTIGE VERSION DERARTIGER FEATURES ODER KONZEPTE. IHRE ERFAHRUNG
-> BEI DER VERWENDUNG DERARTIGER FEATURES UND FUNKTIONEN IN EINER
-> PHYSISCHEN UMGEBUNG KANN FERNER ABWEICHEND SEIN.
->
-> **FEEDBACK**. Wenn Sie Feedback zu den Technologiefeatures, Funktionen
-> und/oder Konzepten geben, die in dieser Demo/Übung beschrieben werden,
-> gewähren Sie Microsoft das Recht, Ihr Feedback in jeglicher Weise und
-> für jeglichen Zweck kostenlos zu verwenden, zu veröffentlichen und
-> gewerblich zu nutzen. Außerdem treten Sie Dritten kostenlos sämtliche
-> Patentrechte ab, die erforderlich sind, damit deren Produkte,
-> Technologien und Dienste bestimmte Teile einer Software oder eines
-> Dienstes von Microsoft, welche/welcher das Feedback enthält, verwenden
-> oder eine Verbindung zu dieser/diesem herstellen können. Sie geben
-> kein Feedback, das einem Lizenzvertrag unterliegt, aufgrund dessen
-> Microsoft Drittparteien eine Lizenz für seine Software oder
-> Dokumentation gewähren muss, weil wir Ihr Feedback in diese aufnehmen.
-> Diese Rechte bestehen nach Ablauf dieser Vereinbarung fort.
->
-> DIE MICROSOFT CORPORATION LEHNT HIERMIT JEGLICHE GEWÄHRLEISTUNGEN UND
-> GARANTIEN IN BEZUG AUF DIE DEMO/ÜBUNG AB, EINSCHLIESSLICH ALLER
-> AUSDRÜCKLICHEN, KONKLUDENTEN ODER GESETZLICHEN GEWÄHRLEISTUNGEN UND
-> GARANTIEN DER HANDELSÜBLICHKEIT, DER EIGNUNG FÜR EINEN BESTIMMTEN
-> ZWECK, DES RECHTSANSPRUCHS UND DER NICHTVERLETZUNG VON RECHTEN
-> DRITTER. MICROSOFT MACHT KEINERLEI ZUSICHERUNGEN BZW. ERHEBT KEINERLEI
-> ANSPRÜCHE IM HINBLICK AUF DIE RICHTIGKEIT DER ERGEBNISSE UND DES AUS
-> DER VERWENDUNG DER DEMO/ÜBUNG RESULTIERENDEN ARBEITSERGEBNISSES BZW.
-> BEZÜGLICH DER EIGNUNG DER IN DER DEMO/ÜBUNG ENTHALTENEN INFORMATIONEN
-> FÜR EINEN BESTIMMTEN ZWECK.
->
-> **HAFTUNGSAUSSCHLUSS**
->
-> Diese Demo/Übung enthält nur einen Teil der neuen Features und
-> Verbesserungen in Microsoft Power BI. Einige Features können sich
-> unter Umständen in zukünftigen Versionen des Produkts ändern. In
-> dieser Demo/Übung erhalten Sie Informationen über einige, aber nicht
-> über alle neuen Features.
+© 2025 Microsoft Corporation. Alle Rechte vorbehalten.
+
+Durch die Verwendung der vorliegenden Demo/Übung stimmen Sie den
+folgenden Bedingungen zu:
+
+Die in dieser Demo/Übung beschriebene Technologie/Funktionalität wird
+von der Microsoft Corporation bereitgestellt, um Feedback von Ihnen zu
+erhalten und Ihnen Wissen zu vermitteln.
+Sie dürfen die Demo/Übung nur verwenden, um derartige
+Technologiefeatures und Funktionen zu bewerten und Microsoft Feedback
+zu geben. Es ist Ihnen nicht erlaubt, sie für andere Zwecke
+zu verwenden. Es ist Ihnen nicht gestattet, diese Demo/Übung oder
+einen Teil derselben zu ändern, zu kopieren, zu verbreiten, zu
+übertragen, anzuzeigen, auszuführen, zu vervielfältigen,
+zu veröffentlichen, zu lizenzieren, zu transferieren oder zu verkaufen
+oder aus ihr abgeleitete Werke zu erstellen.
+
+DAS KOPIEREN ODER VERVIELFÄLTIGEN DER DEMO/ÜBUNG (ODER EINES TEILS
+DERSELBEN. AUF EINEN/EINEM ANDEREN SERVER ODER SPEICHERORT FÜR DIE
+WEITERE VERVIELFÄLTIGUNG ODER VERBREITUNG IST AUSDRÜCKLICH UNTERSAGT.
+
+DIESE DEMO/ÜBUNG STELLT BESTIMMTE
+SOFTWARE-TECHNOLOGIE-/PRODUKTFEATURES UND FUNKTIONEN, EINSCHLIESSLICH
+POTENZIELLER NEUER FEATURES UND KONZEPTE, IN EINER SIMULIERTEN
+UMGEBUNG OHNE KOMPLEXE EINRICHTUNG ODER INSTALLATION FÜR DEN OBEN
+BESCHRIEBENEN ZWECK BEREIT. DIE TECHNOLOGIE/KONZEPTE IN DIESER
+DEMO/ÜBUNG ZEIGEN MÖGLICHERWEISE NICHT DAS VOLLSTÄNDIGE
+FUNKTIONSSPEKTRUM UND FUNKTIONIEREN MÖGLICHERWEISE NICHT WIE DIE
+ENDGÜLTIGE VERSION. UNTER UMSTÄNDEN VERÖFFENTLICHEN WIR AUCH KEINE
+ENDGÜLTIGE VERSION DERARTIGER FEATURES ODER KONZEPTE. IHRE ERFAHRUNG
+BEI DER VERWENDUNG DERARTIGER FEATURES UND FUNKTIONEN IN EINER
+PHYSISCHEN UMGEBUNG KANN FERNER ABWEICHEND SEIN.
+
+**FEEDBACK.** Wenn Sie Feedback zu den Technologiefeatures, Funktionen
+und/oder Konzepten geben, die in dieser Demo/Übung beschrieben werden,
+gewähren Sie Microsoft das Recht, Ihr Feedback in jeglicher Weise und
+für jeglichen Zweck kostenlos zu verwenden, zu veröffentlichen und
+gewerblich zu nutzen. Außerdem treten Sie Dritten kostenlos sämtliche
+Patentrechte ab, die erforderlich sind, damit deren Produkte,
+Technologien und Dienste bestimmte Teile einer Software oder eines
+Dienstes von Microsoft, welche/welcher das Feedback enthält, verwenden
+oder eine Verbindung zu dieser/diesem herstellen können. Sie geben
+kein Feedback, das einem Lizenzvertrag unterliegt, aufgrund dessen
+Microsoft Drittparteien eine Lizenz für seine Software oder
+Dokumentation gewähren muss, weil wir Ihr Feedback in diese aufnehmen.
+Diese Rechte bestehen nach Ablauf dieser Vereinbarung fort.
+
+DIE MICROSOFT CORPORATION LEHNT HIERMIT JEGLICHE GEWÄHRLEISTUNGEN UND
+GARANTIEN IN BEZUG AUF DIE DEMO/ÜBUNG AB, EINSCHLIESSLICH ALLER
+AUSDRÜCKLICHEN, KONKLUDENTEN ODER GESETZLICHEN GEWÄHRLEISTUNGEN UND
+GARANTIEN DER HANDELSÜBLICHKEIT, DER EIGNUNG FÜR EINEN BESTIMMTEN
+ZWECK, DES RECHTSANSPRUCHS UND DER NICHTVERLETZUNG VON RECHTEN
+DRITTER. MICROSOFT MACHT KEINERLEI ZUSICHERUNGEN BZW. ERHEBT KEINERLEI
+ANSPRÜCHE IM HINBLICK AUF DIE RICHTIGKEIT DER ERGEBNISSE UND DES AUS
+DER VERWENDUNG DER DEMO/ÜBUNG RESULTIERENDEN ARBEITSERGEBNISSES BZW.
+BEZÜGLICH DER EIGNUNG DER IN DER DEMO/ÜBUNG ENTHALTENEN INFORMATIONEN
+FÜR EINEN BESTIMMTEN ZWECK.
+
+**HAFTUNGSAUSSCHLUSS**
+
+Diese Demo/Übung enthält nur einen Teil der neuen Features und
+Verbesserungen in Microsoft Power BI. Einige Features können sich
+unter Umständen in zukünftigen Versionen des Produkts ändern. In
+dieser Demo/Übung erhalten Sie Informationen über einige, aber nicht
+über alle neuen Features.

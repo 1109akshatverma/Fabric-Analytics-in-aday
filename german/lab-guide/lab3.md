@@ -55,7 +55,7 @@ Am Ende dieser Übung haben Sie Folgendes gelernt:
 
 # Verknüpfung zu ADLS Gen2
 
-### Aufgabe1: Verknüpfung erstellen
+## Aufgabe1: Verknüpfung erstellen
 
 Verknüpfungen werden verwendet, um eine Verknüpfung zum Zielort zu
 erstellen. Mit Verknüpfungen kann auf die Daten zugegriffen werden, ohne
@@ -98,7 +98,7 @@ Desktop.
 10. Kopieren Sie das SAS-Token, und fügen Sie es in das
     Feld„SAS-Token" (5) ein.
 
-- **SAS-Token:** <inject key="Sas token"></inject>
+    - **SAS-Token:** <inject key="Sas token"></inject>
 
 11. Wählen Sie unten rechts auf dem Bildschirm **Weiter (6)** aus.
 
@@ -111,32 +111,32 @@ Desktop.
 13. **Wählen** Sie die folgenden Verzeichnisse **(2)** aus, und klicken
     Sie dann auf **Weiter (3):**
 
-    a.  Application.Cities
+    a. Application.Cities
 
-    b.  Application.Countries
+    b. Application.Countries
 
-    c.  Application.StateProvinces
+    c. Application.StateProvinces
 
-    d.  DateDim
+    d. DateDim
 
-    e.  Sales.BuyingGroups
+    e. Sales.BuyingGroups
 
-    f.  Sales.Customers
+    f. Sales.Customers
 
-    g.  Sales.InvoiceLines
+    g. Sales.InvoiceLines
 
-    h.  Sales.Invoices
+    h. Sales.Invoices
 
-    i.  Warehouse.StockGroups
+    i. Warehouse.StockGroups
 
-    j.  Warehouse.StockItemStockGroups
+    j. Warehouse.StockItemStockGroups
 
-    k.  Warehouse.StockItems
+    k. Warehouse.StockItems
 
-**Hinweis:** „Sales.Invoices_May" ist das einzige Verzeichnis, das
-**nicht** ausgewählt ist.
+    **Hinweis:** „Sales.Invoices_May" ist das einzige Verzeichnis, das
+    **nicht** ausgewählt ist.
 
-![](../media/lab-3/image9.png)
+    ![](../media/lab-3/image9.png)
 
 14. Sie werden zum nächsten Dialogfeld weitergeleitet, in dem Sie die
     Namen bearbeiten können. Wählen Sie das Symbol **Bearbeiten (1)**
@@ -151,27 +151,27 @@ Desktop.
 
 17. Benennen Sie auch die Namen der Verknüpfungen wie folgt um:
 
-    a.  Application.Countries in **Countries**
+    a. Application.Countries in **Countries**
 
-    b.  Application.StateProvinces in **States**
+    b. Application.StateProvinces in **States**
 
-    c.  DateDim in **Date**
+    c. DateDim in **Date**
 
-    d.  Sales.BuyingGroups in **BuyingGroups**
+    d. Sales.BuyingGroups in **BuyingGroups**
 
-    e.  Sales.Customers in **Customers**
+    e. Sales.Customers in **Customers**
 
-    f.  Sales.InvoiceLines in **InvoiceLineItems**
+    f. Sales.InvoiceLines in **InvoiceLineItems**
 
-    g.  Sales.Invoices in **Invoices**
+    g. Sales.Invoices in **Invoices**
 
-    h.  Warehouse.StockGroups in **ProductGroups**
+    h. Warehouse.StockGroups in **ProductGroups**
 
-    i.  Warehouse.StockItemStockGroups in **ProductItemGroup**
+    i. Warehouse.StockItemStockGroups in **ProductItemGroup**
 
-    j.  Warehouse.StockItems in **ProductItem**
+    j. Warehouse.StockItems in **ProductItem**
 
-    **Hinweis:** Überprüfen Sie die Namen. Ein Tippfehler kann während der
+    >**Hinweis:** Überprüfen Sie die Namen. Ein Tippfehler kann während der
     Übung zu Fehlern führen.
 
 18. Wählen Sie **Erstellen** aus, um die Verknüpfung zu erstellen.
@@ -190,7 +190,7 @@ um die Daten zu transformieren.
 
 # Daten mithilfe einer Visual-Abfrage transformieren
 
-### Aufgabe 2: Ansicht „Geo" mithilfe einer Visual-Abfrage erstellen
+## Aufgabe 2: Ansicht „Geo" mithilfe einer Visual-Abfrage erstellen
 
 1. Wir können das **Lakehouse** über einen SQL-Endpunkt aufrufen. Dies
     bietet die Möglichkeit,
@@ -245,10 +245,7 @@ um die Daten zu transformieren.
     ![](../media/lab-3/image16.png)
 
 6. Wählen Sie bei ausgewählter Abfrage **Cities (1)** im Menüband des
-    Power Query-Editors
-    **Start (2)-> Kombinieren (3) -> Abfragen zusammenführen (4) ->
-    Abfragen als neue Abfrage zusammenführen (5)** aus. Das Dialogfeld
-    „Abfragen zusammenführen" wird geöffnet.
+    Power Query-Editors **Start (2)-> Kombinieren (3) -> Abfragen zusammenführen (4) -> Abfragen als neue Abfrage zusammenführen (5)** aus. Das Dialogfeld „Abfragen zusammenführen" wird geöffnet.
 
     ![](../media/lab-3/image17.png)
 
@@ -276,13 +273,13 @@ um die Daten zu transformieren.
 13. Es wird ein Bereich geöffnet. Stellen Sie sicher, dass nur die
     folgenden Spalten ausgewählt sind:
 
-    a.  StateProvinceCode
+    a. StateProvinceCode
 
-    b.  StateProvinceName
+    b. StateProvinceName
 
-    c.  CountryID
+    c. CountryID
 
-    d.  SalesTerritory
+    d. SalesTerritory
 
 14. Wählen Sie **OK** aus.
 
@@ -316,21 +313,21 @@ um die Daten zu transformieren.
 21. Es wird ein Bereich geöffnet. Stellen Sie sicher, dass nur die
     folgenden Spalten ausgewählt sind:
 
-    a.  CountryName
+    a. CountryName
 
-    b.  FormalName
+    b. FormalName
 
-    c.  IsoAlpha3Code
+    c. IsoAlpha3Code
 
-    d.  IsoNumericCode
+    d. IsoNumericCode
 
-    e.  CountryType
+    e. CountryType
 
-    f.  Kontinent
+    f. Kontinent
 
-    g.  Region
+    g. Region
 
-    h.  Subregion
+    h. Subregion
 
 22. Klicken Sie auf **OK**.
 
@@ -352,17 +349,17 @@ um die Daten zu transformieren.
 24. Das Dialogfeld „Spalten auswählen" wird geöffnet. **Deaktivieren**
     Sie die folgenden Spalten.
 
-    a.  StateProvinceID
+    a. StateProvinceID
 
-    b.  Location
+    b. Location
 
-    c.  LastEditedBy
+    c. LastEditedBy
 
-    d.  ValidFrom
+    d. ValidFrom
 
-    e.  ValidTo
+    e. ValidTo
 
-    f.  CountryID
+    f. CountryID
 
 25. Wählen Sie **OK** aus.
 
@@ -418,7 +415,7 @@ um die Daten zu transformieren.
 
     ![](../media/lab-3/image28.png)
 
-### Aufgabe 3: Ansicht „Reseller" mithilfe einer Visual-Abfrage erstellen
+## Aufgabe 3: Ansicht „Reseller" mithilfe einer Visual-Abfrage erstellen
 
 Wir erstellen die Ansicht „Reseller", indem wir die Tabelle „Customers"
 mit der Tabelle „BuyingGroups" zusammenführen. Dieses Mal erstellen wir
@@ -438,7 +435,7 @@ Query-Option öffnen.
 
 3. Wiederholen Sie die gleichen Schritte für die Tabelle **Customers**.
 
-4.  Wählen Sie die Abfrage „Customers" aus. Wenn die Abfrage
+4. Wählen Sie die Abfrage „Customers" aus. Wenn die Abfrage
     **Customers** ausgewählt ist, weist es einen blauen Rand auf und
     hinter „Tabelle" befindet sich ein **+**-Zeichen (dies gibt an, dass
     wir nach „Tabelle" einen Schritt hinzufügen). Wenn kein
@@ -446,7 +443,7 @@ Query-Option öffnen.
     möglicherweise einen anderen Schritt ausgewählt. Wählen Sie
     „Tabelle" aus und es kann losgehen).
 
-5.  Wählen Sie im Menü der Visual-Abfrage **Kombinieren -> Abfragen
+5. Wählen Sie im Menü der Visual-Abfrage **Kombinieren -> Abfragen
     zusammenführen** aus.
 
     ![](../media/lab-3/image30.png)
@@ -454,15 +451,15 @@ Query-Option öffnen.
     Das Dialogfeld „Zusammenführen" wird geöffnet, wobei „Customers" als
     oberste Tabelle ausgewählt ist.
 
-6.  Wählen Sie in der **rechten Tabelle für zusammenführung** die Option
+6. Wählen Sie in der **rechten Tabelle für zusammenführung** die Option
     **BuyingGroups** aus.
 
-7.  Wählen Sie **BuyingGroupID**-Spalten aus beiden Tabellen aus. Wir
+7. Wählen Sie **BuyingGroupID**-Spalten aus beiden Tabellen aus. Wir
     führen eine Verknüpfung über diese Spalte aus.
 
-8.  Wählen Sie **Innerhalb** als **Art des Joins** aus.
+8. Wählen Sie **Innerhalb** als **Art des Joins** aus.
 
-9.  Wählen Sie **OK** aus.
+9. Wählen Sie **OK** aus.
 
     ![](../media/lab-3/image31.png)
 
@@ -488,31 +485,31 @@ Query-Option öffnen.
 14. Das Dialogfeld „Spalten auswählen" wird geöffnet. **Wählen Sie** die
     folgenden Spalten aus.
 
-    a.  ResellerID
+    a. ResellerID
 
-    b.  ResellerName
+    b. ResellerName
 
-    c.  PostalCityID
+    c. PostalCityID
 
-    d.  PhoneNumber
+    d. PhoneNumber
 
-    e.  FaxNumber
+    e. FaxNumber
 
-    f.  WebsiteURL
+    f. WebsiteURL
 
-    g.  DeliveryAddressLine1
+    g. DeliveryAddressLine1
 
-    h.  DeliveryAddressLine2
+    h. DeliveryAddressLine2
 
-    i.  DeliveryPostalCode
+    i. DeliveryPostalCode
 
-    j.  PostalAddressLine1
+    j. PostalAddressLine1
 
-    k.  PostalAddressLine2
+    k. PostalAddressLine2
 
-    l.  PostalPostalCode
+    l. PostalPostalCode
 
-    m.  BuyingGroupName
+    m. BuyingGroupName
 
 15. Wählen Sie **OK** aus.
 
@@ -563,7 +560,7 @@ Query-Option öffnen.
 
     ![](../media/lab-3/image39.png)
 
-### Aufgabe 4: Ansicht „Sales" mithilfe einer Visual-Abfrage erstellen
+## Aufgabe 4: Ansicht „Sales" mithilfe einer Visual-Abfrage erstellen
 
 Lassen Sie uns die Ansicht „Sales" erstellen, die durch das
 Zusammenführen der Tabellen „InvoiceLineItems" und „Invoices" mit der
@@ -672,7 +669,7 @@ Abfrage erstellt werden kann. Lassen Sie uns diese Methode ausprobieren.
 24. Geben Sie auf Ihrer Tastatur **STRG+V** ein, um den Code einzufügen,
     den Sie aus Power BI Desktop kopiert haben.
 
-    **Hinweis:** Wenn Sie in der Übungsumgebung arbeiten, wählen Sie die
+    >**Hinweis:** Wenn Sie in der Übungsumgebung arbeiten, wählen Sie die
     **Auslassungspunkte (...)** oben rechts auf dem Bildschirm aus.
     Verwenden Sie den Schieberegler, um das **VM Native Clipboard** **zu
     aktivieren**. Wählen Sie im Dialogfeld „OK" aus. Nachdem Sie die
@@ -741,7 +738,7 @@ Abfrage erstellt werden kann. Lassen Sie uns diese Methode ausprobieren.
 
     ![](../media/lab-3/image53.png)
 
-### Aufgabe 5: Ansicht „Product" mithilfe einer Visual-Abfrage erstellen
+## Aufgabe 5: Ansicht „Product" mithilfe einer Visual-Abfrage erstellen
 
 Wir erstellen die Ansicht „Product", die durch das Zusammenführen der
 Tabellen **ProductItem**, **ProductItemGroup** und **ProductGroups**
@@ -930,67 +927,68 @@ Lesen Sie die detaillierteren Blogs zur Ankündigung der Fabric-Umgebung:
 - [Blog zur Dataverse- und Microsoft
   Fabric-Integration](https://aka.ms/Dataverse-Fabric-Blog)
 
-> © 2023 Microsoft Corporation. Alle Rechte vorbehalten.
->
-> Durch die Verwendung der vorliegenden Demo/Übung stimmen Sie den
-> folgenden Bedingungen zu:
->
-> Die in dieser Demo/Übung beschriebene Technologie/Funktionalität wird
-> von der Microsoft Corporation bereitgestellt, um Feedback von Ihnen zu
-> erhalten und Ihnen Wissen zu vermitteln. Sie dürfen die Demo/Übung nur
-> verwenden, um derartige Technologiefeatures und Funktionen zu bewerten
-> und Microsoft Feedback zu geben. Es ist Ihnen nicht erlaubt, sie für
-> andere Zwecke zu verwenden. Es ist Ihnen nicht gestattet, diese
-> Demo/Übung oder einen Teil derselben zu ändern, zu kopieren, zu
-> verbreiten, zu übertragen, anzuzeigen, auszuführen, zu
-> vervielfältigen, zu veröffentlichen, zu lizenzieren, zu transferieren
-> oder zu verkaufen oder aus ihr abgeleitete Werke zu erstellen.
->
-> DAS KOPIEREN ODER VERVIELFÄLTIGEN DER DEMO/ÜBUNG (ODER EINES TEILS
-> DERSELBEN) AUF EINEN/EINEM ANDEREN SERVER ODER SPEICHERORT FÜR DIE
-> WEITERE VERVIELFÄLTIGUNG ODER VERBREITUNG IST AUSDRÜCKLICH UNTERSAGT.
->
-> DIESE DEMO/ÜBUNG STELLT BESTIMMTE
-> SOFTWARE-TECHNOLOGIE-/PRODUKTFEATURES UND FUNKTIONEN, EINSCHLIESSLICH
-> POTENZIELLER NEUER FEATURES UND KONZEPTE, IN EINER SIMULIERTEN
-> UMGEBUNG OHNE KOMPLEXE EINRICHTUNG ODER INSTALLATION FÜR DEN OBEN
-> BESCHRIEBENEN ZWECK BEREIT. DIE TECHNOLOGIE/KONZEPTE IN DIESER
-> DEMO/ÜBUNG ZEIGEN MÖGLICHERWEISE NICHT DAS VOLLSTÄNDIGE
-> FUNKTIONSSPEKTRUM UND FUNKTIONIEREN MÖGLICHERWEISE NICHT WIE DIE
-> ENDGÜLTIGE VERSION. UNTER UMSTÄNDEN VERÖFFENTLICHEN WIR AUCH KEINE
-> ENDGÜLTIGE VERSION DERARTIGER FEATURES ODER KONZEPTE. IHRE ERFAHRUNG
-> BEI DER VERWENDUNG DERARTIGER FEATURES UND FUNKTIONEN IN EINER
-> PHYSISCHEN UMGEBUNG KANN FERNER ABWEICHEND SEIN.
->
-> **FEEDBACK.** Wenn Sie Feedback zu den Technologiefeatures, Funktionen
-> und/oder Konzepten geben, die in dieser Demo/Übung beschrieben werden,
-> gewähren Sie Microsoft das Recht, Ihr Feedback in jeglicher Weise und
-> für jeglichen Zweck kostenlos zu verwenden, zu veröffentlichen und
-> gewerblich zu nutzen. Außerdem treten Sie Dritten kostenlos sämtliche
-> Patentrechte ab, die erforderlich sind, damit deren Produkte,
-> Technologien und Dienste bestimmte Teile einer Software oder eines
-> Dienstes von Microsoft, welche/welcher das Feedback enthält, verwenden
-> oder eine Verbindung zu dieser/diesem herstellen können. Sie geben
-> kein Feedback, das einem Lizenzvertrag unterliegt, aufgrund dessen
-> Microsoft Drittparteien eine Lizenz für seine Software oder
-> Dokumentation gewähren muss, weil wir Ihr Feedback in diese aufnehmen.
-> Diese Rechte bestehen nach Ablauf dieser Vereinbarung fort.
->
-> DIE MICROSOFT CORPORATION LEHNT HIERMIT JEGLICHE GEWÄHRLEISTUNGEN UND
-> GARANTIEN IN BEZUG AUF DIE DEMO/ÜBUNG AB, EINSCHLIESSLICH ALLER
-> AUSDRÜCKLICHEN, KONKLUDENTEN ODER GESETZLICHEN GEWÄHRLEISTUNGEN UND
-> GARANTIEN DER HANDELSÜBLICHKEIT, DER EIGNUNG FÜR EINEN BESTIMMTEN
-> ZWECK, DES RECHTSANSPRUCHS UND DER NICHTVERLETZUNG VON RECHTEN
-> DRITTER. MICROSOFT MACHT KEINERLEI ZUSICHERUNGEN BZW. ERHEBT KEINERLEI
-> ANSPRÜCHE IM HINBLICK AUF DIE RICHTIGKEIT DER ERGEBNISSE UND DES AUS
-> DER VERWENDUNG DER DEMO/ÜBUNG RESULTIERENDEN ARBEITSERGEBNISSES BZW.
-> BEZÜGLICH DER EIGNUNG DER IN DER DEMO/ÜBUNG ENTHALTENEN INFORMATIONEN
-> FÜR EINEN BESTIMMTEN ZWECK.
->
-> **HAFTUNGSAUSSCHLUSS**
->
-> Diese Demo/Übung enthält nur einen Teil der neuen Features und
-> Verbesserungen in Microsoft Power BI. Einige Features können sich
-> unter Umständen in zukünftigen Versionen des Produkts ändern. In
-> dieser Demo/Übung erhalten Sie Informationen über einige, aber nicht
-> über alle neuen Features.
+© 2025 Microsoft Corporation. Alle Rechte vorbehalten.
+
+Durch die Verwendung der vorliegenden Demo/Übung stimmen Sie den
+folgenden Bedingungen zu:
+
+Die in dieser Demo/Übung beschriebene Technologie/Funktionalität wird
+von der Microsoft Corporation bereitgestellt, um Feedback von Ihnen zu
+erhalten und Ihnen Wissen zu vermitteln.
+Sie dürfen die Demo/Übung nur verwenden, um derartige
+Technologiefeatures und Funktionen zu bewerten und Microsoft Feedback
+zu geben. Es ist Ihnen nicht erlaubt, sie für andere Zwecke
+zu verwenden. Es ist Ihnen nicht gestattet, diese Demo/Übung oder
+einen Teil derselben zu ändern, zu kopieren, zu verbreiten, zu
+übertragen, anzuzeigen, auszuführen, zu vervielfältigen,
+zu veröffentlichen, zu lizenzieren, zu transferieren oder zu verkaufen
+oder aus ihr abgeleitete Werke zu erstellen.
+
+DAS KOPIEREN ODER VERVIELFÄLTIGEN DER DEMO/ÜBUNG (ODER EINES TEILS
+DERSELBEN. AUF EINEN/EINEM ANDEREN SERVER ODER SPEICHERORT FÜR DIE
+WEITERE VERVIELFÄLTIGUNG ODER VERBREITUNG IST AUSDRÜCKLICH UNTERSAGT.
+
+DIESE DEMO/ÜBUNG STELLT BESTIMMTE
+SOFTWARE-TECHNOLOGIE-/PRODUKTFEATURES UND FUNKTIONEN, EINSCHLIESSLICH
+POTENZIELLER NEUER FEATURES UND KONZEPTE, IN EINER SIMULIERTEN
+UMGEBUNG OHNE KOMPLEXE EINRICHTUNG ODER INSTALLATION FÜR DEN OBEN
+BESCHRIEBENEN ZWECK BEREIT. DIE TECHNOLOGIE/KONZEPTE IN DIESER
+DEMO/ÜBUNG ZEIGEN MÖGLICHERWEISE NICHT DAS VOLLSTÄNDIGE
+FUNKTIONSSPEKTRUM UND FUNKTIONIEREN MÖGLICHERWEISE NICHT WIE DIE
+ENDGÜLTIGE VERSION. UNTER UMSTÄNDEN VERÖFFENTLICHEN WIR AUCH KEINE
+ENDGÜLTIGE VERSION DERARTIGER FEATURES ODER KONZEPTE. IHRE ERFAHRUNG
+BEI DER VERWENDUNG DERARTIGER FEATURES UND FUNKTIONEN IN EINER
+PHYSISCHEN UMGEBUNG KANN FERNER ABWEICHEND SEIN.
+
+**FEEDBACK.** Wenn Sie Feedback zu den Technologiefeatures, Funktionen
+und/oder Konzepten geben, die in dieser Demo/Übung beschrieben werden,
+gewähren Sie Microsoft das Recht, Ihr Feedback in jeglicher Weise und
+für jeglichen Zweck kostenlos zu verwenden, zu veröffentlichen und
+gewerblich zu nutzen. Außerdem treten Sie Dritten kostenlos sämtliche
+Patentrechte ab, die erforderlich sind, damit deren Produkte,
+Technologien und Dienste bestimmte Teile einer Software oder eines
+Dienstes von Microsoft, welche/welcher das Feedback enthält, verwenden
+oder eine Verbindung zu dieser/diesem herstellen können. Sie geben
+kein Feedback, das einem Lizenzvertrag unterliegt, aufgrund dessen
+Microsoft Drittparteien eine Lizenz für seine Software oder
+Dokumentation gewähren muss, weil wir Ihr Feedback in diese aufnehmen.
+Diese Rechte bestehen nach Ablauf dieser Vereinbarung fort.
+
+DIE MICROSOFT CORPORATION LEHNT HIERMIT JEGLICHE GEWÄHRLEISTUNGEN UND
+GARANTIEN IN BEZUG AUF DIE DEMO/ÜBUNG AB, EINSCHLIESSLICH ALLER
+AUSDRÜCKLICHEN, KONKLUDENTEN ODER GESETZLICHEN GEWÄHRLEISTUNGEN UND
+GARANTIEN DER HANDELSÜBLICHKEIT, DER EIGNUNG FÜR EINEN BESTIMMTEN
+ZWECK, DES RECHTSANSPRUCHS UND DER NICHTVERLETZUNG VON RECHTEN
+DRITTER. MICROSOFT MACHT KEINERLEI ZUSICHERUNGEN BZW. ERHEBT KEINERLEI
+ANSPRÜCHE IM HINBLICK AUF DIE RICHTIGKEIT DER ERGEBNISSE UND DES AUS
+DER VERWENDUNG DER DEMO/ÜBUNG RESULTIERENDEN ARBEITSERGEBNISSES BZW.
+BEZÜGLICH DER EIGNUNG DER IN DER DEMO/ÜBUNG ENTHALTENEN INFORMATIONEN
+FÜR EINEN BESTIMMTEN ZWECK.
+
+**HAFTUNGSAUSSCHLUSS**
+
+Diese Demo/Übung enthält nur einen Teil der neuen Features und
+Verbesserungen in Microsoft Power BI. Einige Features können sich
+unter Umständen in zukünftigen Versionen des Produkts ändern. In
+dieser Demo/Übung erhalten Sie Informationen über einige, aber nicht
+über alle neuen Features.

@@ -35,7 +35,7 @@ Am Ende dieser Übung haben Sie Folgendes gelernt:
 
 # Fabric-Lizenz
 
-### Aufgabe 1: Lizenz für Testversion von Microsoft Fabric aktivieren
+## Aufgabe 1: Lizenz für Testversion von Microsoft Fabric aktivieren
 
 1. Öffnen Sie den **Browser**, und wechseln Sie zum [Microsoft Power
     BI-Portal](https://app.powerbi.com/). Die Anmeldeseite wird
@@ -44,9 +44,9 @@ Am Ende dieser Übung haben Sie Folgendes gelernt:
     ***Hinweis:** Wenn Sie nicht die Übungsumgebung nutzen, werden Sie
     automatisch angemeldet.*
 
-    > ***Hinweis:** Wenn Sie die Übungsumgebung nicht nutzen und bereits ein
-    > Power BI-Konto haben, können Sie den Browser im privaten
-    > Modus/Inkognito-Modus verwenden.*
+    ***Hinweis:** Wenn Sie die Übungsumgebung nicht nutzen und bereits ein
+    Power BI-Konto haben, können Sie den Browser im privaten
+    Modus/Inkognito-Modus verwenden.*
 
 2. Kopieren Sie den Benutzernamen, fügen Sie ihn im Feld „E-Mail" des
     Dialogfelds ein, und wählen Sie „Senden" aus.
@@ -90,9 +90,9 @@ Am Ende dieser Übung haben Sie Folgendes gelernt:
 9. Das Dialogfeld „Upgrade auf eine kostenlose Testversion von
     Microsoft Fabric" wird geöffnet. Wählen Sie **Aktivieren** aus.
 
-    > ***Hinweis:** Behalten Sie für die Region die Standardeinstellung bei.
-    > Von der Kursleitung erhalten Sie weitere Informationen dazu, wenn die
-    > Übung besprochen wird.*
+    ***Hinweis:** Behalten Sie für die Region die Standardeinstellung bei.
+    Von der Kursleitung erhalten Sie weitere Informationen dazu, wenn die
+    Übung besprochen wird.*
 
    ![](../media/lab-2/image10.png)
 
@@ -110,13 +110,13 @@ Am Ende dieser Übung haben Sie Folgendes gelernt:
 
 # Fabric-Arbeitsbereich
 
-### Aufgabe 2: Fabric-Arbeitsbereich erstellen
+## Aufgabe 2: Fabric-Arbeitsbereich erstellen
 
 1. Erstellen wir jetzt einen Arbeitsbereich mit einer Fabric-Lizenz.
     Wählen Sie in der Navigationsleiste links die Option
     **Arbeitsbereiche** aus. Ein Dialogfeld wird geöffnet.
 
-2. Klicken Sie auf **+ Neuer Arbeitsbereich** (2) unten im Popup-Menü.
+2. Klicken Sie auf **+ Neuer Arbeitsbereich** (2. unten im Popup-Menü.
 
     ![](../media/lab-2/image13.png)
 
@@ -126,9 +126,9 @@ Am Ende dieser Übung haben Sie Folgendes gelernt:
 4. Geben Sie im Feld **Name** „FAIAD_<inject key="Deployment ID" enableCopy="false"/>" ein (Sie finden dieseauf
     der Registerkarte „Umgebung").
 
-    > ***Hinweis:** Der Name des Arbeitsbereichs muss eindeutig sein. Achten
-    > Sie darauf, dass unter dem Feld für den Namen ein grünes Häkchen mit
-    > dem Text „Dieser Name ist verfügbar" zu sehen ist.*
+    ***Hinweis:** Der Name des Arbeitsbereichs muss eindeutig sein. Achten
+    Sie darauf, dass unter dem Feld für den Namen ein grünes Häkchen mit
+    dem Text „Dieser Name ist verfügbar" zu sehen ist.*
 
 5. Wenn Sie möchten, können Sie eine Beschreibung des Arbeitsbereichs
     eingeben. Dieses Feld ist optional.
@@ -151,11 +151,9 @@ Quellen in ein Lakehouse, entwickeln damit ein Modell und nutzen die
 Daten für Berichte. Der erste Schritt besteht darin, ein Lakehouse zu
 erstellen. Und genau dies werden wir als Nächstes tun.
 
-### Aufgabe 3: Lakehouse erstellen
+## Aufgabe 3: Lakehouse erstellen
 
-1. Suchen Sie im neu erstellten Arbeitsbereich **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** im
-    linken Navigationsbereich die Schaltfläche **+ Neues Element (1)**.
-    Hier können Sie neue Elemente in Ihrem Arbeitsbereich erstellen.
+1. Suchen Sie im neu erstellten Arbeitsbereich **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** im linken Navigationsbereich die Schaltfläche **+ Neues Element (1)**. Hier können Sie neue Elemente in Ihrem Arbeitsbereich erstellen.
 
 2. Geben Sie im Suchfeld **Lakehouse (2)** ein, und wählen Sie in den
     Suchergebnissen die Option **Lakehouse (3)** aus. Auf diese Weise
@@ -167,20 +165,19 @@ erstellen. Und genau dies werden wir als Nächstes tun.
 3. Das Dialogfeld „Neues Lakehouse" wird angezeigt. Geben Sie
     **lh_FAIAD** in das Textfeld „Name" ein.
 
-    > ***Hinweis:** „lh" bezieht sich hier auf Lakehouse. Die Buchstaben
-    > „lh" werden vorangestellt, damit das Lakehouse leichter erkannt und
-    > gefunden werden kann.*
-    >
-    > ***Hinweis:** Die Previewfunktion der **Lakehouse-Schemas** ist sehr
-    > interessant und sollte daher Beachtung finden. Da sie sich im Zustand
-    > **Vorschauversion** befindet, werden wir sie ignorieren, um
-    > unerwünschte Auswirkungen auf die Übung zu verhindern. Sobald die
-    > Funktion allgemein verfügbar ist, wird sie in diese Übung integriert.*
+    ***Hinweis:** „lh" bezieht sich hier auf Lakehouse. Die Buchstaben
+    „lh" werden vorangestellt, damit das Lakehouse leichter erkannt und
+    gefunden werden kann.*
+    
+    ***Hinweis:** Die Previewfunktion der **Lakehouse-Schemas** ist sehr
+    interessant und sollte daher Beachtung finden. Da sie sich im Zustand
+    **Vorschauversion** befindet, werden wir sie ignorieren, um
+    unerwünschte Auswirkungen auf die Übung zu verhindern. Sobald die
+    Funktion allgemein verfügbar ist, wird sie in diese Übung integriert.*
 
-4.  Wählen Sie **Erstellen** aus
+4. Wählen Sie **Erstellen** aus
 
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](../media/lab-2/image17.png)
+    ![](../media/lab-2/image17.png)
 
     Das Lakehouse wird innerhalb kurzer Zeit erstellt, und Sie werden zur
     Lakehouse-Explorer-Oberfläche weitergeleitet. Oben links neben dem
@@ -199,7 +196,7 @@ incorrect.](../media/lab-2/image17.png)
 
 # Übersicht über die Funktionsbereiche in Fabric
 
-### Aufgabe 4: Data Factory-Funktionsbereich
+## Aufgabe 4: Data Factory-Funktionsbereich
 
 1. Wählen Sie links das Workloads-Symbol aus. Ein Dialogfeld mit einer
     Liste der Funktionsbereiche von Fabric wird geöffnet. Die Liste der
@@ -218,99 +215,51 @@ incorrect.](../media/lab-2/image17.png)
     Schritt für Schritt für eine effektive Verwendung von Data Factory
     leitet. Dataflow Gen2 ist die nächste Generation von Dataflow.
 
-    > **Was ist Data Factory?**
-    >
-    > Data Factory hilft Ihnen dabei, Daten aus verschiedenen Quellen zu
-    > verwalten und zu organisieren. Es ermöglicht Ihnen, Daten zu sammeln,
-    > aufzubereiten und zu transformieren, um sie effektiv einsetzen zu
-    > können. Egal, ob Sie neu einsteigen oder bereits viel Erfahrung
-    > mitbringen, Data Factory stellt Ihnen Tools zu Verfügung, mit denen
-    > Sie die Datentransformation einfacher und effizienter gestalten
-    > können.
-    >
-    > **Elementtypen:**
+    **Was ist Data Factory?**
 
-    a) **Dataflow Gen2:** Dataflows sind wie Rezepte zum Transformieren von
-        Daten. Sie bieten über 300 verschiedene Transformationen, die Sie
-        auf Ihre Daten anwenden können. Dies bedeutet, dass Sie Ihre Daten
-        auf vielfältige Weise bereinigen, kombinieren und ändern können, um
-        sie ganz an Ihre Anforderungen anzupassen.
+    Data Factory hilft Ihnen dabei, Daten aus verschiedenen Quellen zu
+    verwalten und zu organisieren. Es ermöglicht Ihnen, Daten zu sammeln,
+    aufzubereiten und zu transformieren, um sie effektiv einsetzen zu
+    können. Egal, ob Sie neu einsteigen oder bereits viel Erfahrung
+    mitbringen, Data Factory stellt Ihnen Tools zu Verfügung, mit denen
+    Sie die Datentransformation einfacher und effizienter gestalten
+    können.
+    
+    **Elementtypen:**
 
-    b) **Pipeline:** Pipelines sind Workflows, mit denen Sie Ihre
-        Datenprozesse automatisieren können. Sie ermöglichen es Ihnen,
-        flexible Daten-Workflows zu erstellen, die auf Ihre speziellen
-        Anforderungen zugeschnitten werden können. Das erleichtert es, Daten
-        strukturiert zu verwalten und zu verarbeiten.
+    a. **Dataflow Gen2:** Dataflows sind wie Rezepte zum Transformieren von Daten. Sie bieten über 300 verschiedene Transformationen, die Sie auf Ihre Daten anwenden können. Dies bedeutet, dass Sie Ihre Daten auf vielfältige Weise bereinigen, kombinieren und ändern können, um sie ganz an Ihre Anforderungen anzupassen.
 
-    c) **Azure Data Factory:** Azure Data Factory ist ein cloudbasierter
-        Datenintegrationsdienst, mit dem Sie datengesteuerte Workflows zur
-        Orchestrierung und Automatisierung von Datenverschiebungen und
-        Datentransformationen erstellen können.
+    b. **Pipeline:** Pipelines sind Workflows, mit denen Sie Ihre Datenprozesse automatisieren können. Sie ermöglichen es Ihnen, flexible Daten-Workflows zu erstellen, die auf Ihre speziellen Anforderungen zugeschnitten werden können. Das erleichtert es, Daten strukturiert zu verwalten und zu verarbeiten.
 
-    d) **Apache Airflow Job:** Apache Airflow ist eine
-        Open-Source-Plattform, die für das programmgesteuerte Erstellen,
-        Planen und Überwachen von Workflows verwendet wird. In Data Factory
-        können Sie damit komplexe Datenworkflows erstellen, planen und
-        verwalten.
+    c. **Azure Data Factory:** Azure Data Factory ist ein cloudbasierter Datenintegrationsdienst, mit dem Sie datengesteuerte Workflows zur Orchestrierung und Automatisierung von Datenverschiebungen und Datentransformationen erstellen können.
 
-    e) **Projekt kopieren:** Mit der Funktion „Projekt kopieren" können Sie
-        Daten von einer Quelle in eine andere kopieren. Sie bietet eine
-        einfache und effiziente Möglichkeit, Daten zwischen verschiedenen
-        Datenspeichern zu verschieben.
+    d. **Apache Airflow Job:** Apache Airflow ist eine Open-Source-Plattform, die für das programmgesteuerte Erstellen, Planen und Überwachen von Workflows verwendet wird. In Data Factory können Sie damit komplexe Datenworkflows erstellen, planen und verwalten.
 
-    f) **Gespiegelte Datenbank:** Eine Funktion zum Erstellen gespiegelter
-        Versionen von Datenbanken für Sicherungen, Tests oder
-        schreibgeschützten Zugriff.
+    e. **Projekt kopieren:** Mit der Funktion „Projekt kopieren" können Sie Daten von einer Quelle in eine andere kopieren. Sie bietet eine einfache und effiziente Möglichkeit, Daten zwischen verschiedenen Datenspeichern zu verschieben.
 
-    g) **Oracle-Spiegelung (Vorschauversion):** Durch die Spiegelung in
-        Fabric werden Ihre Oracle-Datenbanken auf eine einheitliche
-        Plattform repliziert, was Analysen neben anderen Datenquellen in
-        Quasi-Echtzeit und mit geringer Latenz ermöglicht.
+    f. **Gespiegelte Datenbank:** Eine Funktion zum Erstellen gespiegelter Versionen von Datenbanken für Sicherungen, Tests oder schreibgeschützten Zugriff.
 
-    h) **Gespiegelte Google BigQuery (Vorschauversion):** Durch die
-        Spiegelung in Fabric können Sie Google BigQuery-Daten kontinuierlich
-        in OneLake replizieren, was komplexe ETL-Vorgänge beseitigt und eine
-        nahtlose Verwendung in Bereichen wie Analyse, KI und Datenfreigabe
-        ermöglicht.
+    g. **Oracle-Spiegelung (Vorschauversion):** Durch die Spiegelung in Fabric werden Ihre Oracle-Datenbanken auf eine einheitliche Plattform repliziert, was Analysen neben anderen Datenquellen in Quasi-Echtzeit und mit geringer Latenz ermöglicht.
 
-    i) **Variablenbibliothek (Vorschauversion):** Enthält eine Liste von
-        Variablen und ihren Standardwerten. Sie kann auch andere Wertesätze
-        mit alternativen Werten enthalten
+    h. **Gespiegelte Google BigQuery (Vorschauversion):** Durch die Spiegelung in Fabric können Sie Google BigQuery-Daten kontinuierlich in OneLake replizieren, was komplexe ETL-Vorgänge beseitigt und eine nahtlose Verwendung in Bereichen wie Analyse, KI und Datenfreigabe ermöglicht.
 
-    > **Erste Schritte:**
-    >
-    > Sie können folgende Schritte ausführen, um mit Data Factory
-    > loszulegen:
+    i. **Variablenbibliothek (Vorschauversion):** Enthält eine Liste von Variablen und ihren Standardwerten. Sie kann auch andere Wertesätze mit alternativen Werten enthalten
 
-    a) **Verwenden von Data Factory:** Dieser Abschnitt hilft Ihnen beim
-        Einstieg in Data Factory. Er zeigt Ihnen, wie Sie das Tool effektiv
-        verwenden können.
+    **Erste Schritte:** Sie können folgende Schritte ausführen, um mit Data Factory loszulegen:
 
-    b) **Erstellen Sie Ihren ersten Dataflow:** Hier erfahren Sie, wie Sie
-        Ihren ersten Dataflow erstellen. Dataflows sind unerlässlich, um
-        Ihre Daten entsprechend Ihren Anforderungen zu transformieren.
+    a. **Verwenden von Data Factory:** Dieser Abschnitt hilft Ihnen beim Einstieg in Data Factory. Er zeigt Ihnen, wie Sie das Tool effektiv verwenden können.
 
-    c) **Erstellen Sie Ihre erste Datenpipeline:** In diesem Abschnitt
-        erfahren Sie, wie Sie Ihre erste Datenpipeline erstellen. Pipelines
-        helfen Ihnen dabei, Ihre Datenprozesse effizient zu automatisieren
-        und zu verwalten.
+    b. **Erstellen Sie Ihren ersten Dataflow:** Hier erfahren Sie, wie Sie Ihren ersten Dataflow erstellen. Dataflows sind unerlässlich, um Ihre Daten entsprechend Ihren Anforderungen zu transformieren.
 
-    d) **Informationen zum Überwachen von Data Factory:** Die Überwachung
-        ist entscheidend, um sicherzustellen, dass Ihre Datenprozesse
-        reibungslos ablaufen. In diesem Abschnitt erfahren Sie, wie Sie Ihre
-        Data Factory-Aktivitäten überwachen.
+    c. **Erstellen Sie Ihre erste Datenpipeline:** In diesem Abschnitt erfahren Sie, wie Sie Ihre erste Datenpipeline erstellen. Pipelines helfen Ihnen dabei, Ihre Datenprozesse effizient zu automatisieren und zu verwalten.
 
-    e) **Daten mit Dataflows transformieren:** In diesem Abschnitt erfahren
-        Sie, wie Sie Dataflows verwenden, um Ihre Daten effektiv zu
-        transformieren.
+    d. **Informationen zum Überwachen von Data Factory:** Die Überwachung ist entscheidend, um sicherzustellen, dass Ihre Datenprozesse reibungslos ablaufen. In diesem Abschnitt erfahren Sie, wie Sie Ihre Data Factory-Aktivitäten überwachen.
 
-    f) **Erste API für GraphQL erstellen:** Wenn Sie APIs mit GraphQL
-        verwenden möchten, finden Sie in diesem Abschnitt Informationen zu
-        den ersten Schritten.
+    e. **Daten mit Dataflows transformieren:** In diesem Abschnitt erfahren Sie, wie Sie Dataflows verwenden, um Ihre Daten effektiv zu transformieren.
 
-    g) **Erste Benutzerdatenfunktionen erstellen:** In diesem Abschnitt
-        erfahren Sie, wie Sie Benutzerdatenfunktionen erstellen, die zum
-        Verwalten und Transformieren von Benutzerdaten nützlich sind.
+    f. **Erste API für GraphQL erstellen:** Wenn Sie APIs mit GraphQL verwenden möchten, finden Sie in diesem Abschnitt Informationen zu den ersten Schritten.
+
+    g. **Erste Benutzerdatenfunktionen erstellen:** In diesem Abschnitt erfahren Sie, wie Sie Benutzerdatenfunktionen erstellen, die zum Verwalten und Transformieren von Benutzerdaten nützlich sind.
 
     ![](../media/lab-2/image21.png)
 
@@ -321,7 +270,7 @@ incorrect.](../media/lab-2/image17.png)
 
     ![](../media/lab-2/image22.png)
 
-### Aufgabe 5: Industry Solutions-Funktionsbereich
+## Aufgabe 5: Industry Solutions-Funktionsbereich
 
 1. Klicken Sie auf der Seite **Workloads** auf **Industry Solutions**,
     um fortzufahren.
@@ -343,57 +292,50 @@ incorrect.](../media/lab-2/image17.png)
 
     **Elementtypen:**
 
-    a)  **Nachhaltigkeitslösungen** unterstützen die Erfassung,
-        Standardisierung und Analyse von Umwelt-, Sozial- und
-        Governance-Daten (ESG).
+    a. **Nachhaltigkeitslösungen** unterstützen die Erfassung, Standardisierung und Analyse von Umwelt-, Sozial- und Governance-Daten (ESG).
 
-    b)  **Lösungen für den Einzelhandel** helfen bei der Verwaltung großer
-        Datenmengen, der Integration von Daten aus verschiedenen Quellen und
-        der Bereitstellung von Echtzeitanalysen für eine schnelle
-        Entscheidungsfindung. Einzelhändler können diese Lösungen zur
-        Bestandsoptimierung, Kundensegmentierung, Umsatzprognose,
-        dynamischen Preisgestaltung und Betrugserkennung nutzen.
+    b. **Lösungen für den Einzelhandel** helfen bei der Verwaltung großer Datenmengen, der Integration von Daten aus verschiedenen Quellen und der Bereitstellung von Echtzeitanalysen für eine schnelle Entscheidungsfindung. Einzelhändler können diese Lösungen zur Bestandsoptimierung, Kundensegmentierung, Umsatzprognose, dynamischen Preisgestaltung und Betrugserkennung nutzen.
 
-    c)  **Datenlösungen für das Gesundheitswesen** sind strategisch darauf
-        ausgelegt, die Zeit bis zur Wertschöpfung für die Kunden zu
-        verkürzen, indem die kritische Notwendigkeit der effizienten
-        Umwandlung von Daten aus dem Gesundheitswesen in ein geeignetes
-        Format für die Analyse erfüllt wird.
+    c. **Datenlösungen für das Gesundheitswesen** sind strategisch darauf
+    ausgelegt, die Zeit bis zur Wertschöpfung für die Kunden zu
+    verkürzen, indem die kritische Notwendigkeit der effizienten
+    Umwandlung von Daten aus dem Gesundheitswesen in ein geeignetes
+    Format für die Analyse erfüllt wird.
 
-    > **Erste Schritte**
-    >
-    > Sie können folgende Schritte ausführen, um mit Industry Solutions
-    > loszulegen:
+    **Erste Schritte**
+    
+    Sie können folgende Schritte ausführen, um mit Industry Solutions
+    loszulegen:
 
-    a)  **Mehr über Datenlösungen für das Gesundheitswesen erfahren**:
-        Klicken Sie auf die Schaltfläche „Weitere Informationen", um mehr
-        über Datenlösungen für das Gesundheitswesen zu erfahren und zu
-        verstehen, wie Sie diese in Ihren Projekten einsetzen können.
+    a. **Mehr über Datenlösungen für das Gesundheitswesen erfahren**:
+    Klicken Sie auf die Schaltfläche „Weitere Informationen", um mehr
+    über Datenlösungen für das Gesundheitswesen zu erfahren und zu
+    verstehen, wie Sie diese in Ihren Projekten einsetzen können.
 
-    b)  **Datenlösungen für das Gesundheitswesen bereitstellen**: Klicken
-        Sie auf die Schaltfläche „Bereitstellen", um mit dem Bereitstellen
-        von Datenlösungen für das Gesundheitswesen zu beginnen und diese in
-        Ihre Projekten zu implementieren.
+    b. **Datenlösungen für das Gesundheitswesen bereitstellen**: Klicken
+    Sie auf die Schaltfläche „Bereitstellen", um mit dem Bereitstellen
+    von Datenlösungen für das Gesundheitswesen zu beginnen und diese in
+    Ihre Projekten zu implementieren.
 
-    c)  **Mehr über Nachhaltigkeitslösungen erfahren**: Klicken Sie auf die
-        Schaltfläche „Weitere Informationen", um mehr über
-        Nachhaltigkeitslösungen zu erfahren und zu verstehen, wie Sie diese
-        in Ihren Projekten einsetzen können.
+    c. **Mehr über Nachhaltigkeitslösungen erfahren**: Klicken Sie auf die
+    Schaltfläche „Weitere Informationen", um mehr über
+    Nachhaltigkeitslösungen zu erfahren und zu verstehen, wie Sie diese
+    in Ihren Projekten einsetzen können.
 
-    d)  **Nachhaltigkeitslösungen bereitstellen**: Klicken Sie auf die
-        Schaltfläche „Bereitstellen", um mit dem Bereitstellen von
-        Nachhaltigkeitslösungen zu beginnen und diese in Ihre Projekten zu
-        implementieren.
+    d. **Nachhaltigkeitslösungen bereitstellen**: Klicken Sie auf die
+    Schaltfläche „Bereitstellen", um mit dem Bereitstellen von
+    Nachhaltigkeitslösungen zu beginnen und diese in Ihre Projekten zu
+    implementieren.
 
-    e)  **Mehr über die Lösung für den Einzelhandel erfahren**: Klicken Sie
-        auf die Schaltfläche „Weitere Informationen", um mehr über Lösungen
-        für den Einzelhandel zu erfahren und zu verstehen, wie Sie diese in
-        Ihren Projekten einsetzen können.
+    e. **Mehr über die Lösung für den Einzelhandel erfahren**: Klicken Sie
+    auf die Schaltfläche „Weitere Informationen", um mehr über Lösungen
+    für den Einzelhandel zu erfahren und zu verstehen, wie Sie diese in
+    Ihren Projekten einsetzen können.
 
-    f)  **Lösungen für den Einzelhandel bereitstellen**: Klicken Sie auf die
-        Schaltfläche „Bereitstellen", um mit dem Bereitstellen von Lösungen
-        für den Einzelhandel zu beginnen und diese in Ihre Projekten zu
-        implementieren.
+    f. **Lösungen für den Einzelhandel bereitstellen**: Klicken Sie auf die
+    Schaltfläche „Bereitstellen", um mit dem Bereitstellen von Lösungen
+    für den Einzelhandel zu beginnen und diese in Ihre Projekten zu
+    implementieren.
 
     ![](../media/lab-2/image24.png)
 
@@ -403,7 +345,7 @@ incorrect.](../media/lab-2/image17.png)
 
     ![](../media/lab-2/image22.png)
 
-### Aufgabe 6: Real-Time Intelligence-Funktionsbereich
+## Aufgabe 6: Real-Time Intelligence-Funktionsbereich
 
 1. Klicken Sie auf der Seite **Workloads** auf **Real-Time
     Intelligence**, um fortzufahren.
@@ -426,74 +368,68 @@ incorrect.](../media/lab-2/image17.png)
     **Elementtypen**
 
     a. **Eventhouse:** Dient dem Erstellen einer Arbeitsbereichs mit einer
-        oder mehreren KQL-Datenbanken, der projektübergreifend genutzt
-        werden kann.
+    oder mehreren KQL-Datenbanken, der projektübergreifend genutzt
+    werden kann.
 
-    b. **KQL Queryset:** Wird verwendet, um Abfragen für die Daten
-        auszuführen, um freigabefähige Tabellen und Visuals zu erstellen.
+    b. **KQL Queryset:** Wird verwendet, um Abfragen für die Daten auszuführen, um freigabefähige Tabellen und Visuals zu erstellen.
 
-    c. **Echtzeit-Dashboard:** Wird verwendet, um Echtzeit-Dashboards
-        innerhalb von Sekunden nach der Datenerfassung zu visualisieren.
+    c. **Echtzeit-Dashboard:** Wird verwendet, um Echtzeit-Dashboards innerhalb von Sekunden nach der Datenerfassung zu visualisieren.
 
-    d. **Eventstream:** Hiermit werden Ereignisströme in Echtzeit erfasst,
-        umgewandelt und weitergeleitet.
+    d. **Eventstream:** Hiermit werden Ereignisströme in Echtzeit erfasst, umgewandelt und weitergeleitet.
 
-    e. **Aktivator:** Wird verwendet, um Datasets, Abfragen und
-        Ereignisstreams auf Muster zu überwachen.
+    e. **Aktivator:** Wird verwendet, um Datasets, Abfragen und Ereignisstreams auf Muster zu überwachen.
 
     f. **Ereignisschemasatz (Vorschauversion):** Ereignisschemasätze helfen
-        Ihnen dabei, Datenstrukturen (Schemas) für Ihre
-        Echtzeitanalyse-Workflows zu organisieren und zu standardisieren und
-        so die konsistente Verarbeitung und Analyse von Streamingdaten
-        einfacher zu gestalten.
+    Ihnen dabei, Datenstrukturen (Schemas. für Ihre
+    Echtzeitanalyse-Workflows zu organisieren und zu standardisieren und
+    so die konsistente Verarbeitung und Analyse von Streamingdaten
+    einfacher zu gestalten.
 
     g. **Erstellung digitaler Zwillinge (Vorschauversion):** Bietet
-        Benutzern Low-Code-/No-Code-Funktionen, um ihre Geschäftskonzepte
-        wie Assets und Prozesse mithilfe einer Ontologie zu erstellen und zu
-        modellieren.
+    Benutzern Low-Code-/No-Code-Funktionen, um ihre Geschäftskonzepte
+    wie Assets und Prozesse mithilfe einer Ontologie zu erstellen und zu
+    modellieren.
 
     h. **Karte (Vorschauversion):** Bringen Sie georäumliche Erkenntnisse
-        in Real-Time Intelligence ein, sodass jede Person visualisieren
-        kann, wo Ereignisse stattfinden, sowie räumliche Daten in andere
-        Fabric-Funktionen integrieren und intelligentere, standortbezogene
-        Entscheidungen treffen kann.
+    in Real-Time Intelligence ein, sodass jede Person visualisieren
+    kann, wo Ereignisse stattfinden, sowie räumliche Daten in andere
+    Fabric-Funktionen integrieren und intelligentere, standortbezogene
+    Entscheidungen treffen kann.
 
-    **Erste Schritte:**
-
-    Befolgen Sie diese Schritten, um mit der Verwendung von Real-Time
+    **Erste Schritte:** Befolgen Sie diese Schritten, um mit der Verwendung von Real-Time
     Intelligence zu beginnen:
 
     a. **Durchgängige Erlebnisse in Echtzeit:** Klicken Sie auf die
-        Schaltfläche „Los geht's", um die Datenanalyse in Echtzeit mit
-        Beispieldatasets zu erkunden.
+    Schaltfläche „Los geht's", um die Datenanalyse in Echtzeit mit
+    Beispieldatasets zu erkunden.
 
     b. **Beispiel für Real-Time Intelligence erkunden:** Klicken Sie auf
-        die Schaltfläche „Öffnen", um die Echtzeit-Datenanalyse mit einem
-        Beispiel zu erkunden.
+    die Schaltfläche „Öffnen", um die Echtzeit-Datenanalyse mit einem
+    Beispiel zu erkunden.
 
     c. **Eventhouse-Beispiel ansehen:** Klicken Sie auf die Schaltfläche
-        „Auswählen", um ein Beispiel zu verwenden und mehr über Real-Time
-        Intelligence zu erfahren.
+    „Auswählen", um ein Beispiel zu verwenden und mehr über Real-Time
+    Intelligence zu erfahren.
 
     d. **Einführung in Real-Time Intelligence:** Klicken Sie auf die
-        Schaltfläche „Öffnen", um einen Überblick über Real-Time
-        Intelligence zu erhalten und das Tool effektiv zu nutzen.
+    Schaltfläche „Öffnen", um einen Überblick über Real-Time
+    Intelligence zu erhalten und das Tool effektiv zu nutzen.
 
     e. **KQL mit Beispieldaten lernen:** Klicken Sie auf die Schaltfläche
-        „Öffnen", um KQL anhand von Beispieldaten zu lernen.
+    „Öffnen", um KQL anhand von Beispieldaten zu lernen.
 
     f. **Was ist ein Echtzeit-Hub:** Klicken Sie auf die Schaltfläche
-        „Öffnen", um zu erfahren, was ein Echtzeit-Hub ist und wie er
-        verwendet werden kann.
+    „Öffnen", um zu erfahren, was ein Echtzeit-Hub ist und wie er
+    verwendet werden kann.
 
     g. **Einen Beispielaktivator erkunden:** Klicken Sie auf die
-        Schaltfläche „Öffnen", um einen Beispielaktivator zu verwenden und
-        die Funktionen und Möglichkeiten von Real-Time Intelligence zu
-        verstehen.
+    Schaltfläche „Öffnen", um einen Beispielaktivator zu verwenden und
+    die Funktionen und Möglichkeiten von Real-Time Intelligence zu
+    verstehen.
 
     h. **Erste Schritte mit Aktivator:** Klicken Sie auf die Schaltfläche
-        „Öffnen", um mit Aktiviatorkonzepten zu beginnen und das Tool
-        effektiv zu nutzen.
+    „Öffnen", um mit Aktiviatorkonzepten zu beginnen und das Tool
+    effektiv zu nutzen.
 
     ![](../media/lab-2/image26.png)
 
@@ -503,7 +439,7 @@ incorrect.](../media/lab-2/image17.png)
 
     ![](../media/lab-2/image22.png)
 
-### Aufgabe 7: Data Engineering-Funktionsbereich
+## Aufgabe 7: Data Engineering-Funktionsbereich
 
 1. Klicken Sie auf der Seite **Workloads** auf „Data Engineering", um
     fortzufahren.
@@ -526,21 +462,19 @@ incorrect.](../media/lab-2/image17.png)
     **Elementtypen:**
 
     a. **Lakehouse:** Wird zum Speichern großer Datenmengen für die
-        Bereinigung, Abfrage, Berichterstellung und Freigabe verwendet.
+    Bereinigung, Abfrage, Berichterstellung und Freigabe verwendet.
 
     b. **Notebook:** Dient zur Datenerfassung, -aufbereitung, -analyse und
-        anderen datenbezogenen Aufgaben mithilfe verschiedener Sprachen wie
-        Python und Scala.
+    anderen datenbezogenen Aufgaben mithilfe verschiedener Sprachen wie
+    Python und Scala.
 
     c. **Umgebung:** Dient dem Einrichten gemeinsam genutzter Bibliotheken,
-        Spark-Compute-Einstellungen und Ressourcen für Notebooks und
-        Spark-Auftragsdefinitionen.
+    Spark-Compute-Einstellungen und Ressourcen für Notebooks und
+    Spark-Auftragsdefinitionen.
 
-    d. **Spark-Auftragsdefinition:** Dient zum Definieren, Planen und
-        Verwalten von Apache-Aufträgen.
+    d. **Spark-Auftragsdefinition:** Dient zum Definieren, Planen und Verwalten von Apache-Aufträgen.
 
-    e. **Benutzerdatenfunktionen (Vorschauversion):** Plattform, mit der
-        Sie Anwendungen in Fabric hosten und ausführen können.
+    e. **Benutzerdatenfunktionen (Vorschauversion):** Plattform, mit der Sie Anwendungen in Fabric hosten und ausführen können.
 
     f. **API für GraphQL:** Eine API zum Abfragen mehrerer Datenquellen.
 
@@ -550,46 +484,43 @@ incorrect.](../media/lab-2/image17.png)
     Engineering zu starten:
 
     a. **Ein Beispiel erkunden:** Klicken Sie auf die Schaltfläche
-        „Auswählen", um ein Beispiel zu verwenden und mehr über Data
-        Engineering zu erfahren.
+    „Auswählen", um ein Beispiel zu verwenden und mehr über Data
+    Engineering zu erfahren.
 
     b. **Was ist ein Lakehouse?:** Klicken Sie auf die Schaltfläche
-        „Öffnen", um mehr darüber zu erfahren, was ein Lakehouse ist und wie
-        Sie es verwenden können.
+    „Öffnen", um mehr darüber zu erfahren, was ein Lakehouse ist und wie
+    Sie es verwenden können.
 
-    c. **Abrufen von Datenerfahrungen in Lakehouse:** Klicken Sie auf die
-        Schaltfläche „Öffnen", um Datentechnik mittels Lakehouses zu nutzen.
+    c. **Abrufen von Datenerfahrungen in Lakehouse:** Klicken Sie auf die Schaltfläche „Öffnen", um Datentechnik mittels Lakehouses zu nutzen.
 
     d. **Erste Schritte mit Spark-Auftragsdefinitionen:** Klicken Sie auf
-        die Schaltfläche „Öffnen", um zu erfahren, wie Sie
-        Spark-Auftragsdefinitionen für die Datenverarbeitung verwenden
-        können.
+    die Schaltfläche „Öffnen", um zu erfahren, wie Sie
+    Spark-Auftragsdefinitionen für die Datenverarbeitung verwenden
+    können.
 
     e. **Notebooks entwickeln und ausführen:** Klicken Sie auf die
-        Schaltfläche „Öffnen",
-        um zu erfahren, wie Sie Notebooks für die Datenanalyse entwickeln
-        und ausführen.
+    Schaltfläche „Öffnen", um zu erfahren, wie Sie Notebooks für die Datenanalyse entwickeln
+    und ausführen.
 
     f. **NotebookUtils verwenden:** Klicken Sie auf die Schaltfläche
-        „Öffnen", um zu erfahren,
-        wie Sie NotebookUtils für die erweiterte Datenanalyse verwenden
-        können.
+    „Öffnen", um zu erfahren, wie Sie NotebookUtils für die erweiterte Datenanalyse verwenden
+    können.
 
     g. **Notebooks für das eigene Lakehouse verwenden:** Klicken Sie auf
-        die Schaltfläche „Öffnen", um zu erfahren, wie Sie Notebooks für Ihr
-        Lakehouse nutzen können.
+    die Schaltfläche „Öffnen", um zu erfahren, wie Sie Notebooks für Ihr
+    Lakehouse nutzen können.
 
     h. **Datasets für das eigene Lakehouse verwenden:** Klicken Sie auf die
-        Schaltfläche „Öffnen", um zu erfahren, wie Sie Datasets für Ihr
-        Lakehouse nutzen können.
+    Schaltfläche „Öffnen", um zu erfahren, wie Sie Datasets für Ihr
+    Lakehouse nutzen können.
 
     i. **Erste Benutzerdatenfunktionen erstellen:** Klicken Sie auf die
-        Schaltfläche „Öffnen",
-        um zu erfahren, wie Sie Benutzerdatenfunktionen erstellen.
+    Schaltfläche „Öffnen",
+    um zu erfahren, wie Sie Benutzerdatenfunktionen erstellen.
 
     j. **Erste API für GraphQL erstellen:** Klicken Sie auf die
-        Schaltfläche „Öffnen", um zu erfahren, wie Sie eine API für GraphQL
-        erstellen.
+    Schaltfläche „Öffnen", um zu erfahren, wie Sie eine API für GraphQL
+    erstellen.
 
     ![](../media/lab-2/image28.png)
 
@@ -600,10 +531,9 @@ incorrect.](../media/lab-2/image17.png)
 
     ![](../media/lab-2/image22.png)
 
-### Aufgabe 8: Data Science-Funktionsbereich
+## Aufgabe 8: Data Science-Funktionsbereich
 
-1. Klicken Sie auf der Seite **Workloads** auf **Data Science**, um
-    fortzufahren.
+1. Klicken Sie auf der Seite **Workloads** auf **Data Science**, um fortzufahren.
 
     ![](../media/lab-2/image29.png)
 
@@ -621,51 +551,42 @@ incorrect.](../media/lab-2/image17.png)
 
     **Elementtypen:**
 
-    a. **ML-Modell:** Wird zur Erstellung von Machine Learning-Modellen
-        verwendet.
+    a. **ML-Modell:** Wird zur Erstellung von Machine Learning-Modellen verwendet.
 
-    b. **Experiment:** Dient zum Entwickeln und Ausführen von Modellen und
-        zur Nachverfolgung der Modellentwicklung.
+    b. **Experiment:** Dient zum Entwickeln und Ausführen von Modellen und zur Nachverfolgung der Modellentwicklung.
 
-    c. **Notebook:** Hiermit werden Daten ausgewertet und
-        Machine-Learning-Lösungen entwickelt.
+    c. **Notebook:** Hiermit werden Daten ausgewertet und Machine-Learning-Lösungen entwickelt.
 
-    d. **Umgebung:** Dient dem Einrichten gemeinsam genutzter Bibliotheken,
-        Spark-Compute-Einstellungen und Ressourcen für Notebooks und
-        Spark-Auftragsdefinitionen.
+    d. **Umgebung:** Dient dem Einrichten gemeinsam genutzter Bibliotheken, Spark-Compute-Einstellungen und Ressourcen für Notebooks und Spark-Auftragsdefinitionen.
 
     e. **Data Agent (Vorschauversion):** Wird verwendet, um
-        unterhaltungsorientierte KI-Umgebungen zu erstellen, die Fragen zu
-        in Lakehouses, Warehouses, semantischen Power BI-Modellen und
-        KQL-Datenbanken gespeicherten Daten beantworten.
+    unterhaltungsorientierte KI-Umgebungen zu erstellen, die Fragen zu
+    in Lakehouses, Warehouses, semantischen Power BI-Modellen und
+    KQL-Datenbanken gespeicherten Daten beantworten.
 
-    f. **Python-Notebook:** Wird zum Importieren von Python-Notebooks von
-        einem lokalen Computer verwendet.
+    f. **Python-Notebook:** Wird zum Importieren von Python-Notebooks von einem lokalen Computer verwendet.
 
-    **Erste Schritte:**
-
-    Um Data Science zu verwenden, folgen Sie diesen Schritten
+    **Erste Schritte:** Um Data Science zu verwenden, folgen Sie diesen Schritten
 
     a. **Ein Beispiel erkunden:** Klicken Sie auf die Schaltfläche
-        „Auswählen", um ein Beispiel zu verwenden und mehr über Data Science
-        zu erfahren.
+    „Auswählen", um ein Beispiel zu verwenden und mehr über Data Science
+    zu erfahren.
 
     b. **Erste Schritte mit ML-Modellen:** Klicken Sie auf die Schaltfläche
-        „Öffnen", um zu erfahren, wie Sie mit Machine-Learning-Modellen
-        beginnen können.
+    „Öffnen", um zu erfahren, wie Sie mit Machine-Learning-Modellen
+    beginnen können.
 
     c. **Erste Schritte mit ML-Experimenten:** Klicken Sie auf die
-        Schaltfläche „Öffnen",
-        um zu erfahren, wie Sie Machine-Learning-Experimente durchführen
-        können.
+    Schaltfläche „Öffnen",
+    um zu erfahren, wie Sie Machine-Learning-Experimente durchführen
+    können.
 
     d. **Notebooks entwickeln und ausführen:** Klicken Sie auf die
-        Schaltfläche „Öffnen",
-        um zu erfahren, wie Sie Notebooks für die Datenanalyse entwickeln
-        und ausführen.
+    Schaltfläche „Öffnen",
+    um zu erfahren, wie Sie Notebooks für die Datenanalyse entwickeln
+    und ausführen.
 
-    e. **Erste Schritte mit Notebooks:** Klicken Sie auf die Schaltfläche
-        „Öffnen", um zu erfahren, wie Sie mit Notebooks beginnen können.
+    e. **Erste Schritte mit Notebooks:** Klicken Sie auf die Schaltfläche „Öffnen", um zu erfahren, wie Sie mit Notebooks beginnen können.
 
     ![](../media/lab-2/image30.png)
 
@@ -676,7 +597,7 @@ incorrect.](../media/lab-2/image17.png)
 
     ![](../media/lab-2/image22.png)
 
-### Aufgabe 9: Data Warehouse-Funktionsbereich
+## Aufgabe 9: Data Warehouse-Funktionsbereich
 
 1. Klicken Sie auf der Seite **Workloads** auf **Data Warehouse**, um
     fortzufahren.
@@ -700,61 +621,49 @@ incorrect.](../media/lab-2/image17.png)
     a. **Warehouse:** Dient dem Erstellen eines Data Warehouse.
 
     b. **Beispiel-Warehouse:** Wird verwendet, um Datenlagerungsfunktionen
-        mit vorkonfigurierten Datensätzen und Modellen zu erkunden und zu
-        testen.
+    mit vorkonfigurierten Datensätzen und Modellen zu erkunden und zu
+    testen.
 
-    c. **Notebook:** Wird für das Erstellen und Teilen interaktiver
-        Datenanalyse‑ und Visualisierungsaufgaben verwendet.
+    c. **Notebook:** Wird für das Erstellen und Teilen interaktiver Datenanalyse‑ und Visualisierungsaufgaben verwendet.
 
     d. **Gespiegelte Azure SQL-Datenbank:** Wird verwendet, um die Azure
-        SQL-Datenbank zu spiegeln.
+    SQL-Datenbank zu spiegeln.
 
-    e. **Gespiegelter Azure Databricks-Katalog:** Wird zum Spiegeln von
-        Daten von Azure Databricks für verbesserte Integration und Analyse
-        verwendet.
+    e. **Gespiegelter Azure Databricks-Katalog:** Wird zum Spiegeln von Daten von Azure Databricks für verbesserte Integration und Analyse verwendet.
 
-    f. **Gespiegeltes Snowflake:** Wird verwendet, um die
-        Snowflake-Datenbank zu spiegeln.
+    f. **Gespiegeltes Snowflake:** Wird verwendet, um die Snowflake-Datenbank zu spiegeln.
 
-    g. **Oracle-Spiegelung (Vorschauversion):** Wird verwendet, um Oracle
-        zu spiegeln.
+    g. **Oracle-Spiegelung (Vorschauversion):** Wird verwendet, um Oracle zu spiegeln.
 
-    h. **Gespiegelte Google BigQuery (Vorschauversion):** Wird verwendet,
-        um Google BigQuery zu spiegeln.
+    h. **Gespiegelte Google BigQuery (Vorschauversion):** Wird verwendet, um Google BigQuery zu spiegeln.
 
-    i. **Gespiegelte Azure Cosmos DB:** Wird verwendet, um Azure Cosmos DB
-        zu spiegeln.
+    i. **Gespiegelte Azure Cosmos DB:** Wird verwendet, um Azure Cosmos DB zu spiegeln.
 
-    j. **Gespiegelter SQL Server (Vorschauversion):** Wird verwendet, um
-        SQL Server zu spiegeln.
+    j. **Gespiegelter SQL Server (Vorschauversion):** Wird verwendet, um SQL Server zu spiegeln.
 
-    k. **Gespiegelte Azure Database for PostgreSQL (Vorschauversion):**
-        Wird verwendet, um Ihre vorhandene Azure Database for PostgreSQL zu
-        spiegeln.
+    k. **Gespiegelte Azure Database for PostgreSQL (Vorschauversion):** Wird verwendet, um Ihre vorhandene Azure Database for PostgreSQL zu spiegeln.
 
-    l. **Gespiegelte verwaltete Azure SQL-Datenbank:** Wird verwendet, um
-        verwaltete Azure SQL-Datenbanken für Hochverfügbarkeit und
-        Notfallwiederherstellung zu spiegeln.
+    l. **Gespiegelte verwaltete Azure SQL-Datenbank:** Wird verwendet, um verwaltete Azure SQL-Datenbanken für Hochverfügbarkeit und Notfallwiederherstellung zu spiegeln.
 
-    m. **Gespiegelte Datenbank (Vorschauversion):** Wird für das
-        Replizieren von Datenbanken für Hochverfügbarkeit und
-        Notfallwiederherstellung verwendet.
+    m. **Gespiegelte Datenbank (Vorschauversion):** Wird für das Replizieren von Datenbanken für Hochverfügbarkeit und Notfallwiederherstellung verwendet.
 
     **Erste Schritte:**
 
-    Befolgen Sie die folgenden Schritte, um mit der Verwendung von Data
-    Warehouse:
+    Befolgen Sie die folgenden Schritte, um mit der Verwendung von Data Warehouse:
 
-    a. **Ein Beispiel-Warehouse erkunden:** Ein neues Warehouse mit bereits
-        geladenen Beispieldaten starten
+    a. **Ein Beispiel-Warehouse erkunden:** Ein neues Warehouse mit bereits geladenen Beispieldaten starten
 
-    b. **Erste Schritte mit Warehouse:** Klicken Sie auf die Schaltfläche
-        „Öffnen", um zu erfahren, wie Sie ein Warehouse zum Analysieren von
-        Daten verwenden können.
+    b. **Erste Schritte mit Warehouse:** Klicken Sie auf die Schaltfläche „Öffnen", um zu erfahren, wie Sie ein Warehouse zum Analysieren von Daten verwenden können.
 
     ![](../media/lab-2/image32.png)
 
-### Aufgabe 10: Datenbanken-Funktionsbereich
+3. Klicken Sie in der oberen linken Ecke des Bildschirms auf „Zurück zu
+    Workloads". Auf diese Weise gelangen Sie zur Workloads-Hauptseite,
+    auf der Sie andere Tools oder Abschnitte erkunden können.
+
+    ![](../media/lab-2/image22.png)
+
+## Aufgabe 10: Datenbanken-Funktionsbereich
 
 1. Klicken Sie auf der Seite **Workloads** auf **Databases**, um
     fortzufahren.
@@ -776,34 +685,32 @@ incorrect.](../media/lab-2/image17.png)
     **Elementtypen:**
 
     a. **SQL-Datenbank (Vorschauversion):** Die SQL-Datenbank in Fabric ist
-        Teil der Datenbank-Workload, und auf die Daten kann von anderen
-        Elementen in Fabric aus zugegriffen werden. Ihre SQL-Datenbankdaten
-        werden auch in OneLake in einem abfragbaren Format auf dem neuesten
-        Stand gehalten, sodass Sie alle verschiedenen Dienste in Fabric
-        nutzen können, z. B. Analysen mit Spark, Ausführung von Notebooks,
-        Datentechnik, Visualisierung durch Power BI-Berichte und mehr.
+    Teil der Datenbank-Workload, und auf die Daten kann von anderen
+    Elementen in Fabric aus zugegriffen werden. Ihre SQL-Datenbankdaten
+    werden auch in OneLake in einem abfragbaren Format auf dem neuesten
+    Stand gehalten, sodass Sie alle verschiedenen Dienste in Fabric
+    nutzen können, z. B. Analysen mit Spark, Ausführung von Notebooks,
+    Datentechnik, Visualisierung durch Power BI-Berichte und mehr.
 
     b. **Cosmos DB (Vorschauversion):** Cosmos DB in Microsoft Fabric ist
-        eine KI-optimierte NoSQL-Datenbank mit einer vereinfachten
-        Verwaltung. Als Mitglied des Entwicklungsteams können Sie Cosmos DB
-        in Fabric nutzen, um KI-Anwendungen mit weniger Reibungsverlusten
-        und ohne die typischen Datenbankverwaltungsaufgaben zu erstellen.
+    eine KI-optimierte NoSQL-Datenbank mit einer vereinfachten
+    Verwaltung. Als Mitglied des Entwicklungsteams können Sie Cosmos DB
+    in Fabric nutzen, um KI-Anwendungen mit weniger Reibungsverlusten
+    und ohne die typischen Datenbankverwaltungsaufgaben zu erstellen.
 
     **Erste Schritte:**
 
     Befolgen Sie die folgenden Schritte, um mit der Verwendung von
     Datenbanken zu beginnen:
 
-    a. **Erkunden:** Klicken Sie auf „Öffnen", um eine Beispieldatenbank zu
-        erkunden
+    a. **Erkunden:** Klicken Sie auf „Öffnen", um eine Beispieldatenbank zu erkunden
 
     b. **Datenbankkonzepte:** In diesem Abschnitt werden allgemeine
-        Begriffe und Konzepte rund um Transaktionsdatenbanken erläutert,
-        damit Sie sich mit der Arbeit mit der SQL-Datenbank vertraut machen
-        können
+    Begriffe und Konzepte rund um Transaktionsdatenbanken erläutert,
+    damit Sie sich mit der Arbeit mit der SQL-Datenbank vertraut machen
+    können
 
-    c. **Datenbankvorlagen:** Durchsuchen Sie eine Bibliothek mit
-        vorgefertigten Vorlagen gängiger Datenbankdesigns
+    c. **Datenbankvorlagen:** Durchsuchen Sie eine Bibliothek mit vorgefertigten Vorlagen gängiger Datenbankdesigns
 
     ![](../media/lab-2/image34.png)
 
@@ -821,9 +728,9 @@ transformieren.
 
 # Referenzen
 
-Bei Fabric Analyst in a Day (FAIAD) lernen Sie einige der wichtigsten
+Bei Fabric Analyst in a Day (FAIAD. lernen Sie einige der wichtigsten
 Funktionen von Microsoft Fabric kennen. Im Menü des Dienstes finden Sie
-in der Hilfe (?) Links zu praktischen Informationen.
+in der Hilfe (?. Links zu praktischen Informationen.
 
 ![](../media/lab-2/image35.png)
 
@@ -833,21 +740,21 @@ Microsoft Fabric.
 - Lesen Sie den vollständigen Blogbeitrag 
 
 - Fabric bei einer [interaktiven
-  Vorstellung](https://aka.ms/Fabric-GuidedTour) kennenlernen
+  Vorstellung](https://aka.ms/Fabric-GuidedTour. kennenlernen
 
 - Zur [kostenlosen Testversion von Microsoft
-  Fabric](https://aka.ms/try-fabric) anmelden
+  Fabric](https://aka.ms/try-fabric. anmelden
 
 - [Website von Microsoft Fabric](https://aka.ms/microsoft-fabric)
   besuchen
 
-- Mit Modulen von [Fabric Learning](https://aka.ms/learn-fabric) neue
+- Mit Modulen von [Fabric Learning](https://aka.ms/learn-fabric. neue
   Qualifikationen erwerben
 
-- [Technische Dokumentation zu Fabric](https://aka.ms/fabric-docs) lesen
+- [Technische Dokumentation zu Fabric](https://aka.ms/fabric-docs. lesen
 
 - [Kostenloses E-Book zum Einstieg in
-  Fabric](https://aka.ms/fabric-get-started-ebook) lesen
+  Fabric](https://aka.ms/fabric-get-started-ebook. lesen
 
 - Mitglied der [Fabric-Community](https://aka.ms/fabric-community)
   werden, um Fragen zu stellen, Feedback zu geben und sich mit anderen
@@ -884,68 +791,68 @@ beschrieben werden:
 - [Blog zur Dataverse- und Microsoft
   Fabric-Integration](https://aka.ms/Dataverse-Fabric-Blog)
 
-> © 2023 Microsoft Corporation. Alle Rechte vorbehalten.
->
-> Durch die Verwendung der vorliegenden Demo/Übung stimmen Sie den
-> folgenden Bedingungen zu:
->
-> Die in dieser Demo/Übung beschriebene Technologie/Funktionalität wird
-> von der Microsoft Corporation bereitgestellt, um Feedback von Ihnen zu
-> erhalten und Ihnen Wissen zu vermitteln.
-> Sie dürfen die Demo/Übung nur verwenden, um derartige
-> Technologiefeatures und Funktionen zu bewerten und Microsoft Feedback
-> zu geben. Es ist Ihnen nicht erlaubt, sie für andere Zwecke
-> zu verwenden. Es ist Ihnen nicht gestattet, diese Demo/Übung oder
-> einen Teil derselben zu ändern, zu kopieren, zu verbreiten, zu
-> übertragen, anzuzeigen, auszuführen, zu vervielfältigen,
-> zu veröffentlichen, zu lizenzieren, zu transferieren oder zu verkaufen
-> oder aus ihr abgeleitete Werke zu erstellen.
->
-> DAS KOPIEREN ODER VERVIELFÄLTIGEN DER DEMO/ÜBUNG (ODER EINES TEILS
-> DERSELBEN) AUF EINEN/EINEM ANDEREN SERVER ODER SPEICHERORT FÜR DIE
-> WEITERE VERVIELFÄLTIGUNG ODER VERBREITUNG IST AUSDRÜCKLICH UNTERSAGT.
->
-> DIESE DEMO/ÜBUNG STELLT BESTIMMTE
-> SOFTWARE-TECHNOLOGIE-/PRODUKTFEATURES UND FUNKTIONEN, EINSCHLIESSLICH
-> POTENZIELLER NEUER FEATURES UND KONZEPTE, IN EINER SIMULIERTEN
-> UMGEBUNG OHNE KOMPLEXE EINRICHTUNG ODER INSTALLATION FÜR DEN OBEN
-> BESCHRIEBENEN ZWECK BEREIT. DIE TECHNOLOGIE/KONZEPTE IN DIESER
-> DEMO/ÜBUNG ZEIGEN MÖGLICHERWEISE NICHT DAS VOLLSTÄNDIGE
-> FUNKTIONSSPEKTRUM UND FUNKTIONIEREN MÖGLICHERWEISE NICHT WIE DIE
-> ENDGÜLTIGE VERSION. UNTER UMSTÄNDEN VERÖFFENTLICHEN WIR AUCH KEINE
-> ENDGÜLTIGE VERSION DERARTIGER FEATURES ODER KONZEPTE. IHRE ERFAHRUNG
-> BEI DER VERWENDUNG DERARTIGER FEATURES UND FUNKTIONEN IN EINER
-> PHYSISCHEN UMGEBUNG KANN FERNER ABWEICHEND SEIN.
->
-> **FEEDBACK.** Wenn Sie Feedback zu den Technologiefeatures, Funktionen
-> und/oder Konzepten geben, die in dieser Demo/Übung beschrieben werden,
-> gewähren Sie Microsoft das Recht, Ihr Feedback in jeglicher Weise und
-> für jeglichen Zweck kostenlos zu verwenden, zu veröffentlichen und
-> gewerblich zu nutzen. Außerdem treten Sie Dritten kostenlos sämtliche
-> Patentrechte ab, die erforderlich sind, damit deren Produkte,
-> Technologien und Dienste bestimmte Teile einer Software oder eines
-> Dienstes von Microsoft, welche/welcher das Feedback enthält, verwenden
-> oder eine Verbindung zu dieser/diesem herstellen können. Sie geben
-> kein Feedback, das einem Lizenzvertrag unterliegt, aufgrund dessen
-> Microsoft Drittparteien eine Lizenz für seine Software oder
-> Dokumentation gewähren muss, weil wir Ihr Feedback in diese aufnehmen.
-> Diese Rechte bestehen nach Ablauf dieser Vereinbarung fort.
->
-> DIE MICROSOFT CORPORATION LEHNT HIERMIT JEGLICHE GEWÄHRLEISTUNGEN UND
-> GARANTIEN IN BEZUG AUF DIE DEMO/ÜBUNG AB, EINSCHLIESSLICH ALLER
-> AUSDRÜCKLICHEN, KONKLUDENTEN ODER GESETZLICHEN GEWÄHRLEISTUNGEN UND
-> GARANTIEN DER HANDELSÜBLICHKEIT, DER EIGNUNG FÜR EINEN BESTIMMTEN
-> ZWECK, DES RECHTSANSPRUCHS UND DER NICHTVERLETZUNG VON RECHTEN
-> DRITTER. MICROSOFT MACHT KEINERLEI ZUSICHERUNGEN BZW. ERHEBT KEINERLEI
-> ANSPRÜCHE IM HINBLICK AUF DIE RICHTIGKEIT DER ERGEBNISSE UND DES AUS
-> DER VERWENDUNG DER DEMO/ÜBUNG RESULTIERENDEN ARBEITSERGEBNISSES BZW.
-> BEZÜGLICH DER EIGNUNG DER IN DER DEMO/ÜBUNG ENTHALTENEN INFORMATIONEN
-> FÜR EINEN BESTIMMTEN ZWECK.
->
-> **HAFTUNGSAUSSCHLUSS**
->
-> Diese Demo/Übung enthält nur einen Teil der neuen Features und
-> Verbesserungen in Microsoft Power BI. Einige Features können sich
-> unter Umständen in zukünftigen Versionen des Produkts ändern. In
-> dieser Demo/Übung erhalten Sie Informationen über einige, aber nicht
-> über alle neuen Features.
+© 2025 Microsoft Corporation. Alle Rechte vorbehalten.
+
+Durch die Verwendung der vorliegenden Demo/Übung stimmen Sie den
+folgenden Bedingungen zu:
+
+Die in dieser Demo/Übung beschriebene Technologie/Funktionalität wird
+von der Microsoft Corporation bereitgestellt, um Feedback von Ihnen zu
+erhalten und Ihnen Wissen zu vermitteln.
+Sie dürfen die Demo/Übung nur verwenden, um derartige
+Technologiefeatures und Funktionen zu bewerten und Microsoft Feedback
+zu geben. Es ist Ihnen nicht erlaubt, sie für andere Zwecke
+zu verwenden. Es ist Ihnen nicht gestattet, diese Demo/Übung oder
+einen Teil derselben zu ändern, zu kopieren, zu verbreiten, zu
+übertragen, anzuzeigen, auszuführen, zu vervielfältigen,
+zu veröffentlichen, zu lizenzieren, zu transferieren oder zu verkaufen
+oder aus ihr abgeleitete Werke zu erstellen.
+
+DAS KOPIEREN ODER VERVIELFÄLTIGEN DER DEMO/ÜBUNG (ODER EINES TEILS
+DERSELBEN. AUF EINEN/EINEM ANDEREN SERVER ODER SPEICHERORT FÜR DIE
+WEITERE VERVIELFÄLTIGUNG ODER VERBREITUNG IST AUSDRÜCKLICH UNTERSAGT.
+
+DIESE DEMO/ÜBUNG STELLT BESTIMMTE
+SOFTWARE-TECHNOLOGIE-/PRODUKTFEATURES UND FUNKTIONEN, EINSCHLIESSLICH
+POTENZIELLER NEUER FEATURES UND KONZEPTE, IN EINER SIMULIERTEN
+UMGEBUNG OHNE KOMPLEXE EINRICHTUNG ODER INSTALLATION FÜR DEN OBEN
+BESCHRIEBENEN ZWECK BEREIT. DIE TECHNOLOGIE/KONZEPTE IN DIESER
+DEMO/ÜBUNG ZEIGEN MÖGLICHERWEISE NICHT DAS VOLLSTÄNDIGE
+FUNKTIONSSPEKTRUM UND FUNKTIONIEREN MÖGLICHERWEISE NICHT WIE DIE
+ENDGÜLTIGE VERSION. UNTER UMSTÄNDEN VERÖFFENTLICHEN WIR AUCH KEINE
+ENDGÜLTIGE VERSION DERARTIGER FEATURES ODER KONZEPTE. IHRE ERFAHRUNG
+BEI DER VERWENDUNG DERARTIGER FEATURES UND FUNKTIONEN IN EINER
+PHYSISCHEN UMGEBUNG KANN FERNER ABWEICHEND SEIN.
+
+**FEEDBACK.** Wenn Sie Feedback zu den Technologiefeatures, Funktionen
+und/oder Konzepten geben, die in dieser Demo/Übung beschrieben werden,
+gewähren Sie Microsoft das Recht, Ihr Feedback in jeglicher Weise und
+für jeglichen Zweck kostenlos zu verwenden, zu veröffentlichen und
+gewerblich zu nutzen. Außerdem treten Sie Dritten kostenlos sämtliche
+Patentrechte ab, die erforderlich sind, damit deren Produkte,
+Technologien und Dienste bestimmte Teile einer Software oder eines
+Dienstes von Microsoft, welche/welcher das Feedback enthält, verwenden
+oder eine Verbindung zu dieser/diesem herstellen können. Sie geben
+kein Feedback, das einem Lizenzvertrag unterliegt, aufgrund dessen
+Microsoft Drittparteien eine Lizenz für seine Software oder
+Dokumentation gewähren muss, weil wir Ihr Feedback in diese aufnehmen.
+Diese Rechte bestehen nach Ablauf dieser Vereinbarung fort.
+
+DIE MICROSOFT CORPORATION LEHNT HIERMIT JEGLICHE GEWÄHRLEISTUNGEN UND
+GARANTIEN IN BEZUG AUF DIE DEMO/ÜBUNG AB, EINSCHLIESSLICH ALLER
+AUSDRÜCKLICHEN, KONKLUDENTEN ODER GESETZLICHEN GEWÄHRLEISTUNGEN UND
+GARANTIEN DER HANDELSÜBLICHKEIT, DER EIGNUNG FÜR EINEN BESTIMMTEN
+ZWECK, DES RECHTSANSPRUCHS UND DER NICHTVERLETZUNG VON RECHTEN
+DRITTER. MICROSOFT MACHT KEINERLEI ZUSICHERUNGEN BZW. ERHEBT KEINERLEI
+ANSPRÜCHE IM HINBLICK AUF DIE RICHTIGKEIT DER ERGEBNISSE UND DES AUS
+DER VERWENDUNG DER DEMO/ÜBUNG RESULTIERENDEN ARBEITSERGEBNISSES BZW.
+BEZÜGLICH DER EIGNUNG DER IN DER DEMO/ÜBUNG ENTHALTENEN INFORMATIONEN
+FÜR EINEN BESTIMMTEN ZWECK.
+
+**HAFTUNGSAUSSCHLUSS**
+
+Diese Demo/Übung enthält nur einen Teil der neuen Features und
+Verbesserungen in Microsoft Power BI. Einige Features können sich
+unter Umständen in zukünftigen Versionen des Produkts ändern. In
+dieser Demo/Übung erhalten Sie Informationen über einige, aber nicht
+über alle neuen Features.
