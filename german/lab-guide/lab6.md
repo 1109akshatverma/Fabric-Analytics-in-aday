@@ -33,9 +33,7 @@ Am Ende dieser Übung haben Sie Folgendes gelernt:
 
 ## Aufgabe 1: Daten mithilfe von SQL abfragen
 
-1. Navigieren wir nun zurück zum Fabric-Arbeitsbereich
-    **FAIAD_<inject key="Deployment ID" enableCopy="false"/>**, den Sie in Übung 2, Aufgabe 8, erstellt
-    haben.
+1. Navigieren wir nun zurück zum Fabric-Arbeitsbereich **FAIAD_<inject key="Deployment ID" enableCopy="false"/>**, den Sie in Übung 2, Aufgabe 8, erstellt haben.
 
 2. Sie können bei Bedarf den **Aufgabenfluss minimieren**, um die
     vollständige Liste der Elemente anzuzeigen.
@@ -44,8 +42,7 @@ Am Ende dieser Übung haben Sie Folgendes gelernt:
     Semantikmodell und dem SQL-Endpunkt zusammenhängen. In einer
     früheren Übung haben wir uns mit Lakehouse beschäftigt und
     Visual-Abfragen mithilfe des SQL-Analyseendpunkts erstellt. Wählen
-    Sie die Option **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** in der linken
-    Navigationsleiste aus, und wählen Sie dann die Option
+    Sie die Option **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** in der linken Navigationsleiste aus, und wählen Sie dann die Option
     **Analyse-Endpunkt lh_FAIAD SQL** aus, um diese Option weiter zu
     untersuchen. Sie werden zur **SQL-Ansicht** des Explorers
     weitergeleitet.
@@ -101,8 +98,7 @@ Am Ende dieser Übung haben Sie Folgendes gelernt:
     anzuzeigen, die an Sie freigegeben wurden. Öffnen Sie dazu den
     Ordner **Freigegebene Abfragen**.
 
-    > **Hinweis:** Visual-Abfragen, die Sie in früheren Übungen erstellt
-    > haben, sind auch im Ordner „Meine Abfragen" verfügbar.
+    > **Hinweis:** Visual-Abfragen, die Sie in früheren Übungen erstellt haben, sind auch im Ordner „Meine Abfragen" verfügbar.
 
     ![](../media/lab-6/image7.png)
 
@@ -126,8 +122,7 @@ Am Ende dieser Übung haben Sie Folgendes gelernt:
     hinzufügen usw. Wir werden uns in diesem Kurs nicht mit diesen Optionen
     beschäftigen.
 
-4. Erweitern Sie den Bereich **Daten**, und erweitern Sie **SQL query
-    1**.
+4. Erweitern Sie den Bereich **Daten**, und erweitern Sie **SQL query 1**.
 
 5. Wählen Sie die Felder **Supplier_Name** und **Units** aus. Das
     Tabellenvisual wird erstellt.
@@ -467,7 +462,7 @@ Ergänzen wir die restlichen Beziehungen.
 
 25. Wählen Sie **Speichern** aus.
 
-    **Prüfpunkt:** „Beziehungen verwalten" sollte so wie im Screenshot unten
+    >**Prüfpunkt:** „Beziehungen verwalten" sollte so wie im Screenshot unten
     aussehen.
 
     ![](../media/lab-6/image32.png)
@@ -520,15 +515,11 @@ Ergänzen wir die restlichen Measures.
 
 8. Fügen Sie auf gleiche Weise die folgenden Measures hinzu:
 
-    a.  In der Tabelle **Sales** ist **GM = SUM('Sales'[LineProfit])**
-        formatiert als **Währung mit 0 Dezimalstellen**.
+    a. In der Tabelle **Sales** ist **GM = SUM('Sales'[LineProfit])** formatiert als **Währung mit 0 Dezimalstellen**.
 
-    b.  In der Tabelle **Sales**, **GM% = DIVIDE([GM], [Sales])**
-        formatiert als **Prozentsatz mit 0 Dezimalstellen**.
+    b. In der Tabelle **Sales**, **GM% = DIVIDE([GM], [Sales])** formatiert als **Prozentsatz mit 0 Dezimalstellen**.
 
-    c.  In der Tabelle **Customer, No of Customers =
-        COUNTROWS(Customer)** formatiert als **Ganze Zahl mit
-        aktiviertem Tausendertrennzeichen**.
+    c. In der Tabelle **Customer, No of Customers = COUNTROWS(Customer)** formatiert als **Ganze Zahl mit aktiviertem Tausendertrennzeichen**.
 
 # Referenzen
 

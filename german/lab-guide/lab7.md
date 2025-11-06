@@ -77,14 +77,11 @@ neu erstellen.
     möchte, wenn die Seite geöffnet wird. Beachten Sie, dass wir über
     mehrere Optionen verfügen. **Wählen Sie sm_FAIADaus**.
 
-    a.  **sm_FAIAD**: Dies ist das semantische Modell, das wir erstellt
-        haben und zum Erstellen des Berichts verwenden möchten.
+    a. **sm_FAIAD**: Dies ist das semantische Modell, das wir erstellt haben und zum Erstellen des Berichts verwenden möchten.
 
-    b.  **lh_FAIAD**: Dies ist das Lakehouse, in dem wir alle Daten
-        erfasst haben.
+    b. **lh_FAIAD**: Dies ist das Lakehouse, in dem wir alle Daten erfasst haben.
 
-    c.  **Units by Supplier:** Dies ist das DataSet, das wir mit T-SQL
-        erstellt haben.
+    c. **Units by Supplier:** Dies ist das DataSet, das wir mit T-SQL erstellt haben.
 
 7. Klicken Sie auf den **Pfeil neben der Schaltfläche „Bericht
     automatisch erstellen"**. Beachten Sie, dass es zwei Optionen gibt:
@@ -322,9 +319,9 @@ Modell vorzunehmen.
 
 1. Wählen Sie im Menü **Datei -> Speichern** aus.
 
-2. Das Dialogfeld „Bericht speichern" wird geöffnet. Geben Sie dem
-    Bericht den Namen **rpt_Sales_Report**.
-    **Hinweis:** Wir stellen dem Berichtsnamen das Präfix „rpt" voran,
+2. Das Dialogfeld „Bericht speichern" wird geöffnet. Geben Sie dem Bericht den Namen **rpt_Sales_Report**.
+
+    >**Hinweis:** Wir stellen dem Berichtsnamen das Präfix „rpt" voran,
     was für „Bericht" steht.
 
 3. Stellen Sie sicher, dass der Bericht im Arbeitsbereich
@@ -397,7 +394,7 @@ Modell vorzunehmen.
 
     ![](../media/lab-7/image30.png)
 
-    **Hinweis:** Die Monate sind alphabetisch sortiert. Lassen Sie uns
+    >**Hinweis:** Die Monate sind alphabetisch sortiert. Lassen Sie uns
     dieses Problem beheben.
 
     ![](../media/lab-7/image31.png)
@@ -598,8 +595,7 @@ aktualisieren.
 2. Klicken Sie in der unteren rechten Ecke auf das **Fabric-Logo**, und
     wechseln Sie zur **Fabric-Ansicht**.
 
-3. Wählen Sie in der linken Menüleiste **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** aus,
-    um zur Startseite des Arbeitsbereichs zu wechseln.
+3. Wählen Sie in der linken Menüleiste **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** aus, um zur Startseite des Arbeitsbereichs zu wechseln.
 
 4. Wählen Sie **lh_FAIAD** aus, um zum Lakehouse zu navigieren.
 
@@ -626,17 +622,13 @@ aktualisieren.
     folgenden Schritte aus, wenn Sie diese Verbindung nicht bereits
     früher im Kurs erstellt haben:
 
-10. Geben Sie unter **Verbindungseinstellungen -> URL** diesen Link
-    [https://stvnextblobstorage.dfs.core.windows.net/fabrikam-sales
-    ein](https://stvnextblobstorage.dfs.core.windows.net/fabrikam-sales%20ein).
+10. Geben Sie unter **Verbindungseinstellungen -> URL** diesen Link **https://stvnextblobstorage.dfs.core.windows.net/fabrikam-sales**
 
 11. Wählen Sie **Weiter** aus.
 
     ![](../media/lab-7/image48.png)
 
-12. Sie werden mit ADLS Gen2 verbunden und die Verzeichnisstruktur wird
-    im linken Bereich angezeigt. Erweitern Sie
-    **Delta-Parquet-Format-FY25**.
+12. Sie werden mit ADLS Gen2 verbunden und die Verzeichnisstruktur wird im linken Bereich angezeigt. Erweitern Sie **Delta-Parquet-Format-FY25**.
 
 13. Wählen Sie **Sales.Invoices_May** aus.
 
@@ -831,74 +823,72 @@ aktualisieren.
 
     ![](../media/lab-7/image53.png)
 
-Wir müssen das Datenmodell und den Bericht nicht aktualisieren, wenn
-Daten geändert werden. Dies ist der Vorteil von Direct Lake und der
-Direct Query.
+    Wir müssen das Datenmodell und den Bericht nicht aktualisieren, wenn
+    Daten geändert werden. Dies ist der Vorteil von Direct Lake und der
+    Direct Query.
 
-Sehen wir uns noch einmal die Herausforderungen an, die in der
-Problemstellung aufgeführt sind:
+    Sehen wir uns noch einmal die Herausforderungen an, die in der
+    Problemstellung aufgeführt sind:
 
-- **Das Dataset muss mindestens dreimal täglich aktualisiert werden, um
-  den verschiedenen Aktualisierungszeiten der Datenquellen Rechnung zu
-  tragen.**
+    - **Das Dataset muss mindestens dreimal täglich aktualisiert werden, um
+    den verschiedenen Aktualisierungszeiten der Datenquellen Rechnung zu
+    tragen.**
 
-Wir haben dieses Problem mithilfe von Direct Lake gelöst. Jeder einzelne
-Dataflow wird nach seinem Zeitplan aktualisiert. Datasets und Berichte
-müssen nicht aktualisiert werden.
+    Wir haben dieses Problem mithilfe von Direct Lake gelöst. Jeder einzelne
+    Dataflow wird nach seinem Zeitplan aktualisiert. Datasets und Berichte
+    müssen nicht aktualisiert werden.
 
-- **Ihre Aktualisierungsvorgänge dauern lange, weil die Daten jedes Mal
-  komplett aktualisiert werden müssen, um alle Änderungen an den Daten
-  in den Quellsystemen zu erfassen.**
+    - **Ihre Aktualisierungsvorgänge dauern lange, weil die Daten jedes Mal
+    komplett aktualisiert werden müssen, um alle Änderungen an den Daten
+    in den Quellsystemen zu erfassen.**
 
-Auch hier haben wir dieses Problem mithilfe von Direct Lake gelöst.
-Jeder einzelne Dataflow wird nach seinem Zeitplan aktualisiert. Datasets
-und Berichte müssen nicht aktualisiert werden, sodass wir uns keine
-Sorgen über eine vollständige Aktualisierung machen müssen.
+    Auch hier haben wir dieses Problem mithilfe von Direct Lake gelöst.
+    Jeder einzelne Dataflow wird nach seinem Zeitplan aktualisiert. Datasets
+    und Berichte müssen nicht aktualisiert werden, sodass wir uns keine
+    Sorgen über eine vollständige Aktualisierung machen müssen.
 
-- **Tritt in den Datenquellen, aus denen die Daten abgerufen werden, ein
-  Fehler auf, wird die DataSet-Aktualisierung abgebrochen. Oftmals wird
-  die Mitarbeiterdatei nicht pünktlich hochgeladen, was ebenso zum
-  Abbruch der DataSet-Aktualisierung führt.**
+    - **Tritt in den Datenquellen, aus denen die Daten abgerufen werden, ein
+    Fehler auf, wird die DataSet-Aktualisierung abgebrochen. Oftmals wird
+    die Mitarbeiterdatei nicht pünktlich hochgeladen, was ebenso zum
+    Abbruch der DataSet-Aktualisierung führt.**
 
-Datenpipelines helfen, dieses Problem zu lösen, indem sie die
-Möglichkeit bieten, die Aktualisierung bei Fehlern und in verschiedenen
-Intervallen zu wiederholen.
+    Datenpipelines helfen, dieses Problem zu lösen, indem sie die
+    Möglichkeit bieten, die Aktualisierung bei Fehlern und in verschiedenen
+    Intervallen zu wiederholen.
 
-- **Änderungen am Datenmodell nehmen sehr viel Zeit in Anspruch, weil
-  Power Query aufgrund der großen Datenmenge und des aufwändigen
-  Transformationsvorgangs sehr lange braucht, um die Vorschauversionen
-  zu aktualisieren.**
+    - **Änderungen am Datenmodell nehmen sehr viel Zeit in Anspruch, weil
+    Power Query aufgrund der großen Datenmenge und des aufwändigen
+    Transformationsvorgangs sehr lange braucht, um die Vorschauversionen
+    zu aktualisieren.**
 
-Wir haben festgestellt, dass Dataflows und Lakehouses effizient und
-einfach zu ändern sind. Das Laden der Vorschauversion in Dataflows und
-Lakehouses dauert in der Regel nicht lange.
+    Wir haben festgestellt, dass Dataflows und Lakehouses effizient und
+    einfach zu ändern sind. Das Laden der Vorschauversion in Dataflows und
+    Lakehouses dauert in der Regel nicht lange.
 
-- **Für Power BI Desktop brauchen Sie einen PC mit Windows, auch wenn im
-  Unternehmen Mac-Geräte genutzt werden.**
+    - **Für Power BI Desktop brauchen Sie einen PC mit Windows, auch wenn im
+    Unternehmen Mac-Geräte genutzt werden.**
 
-Microsoft Fabric ist ein SaaS-Angebot. Wir benötigen lediglich einen
-Browser, um auf den Dienst zuzugreifen. Wir müssen keine Software auf
-unseren Desktops installieren.
+    Microsoft Fabric ist ein SaaS-Angebot. Wir benötigen lediglich einen
+    Browser, um auf den Dienst zuzugreifen. Wir müssen keine Software auf
+    unseren Desktops installieren.
 
 # Übungsumgebung bereinigen
 
 Wenn Sie bereit sind, die Übungsumgebung zu bereinigen, führen Sie die
 folgenden Schritte aus.
 
-1.  Wählen Sie im linken Bereich den Arbeitsbereich
-    **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** aus, um zur Startseite des
-    Arbeitsbereichs zu navigieren.
+1. Wählen Sie im linken Bereich den Arbeitsbereich **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** aus, um zur Startseite des Arbeitsbereichs zu navigieren.
 
-2.  Wählen Sie im oberen Menü **Arbeitsbereichseinstellungen** aus.
+2. Wählen Sie im oberen Menü **Arbeitsbereichseinstellungen** aus.
 
     ![](../media/lab-7/image54.png)
 
-3.  Das Dialogfeld „Arbeitsbereichseinstellungen" wird geöffnet.
+3. Das Dialogfeld „Arbeitsbereichseinstellungen" wird geöffnet.
     Scrollen Sie im Abschnitt **Allgemein** nach unten.
 
-4.  Wählen Sie **Diesen Arbeitsbereich entfernen** aus.
+4. Wählen Sie **Diesen Arbeitsbereich entfernen** aus.
 
-5.  Das Dialogfeld „Arbeitsbereich löschen" wird angezeigt. Wählen Sie
+5. Das Dialogfeld „Arbeitsbereich löschen" wird angezeigt. Wählen Sie
     **Löschen** aus.
 
     Dadurch werden der Arbeitsbereich und alle darin enthaltenen Elemente
@@ -912,7 +902,7 @@ Bei Fabric Analyst in a Day (FAIAD) lernen Sie einige der wichtigsten
 Funktionen von Microsoft Fabric kennen. Im Menü des Dienstes finden Sie
 in der Hilfe (?) Links zu praktischen Informationen.
 
-    ![](../media/lab-7/image56.png)
+![](../media/lab-7/image56.png)
 
 Nachfolgend finden Sie weitere Angebote zur weiteren Arbeit mit
 Microsoft Fabric.

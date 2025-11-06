@@ -65,7 +65,7 @@ Beginnen wir damit, eine geplante Aktualisierung des
 Lieferanten-Dataflows zu konfigurieren.
 
 1. Wir navigieren zurück zum
-    Fabric-Arbeitsbereich,**FAIAD_<inject key="Deployment ID" enableCopy="false"/>**,
+    Fabric-Arbeitsbereich, **FAIAD_<inject key="Deployment ID" enableCopy="false"/>**,
     indem wir den Arbeitsbereich im linken Bereich auswählen.
 
 2. Zum Maximieren des Bereichs mit der Liste der Artefakte wählen Sie
@@ -88,7 +88,7 @@ Lieferanten-Dataflows zu konfigurieren.
 
     ![](../media/lab-5/image8.png)
 
-    **Hinweis:** Auf der rechten Seite wird ein Fenster/Bereich mit einer
+    >**Hinweis:** Auf der rechten Seite wird ein Fenster/Bereich mit einer
     Liste der Aktualisierungen angezeigt.
 
 6. Sie werden feststellen, dass es eine Aktualisierung gibt, die
@@ -102,7 +102,7 @@ Lieferanten-Dataflows zu konfigurieren.
 
 7. Wählen Sie den Link **Startzeit** aus.
 
-    **Hinweis:** Die Startzeit ist für Sie unterschiedlich.
+    >**Hinweis:** Die Startzeit ist für Sie unterschiedlich.
 
     ![](../media/lab-5/image10.png)
 
@@ -135,6 +135,7 @@ Lieferanten-Dataflows zu konfigurieren.
     **Endorsement:** Hier können wir angeben, ob der Dataflow das Tag
     **Heraufgestuft** oder **Zertifiziert** tragen soll, damit andere
     ihn sehen können.
+
     **Planen:** Hier können wir Dataflows planen.
 
     ![](../media/lab-5/image13.png)
@@ -153,7 +154,7 @@ Lieferanten-Dataflows zu konfigurieren.
 15. Für die Eigenschaft **Zeit** können wir **12:00 AM (2)** angeben, da
     wir Mitternacht festlegen möchten.
 
-    **Hinweis:** Durch Klicken auf den Link „Andere Uhrzeit hinzufügen"
+    >**Hinweis:** Durch Klicken auf den Link „Andere Uhrzeit hinzufügen"
     können Sie mehrere Aktualisierungszeiten hinzufügen.
 
 16. Sie können auch **Startdatum und -zeit (3)** sowie **Enddatum und
@@ -224,7 +225,7 @@ dieses Problem zu beheben.
     Sie Optionen zum Anzeigen des Codes im JSON-Format. Außerdem sind
     Optionen zum automatischen Ausrichten der Aktivitäten verfügbar.
 
-    **Hinweis:** Wenn Sie am Ende der Übung über einen JSON-Hintergrund
+    >**Hinweis:** Wenn Sie am Ende der Übung über einen JSON-Hintergrund
     verfügen, können Sie auch „JSON-Code anzeigen" auswählen. Hier sehen
     Sie, dass die gesamte Orchestrierung, die Sie über die Entwurfsansicht
     durchführen, auch in JSON geschrieben werden kann.
@@ -315,7 +316,7 @@ neuen Datenpipeline erreicht werden kann.
 1. Wählen Sie im linken Bereich **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** aus, um zur
     Startseite des Arbeitsbereichs zu gelangen.
 
-2. Klicken Sie im oberen Menü auf +**Neues Element (1)** und im
+2. Klicken Sie im oberen Menü auf **+ Neues Element (1)** und im
     Popout-Fenster auf **Data pipeline (2)**.
 
     ![](../media/lab-5/image24.png)
@@ -379,21 +380,13 @@ neuen Datenpipeline erreicht werden kann.
 
 11. Fügen Sie auf die gleiche Weise drei weitere Variablen hinzu:
 
-    a.  **varIsSuccess** vom Typ **String** und Standardwert **No**.
-        Diese Variable wird verwendet, um anzuzeigen, ob die
-        Dataflow-Aktualisierung erfolgreich war.
+    a. **varIsSuccess** vom Typ **String** und Standardwert **No**. Diese Variable wird verwendet, um anzuzeigen, ob die Dataflow-Aktualisierung erfolgreich war.
 
-    b.  **varSuccess** vom Typ **String** und Standardwert **Yes**.
-        Diese Variable wird verwendet, um den Wert „varIsSuccess"
-        festzulegen, wenn die Dataflow-Aktualisierung erfolgreich ist.
+    b. **varSuccess** vom Typ **String** und Standardwert **Yes**. Diese Variable wird verwendet, um den Wert „varIsSuccess" festzulegen, wenn die Dataflow-Aktualisierung erfolgreich ist.
 
-    c.  **varWaitTime** vom Typ **Integer** und Standardwert **60**. Mit
-        dieser Variablen wird die Wartezeit festgelegt, wenn der
-        Dataflow fehlschlägt (entweder 5 Minuten/300 Sekunden oder 15
-        Minuten/900 Sekunden).
+    c. **varWaitTime** vom Typ **Integer** und Standardwert **60**. Mit dieser Variablen wird die Wartezeit festgelegt, wenn der Dataflow fehlschlägt (entweder 5 Minuten/300 Sekunden oder 15 Minuten/900 Sekunden).
 
-    >**Hinweis:** Achten Sie darauf, dass vor oder nach dem Variablennamen
-    kein Leerzeichen vorhanden ist.
+    >**Hinweis:** Achten Sie darauf, dass vor oder nach dem Variablennamen kein Leerzeichen vorhanden ist.
 
     ![](../media/lab-5/image28.png)
 
@@ -432,33 +425,15 @@ neuen Datenpipeline erreicht werden kann.
 8. Das Dialogfeld **Pipeline-Ausdrucks-Generator** wird geöffnet. In
     der unteren Hälfte des Dialogfelds finden Sie ein Menü:
 
-    a. **Parameter:** Hierbei handelt es sich um Konstanten in einer
-        Data Factory, die von einer Pipeline in jedem Ausdruck verwendet
-        werden können.
+    a. **Parameter:** Hierbei handelt es sich um Konstanten in einer Data Factory, die von einer Pipeline in jedem Ausdruck verwendet werden können.
 
-    b. **Systemvariablen:** Diese Variablen können in Ausdrücken
-        verwendet werden, wenn Entitäten in einem der Dienste definiert
-        werden. Zum Beispiel Pipeline-ID, Pipeline-Name, Triggername
-        usw.
+    b. **Systemvariablen:** Diese Variablen können in Ausdrücken verwendet werden, wenn Entitäten in einem der Dienste definiert werden. Zum Beispiel Pipeline-ID, Pipeline-Name, Triggername usw.
 
-    c. **Trigger-Parameter**: Parameter, die die Pipeline ausgelöst
-        haben. Zum Beispiel Dateiname oder Ordnerpfad.
+    c. **Trigger-Parameter**: Parameter, die die Pipeline ausgelöst haben. Zum Beispiel Dateiname oder Ordnerpfad.
 
-    d. **Funktionen:** Sie können Funktionen innerhalb von Ausdrücken
-        aufrufen. Die Funktionen sind in die Kategorien „Sammlung",
-        „Konvertierung", „Datum", „Logisch", „Mathematik" und
-        „Zeichenfolge" unterteilt. „concat" ist beispielsweise eine
-        Zeichenfolgenfunktion, „add" ist eine mathematische Funktion
-        usw.
+    d. **Funktionen:** Sie können Funktionen innerhalb von Ausdrücken aufrufen. Die Funktionen sind in die Kategorien „Sammlung", „Konvertierung", „Datum", „Logisch", „Mathematik" und „Zeichenfolge" unterteilt. „concat" ist beispielsweise eine Zeichenfolgenfunktion, „add" ist eine mathematische Funktion usw.
 
-    e. **Variablen:** Pipeline-Variablen sind Werte, die während einer
-        Pipeline-Ausführung festgelegt und geändert werden können. Im
-        Gegensatz zu Pipeline-Parametern, die auf Pipeline-Ebene
-        definiert werden und während einer Pipeline-Ausführung nicht
-        geändert werden können, lassen sich Pipeline-Variablen innerhalb
-        einer Pipeline mit der Aktivität „Variable festlegen" festlegen
-        und ändern. Wir werden die Aktivität „Variable festlegen" in
-        Kürze verwenden.
+    e. **Variablen:** Pipeline-Variablen sind Werte, die während einer Pipeline-Ausführung festgelegt und geändert werden können. Im Gegensatz zu Pipeline-Parametern, die auf Pipeline-Ebene definiert werden und während einer Pipeline-Ausführung nicht geändert werden können, lassen sich Pipeline-Variablen innerhalb einer Pipeline mit der Aktivität „Variable festlegen" festlegen und ändern. Wir werden die Aktivität „Variable festlegen" in Kürze verwenden.
 
     ![](../media/lab-5/image31.png)
 
@@ -526,8 +501,8 @@ neuen Datenpipeline erreicht werden kann.
 
 23. Ihr Ausdruck sollte folgendermaßen lauten:
 
-**@or(equals(variables('varCounter'),3),equals(variables('varIsSuccess'),
-variables('varSuccess')))**
+    **@or(equals(variables('varCounter'),3),equals(variables('varIsSuccess'),
+    variables('varSuccess')))**
 
 24. Wählen Sie **OK** aus.
 
@@ -590,22 +565,18 @@ den Wert der Variablen „varIsSuccess" auf „Ja" festzulegen.
 4. Geben Sie im Feld **Beschreibung** **Variable „varIsSuccess" auf
     „Ja" festlegen** aus.
 
-    **Hinweis:** Zeigen Sie mit der Mais auf **Dataflow-Aktivität**. Rechts
+    >**Hinweis:** Zeigen Sie mit der Mais auf **Dataflow-Aktivität**. Rechts
     neben dem Aktivitätsfeld befinden sich vier Symbole. Diese können
     verwendet werden, um basierend auf dem Ergebnis der Aktivität eine
     Verbindung zur nächsten Aktivität herzustellen:
 
-    a. Das Symbol **Grauer gebogener Pfeil** dient zum Überspringen der
-        Aktivität.
+    a. Das Symbol **Grauer gebogener Pfeil** dient zum Überspringen der Aktivität.
 
-    b. Das Symbol **Grünes Häkchen** wird bei erfolgreicher Ausführung der
-        Aktivität verwendet.
+    b. Das Symbol **Grünes Häkchen** wird bei erfolgreicher Ausführung der Aktivität verwendet.
 
-    c. Das Symbol **Rotes X** wird verwendet, wenn die Aktivität nicht
-        erfolgreich war.
+    c. Das Symbol **Rotes X** wird verwendet, wenn die Aktivität nicht erfolgreich war.
 
-    d. Das Symbol **Blauer gerader Pfeil** wird nach Abschluss der
-        Aktivität verwendet.
+    d. Das Symbol **Blauer gerader Pfeil** wird nach Abschluss der Aktivität verwendet.
 
 5. Klicken Sie auf das **grüne Häkchen** der Dataflow-Aktivität
     „dfactivity_People_SharePoint", und ziehen Sie es, um eine
@@ -874,7 +845,7 @@ Wartezeit festzulegen.
 
 8. Legen Sie Ihre **Zeitzone** fest.
 
-    **Hinweis**: Da es sich um eine Übungsumgebung handelt, können Sie die
+    >**Hinweis**: Da es sich um eine Übungsumgebung handelt, können Sie die
     Zeitzone auf Ihre bevorzugte Zeitzone festlegen. In einem realen
     Szenario legen Sie die Zeitzone basierend auf Ihrem/Speicherort der
     Datenquelle fest.
@@ -889,7 +860,7 @@ Wartezeit festzulegen.
 11. Wählen Sie im linken Bereich Ihren Fabric-Arbeitsbereich
     **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** aus, um zur Startseite des Arbeitsbereichs zu navigieren.
 
-    **Hinweis:** Im Bildschirm „Zeitplan" ist keine Option verfügbar, um Sie
+    >**Hinweis:** Im Bildschirm „Zeitplan" ist keine Option verfügbar, um Sie
     zu benachrichtigen, ob der Vorgang erfolgreich war oder nicht (wie beim
     Dataflow-Zeitplan). Die Benachrichtigung kann durch Hinzufügen einer
     Aktivität in der Datenpipeline erfolgen. Wir führen diesen Schritt nicht

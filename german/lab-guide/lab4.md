@@ -92,7 +92,7 @@ Am Ende dieser Übung haben Sie Folgendes gelernt:
 
     ![](../media/lab-4/image8.png)
 
-    **Hinweis:** Wenn Sie in der Übungsumgebung arbeiten, wählen Sie die
+    >**Hinweis:** Wenn Sie in der Übungsumgebung arbeiten, wählen Sie die
     Auslassungspunkte oben rechts auf dem Bildschirm aus. Verwenden Sie den
     Schieberegler, um das **VM Native Clipboard** **zu aktivieren**. Wählen
     Sie im Dialogfeld OK aus. Nachdem Sie die Abfragen eingefügt haben,
@@ -164,7 +164,7 @@ Lakehouse erfasst werden.
     Sie sicher, dass „**Automatische Einstellungen verwenden**"
     **aktiviert** ist.
 
-    **Hinweis:** Sie können die automatischen Einstellungen deaktivieren und
+    >**Hinweis:** Sie können die automatischen Einstellungen deaktivieren und
     haben die Möglichkeit, die Aktualisierungsmethode und die Schemaoptionen
     festzulegen. Vergewissern Sie sich nach der Erkundung, dass
     „**Automatische Einstellungen verwenden**" **aktiviert** ist.
@@ -185,7 +185,7 @@ Lakehouse erfasst werden.
 
     ![](../media/lab-4/image17.png)
 
-    **Hinweis:** Sie werden zum **Arbeitsbereich FAIAD_<inject key="Deployment ID" enableCopy="false"/>** weitergeleitet. Es kann einige Momente dauern, bis die Ausführung des Dataflows abgeschlossen ist.
+    >**Hinweis:** Sie werden zum **Arbeitsbereich FAIAD_<inject key="Deployment ID" enableCopy="false"/>** weitergeleitet. Es kann einige Momente dauern, bis die Ausführung des Dataflows abgeschlossen ist.
 
 3. Wir arbeiten mit **Dataflow 1**. Benennen wir ihn um, bevor wir
     fortfahren. Klicken Sie auf die **Auslassungspunkte (...)** neben
@@ -227,7 +227,7 @@ Lakehouse erfasst werden.
 1. Wir navigieren zurück zum Fabric-Arbeitsbereich
     **FAIAD_<inject key="Deployment ID" enableCopy="false"/> (1)**.
 
-2. Wählen Sie die Option + **Neues Element (2)** in der oberen linken
+2. Wählen Sie die Option **+ Neues Element (2)** in der oberen linken
     Ecke.
 
 3. Wählen Sie unter „Empfohlene Elemente" die Option **Dataflow Gen2
@@ -308,7 +308,7 @@ werden, eine Verbindung zu konfigurieren.
 
     - Snowflake-Kennwort: <inject key="SnowFlake Password"></inject>
 
-    **Hinweis:** Wenn Sie Probleme beim Herstellen einer Verbindung zu
+    >**Hinweis:** Wenn Sie Probleme beim Herstellen einer Verbindung zu
     Snowflake mit den Anmeldeinformationen aus den Umgebungsdetails haben,
     verwenden Sie bitte die die nachfolgenden Anmeldeinformationen.
 
@@ -435,7 +435,7 @@ befinden.
 3. Das Dialogfeld „Neue Verknüpfung" wird geöffnet. Wählen Sie unter
     **Externe Quellen** die Option **Dataverse** aus.
 
-    **Hinweis:** In der vorherigen Übung haben wir ähnliche Schritte zum
+    >**Hinweis:** In der vorherigen Übung haben wir ähnliche Schritte zum
     Erstellen einer Verknüpfung zu Azure Data Lake Storage Gen2 ausgeführt.
 
     ![](../media/lab-4/image36.png)

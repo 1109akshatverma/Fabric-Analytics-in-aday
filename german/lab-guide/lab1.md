@@ -142,8 +142,7 @@ verstehen.
 
     ![](../media/lab-1/image10.png)
 
-10. **Die Einrichtung ist abgeschlossen.** Ein Dialogfeld wird geöffnet.
-    Wählen Sie **Fertig** aus.
+10. **Die Einrichtung ist abgeschlossen.** Ein Dialogfeld wird geöffnet. Wählen Sie **Fertig** aus.
 
 Nun wird Power BI Desktop geöffnet.
 
@@ -185,12 +184,7 @@ die Navigation. Sehen wir uns den Bericht kurz an und fahren dann fort.
 3. Wählen Sie im Streudiagramm **Sales Territory** die Region **„Rocky
     Mountain"** aus, um den Filter zu entfernen.
 
-4. Wählen Sie im Streudiagrammvisual unten in der Mitte des Bildschirms
-    (Sales Orders by Sales) den Ausreißer oben rechts aus (4. Quadrant).
-    Beachten Sie, dass „Margin %" 52 % beträgt, was über dem
-    Durchschnitt von 50 % liegt. Außerdem ist der Umsatz im
-    Jahresvergleich in % in den letzten beiden Quartalen des Jahres 2023
-    gestiegen.
+4. Wählen Sie im Streudiagrammvisual unten in der Mitte des Bildschirms (Sales Orders by Sales) den Ausreißer oben rechts aus (4. Quadrant). Beachten Sie, dass „Margin %" 52 % beträgt, was über dem Durchschnitt von 50 % liegt. Außerdem ist der Umsatz im Jahresvergleich in % in den letzten beiden Quartalen des Jahres 2023 gestiegen.
 
     ![](../media/lab-1/image14.jpeg)
 
@@ -379,7 +373,7 @@ Bei Fabric Analyst in a Day (FAIAD) lernen Sie einige der wichtigsten
 Funktionen von Microsoft Fabric kennen. Im Menü des Dienstes finden Sie
 in der Hilfe (?) Links zu praktischen Informationen.
 
-  ![](../media/lab-1/image27.png)
+![](../media/lab-1/image27.png)
 
 Nachfolgend finden Sie weitere Angebote zur weiteren Arbeit mit
 Microsoft Fabric.
