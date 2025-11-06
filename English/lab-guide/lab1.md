@@ -283,13 +283,11 @@ incorrect.](../media/lab-1/image22.png)
     below. Use these credentials to connect all the tables under
     Snowflake to Snowflake and then select Connect.
 
-    * **Snowflake Username:** <inject key="SnowFlake Username" enableCopy="false" />
+    - **Snowflake Username:** <inject key="SnowFlake Username" enableCopy="false" />
     
-    * **Snowflake Password:** <inject key="SnowFlake Password" enableCopy="false" />
+    - **Snowflake Password:** <inject key="SnowFlake Password" enableCopy="false" />
 
-    *Note: If you encounter any issues connecting to Snowflake using the
-credentials from the environment details, please use the backup
-credentials provided below.*
+    **Note: If you encounter any issues connecting to Snowflake using the credentials from the environment details, please use the backup credentials provided below.**
 
     - **Snowflake Username:** SNOWFLAKE_BACKUP
 
