@@ -280,11 +280,13 @@ will see a warning message requesting you to configure the connection.
     
     - **Snowflake Password:** <inject key="SnowFlake Password" enableCopy="false" />
 
-    >**Note**: If you encounter any issues connecting to Snowflake using the credentials from the environment details, please use the credentials provided below.
+    **Note: If you encounter any issues connecting to Snowflake using the credentials from the environment details, please use the backup credentials provided below.**
 
     - **Snowflake Username:** SNOWFLAKE_BACKUP
 
     - **Snowflake Password:** 8UpfRpExVDXv2AC1
+
+    >**Note:** Please Do Not enter the wrong username or password more than three times, as this will lock the Snowflake account for everyone. If you’re having trouble logging in, please contact `cloudlabs-support@spektrasystems.com` instead of trying multiple times.
 
 5. Select **Connect**.
 
