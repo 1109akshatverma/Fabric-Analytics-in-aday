@@ -46,7 +46,7 @@ adelante en el laboratorio, volveremos a crear el informe que tenemos en
 Power BI.
 
 1. Volvamos al **área de trabajo de Fabric** que creó en el
-    Laboratorio 2 llamada **FAIAD_<username>**.
+    Laboratorio 2 llamada **FAIAD_<inject key="Deployment ID" enableCopy="false"/>**.
 
 2. En la parte inferior del panel de navegación de la izquierda,
     seleccione el icono **Selector de experiencia de Fabric**.
@@ -115,7 +115,7 @@ Power BI.
     abreviatura de informe (en inglés).
 
 11. Asegúrese de que el informe esté guardado en el área de trabajo
-    **FAIAD_<username>.**
+    **FAIAD_<inject key="Deployment ID" enableCopy="false"/>.**
 
 12. Seleccione **Guardar.**
 
@@ -140,7 +140,7 @@ Power BI.
 Creemos un nuevo informe usando un lienzo en blanco.
 
 1. En el **panel izquierdo**, seleccione el nombre del área de trabajo,
-    **FAIAD_<username>** por el que se navegará en el área de
+    **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** por el que se navegará en el área de
     trabajo.
 
 2. En el menú superior, seleccione **Nuevo elemento -> Informe**. Se
@@ -324,7 +324,7 @@ modelo.
     abreviatura de informe (en inglés).
 
 3. Asegúrese de que el informe esté guardado en el área de trabajo
-    **FAIAD_<username>.**
+    **FAIAD_<inject key="Deployment ID" enableCopy="false"/>.**
 
 4. Seleccione **Guardar.** Observe que el informe se guarda y usted se
     encuentra en modo de vista.
@@ -585,7 +585,7 @@ Sales view.
 2. En la esquina inferior derecha, haga clic en el **logotipo de
     Fabric** y cambie a la **vista de Fabric**.
 
-3. Seleccione **FAIAD_<username>** en la barra de menús de la
+3. Seleccione **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** en la barra de menús de la
     izquierda para navegar hasta la página de inicio del área de
     trabajo.
 
@@ -871,7 +871,7 @@ Sales view.
 Una vez que esté todo listo para limpiar el entorno del laboratorio,
 siga los pasos a continuación.
 
-1. Seleccione el área de trabajo **FAIAD_<nombre de usuario>** en el
+1. Seleccione el área de trabajo **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** en el
     panel izquierdo para navegar a la página de inicio del área de
     trabajo.
 

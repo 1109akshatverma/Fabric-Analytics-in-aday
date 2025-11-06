@@ -52,8 +52,7 @@ Al final de este laboratorio, habrá aprendido:
 2. Copie el nombre de usuario y péguelo en el campo Correo electrónico
     del cuadro de diálogo y seleccione Enviar.
 
-    - **Correo electrónico/nombre de usuario:** se encuentra en la
-      pestaña Entorno.
+    - **Correo electrónico/nombre de usuario:** <inject key="AzureAdUserEmail"></inject>
 
       ![](../media/lab-2/image6.png)
 
@@ -61,15 +60,14 @@ Al final de este laboratorio, habrá aprendido:
     pantalla de inicio de sesión. Introduzca el siguiente
     **EmailUsername** y luego haga clic en **Siguiente**.
 
-    - **Correo electrónico/nombre de usuario**: se encuentra en la
-      pestaña Entorno.
+    - **Correo electrónico/nombre de usuario**: <inject key="AzureAdUserEmail"></inject>
 
       ![](../media/lab-2/image7.png)
 
 4. Ahora introduzca la siguiente **contraseña** y haga clic en
     **Iniciar sesión.**
 
-    - **Contraseña:** se encuentra en la pestaña Entorno.
+    - **Contraseña:** <inject key="AzureAdUserPassword"></inject>
 
       ![](../media/lab-2/image8.png)
 
@@ -126,7 +124,7 @@ Al final de este laboratorio, habrá aprendido:
 3. El cuadro de diálogo **Crear un área de trabajo** se abre en el lado
     derecho del explorador.
 
-4. En el campo **Nombre**, introduzca FAIAD_UserID (que se encuentra en
+4. En el campo **Nombre**, introduzca **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** (que se encuentra en
     la pestaña Entorno).
 
     ***Nota:** El nombre del área de trabajo debe ser único. Asegúrese de
@@ -154,7 +152,7 @@ Al final de este laboratorio, habrá aprendido:
 
 ## Tarea 3: Crear un Lakehouse
 
-1. En el espacio de trabajo **FAIAD_Username** recién creado, localice
+1. En el espacio de trabajo **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** recién creado, localice
     el botón **+ Nuevo elemento (1)** en el panel de navegación de la
     izquierda. Aquí es donde puede comenzar a crear nuevos elementos en
     su área de trabajo.

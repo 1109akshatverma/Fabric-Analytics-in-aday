@@ -109,6 +109,8 @@ Desktop para comprender las transformaciones y el modelo.
 3. Copie las credenciales de **Nombre de usuario** y péguelas en el
     cuadro de texto **Correo electrónico** del cuadro de diálogo.
 
+    - **Correo electrónico/nombre de usuario:** <inject key="AzureAdUserEmail"></inject>    
+
 4. Seleccione **Continuar**.
 
     ![](../media/lab-1/image7.png)
@@ -116,10 +118,14 @@ Desktop para comprender las transformaciones y el modelo.
 5. Se abre el cuadro de diálogo Iniciar sesión. Vuelva a introducir el
     Nombre de usuario copiándolo de la pestaña Detalles del entorno.
 
+    - **Correo electrónico/nombre de usuario:** <inject key="AzureAdUserEmail"></inject>
+
 6. Seleccione **Siguiente**.
 
 7. En el siguiente cuadro de diálogo, introduzca las **Credenciales**
     de **Contraseña** de la pestaña **Detalles del entorno**.
+
+    - **Escribir contraseña:** <inject key="AzureAdUserPassword"></inject>
 
 8. Seleccione **Iniciar sesión**.
 
