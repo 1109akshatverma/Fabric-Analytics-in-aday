@@ -779,16 +779,16 @@ establecer el tiempo de espera.
 8. Se abre el cuadro de diálogo Generador de expresiones de
     canalización. Introducir
 
-   ```
-   @if(
-       greater(variables('varCounter'), 1),
-       if(equals(variables('varCounter'), 2),
-           mul(variables('varWaitTime'),15 ), 
-           mul(variables('varWaitTime'), 0)
-       ),
-       mul(variables('varWaitTime'),5 )
-   )
-   ```
+    ```
+    @if(
+        greater(variables('varCounter'), 1),
+        if(equals(variables('varCounter'), 2),
+            mul(variables('varWaitTime'),15 ), 
+            mul(variables('varWaitTime'), 0)
+        ),
+        mul(variables('varWaitTime'),5 )
+    )
+    ```
 
     Siéntase libre de escribir esta expresión o use el menú para seleccionar
     las funciones o copiarla y pegarla.

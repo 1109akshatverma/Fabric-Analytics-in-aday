@@ -67,7 +67,7 @@ Esto es como crear accesos directos en el escritorio de Windows.
 
 2. Si no ha salido de la práctica de laboratorio anterior, estará en la
     pantalla del almacén de lago de datos. Si ha salido, no pasa nada.
-    Seleccione **lh_FAIAD** (**2)** para ir al almacén de lago de datos.
+    Seleccione **lh_FAIAD** **(2)** para ir al almacén de lago de datos.
 
 3. En el panel del **explorador** de la izquierda, seleccione los
     **puntos suspensivos (3)** al lado de las **Tables**.
@@ -76,8 +76,7 @@ Esto es como crear accesos directos en el escritorio de Windows.
 
     ![](../media/lab-3/image6.png)
 
-5. Se abre el cuadro de diálogo **Nuevo acceso directo**. En **Orígenes
-    externos**, seleccione **Azure Data Lake Storage Gen2**.
+5. Se abre el cuadro de diálogo **Nuevo acceso directo**. En **Orígenes externos**, seleccione **Azure Data Lake Storage Gen2**.
 
     ![](../media/lab-3/image7.png)
 
@@ -330,8 +329,7 @@ Esto es como crear accesos directos en el escritorio de Windows.
     seleccionar solo las que necesitemos.
 
 23. Con la consulta **Combinar** seleccionada (1), en la cinta de
-    opciones seleccione **Inicio (2) -> Elegir columnas (3) -> Elegir
-    columnas (4)**.
+    opciones seleccione **Inicio (2) -> Elegir columnas (3) -> Elegir columnas (4)**.
 
     **Nota:** Si la opción Elegir columnas no está visible, puede
     encontrarla en Administrar columnas.

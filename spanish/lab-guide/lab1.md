@@ -328,9 +328,9 @@ avancemos a los siguientes pasos.
 
     - **Contraseña de Snowflake:** <inject key="SnowFlake Password"></inject>
 
-*Nota: Si tiene algún problema para conectarse a Snowflake con las
-credenciales de los detalles del entorno, utilice las credenciales de
-copia de seguridad que se proporcionan en la pestaña Entorno.*
+    *Nota: Si tiene algún problema para conectarse a Snowflake con las
+    credenciales de los detalles del entorno, utilice las credenciales de
+    copia de seguridad que se proporcionan en la pestaña Entorno.*
 
 14. Observe que la carpeta **SnowflakeData** tiene la dimensión Supplier
     y los datos de PO (pedido/gasto).
@@ -434,7 +434,7 @@ Fabric:
 - [Blog de integración de Dataverse y Microsoft
   Fabric](https://aka.ms/Dataverse-Fabric-Blog)
 
-© 2023 Microsoft Corporation. Todos los derechos reservados.
+© 2025 Microsoft Corporation. Todos los derechos reservados.
 
 Al participar en esta demostración o laboratorio práctico, acepta las
 siguientes condiciones:

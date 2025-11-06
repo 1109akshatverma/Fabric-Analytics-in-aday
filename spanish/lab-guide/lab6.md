@@ -33,8 +33,7 @@ Al final de este laboratorio, habrá aprendido:
 
 ## Tarea 1: Consultar datos con SQL
 
-1. Volvamos al área de trabajo de Fabric, **FAIAD_<inject key="Deployment ID" enableCopy="false"/>**, que
-    creó en el Laboratorio 2, Tarea 8.
+1. Volvamos al área de trabajo de Fabric, **FAIAD_<inject key="Deployment ID" enableCopy="false"/>**, que creó en el Laboratorio 2, Tarea 8.
 
 2. Si lo desea, **Minimice el flujo de tareas** para ver la lista
     completa de elementos.

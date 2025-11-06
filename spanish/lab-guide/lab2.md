@@ -113,10 +113,10 @@ Al final de este laboratorio, habrá aprendido:
 ## Tarea 2: Crear un área de trabajo de Fabric
 
 1. Creemos ahora un área de trabajo con una licencia de Fabric.
-    Seleccione **Áreas de trabajo** (1) en la barra de navegación de la
+    Seleccione **Áreas de trabajo** **(1)** en la barra de navegación de la
     izquierda. Se abre un cuadro de diálogo.
 
-2. Haga clic en **+Nueva área de trabajo** (2) que se encuentra en la
+2. Haga clic en **+Nueva área de trabajo** **(2)** que se encuentra en la
     parte inferior del menú emergente.
 
     ![](../media/lab-2/image13.png)

@@ -51,14 +51,11 @@ Al final de este laboratorio, habrá aprendido:
 
 ## Tarea 1: Copiar consultas de SharePoint al flujo de datos
 
-1. Volvamos al área de trabajo de Fabric, **FAIAD_<inject key="Deployment ID" enableCopy="false"/> (1)**,
-    que creó en el Laboratorio 2, Tarea 8.
+1. Volvamos al área de trabajo de Fabric, **FAIAD_<inject key="Deployment ID" enableCopy="false"/> (1)**, que creó en el Laboratorio 2, Tarea 8.
 
-2. Seleccione la opción **+ Nuevo elemento (2)** en la esquina superior
-    derecha.
+2. Seleccione la opción **+ Nuevo elemento (2)** en la esquina superior derecha.
 
-3. En la sección **Obtener datos (3),** seleccione **Flujo de datos
-    Gen2 (4).**
+3. En la sección **Obtener datos (3),** seleccione **Flujo de datos Gen2 (4).**
 
     ![](../media/lab-4/image6.png)
 
