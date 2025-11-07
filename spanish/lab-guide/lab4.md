@@ -77,7 +77,7 @@ Al final de este laboratorio, habrá aprendido:
 
 7. **Haga clic con el botón derecho** y seleccione **Copiar**.
 
-    ![P56#yIS1](../media/lab-4/image7.png)
+    ![](../media/lab-4/image7.png)
 
 8. Vuelva a la **pantalla del flujo de datos** en el explorador.
 
@@ -88,13 +88,13 @@ Al final de este laboratorio, habrá aprendido:
 
     ![](../media/lab-4/image8.png)
 
-    **Nota:** Si está trabajando en el entorno de laboratorio, seleccione
+    >**Nota:** Si está trabajando en el entorno de laboratorio, seleccione
     los puntos suspensivos en la parte superior derecha de la pantalla.
     Utilice el control deslizante para **habilitar** **Portapapeles nativo
     de VM**. Seleccione Aceptar en el cuadro de diálogo. Una vez que haya
     terminado de pegar las consultas, puede desactivar esta opción.
 
-    ![P60#yIS1](../media/lab-4/image9.png)
+    ![](../media/lab-4/image9.png)
 
     Observe la consulta se ha pegado y está disponible en el panel
     izquierdo. Como no tenemos una conexión creada para SharePoint, verá un
@@ -114,10 +114,10 @@ Al final de este laboratorio, habrá aprendido:
 
 4. Seleccione **Conectar**.
 
-    **Nota:** Iniciará sesión con sus credenciales. Serán diferentes a la
+    >**Nota:** Iniciará sesión con sus credenciales. Serán diferentes a la
     captura de pantalla siguiente.
 
-    ![P69#yIS1](../media/lab-4/image11.png)
+    ![](../media/lab-4/image11.png)
 
 ## Tarea 3: Configurar el destino de datos para la consulta People
 
@@ -161,7 +161,7 @@ de lago de datos.
     Asegúrese de que la opción "**Usar configuración automática**" esté
     **habilitada**.
 
-    **Nota:** Puede deshabilitar la configuración automática y observe que
+    >**Nota:** Puede deshabilitar la configuración automática y observe que
     tiene opciones para establecer las opciones Método de actualización y
     Esquema. Cuando haya finalizado la exploración, asegúrese de que la
     opción "**Usar configuración automática**" esté **habilitada**.
@@ -182,9 +182,7 @@ de lago de datos.
 
     ![](../media/lab-4/image16.png)
 
-    **Nota:** Se le dirigirá de vuelta al área de trabajo
-    **FAIAD_<inject key="Deployment ID" enableCopy="false"/>**. Es posible que el flujo de datos tarde unos
-    minutos en terminar de ejecutarse.
+    **Nota:** Se le dirigirá de vuelta al área de trabajo **FAIAD_<inject key="Deployment ID" enableCopy="false"/>**. Es posible que el flujo de datos tarde unos minutos en terminar de ejecutarse.
 
 3. **Estamos trabajando con Dataflow 1.** Vamos a cambiarle el nombre
     antes de continuar. Haga clic en los **puntos suspensivos (...)**
@@ -269,7 +267,7 @@ de lago de datos.
     en Pegar no es compatible). Si está utilizando un dispositivo MAC,
     utilice Cmd+V para pegar.
 
-    **Nota:** Si está trabajando en el entorno de laboratorio, seleccione
+    >**Nota:** Si está trabajando en el entorno de laboratorio, seleccione
     los **puntos suspensivos (...)** en la parte superior derecha de la
     pantalla. Utilice el control deslizante para **habilitar**
     **Portapapeles nativo de VM**. Seleccione Aceptar en el cuadro de
@@ -394,8 +392,7 @@ configure la conexión.
 
     ![](../media/lab-4/image31.png)
 
-    Se le dirigirá de vuelta al **área de trabajo FAIAD_<inject key="Deployment ID" enableCopy="false"/>**. Es
-    posible que el flujo de datos tarde unos minutos en publicarse.
+    Se le dirigirá de vuelta al **área de trabajo FAIAD_<inject key="Deployment ID" enableCopy="false"/>**. Es posible que el flujo de datos tarde unos minutos en publicarse.
 
 5. Seleccione **lh_FAIAD** para ir al almacén de lago de datos.
 

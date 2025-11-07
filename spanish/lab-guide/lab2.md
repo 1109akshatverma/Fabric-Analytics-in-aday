@@ -42,12 +42,12 @@ Al final de este laboratorio, habrá aprendido:
     BI](https://app.powerbi.com/). Se le llevará a la página de inicio
     de sesión.
 
-    > ***Nota:** Si está utilizando el entorno de laboratorio, es posible
-    > que su sesión se inicie automáticamente.*
-    >
-    > ***Nota:** Si no está utilizando el entorno de laboratorio y tiene una
-    > cuenta de Power BI existente, es posible que desee utilizar el
-    > explorador en modo privado/incógnito.*
+    ***Nota:** Si está utilizando el entorno de laboratorio, es posible
+    que su sesión se inicie automáticamente.*
+    
+    ***Nota:** Si no está utilizando el entorno de laboratorio y tiene una
+    cuenta de Power BI existente, es posible que desee utilizar el
+    explorador en modo privado/incógnito.*
 
 2. Copie el nombre de usuario y péguelo en el campo Correo electrónico
     del cuadro de diálogo y seleccione Enviar.
@@ -91,8 +91,8 @@ Al final de este laboratorio, habrá aprendido:
 9. Se abre un cuadro de diálogo para actualizar a una prueba de
     Microsoft Fabric gratuita. Seleccione **Activar**.
 
-    > ***Nota:** Deje la región con el valor predeterminado. El instructor
-    > dará más detalles sobre esto cuando revise el laboratorio.*
+    ***Nota:** Deje la región con el valor predeterminado. El instructor
+    dará más detalles sobre esto cuando revise el laboratorio.*
 
     ![](../media/lab-2/image10.png)
 
@@ -124,8 +124,7 @@ Al final de este laboratorio, habrá aprendido:
 3. El cuadro de diálogo **Crear un área de trabajo** se abre en el lado
     derecho del explorador.
 
-4. En el campo **Nombre**, introduzca **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** (que se encuentra en
-    la pestaña Entorno).
+4. En el campo **Nombre**, introduzca **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** (que se encuentra en la pestaña Entorno).
 
     ***Nota:** El nombre del área de trabajo debe ser único. Asegúrese de
     que aparezca una marca de verificación verde con "Este nombre está
@@ -152,10 +151,7 @@ Al final de este laboratorio, habrá aprendido:
 
 ## Tarea 3: Crear un Lakehouse
 
-1. En el espacio de trabajo **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** recién creado, localice
-    el botón **+ Nuevo elemento (1)** en el panel de navegación de la
-    izquierda. Aquí es donde puede comenzar a crear nuevos elementos en
-    su área de trabajo.
+1. En el espacio de trabajo **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** recién creado, localice el botón **+ Nuevo elemento (1)** en el panel de navegación de la izquierda. Aquí es donde puede comenzar a crear nuevos elementos en su área de trabajo.
 
 2. En el cuadro de búsqueda, escriba **Lakehouse (2)** y, en los
     resultados de búsqueda, seleccione la opción **Lakehouse (3)**. Esto
@@ -167,15 +163,15 @@ Al final de este laboratorio, habrá aprendido:
 3. Aparecerá un cuadro de diálogo Nuevo lakehouse. Escriba **lh_FAIAD**
     en el cuadro de texto Nombre.
 
-    > ***Nota:** lh aquí se refiere al Lakehouse. Vamos a anteponer lh para
-    > que sea fácil de identificar y buscar.*
-    >
-    > ***Nota:** La característica en vista previa (GB) de **Esquemas de
-    > almacén de lago de datos** es muy interesante, por lo que es algo que
-    > debe tener en cuenta. Dado que está en **Versión preliminar**,
-    > lo ignoraremos para que no haya un impacto negativo en la experiencia
-    > del laboratorio. Una vez que la característica esté disponible de
-    > manera general, lo incorporaremos a este laboratorio.*
+    **Nota:** lh aquí se refiere al Lakehouse. Vamos a anteponer lh para
+    que sea fácil de identificar y buscar.
+    
+    **Nota:** La característica en vista previa (GB. de **Esquemas de
+    almacén de lago de datos** es muy interesante, por lo que es algo que
+    debe tener en cuenta. Dado que está en **Versión preliminar**,
+    lo ignoraremos para que no haya un impacto negativo en la experiencia
+    del laboratorio. Una vez que la característica esté disponible de
+    manera general, lo incorporaremos a este laboratorio.
 
 4. Seleccione **Crear**.
 
@@ -228,83 +224,78 @@ Al final de este laboratorio, habrá aprendido:
 
     **Tipos de elementos:**
 
-    a) **Flujo de datos Gen2:** los flujos de datos son como recetas para
-        transformar datos. Ofrecen más de 300 transformaciones diferentes
-        que puede aplicar a sus datos. Esto significa que puede limpiar,
-        combinar y cambiar los datos de muchas maneras para adaptarlos a sus
-        necesidades.
+    a. **Flujo de datos Gen2:** los flujos de datos son como recetas para transformar datos. Ofrecen más de 300 transformaciones diferentes que puede aplicar a sus datos. Esto significa que puede limpiar, combinar y cambiar los datos de muchas maneras para adaptarlos a sus necesidades.
 
-    b) **Pipeline:** las canalizaciones son flujos de trabajo que le ayudan
-        a automatizar los procesos de datos. Le permiten crear flujos de
-        trabajo de datos flexibles que se pueden adaptar a sus requisitos
-        específicos. Esto facilita la gestión y el procesamiento de datos de
-        forma estructurada.
+    b. **Pipeline:** las canalizaciones son flujos de trabajo que le ayudan
+    a automatizar los procesos de datos. Le permiten crear flujos de
+    trabajo de datos flexibles que se pueden adaptar a sus requisitos
+    específicos. Esto facilita la gestión y el procesamiento de datos de
+    forma estructurada.
 
-    c) **Azure Data Factory**: Azure Data Factory es un servicio de
-        integración de datos basado en la nube que le permite crear flujos
-        de trabajo basados en datos para orquestar y automatizar el
-        movimiento y la transformación de datos.
+    c. **Azure Data Factory**: Azure Data Factory es un servicio de
+    integración de datos basado en la nube que le permite crear flujos
+    de trabajo basados en datos para orquestar y automatizar el
+    movimiento y la transformación de datos.
 
-    d) **Trabajo de Apache Airflow**: Apache Airflow es una plataforma de
-        código abierto que se utiliza para crear, programar y supervisar
-        flujos de trabajo mediante programación. En Data Factory, le permite
-        crear, programar y administrar flujos de trabajo de datos complejos.
+    d. **Trabajo de Apache Airflow**: Apache Airflow es una plataforma de
+    código abierto que se utiliza para crear, programar y supervisar
+    flujos de trabajo mediante programación. En Data Factory, le permite
+    crear, programar y administrar flujos de trabajo de datos complejos.
 
-    e) **Copiar trabajo**: Copiar trabajo es una característica que le
-        permite copiar datos de un origen a otro. Proporciona una forma
-        sencilla y eficaz de mover datos entre diferentes almacenes de
-        datos.
+    e. **Copiar trabajo**: Copiar trabajo es una característica que le
+    permite copiar datos de un origen a otro. Proporciona una forma
+    sencilla y eficaz de mover datos entre diferentes almacenes de
+    datos.
 
-    f) **Base de datos reflejada:** una característica para crear versiones
-        duplicadas de bases de datos para copia de seguridad, prueba o
-        acceso de solo lectura.
+    f. **Base de datos reflejada:** una característica para crear versiones
+    duplicadas de bases de datos para copia de seguridad, prueba o
+    acceso de solo lectura.
 
-    g) **Oracle reflejado (versión preliminar):** una creación de reflejo
-        en Fabric replica sus bases de datos de Oracle en una plataforma
-        unificada, lo que permite un análisis de baja latencia casi en
-        tiempo real junto con otros orígenes de datos.
+    g. **Oracle reflejado (versión preliminar):** una creación de reflejo
+    en Fabric replica sus bases de datos de Oracle en una plataforma
+    unificada, lo que permite un análisis de baja latencia casi en
+    tiempo real junto con otros orígenes de datos.
 
-    h) **Google BigQuery reflejada (versión preliminar):** la creación de
-        reflejo en Fabric le permite replicar continuamente los datos de
-        Google BigQuery en OneLake, lo que elimina el ETL complejo y permite
-        un uso fluido entre análisis, IA e intercambio de datos.
+    h. **Google BigQuery reflejada (versión preliminar):** la creación de
+    reflejo en Fabric le permite replicar continuamente los datos de
+    Google BigQuery en OneLake, lo que elimina el ETL complejo y permite
+    un uso fluido entre análisis, IA e intercambio de datos.
 
-    i) **Biblioteca de variables (versión preliminar):** contiene una lista
-        de variables y sus valores predeterminados. También puede contener
-        otros conjuntos de valores que contengan valores alternativos.
+    i. **Biblioteca de variables (versión preliminar):** contiene una lista
+    de variables y sus valores predeterminados. También puede contener
+    otros conjuntos de valores que contengan valores alternativos.
 
     **Introducción:**
 
     Para empezar a usar Data Factory, puede seguir estos pasos:
 
-    a) **Aprender a usar Data Factory**: en esta sección encontrará ayuda
-        para empezar a utilizar Data Factory. Proporciona orientación sobre
-        cómo comenzar a usar la herramienta de manera efectiva.
+    a. **Aprender a usar Data Factory**: en esta sección encontrará ayuda
+    para empezar a utilizar Data Factory. Proporciona orientación sobre
+    cómo comenzar a usar la herramienta de manera efectiva.
 
-    b) **Crear su primer flujo de datos**: aquí puede aprender a crear su
-        primer flujo de datos. Los flujos de datos son esenciales para
-        transformar sus datos de acuerdo con sus necesidades.
+    b. **Crear su primer flujo de datos**: aquí puede aprender a crear su
+    primer flujo de datos. Los flujos de datos son esenciales para
+    transformar sus datos de acuerdo con sus necesidades.
 
-    c) **Crear la primera canalización de datos**: esta sección le guía
-        sobre cómo crear su primera canalización de datos. Las
-        canalizaciones ayudan a automatizar y administrar sus procesos
-        de datos de manera eficiente.
+    c. **Crear la primera canalización de datos**: esta sección le guía
+    sobre cómo crear su primera canalización de datos. Las
+    canalizaciones ayudan a automatizar y administrar sus procesos
+    de datos de manera eficiente.
 
-    d) **Aprenda a supervisar Data Factory**: la supervisión es fundamental
-        para garantizar que sus procesos de datos funcionen sin problemas.
-        En esta sección se aprende a supervisar las actividades de Data
-        Factory.
+    d. **Aprenda a supervisar Data Factory**: la supervisión es fundamental
+    para garantizar que sus procesos de datos funcionen sin problemas.
+    En esta sección se aprende a supervisar las actividades de Data
+    Factory.
 
-    e) **Aprender a transformar datos con flujos de datos**: esta sección
-        le ayuda a comprender cómo usar los flujos de datos para transformar
-        sus datos de manera efectiva.
+    e. **Aprender a transformar datos con flujos de datos**: esta sección
+    le ayuda a comprender cómo usar los flujos de datos para transformar
+    sus datos de manera efectiva.
 
-    f) **Crear su primera API para GraphQL**: si le interesa utilizar API
-        con GraphQL, esta sección le guiará sobre cómo empezar.
+    f. **Crear su primera API para GraphQL**: si le interesa utilizar API con GraphQL, esta sección le guiará sobre cómo empezar.
 
-    g) **Crear sus primeras funciones de datos de usuario**: esta sección
-        le ayuda a crear funciones de datos de usuario, que son útiles para
-        administrar y transformar los datos del usuario.
+    g. **Crear sus primeras funciones de datos de usuario**: esta sección
+    le ayuda a crear funciones de datos de usuario, que son útiles para
+    administrar y transformar los datos del usuario.
 
     ![](../media/lab-2/image21.png)
 
@@ -337,62 +328,57 @@ Al final de este laboratorio, habrá aprendido:
 
     **Tipos de elementos**:
 
-    a) **Soluciones de sostenibilidad**: admiten la ingesta, la
-        estandarización y el análisis de datos ambientales, sociales y de
-        gobernanza (ASG).
+    a. **Soluciones de sostenibilidad**: admiten la ingesta, la
+    estandarización y el análisis de datos ambientales, sociales y de
+    gobernanza (ASG).
 
-    b) Las **soluciones de datos de comercio minorista**: ayudan a
-        administrar grandes volúmenes de datos, a integrar datos de diversos
-        orígenes y a proporcionar análisis en tiempo real para una toma de
-        decisiones rápida. Los minoristas pueden utilizar estas soluciones
-        para la optimización del inventario, la segmentación de clientes, la
-        previsión de ventas, la fijación de precios dinámicos y la detección
-        de fraude.
+    b. Las **soluciones de datos de comercio minorista**: ayudan a
+    administrar grandes volúmenes de datos, a integrar datos de diversos
+    orígenes y a proporcionar análisis en tiempo real para una toma de
+    decisiones rápida. Los minoristas pueden utilizar estas soluciones
+    para la optimización del inventario, la segmentación de clientes, la
+    previsión de ventas, la fijación de precios dinámicos y la detección
+    de fraude.
 
-    c) Las **soluciones de atención sanitaria**: están diseñadas
-        estratégicamente para acelerar el tiempo de creación de valor para
-        los clientes al abordar la necesidad crítica de transformar de
-        manera eficiente los datos sanitarios en un formato adecuado para el
-        análisis.
+    c. Las **soluciones de atención sanitaria**: están diseñadas
+    estratégicamente para acelerar el tiempo de creación de valor para
+    los clientes al abordar la necesidad crítica de transformar de
+    manera eficiente los datos sanitarios en un formato adecuado para el
+    análisis.
 
-    > **Introducción:**
-    >
-    > Para empezar a usar Industry Solutions, siga estos pasos:
+    **Introducción:** Para empezar a usar Industry Solutions, siga estos pasos:
 
-    a) **Obtener información sobre las soluciones de datos de atención
-        sanitaria**: haga clic en el botón "Más información" para leer sobre
-        las soluciones de datos de atención sanitaria y comprender cómo se
-        pueden utilizar en sus proyectos.
+    a. **Obtener información sobre las soluciones de datos de atención
+    sanitaria**: haga clic en el botón "Más información" para leer sobre
+    las soluciones de datos de atención sanitaria y comprender cómo se
+    pueden utilizar en sus proyectos.
 
-    b) **Implementar soluciones de datos de atención sanitaria**: haga clic
-        en el botón "Implementar" para empezar a implementar soluciones de
-        datos de atención sanitaria e implementarlas en sus proyectos.
+    b. **Implementar soluciones de datos de atención sanitaria**: haga clic
+    en el botón "Implementar" para empezar a implementar soluciones de
+    datos de atención sanitaria e implementarlas en sus proyectos.
 
-    c) **Obtener información sobre las soluciones de sostenibilidad**: haga
-        clic en el botón "Más información" para leer sobre las soluciones de
-        sostenibilidad y comprender cómo se pueden utilizar en sus
-        proyectos.
+    c. **Obtener información sobre las soluciones de sostenibilidad**: haga
+    clic en el botón "Más información" para leer sobre las soluciones de
+    sostenibilidad y comprender cómo se pueden utilizar en sus
+    proyectos.
 
-    d) **Implementar soluciones de sostenibilidad**: haga clic en el botón
-        "Implementar" para comenzar a implementar soluciones de
-        sostenibilidad e implementarlas en sus proyectos.
+    d. **Implementar soluciones de sostenibilidad**: haga clic en el botón
+    "Implementar" para comenzar a implementar soluciones de
+    sostenibilidad e implementarlas en sus proyectos.
 
-    e) **Obtener información sobre la solución minorista**: haga clic en el
-        botón "Más información" para leer sobre las soluciones de comercio
-        minorista y comprender cómo se pueden utilizar en sus proyectos.
+    e. **Obtener información sobre la solución minorista**: haga clic en el
+    botón "Más información" para leer sobre las soluciones de comercio
+    minorista y comprender cómo se pueden utilizar en sus proyectos.
 
-    f) **Implementar soluciones de comercio minorista**: haga clic en el
-        botón "Implementar" para comenzar a utilizar soluciones de comercio
-        minorista e implementarlas en sus proyectos.
+    f. **Implementar soluciones de comercio minorista**: haga clic en el
+    botón "Implementar" para comenzar a utilizar soluciones de comercio
+    minorista e implementarlas en sus proyectos.
 
      ![](../media/lab-2/image24.png)
 
-3. Haga clic en Volver a las cargas de trabajo en la esquina superior
-        izquierda de la pantalla. Esta acción le llevará a la página
-        principal de cargas de trabajo, donde puede explorar otras
-        herramientas o secciones.
+3. Haga clic en Volver a las cargas de trabajo en la esquina superior izquierda de la pantalla. Esta acción le llevará a la página principal de cargas de trabajo, donde puede explorar otras herramientas o secciones.
 
-     ![](../media/lab-2/image22.png)
+    ![](../media/lab-2/image22.png)
 
 ## Tarea 6: Experiencia de Real-Time Intelligence
 
@@ -416,73 +402,53 @@ Al final de este laboratorio, habrá aprendido:
 
     **Tipos de elementos**:
 
-    a. **Casa de eventos**: se utiliza para crear un área de trabajo de una
-        o varias bases de datos KQL, que se puede compartir entre proyectos.
+    a. **Casa de eventos**: se utiliza para crear un área de trabajo de una o varias bases de datos KQL, que se puede compartir entre proyectos.
 
-    b. **Conjunto de consultas KQL**: se utiliza para ejecutar consultas
-        sobre los datos para producir tablas y objetos visuales que se
-        pueden compartir.
+    b. **Conjunto de consultas KQL**: se utiliza para ejecutar consultas sobre los datos para producir tablas y objetos visuales que se pueden compartir.
 
-    c. **Panel en tiempo real**: se utiliza para visualizar paneles de
-        información en tiempo real en cuestión de segundos desde la ingesta
-        de datos.
+    c. **Panel en tiempo real**: se utiliza para visualizar paneles de información en tiempo real en cuestión de segundos desde la ingesta de datos.
 
-    d. **Eventstream**: se utiliza para capturar, transformar y enrutar el
-        flujo de eventos en tiempo real.
+    d. **Eventstream**: se utiliza para capturar, transformar y enrutar el flujo de eventos en tiempo real.
 
-    e. **Activador**: se utiliza para supervisar conjuntos de datos,
-        consultas y flujos de eventos en busca de patrones.
+    e. **Activador**: se utiliza para supervisar conjuntos de datos, consultas y flujos de eventos en busca de patrones.
 
-    f. **Conjunto de esquemas de eventos (versión preliminar):** le ayuda a
-        organizar y estandarizar estructuras de datos (esquemas) para sus
-        flujos de trabajo de análisis en tiempo real, lo que facilita el
-        procesamiento y análisis de datos de streaming de manera coherente.
+    f. **Conjunto de esquemas de eventos (versión preliminar):** le ayuda a organizar y estandarizar estructuras de datos (esquemas. para sus flujos de trabajo de análisis en tiempo real, lo que facilita el procesamiento y análisis de datos de streaming de manera coherente.
 
-    g. **Generador de gemelos digitales (versión preliminar):** el
-        generador de gemelos digitales proporciona a los usuarios
-        experiencias con poco o ningún código para crear y modelar
-        sus conceptos empresariales, como activos y procesos, a través de
-        una ontología.
+    g. **Generador de gemelos digitales (versión preliminar):** el generador de gemelos digitales proporciona a los usuarios experiencias con poco o ningún código para crear y modelar sus conceptos empresariales, como activos y procesos, a través de una ontología.
 
-    h. **Mapa (versión preliminar):** incorpore información geoespacial en
-        Real-Time Intelligence, para permitir a cualquier persona visualizar
-        dónde ocurren los eventos, integrar datos espaciales con otras
-        capacidades de Fabric y tomar decisiones más inteligentes que tengan
-        en cuenta la ubicación.
+    h. **Mapa (versión preliminar):** incorpore información geoespacial en Real-Time Intelligence, para permitir a cualquier persona visualizar dónde ocurren los eventos, integrar datos espaciales con otras capacidades de Fabric y tomar decisiones más inteligentes que tengan en cuenta la ubicación.
 
     **Introducción:**
 
     Para empezar a utilizar Real-Time Intelligence, siga estos pasos:
 
     a. **Experiencias integrales en tiempo real:** haga clic en el botón
-        "Comenzar" para explorar el análisis de datos con conjuntos de
-        datos de ejemplo.
+    "Comenzar" para explorar el análisis de datos con conjuntos de
+    datos de ejemplo.
 
     b. **Explorar ejemplo de inteligencia de tiempo real**: haga clic en el
-        botón "Abrir" para explorar el análisis de datos en tiempo real con
-        un ejemplo.
+    botón "Abrir" para explorar el análisis de datos en tiempo real con
+    un ejemplo.
 
     c. **Explore un ejemplo de Eventhouse:** haga clic en el botón
-        "Seleccionar" para usar un ejemplo y obtener información sobre
-        Real-Time Intelligence.
+    "Seleccionar" para usar un ejemplo y obtener información sobre
+    Real-Time Intelligence.
 
     d. **Introducción a la Inteligencia en tiempo real**: haga clic en el
-        botón "Abrir" para obtener una descripción general de Real-Time
-        Intelligence y comenzar a usar la herramienta de manera eficaz.
+    botón "Abrir" para obtener una descripción general de Real-Time
+    Intelligence y comenzar a usar la herramienta de manera eficaz.
 
-    e. **Obtenga información sobre KQL con datos de ejemplo**: haga clic en
-        el botón "Abrir" para aprender KQL con datos de ejemplo.
+    e. **Obtenga información sobre KQL con datos de ejemplo**: haga clic en el botón "Abrir" para aprender KQL con datos de ejemplo.
 
-    f. **¿Qué es un centro en tiempo real?**: haga clic en el botón "Abrir"
-        para saber qué es un centro en tiempo real y cómo se puede utilizar.
+    f. **¿Qué es un centro en tiempo real?**: haga clic en el botón "Abrir" para saber qué es un centro en tiempo real y cómo se puede utilizar.
 
     g. **Explorar un activador de ejemplo**: haga clic en el botón "Abrir"
-        para usar un activador de muestra y comprender las características y
-        capacidades de Real-Time Intelligence.
+    para usar un activador de muestra y comprender las características y
+    capacidades de Real-Time Intelligence.
 
     h. **Comenzar con activador**: haga clic en el botón "Abrir" para
-        comenzar con los conceptos de activador y comenzar a usar la
-        herramienta de manera efectiva.
+    comenzar con los conceptos de activador y comenzar a usar la
+    herramienta de manera efectiva.
 
     ![](../media/lab-2/image26.png)
 
@@ -515,65 +481,41 @@ Al final de este laboratorio, habrá aprendido:
 
     **Tipos de elementos:**
 
-    a. **Lakehouse**: se utiliza para almacenar macrodatos para limpiar,
-        consultar, generar informes y compartir.
+    a. **Lakehouse**: se utiliza para almacenar macrodatos para limpiar, consultar, generar informes y compartir.
 
-    b. **Bloc de notas**: se utiliza para la ingesta de datos, la
-        preparación, el análisis y otras tareas relacionadas con los datos
-        utilizando varios lenguajes como Python y Scala.
+    b. **Bloc de notas**: se utiliza para la ingesta de datos, la preparación, el análisis y otras tareas relacionadas con los datos utilizando varios lenguajes como Python y Scala.
 
-    c. **Entorno**: se utiliza para configurar bibliotecas compartidas,
-        configuraciones y recursos informáticos de Spark para portátiles y
-        definiciones de trabajos de Spark.
+    c. **Entorno**: se utiliza para configurar bibliotecas compartidas, configuraciones y recursos informáticos de Spark para portátiles y definiciones de trabajos de Spark.
 
-    d. **Definición de trabajo de Spark**: se utiliza para definir,
-        programar y administrar trabajos de Apache.
+    d. **Definición de trabajo de Spark**: se utiliza para definir, programar y administrar trabajos de Apache.
 
-    e. **Funciones de datos de usuario (versión preliminar)**: plataforma
-        que le permite hospedar y ejecutar aplicaciones en Fabric.
+    e. **Funciones de datos de usuario (versión preliminar)**: plataforma que le permite hospedar y ejecutar aplicaciones en Fabric.
 
-    f. **API para GraphQL**: es una API para consultar varios orígenes de
-        datos.
+    f. **API para GraphQL**: es una API para consultar varios orígenes de datos.
 
     **Introducción:**
 
     Para empezar a usar Data Engineering, siga estos pasos:
 
-    a. **Explorar un ejemplo**: haga clic en el botón "Seleccionar" para
-    usar una muestra y obtener información sobre Data Engineering.
+    a. **Explorar un ejemplo**: haga clic en el botón "Seleccionar" para usar una muestra y obtener información sobre Data Engineering.
 
-    b. **¿Qué es un lakehouse?:** haga clic en el botón "Abrir" para
-    obtener información sobre los almacenes de lago de datos y cómo se
-    pueden usar.
+    b. **¿Qué es un lakehouse?:** haga clic en el botón "Abrir" para obtener información sobre los almacenes de lago de datos y cómo se pueden usar.
 
-    c. **Obtención de la experiencia de datos en un lakehouse**: haga clic
-    en el botón "Abrir" para comenzar con ingeniería de datos y los
-    almacenes de lago de datos.
+    c. **Obtención de la experiencia de datos en un lakehouse**: haga clic en el botón "Abrir" para comenzar con ingeniería de datos y los almacenes de lago de datos.
 
-    d. **Introducción a las definiciones de trabajo de Spark**: haga clic
-    en el botón "Abrir" para aprender a utilizar las definiciones de trabajo
-    de Spark para el procesamiento de datos.
+    d. **Introducción a las definiciones de trabajo de Spark**: haga clic en el botón "Abrir" para aprender a utilizar las definiciones de trabajo de Spark para el procesamiento de datos.
 
-    e. **Desarrollar y ejecutar cuadernos**: haga clic en el botón "Abrir"
-    para aprender a desarrollar y ejecutar cuadernos para el análisis de
-    datos.
+    e. **Desarrollar y ejecutar cuadernos**: haga clic en el botón "Abrir" para aprender a desarrollar y ejecutar cuadernos para el análisis de datos.
 
-    f. **Cómo usar NotebookUtils**: haga clic en el botón "Abrir" para
-    aprender a usar NotebookUtils para un análisis de datos mejorado.
+    f. **Cómo usar NotebookUtils**: haga clic en el botón "Abrir" para aprender a usar NotebookUtils para un análisis de datos mejorado.
 
-    g. **Aprovechar los Notebooks para su almacén de lago de datos**: haga
-    clic en el botón "Abrir" para aprender a aprovechar los notebooks para
-    su almacén de lago de datos.
+    g. **Aprovechar los Notebooks para su almacén de lago de datos**: haga clic en el botón "Abrir" para aprender a aprovechar los notebooks para su almacén de lago de datos.
 
-    h. **Aprovechar los conjuntos de datos para su almacén de lago de
-    datos**: haga clic en el botón "Abrir" para aprender a aprovechar los
-    conjuntos de datos para su almacén de lago de datos.
+    h. **Aprovechar los conjuntos de datos para su almacén de lago de datos**: haga clic en el botón "Abrir" para aprender a aprovechar los conjuntos de datos para su almacén de lago de datos.
 
-    i. **Crear sus primeras funciones de datos de usuario**: haga clic en
-    el botón "Abrir" para aprender a crear funciones de datos de usuario.
+    i. **Crear sus primeras funciones de datos de usuario**: haga clic en el botón "Abrir" para aprender a crear funciones de datos de usuario.
 
-    j. **Crear su primera API para GraphQL**: haga clic en el botón "Abrir"
-    para aprender a crear una API para GraphQL.
+    j. **Crear su primera API para GraphQL**: haga clic en el botón "Abrir" para aprender a crear una API para GraphQL.
 
      ![](../media/lab-2/image28.png)
 
@@ -646,8 +588,7 @@ Al final de este laboratorio, habrá aprendido:
     e. **Introducción a Notebooks**: haga clic en el botón "Abrir" para
     comenzar con notebooks.
 
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](../media/lab-2/image30.png)
+    ![](../media/lab-2/image30.png)
 
 3. Haga clic en **Volver a las cargas de trabajo** en la esquina
     superior izquierda de la pantalla. Esta acción le llevará a la
@@ -680,44 +621,30 @@ incorrect.](../media/lab-2/image30.png)
     a. **Almacén**: se usa para crear un Data Warehouse.
 
     b. **Almacén de muestra**: se utiliza para explorar y probar las
-        capacidades de almacenamiento de datos con conjuntos de datos y
-        modelos preconfigurados.
+    capacidades de almacenamiento de datos con conjuntos de datos y
+    modelos preconfigurados.
 
-    c. **Cuaderno**: se utiliza para crear y compartir tareas interactivas
-        de análisis y visualización de datos.
+    c. **Cuaderno**: se utiliza para crear y compartir tareas interactivas de análisis y visualización de datos.
 
-    d. **Azure SQL Database reflejada**: se utiliza para reflejar Azure SQL
-        Database.
+    d. **Azure SQL Database reflejada**: se utiliza para reflejar Azure SQL Database.
 
-    e. **Catálogo de Azure Databricks reflejado**: se utiliza para reflejar
-        datos de Azure Databricks para mejorar la integración y el análisis.
+    e. **Catálogo de Azure Databricks reflejado**: se utiliza para reflejar datos de Azure Databricks para mejorar la integración y el análisis.
 
-    f. **Snowflake reflejado**: se utiliza para reflejar la base de datos
-        de Snowflake.
+    f. **Snowflake reflejado**: se utiliza para reflejar la base de datos de Snowflake.
 
-    g. **Oracle reflejado (versión preliminar):** se utiliza para reflejar
-        Oracle.
+    g. **Oracle reflejado (versión preliminar):** se utiliza para reflejar Oracle.
 
-    h. **Google BigQuery reflejada (versión preliminar):** se utiliza para
-        reflejar Google BigQuery.
+    h. **Google BigQuery reflejada (versión preliminar):** se utiliza para reflejar Google BigQuery.
 
-    i. **Azure Cosmos DB reflejado:** se utiliza para reflejar Azure Cosmos
-        DB.
+    i. **Azure Cosmos DB reflejado:** se utiliza para reflejar Azure Cosmos DB.
 
-    j. **SQL Server reflejado (versión preliminar):** se utiliza para
-        reflejar SQL Server.
+    j. **SQL Server reflejado (versión preliminar):** se utiliza para reflejar SQL Server.
 
-    k. **Azure Database for PostgreSQL reflejada (versión preliminar)**: se
-        utiliza para duplicar su Azure Database for PostgreSQL existente
-        para PostgreSQL
+    k. **Azure Database for PostgreSQL reflejada (versión preliminar)**: se utiliza para duplicar su Azure Database for PostgreSQL existente para PostgreSQL
 
-    l. **Base de datos administrada de Azure SQL reflejada**: se utiliza
-        para reflejar bases de datos administradas de Azure SQL para alta
-        disponibilidad y recuperación ante desastres.
+    l. **Base de datos administrada de Azure SQL reflejada**: se utiliza para reflejar bases de datos administradas de Azure SQL para alta disponibilidad y recuperación ante desastres.
 
-    m. **Base de datos reflejada (versión preliminar)**: se utiliza para
-        replicar bases de datos para alta disponibilidad y recuperación ante
-        desastres.
+    m. **Base de datos reflejada (versión preliminar)**: se utiliza para replicar bases de datos para alta disponibilidad y recuperación ante desastres.
 
     **Introducción:**
 
@@ -730,6 +657,13 @@ incorrect.](../media/lab-2/image30.png)
     aprender a utilizar un almacén para analizar datos.
 
     ![](../media/lab-2/image32.png)
+
+3. Haga clic en **Volver a las cargas de trabajo** en la esquina
+    superior izquierda de la pantalla. Esta acción le llevará a la
+    página principal de cargas de trabajo, donde puede explorar otras
+    herramientas o secciones.
+
+    ![](../media/lab-2/image22.png)
 
 ## Tarea 10: Experiencia de bases de datos
 
@@ -754,20 +688,20 @@ incorrect.](../media/lab-2/image30.png)
     **Tipos de elementos:**
 
     a. **SQL Database (versión preliminar)**: la base de datos SQL en
-        Fabric es parte de la carga de trabajo de la base de datos y se
-        puede acceder a los datos desde otros elementos de Fabric. Los datos
-        de su base de datos de SQL también se mantienen actualizados en un
-        formato que se pueden consultar en OneLake, para que pueda usar
-        todos los diferentes servicios de Fabric, como la ejecución de
-        análisis con Spark, la ejecución de cuadernos, la ingeniería de
-        datos y la visualización a través Power BI de informes, entre otros.
+    Fabric es parte de la carga de trabajo de la base de datos y se
+    puede acceder a los datos desde otros elementos de Fabric. Los datos
+    de su base de datos de SQL también se mantienen actualizados en un
+    formato que se pueden consultar en OneLake, para que pueda usar
+    todos los diferentes servicios de Fabric, como la ejecución de
+    análisis con Spark, la ejecución de cuadernos, la ingeniería de
+    datos y la visualización a través Power BI de informes, entre otros.
 
     b. **Cosmos DB (versión preliminar):** Cosmos DB en Microsoft Fabric es
-        una base de datos NoSQL optimizada para IA con una experiencia de
-        administración simplificada. Como desarrollador, puede utilizar
-        Cosmos DB en Fabric para desarrollar aplicaciones de IA con menos
-        fricción y sin tener que asumir tareas típicas de administración de
-        bases de datos.
+    una base de datos NoSQL optimizada para IA con una experiencia de
+    administración simplificada. Como desarrollador, puede utilizar
+    Cosmos DB en Fabric para desarrollar aplicaciones de IA con menos
+    fricción y sin tener que asumir tareas típicas de administración de
+    bases de datos.
 
     **Introducción:**
 
@@ -800,9 +734,9 @@ incorrect.](../media/lab-2/image30.png)
 
 # Referencias
 
-Fabric Analyst in a Day (FAIAD) le presenta algunas funciones clave
+Fabric Analyst in a Day (FAIAD. le presenta algunas funciones clave
 disponibles en Microsoft Fabric. En el menú del servicio, la sección
-Ayuda (?) tiene vínculos a algunos recursos excelentes.
+Ayuda (?. tiene vínculos a algunos recursos excelentes.
 
 ![](../media/lab-2/image35.png)
 
@@ -829,7 +763,7 @@ con Microsoft Fabric.
 - Lea el [libro electrónico gratuito sobre cómo empezar a usar
   Fabric](https://aka.ms/fabric-get-started-ebook)
 
-- Únase a la [comunidad de Fabric](https://aka.ms/fabric-community) para
+- Únase a la [comunidad de Fabric](https://aka.ms/fabric-community. para
   publicar sus preguntas, compartir sus comentarios y aprender de otros.
 
 Obtenga más información en los blogs de anuncios de la experiencia
@@ -881,12 +815,12 @@ licenciar, transferir ni vender, ni tampoco crear trabajos derivados
 de ella.
 
 LA COPIA O REPRODUCCIÓN DE ESTA DEMOSTRACIÓN/LABORATORIO PRÁCTICO (O
-PARTE DE ELLA) EN CUALQUIER OTRO SERVIDOR O UBICACIÓN PARA SU
+PARTE DE ELLA. EN CUALQUIER OTRO SERVIDOR O UBICACIÓN PARA SU
 REPRODUCCIÓN O DISTRIBUCIÓN POSTERIOR QUEDA EXPRESAMENTE PROHIBIDA.
 
 ESTA DEMOSTRACIÓN/LABORATORIO PRÁCTICO PROPORCIONA CIERTAS FUNCIONES
 Y CARACTERÍSTICAS DE PRODUCTOS O TECNOLOGÍAS DE SOFTWARE (INCLUIDOS
-POSIBLES NUEVOS CONCEPTOS Y CARACTERÍSTICAS) EN UN ENTORNO SIMULADO
+POSIBLES NUEVOS CONCEPTOS Y CARACTERÍSTICAS. EN UN ENTORNO SIMULADO
 SIN INSTALACIÓN O CONFIGURACIÓN COMPLEJA PARA EL PROPÓSITO ARRIBA
 DESCRITO. LA TECNOLOGÍA/CONCEPTOS DESCRITOS EN ESTA
 DEMOSTRACIÓN/LABORATORIO PRÁCTICO NO REPRESENTAN LA FUNCIONALIDAD

@@ -93,7 +93,7 @@ Esto es como crear accesos directos en el escritorio de Windows.
 
 10. Copie el token de SAS y péguelo en el campo Token de SAS (5).
 
-- **Token de SAS:** <inject key="Sas token"></inject>
+    - **Token de SAS:** <inject key="Sas token"></inject>
 
 11. Seleccione **Siguiente (6)** en la esquina inferior derecha de la
     pantalla.
@@ -707,7 +707,7 @@ posible en la consulta visual. Vamos a probar este método.
 
     ![](../media/lab-3/image52.png)
 
-Recibirá una alerta una vez que se guarde la vista.
+    Recibirá una alerta una vez que se guarde la vista.
 
 34. En el panel Explorador (izquierda), expanda **Views.** Tenemos la
     vista Sales recién creada.

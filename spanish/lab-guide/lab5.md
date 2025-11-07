@@ -89,7 +89,7 @@ del proveedor.
 
     ![](../media/lab-5/image8.png)
 
-    **Nota:** Aparecerá una ventana o panel en el lado derecho que muestra
+    >**Nota:** Aparecerá una ventana o panel en el lado derecho que muestra
     una lista de actualizaciones.
 
 6. Observará que hay una actualización singular que se ejecutó cuando
@@ -143,8 +143,7 @@ del proveedor.
 13. Para activar una programación, simplemente debemos hacer clic en
     **Agregar programación**.
 
-    ![A screenshot of a computer program AI-generated content may be
-incorrect.](../media/lab-5/image14.png)
+    ![](../media/lab-5/image14.png)
 
 14. Esto ahora nos permite especificar la cadencia de la actualización
     seleccionando una opción para la propiedad **Repeat**. Para este
@@ -223,7 +222,7 @@ incorrect.](../media/lab-5/image14.png)
     para ver el código en formato JSON. También encontrará opciones para
     alinear las actividades de manera automática.
 
-    **Nota:** Si tiene un fondo JSON,   al final de la práctica de
+    >**Nota:** Si tiene un fondo JSON,   al final de la práctica de
     laboratorio, no dude en seleccionar Ver código JSON. Aquí notará que
     toda la orquestación que está realizando mediante la vista de diseño
     también se puede escribir en JSON.
@@ -242,8 +241,7 @@ utilizar.
     de configuración de la actividad de flujo de datos.
 
 2. Vamos a configurar la actividad para conectarse al flujo de datos de
-    df_People_SharePoint.
-    En el **panel inferior**, seleccione **Configuración**.
+    df_People_SharePoint. En el **panel inferior**, seleccione **Configuración**.
 
 3. Asegúrese de que **Área de trabajo** está configurada en su área de
     trabajo de Fabric, **FAIAD_<inject key="Deployment ID" enableCopy="false"/>.**
@@ -292,15 +290,15 @@ utilizar.
 
     ![](../media/lab-5/image23.png)
 
-    Observe la ventaja de utilizar la canalización de datos en comparación
-    con configurar el flujo de datos en una actualización programada (como
-    hicimos con los flujos de datos anteriores):
+Observe la ventaja de utilizar la canalización de datos en comparación
+con configurar el flujo de datos en una actualización programada (como
+hicimos con los flujos de datos anteriores):
 
-    - La canalización ofrece la opción de reintentar varias veces antes de
-    que falle la actualización.
+- La canalización ofrece la opción de reintentar varias veces antes de
+que falle la actualización.
 
-    - La canalización brinda la capacidad de realizar otras tareas, así como
-    de actualizar el flujo de datos.
+- La canalización brinda la capacidad de realizar otras tareas, así como
+de actualizar el flujo de datos.
 
 ## Tarea 4: Crear una nueva canalización de datos
 
@@ -311,8 +309,7 @@ archivo tardará 15 minutos en estar disponible. Queremos programar los
 reintentos a los cinco y 15 minutos. Veamos cómo se puede lograr esto
 mediante la creación de una nueva canalización de datos.
 
-1. En el panel izquierdo, haga clic en **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** para
-    navegar a la página de inicio del área de trabajo.
+1. En el panel izquierdo, haga clic en **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** para navegar a la página de inicio del área de trabajo.
 
 2. En el menú superior, haga clic en **+ Nuevo elemento (1)** y en la
     ventana emergente, haga clic en **Canalización de datos (2)**.
@@ -360,9 +357,8 @@ mediante la creación de una nueva canalización de datos.
 
 6. Introduzca un **Valor predeterminado** de **0**.
 
-    **Nota:** Estamos añadiendo "var" en los nombres de las variables, por
-    lo que es fácil encontrarlas
-    y es un procedimiento recomendado.
+    >**Nota:** Estamos añadiendo "var" en los nombres de las variables, por
+    lo que es fácil encontrarlas y es un procedimiento recomendado.
 
     ![](../media/lab-5/image27.png)
 
@@ -378,22 +374,13 @@ mediante la creación de una nueva canalización de datos.
 
 11. Siga los mismos pasos para agregar tres variables más:
 
-    a. **varIsSuccess** de tipo **String** y valor predeterminado
-        **No**. Esta variable se utilizará para indicar si la
-        actualización del flujo de datos se llevó a cabo correctamente.
+    a. **varIsSuccess** de tipo **String** y valor predeterminado **No**. Esta variable se utilizará para indicar si la actualización del flujo de datos se llevó a cabo correctamente.
 
-    b. **varSuccess** de tipo **String** y valor predeterminado
-        **Yes**. Esta variable se utilizará para establecer el valor de
-        varIsSuccess si la actualización del flujo de datos se realiza
-        correctamente.
+    b. **varSuccess** de tipo **String** y valor predeterminado **Yes**. Esta variable se utilizará para establecer el valor de varIsSuccess si la actualización del flujo de datos se realiza correctamente.
 
-    c. **varWaitTime** de tipo **Integer** y valor predeterminado
-        **60**. Esta variable se utilizará para establecer el tiempo de
-        espera si el flujo de datos falla.
-        (Ya sea cinco minutos/300 segundos o 15 minutos/900 segundos).
+    c. **varWaitTime** de tipo **Integer** y valor predeterminado **60**. Esta variable se utilizará para establecer el tiempo de espera si el flujo de datos falla. (Ya sea cinco minutos/300 segundos o 15 minutos/900 segundos).
 
-    **Nota:** Asegúrese de que no haya espacios antes o después del nombre
-    de la variable.
+    **Nota:** Asegúrese de que no haya espacios antes o después del nombre de la variable.
 
     ![](../media/lab-5/image28.png)
 
@@ -432,31 +419,15 @@ mediante la creación de una nueva canalización de datos.
     canalización**. En la mitad inferior del cuadro de diálogo, tendrá
     un menú:
 
-    a. **Parámetros:** son constantes en una factoría de datos que una
-        canalización puede consumir en cualquier expresión.
+    a. **Parámetros:** son constantes en una factoría de datos que una canalización puede consumir en cualquier expresión.
 
-    b. **Variables del sistema:** estas variables se pueden usar en
-        expresiones al definir entidades dentro de cualquiera de los
-        servicios. Por ejemplo, id. de la canalización, nombre
-        de la canalización, nombre del desencadenador, etc.
+    b. **Variables del sistema:** estas variables se pueden usar en expresiones al definir entidades dentro de cualquiera de los servicios. Por ejemplo, id. de la canalización, nombre de la canalización, nombre del desencadenador, etc.
 
-    c. **Parámetros de desencadenador:** parámetros que desencadenaron
-        la canalización. Por ejemplo, el nombre del archivo o la ruta de
-        acceso de la carpeta.
+    c. **Parámetros de desencadenador:** parámetros que desencadenaron la canalización. Por ejemplo, el nombre del archivo o la ruta de acceso de la carpeta.
 
-    d. **Funciones:** puede llamar funciones dentro de expresiones. Las
-        funciones se clasifican en funciones de colección, conversión,
-        fecha, lógica, matemáticas y cadena. Por ejemplo, concat es una
-        función de cadena, add es una función matemática, etc.
+    d. **Funciones:** puede llamar funciones dentro de expresiones. Las funciones se clasifican en funciones de colección, conversión, fecha, lógica, matemáticas y cadena. Por ejemplo, concat es una función de cadena, add es una función matemática, etc.
 
-    e. **Variables:** las variables de canalización son valores que se
-        pueden establecer y modificar durante la ejecución de una
-        canalización. A diferencia de los parámetros de canalización,
-        que se definen en el nivel de canalización y no se pueden
-        cambiar durante la ejecución de la misma, las variables de
-        canalización se pueden configurar y modificar dentro de una
-        canalización mediante una actividad Establecer variable. En
-        breve utilizaremos la actividad Establecer variable.
+    e. **Variables:** las variables de canalización son valores que se pueden establecer y modificar durante la ejecución de una canalización. A diferencia de los parámetros de canalización, que se definen en el nivel de canalización y no se pueden cambiar durante la ejecución de la misma, las variables de canalización se pueden configurar y modificar dentro de una canalización mediante una actividad Establecer variable. En breve utilizaremos la actividad Establecer variable.
 
     ![](../media/lab-5/image31.png)
 
@@ -590,17 +561,13 @@ el iterador es establecer el valor de la variable varIsSuccess en Sí.
     el resultado de la actividad, se pueden utilizar para conectarse
     a la siguiente:
 
-    a. El icono de la **flecha curva gris** se utiliza para omitir la
-        actividad.
+    a. El icono de la **flecha curva gris** se utiliza para omitir la actividad.
 
-    b. El icono de la **marca de verificación verde** se utiliza en caso de
-        éxito de la actividad.
+    b. El icono de la **marca de verificación verde** se utiliza en caso de éxito de la actividad.
 
-    c. El icono de la **marca roja con forma de x** se utiliza en caso de
-        fallo de la actividad.
+    c. El icono de la **marca roja con forma de x** se utiliza en caso de fallo de la actividad.
 
-    d. El icono de la **flecha recta azul** se utiliza al finalizar la
-        actividad.
+    d. El icono de la **flecha recta azul** se utiliza al finalizar la actividad.
 
 5. Haga clic en la **marca de verificación verde** desde la actividad
     del flujo de datos dfactivity_People_SharePoint y arrastre para
@@ -807,12 +774,7 @@ establecer el tiempo de espera.
 
     Si es true, comprueba si el valor de la variable varCounter es 2. Si es
     true, establece el tiempo de espera en varWaitTime multiplicado por 15.
-    Recuerde, habíamos establecido el valor predeterminado de varWaitTime a 60. Eso sería 60*15 = 900 segundos. Si el valor de la variable
-varCounter no es 2 (es mayor que 2, lo que significa que la
-actualización del flujo de datos ha fallado 3 veces, hemos terminado de
-iterar. No tenemos que esperar más), el tiempo de espera se establece en
-varWaitTime *0. O sea, 0. Si el valor de la variable varCounter es 1,
-entonces multiplicamos varWaitTime *5. Eso sería 60*5 = 300 segundos.
+    Recuerde, habíamos establecido el valor predeterminado de varWaitTime a 60. Eso sería 60*15 = 900 segundos. Si el valor de la variable varCounter no es 2 (es mayor que 2, lo que significa que la actualización del flujo de datos ha fallado 3 veces, hemos terminado de iterar. No tenemos que esperar más), el tiempo de espera se establece en varWaitTime *0. O sea, 0. Si el valor de la variable varCounter es 1, entonces multiplicamos varWaitTime *5. Eso sería 60*5 = 300 segundos.
 
 9. Seleccione **Aceptar**.
 
@@ -862,7 +824,7 @@ entonces multiplicamos varWaitTime *5. Eso sería 60*5 = 300 segundos.
 
 8. Establezca su **Zona horaria**.
 
-    **Nota:** dado que se trata de un entorno de laboratorio, puede
+    >**Nota:** dado que se trata de un entorno de laboratorio, puede
     configurar la zona horaria según su zona horaria preferida. En un
     escenario real, configurará la zona horaria según la ubicación de su
     origen de datos.
@@ -874,8 +836,7 @@ entonces multiplicamos varWaitTime *5. Eso sería 60*5 = 300 segundos.
 
     ![](../media/lab-5/image54.png)
 
-11. Seleccione el área de trabajo de Fabric **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** en
-    el panel izquierdo para navegar al área de trabajo **.**
+11. Seleccione el área de trabajo de Fabric **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** en el panel izquierdo para navegar al área de trabajo **.**
 
     **Nota:** En la pantalla Programación, no hay ninguna opción para
     notificar sobre el éxito o el error (como la programación de flujos de

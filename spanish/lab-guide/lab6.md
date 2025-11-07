@@ -97,8 +97,7 @@ Al final de este laboratorio, habrá aprendido:
     También hay una opción para ver las consultas que se comparten con
     usted mediante la carpeta **Consultas compartidas**.
 
-    > **Nota:** las consultas visuales que había creado en laboratorios
-    > anteriores también están disponibles en la carpeta Mis consultas.
+    > **Nota:** las consultas visuales que había creado en laboratorios anteriores también están disponibles en la carpeta Mis consultas.
 
     ![](../media/lab-6/image8.png)
 
@@ -502,15 +501,11 @@ Agreguemos las medidas restantes.
 
 8. Siga pasos similares para agregar las siguientes medidas:
 
-    a. En la tabla **Sales , GM = SUM('Sales'[LineProfit])**
-        formateado como **Divisa con 0 decimales.**
+    a. En la tabla **Sales , GM = SUM('Sales'[LineProfit])** formateado como **Divisa con 0 decimales.**
 
-    b. En la tabla **Sales**, **GM% = DIVIDE([GM], [Sales])**
-        formateado como **Porcentaje con 0 decimales.**
+    b. En la tabla **Sales**, **GM% = DIVIDE([GM], [Sales])** formateado como **Porcentaje con 0 decimales.**
 
-    c. En la tabla **Customer, No of Customers = COUNTROWS(Customer)**
-        formateado como **Número entero con separador de miles
-        activado.**
+    c. En la tabla **Customer, No of Customers = COUNTROWS(Customer)** formateado como **Número entero con separador de miles activado.**
 
 # Referencias
 

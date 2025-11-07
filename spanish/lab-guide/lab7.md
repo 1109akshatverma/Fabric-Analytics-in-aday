@@ -75,14 +75,11 @@ Power BI.
     la página. Observe que tenemos varias opciones. **Seleccione
     sm_FAIAD**.
 
-    a. **sm_FAIAD:** este es el modelo semántico que hemos creado y que
-        queremos utilizar para crear el informe.
+    a. **sm_FAIAD:** este es el modelo semántico que hemos creado y que queremos utilizar para crear el informe.
 
-    b. **lh_FAIAD:** este es el almacén de lago de datos en el que
-        ingerimos todos los datos.
+    b. **lh_FAIAD:** este es el almacén de lago de datos en el que ingerimos todos los datos.
 
-    c. **Units by Supplier:** este es el conjunto de datos que creamos
-        con T-SQL.
+    c. **Units by Supplier:** este es el conjunto de datos que creamos con T-SQL.
 
 7. Haga clic en la flecha **junto al botón Crear informe de forma
     automática**. Observe que hay dos opciones: Crear informe de forma
@@ -198,8 +195,7 @@ Creemos un nuevo informe usando un lienzo en blanco.
 
 ## Tarea 3: Agregar un encabezado al informe
 
-1. Agreguemos el encabezado en el margen superior. En el **menú**,
-    seleccione **Cuadro de texto**.
+1. Agreguemos el encabezado en el margen superior. En el **menú**, seleccione **Cuadro de texto**.
 
 2. Introduzca **Fabrikam Company** como primera línea en el cuadro de
     texto.
@@ -613,8 +609,7 @@ Sales view.
     en **Crear nueva conexión** y complete los siguientes pasos:
 
 10. En Configuración de **conexión -> Dirección URL**, introduzca este
-    vínculo
-    <https://stvnextblobstorage.dfs.core.windows.net/fabrikam-sales>
+    vínculo `https://stvnextblobstorage.dfs.core.windows.net/fabrikam-sales`
 
 11. Seleccione **Siguiente**.
 
