@@ -293,22 +293,18 @@ configure la conexión.
 
 3. **El tipo de autenticación** debe ser **Snowflake**.
 
-4. Introduzca el **nombre de usuario de Snowflake** y la **contraseña
-    de Snowflake** que se proporcionan a continuación. Use estas
-    credenciales para conectar todas las tablas de Snowflake con
-    Snowflake y luego seleccione **Conectar**.
+1. Introduce el **nombre de usuario de Snowflake** y la **contraseña de Snowflake** que se indican a continuación. Utiliza estas credenciales para conectar todas las tablas en Snowflake y luego selecciona **Conectar**.
 
-    - Nombre de usuario de Snowflake: <inject key="SnowFlake Username" enableCopy="false" />
+    * **Nombre de usuario de Snowflake:** <inject key="SnowFlake Username" enableCopy="false" />
+    * **Contraseña de Snowflake:** <inject key="SnowFlake Password" enableCopy="false" />
 
-    - Contraseña de Snowflake: <inject key="SnowFlake Password" enableCopy="false" />
+    > **Nota:** Si tienes algún problema al conectarte a Snowflake con las credenciales anteriores, utiliza las credenciales de respaldo que se muestran a continuación.
 
-    **Nota:** Si tiene algún problema para conectarse a Snowflake con las
-    credenciales de los detalles del entorno, utilice las credenciales que
-    se proporcionan a continuación.
+    * **Nombre de usuario de Snowflake:** SNOWFLAKE_BACKUP
+    * **Contraseña de Snowflake:** 8UpfRpExVDXv2AC1
 
-    - **Nombre de usuario de Snowflake:** SNOWFLAKE_BACKUP
-
-    - **Contraseña de Snowflake:** 8UpfRpExVDXv2AC1
+    > **Nota:** No introduzcas un nombre de usuario o una contraseña incorrectos más de tres veces, ya que esto bloqueará la cuenta de Snowflake para todos los usuarios.
+    > Si tienes problemas para iniciar sesión, comunícate con **[cloudlabs-support@spektrasystems.com](mailto:cloudlabs-support@spektrasystems.com)** en lugar de intentar varias veces.
 
 5. Seleccione **Conectar**.
 

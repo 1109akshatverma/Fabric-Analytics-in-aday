@@ -318,19 +318,17 @@ die Navigation. Sehen wir uns den Bericht kurz an und fahren dann fort.
 
     ![](../media/lab-1/image23.png)
 
-13. Geben Sie den **Benutzernamen für Snowflake** und das **Kennwort für
-    Snowflake** ein, die unten angegeben sind. Verwenden Sie diese
-    Anmeldeinformationen, um alle Tabellen unter Snowflake mit Snowflake
-    zu verbinden, und wählen Sie dann „Verbinden".
+13. Geben Sie den **Snowflake-Benutzernamen** und das **Snowflake-Passwort** ein, die unten angegeben sind. Verwenden Sie diese Anmeldedaten, um alle Tabellen in Snowflake zu verbinden, und wählen Sie anschließend **Verbinden** aus.
 
-    - **Snowflake-Benutzername:** <inject key="SnowFlake Username"></inject>
+    * **Snowflake-Benutzername:** <inject key="SnowFlake Username" enableCopy="false" />
+    * **Snowflake-Passwort:** <inject key="SnowFlake Password" enableCopy="false" />
 
-    - **Snowflake-Kennwort:** <inject key="SnowFlake Password"></inject>
+    > **Hinweis:** Wenn Sie Probleme beim Herstellen der Verbindung zu Snowflake mit den oben angegebenen Anmeldedaten haben, verwenden Sie bitte die unten angegebenen Ersatz-Anmeldedaten.
 
-    *Hinweis: Wenn Sie Probleme beim Herstellen einer Verbindung zu
-    Snowflake mit den Anmeldeinformationen aus den Umgebungsdetails haben,
-    verwenden Sie die auf der Registerkarte „Umgebung" angegebenen
-    Backup-Anmeldeinformationen.*
+    * **Snowflake-Benutzername:** SNOWFLAKE_BACKUP
+    * **Snowflake-Passwort:** 8UpfRpExVDXv2AC1
+
+    > **Hinweis:** Bitte geben Sie den falschen Benutzernamen oder das falsche Passwort nicht mehr als dreimal ein, da das Snowflake-Konto sonst für alle Benutzer gesperrt wird. Wenn Sie Schwierigkeiten beim Anmelden haben, wenden Sie sich bitte an **[cloudlabs-support@spektrasystems.com](mailto:cloudlabs-support@spektrasystems.com)**, anstatt es mehrfach zu versuchen.
 
 14. Beachten Sie, dass der Ordner **SnowflakeData** die Dimension
     „Supplier" und das Element „PO(Order / Spend)" enthält.

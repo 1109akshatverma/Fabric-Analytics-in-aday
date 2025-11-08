@@ -94,7 +94,7 @@ abordaba sus desafíos.
 Antes de comenzar con Fabric, veamos el informe actual en Power BI
 Desktop para comprender las transformaciones y el modelo.
 
-### Tarea 1: Configurar Power BI Desktop en un entorno de laboratorio
+## Tarea 1: Configurar Power BI Desktop en un entorno de laboratorio
 
 1. Abra **FAIAD.pbix**, que se encuentra en la carpeta **Reports** en
     el **escritorio** de su entorno de laboratorio. El archivo se abrirá
@@ -141,7 +141,7 @@ Desktop para comprender las transformaciones y el modelo.
 
 Ahora se abrirá Power BI Desktop.
 
-### Tarea 2: Analizar el informe de Power BI Desktop
+## Tarea 2: Analizar el informe de Power BI Desktop
 
 El siguiente informe analiza las ventas de Fabrikam. Los KPI se enumeran
 en la parte superior izquierda de la página. Los objetos visuales
@@ -232,7 +232,7 @@ avancemos a los siguientes pasos.
     e. Disponemos de información de Customer por Reseller. Customer se
     conecta con Reseller.
 
-### Tarea 3: Revisar consultas de Power Query
+## Tarea 3: Revisar consultas de Power Query
 
 1. Echemos un vistazo a Power Query para entender los orígenes de
     datos. En la cinta de opciones, seleccione **Inicio -> Transformar
@@ -319,18 +319,18 @@ avancemos a los siguientes pasos.
 
     ![](../media/lab-1/image22.png)
 
-13. Introduzca el **nombre de usuario de Snowflake** y la **contraseña
-    de Snowflake** que se proporcionan a continuación. Use estas
-    credenciales para conectar todas las tablas de Snowflake con
-    Snowflake y luego seleccione Conectar.
+13. Introduce el **nombre de usuario de Snowflake** y la **contraseña de Snowflake** que se indican a continuación. Utiliza estas credenciales para conectar todas las tablas en Snowflake y luego selecciona **Conectar**.
 
-    - **Nombre de usuario de Snowflake:** <inject key="SnowFlake Username"></inject>
+    * **Nombre de usuario de Snowflake:** <inject key="SnowFlake Username" enableCopy="false" />
+    * **Contraseña de Snowflake:** <inject key="SnowFlake Password" enableCopy="false" />
 
-    - **Contraseña de Snowflake:** <inject key="SnowFlake Password"></inject>
+    > **Nota:** Si tienes algún problema al conectarte a Snowflake con las credenciales anteriores, utiliza las credenciales de respaldo que se muestran a continuación.
 
-    *Nota: Si tiene algún problema para conectarse a Snowflake con las
-    credenciales de los detalles del entorno, utilice las credenciales de
-    copia de seguridad que se proporcionan en la pestaña Entorno.*
+    * **Nombre de usuario de Snowflake:** SNOWFLAKE_BACKUP
+    * **Contraseña de Snowflake:** 8UpfRpExVDXv2AC1
+
+    > **Nota:** No introduzcas un nombre de usuario o una contraseña incorrectos más de tres veces, ya que esto bloqueará la cuenta de Snowflake para todos los usuarios.
+    > Si tienes problemas para iniciar sesión, comunícate con **[cloudlabs-support@spektrasystems.com](mailto:cloudlabs-support@spektrasystems.com)** en lugar de intentar varias veces.
 
 14. Observe que la carpeta **SnowflakeData** tiene la dimensión Supplier
     y los datos de PO (pedido/gasto).
@@ -357,7 +357,7 @@ avancemos a los siguientes pasos.
 
     - **Contraseña:** <inject key="AzureAdUserPassword"></inject>
 
-    ![](../media/lab-1/image24.png)
+      ![](../media/lab-1/image24.png)
 
 17. Observe que la carpeta **SharepointData** tiene la dimensión People.
 

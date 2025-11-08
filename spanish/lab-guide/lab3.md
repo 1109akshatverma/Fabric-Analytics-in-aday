@@ -235,7 +235,7 @@ Esto es como crear accesos directos en el escritorio de Windows.
 
     ![](../media/lab-3/image16.png)
 
-6. Con la consulta **Cities(1)** seleccionada, en la cinta del Editor
+6. Con la consulta **Cities (1)** seleccionada, en la cinta del Editor
     de Power Query, seleccione **Inicio (2) - > Combinar (3) -> Menú
     desplegable Combinar consultas (4) -> Combinar consultas como
     nuevas (5)**. Se abrirá el cuadro de diálogo Combinar consultas.
