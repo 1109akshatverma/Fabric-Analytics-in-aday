@@ -51,7 +51,7 @@ Ao final deste laboratório, você terá aprendido:
 
 ## Tarefa 1: Copiar consultas do SharePoint para o Fluxo de dados
 
-1. Vamos voltar ao workspace do Fabric, **FAIAD_<nome de usuário>
+1. Vamos voltar ao workspace do Fabric, **FAIAD_<inject key="Deployment ID" enableCopy="false"/>
     (1),** que você criou no Laboratório 2, Tarefa 8.
 
 2. Selecione a opção **+ Novo item (2)** disponível no canto superior
@@ -148,8 +148,7 @@ precisamos ingerir os dados de People no Lakehouse.
     criando uma nova tabela.
 
 5. Queremos criar a tabela no Lakehouse que criamos anteriormente. No
-    painel esquerdo, navegue para **Lakehouse -> FAIAD_<nome de
-    usuário>**.
+    painel esquerdo, navegue para **Lakehouse -> FAIAD_<inject key="Deployment ID" enableCopy="false"/>**.
 
 6. Selecione **lh_FAIAD**.
 
@@ -183,7 +182,7 @@ precisamos ingerir os dados de People no Lakehouse.
     ![](../media/lab-4/image16.png)
 
     **Observação:** você será direcionado de volta para o **workspace
-    FAIAD_<nome de usuário>**. Pode levar alguns instantes para que a
+    FAIAD_<inject key="Deployment ID" enableCopy="false"/>**. Pode levar alguns instantes para que a
     execução do Fluxo de Dados seja encerrada.
 
 3. **Dataflow 1** é o fluxo de dados no qual estávamos trabalhando.
@@ -204,8 +203,7 @@ precisamos ingerir os dados de People no Lakehouse.
 
     ![](../media/lab-4/image18.png)
 
-    Você será direcionado de volta para o **workspace FAIAD_<nome de
-    usuário>**.
+    Você será direcionado de volta para o **workspace FAIAD_<inject key="Deployment ID" enableCopy="false"/>**.
 
 7. Selecione **lh_FAIAD** para acessar o lakehouse.
 
@@ -302,9 +300,9 @@ conexão.
     fornecidos abaixo. Use essas credenciais para conectar todas as
     tabelas do Snowflake ao Snowflake e selecione **Conectar**.
 
-    - Nome de usuário do Snowflake: TE_SNOWFLAKE1
+    - **Nome de usuário do Snowflake:** <inject key="SnowFlake Username"></inject>
 
-    - Senha do Snowflake: 8UpfRpExVDXv2AC1
+    - **Senha do Snowflake:** <inject key="SnowFlake Password"></inject>
 
     **Observação:** Se você encontrar problemas para se conectar ao
     Snowflake usando as credenciais dos detalhes do ambiente, use as
@@ -349,8 +347,7 @@ conexão.
     criando uma nova tabela.
 
 6. Queremos criar a tabela no Lakehouse que criamos anteriormente. No
-    painel esquerdo, navegue para **Lakehouse -> FAIAD_<nome de
-    usuário>**.
+    painel esquerdo, navegue para **Lakehouse -> FAIAD_<inject key="Deployment ID" enableCopy="false"/>**.
 
 7. Selecione **lh_FAIAD**.
 
@@ -394,8 +391,7 @@ conexão.
 
     ![](../media/lab-4/image31.png)
 
-    Você será direcionado de volta para o **workspace FAIAD_<nome de
-    usuário>**. Pode levar alguns instantes para que Fluxo de Dados seja
+    Você será direcionado de volta para o **workspace FAIAD_<inject key="Deployment ID" enableCopy="false"/>**. Pode levar alguns instantes para que Fluxo de Dados seja
     publicado.
 
 5. Selecione **lh_FAIAD** para acessar o lakehouse.

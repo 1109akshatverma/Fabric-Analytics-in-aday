@@ -53,7 +53,7 @@ Ao final deste laboratório, você terá aprendido a:
 2. Copie o Nome de usuário e cole-o no campo Email da caixa de texto e
     selecione Enviar.
 
-    - **Email/Nome de usuário:** encontrado na guia Ambiente
+    - **Email/Nome de usuário:** <inject key="AzureAdUserEmail"></inject>
 
          ![](../media/lab-2/image6.png)
 
@@ -61,13 +61,13 @@ Ao final deste laboratório, você terá aprendido a:
     Nessa tela, insira o seguinte **Email/Nome de usuário** e clique em
     **Avançar**.
 
-    - **Email/Nome de usuário:** encontrado na guia Ambiente
+    - **Email/Nome de usuário:** <inject key="AzureAdUserEmail"></inject>
 
       ![](../media/lab-2/image7.png)
 
 4. Agora, insira a seguinte **Senha** e clique em **Entrar**.
 
-    - **Senha:** encontrada na guia Ambiente
+    - **Senha:** <inject key="AzureAdUserPassword"></inject>
 
       ![](../media/lab-2/image8.png)
 
@@ -125,7 +125,7 @@ Ao final deste laboratório, você terá aprendido a:
 3. A caixa de diálogo **Criar um workspace** é aberta no lado direito
     do navegador.
 
-4. No campo **Nome**, insira FAIAD_UserID (encontrado na guia
+4. No campo **Nome**, insira **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** (encontrado na guia
     Ambiente).
 
     ***Observação:** O nome do workspace deve ser exclusivo. Verifique se há
@@ -153,7 +153,7 @@ Ao final deste laboratório, você terá aprendido a:
 
 ## Tarefa 3: Criar um Lakehouse
 
-1. No workspace recém-criado **FAIAD_Username**, localize o botão **+
+1. No workspace recém-criado **FAIAD_<inject key="Deployment ID" enableCopy="false"/>**, localize o botão **+
     Novo item (1)** no painel de navegação esquerdo. É aqui que você
     pode começar a criar novos itens em seu workspace.
 

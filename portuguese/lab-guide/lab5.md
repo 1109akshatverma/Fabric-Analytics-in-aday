@@ -64,7 +64,7 @@ Ao final deste laboratório, você terá aprendido:
 Vamos começar configurando uma atualização agendada do Fluxo de dados
 Supplier.
 
-1. Voltamos ao workspace do Fabric, **FAIAD_<nome de usuário>**
+1. Voltamos ao workspace do Fabric, **FAIAD_<inject key="Deployment ID" enableCopy="false"/>**
     selecionando-o no painel esquerdo.
 
 2. Para maximizar o painel com a lista de artefatos, selecione a seta
@@ -176,7 +176,7 @@ Supplier.
 
 ## Tarefa 2: Criar Pipeline de dados
 
-1. Voltamos ao workspace do Fabric, **FAIAD_<nome de usuário>**
+1. Voltamos ao workspace do Fabric, **FAIAD_<<inject key="Deployment ID" enableCopy="false"/>**
     selecionando-o no painel esquerdo.
 
 2. No menu superior, selecione **+ Novo item (1) -> Pipeline (2)**.
@@ -239,7 +239,7 @@ usar.
     df_People_SharePoint. No painel inferior, selecione Configurações.
 
 3. Certifique-se de que o **Workspace** esteja definido como seu
-    workspace do Fabric, **FAIAD_<nome de usuário>**.
+    workspace do Fabric, **FAIAD_<inject key="Deployment ID" enableCopy="false"/>**.
 
 4. Na lista suspensa **Fluxo de dados**, selecione
     **df_People_SharePoint**. Quando esta atividade Fluxo de dados for
@@ -300,7 +300,7 @@ levará 15 minutos para que o arquivo fique disponível. Queremos agendar
 as novas tentativas para 5 e 15 minutos. Vamos ver como isso pode ser
 alcançado criando um novo Pipeline de dados.
 
-1. No painel esquerdo, clique em **FAIAD_<nome de usuário>** para
+1. No painel esquerdo, clique em **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** para
     navegar até a página inicial do workspace.
 
 2. No menu superior, clique em **+ Novo item (1)** e, na janela popout,
@@ -539,7 +539,7 @@ alcançado criando um novo Pipeline de dados.
 7. Selecione **Configurações** no painel inferior.
 
 8. Certifique-se de que o **Workspace** esteja definido como seu
-    workspace **FAIAD_<nome de usuário>**.
+    workspace **FAIAD_<inject key="Deployment ID" enableCopy="false"/>**.
 
 9. Na lista suspensa **Fluxo de dados**, selecione
     **df_People_SharePoint**.
@@ -844,7 +844,7 @@ captura de tela abaixo.
 
     ![](../media/lab-5/image54.png)
 
-11. Selecione seu workspace do Fabric **FAIAD_<nome de usuário>** no
+11. Selecione seu workspace do Fabric **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** no
     painel esquerdo para navegar até o workspace.
 
     **Observação:** Na tela Agendamento, não há opção de notificação sobre

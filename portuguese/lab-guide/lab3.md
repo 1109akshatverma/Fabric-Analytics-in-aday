@@ -94,7 +94,7 @@ Windows.
 
 10. Copie o token SAS e cole-o no campo Token SAS (5).
 
-    - **Token SAS:**
+    - **Token SAS:** <inject key="Sas token"></inject>
 
 11. Selecione **Avançar (6)** na parte inferior direita da tela.
 

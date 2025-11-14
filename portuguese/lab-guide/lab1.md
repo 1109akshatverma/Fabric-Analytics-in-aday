@@ -109,6 +109,8 @@ atual no Power BI Desktop para entender as transformações e o modelo.
 3. Copie os dados de **Username** e cole na caixa de texto **Email** da
     caixa de diálogo.
 
+    - Email/Nome de usuário: <inject key="AzureAdUserEmail"></inject>    
+
 4. Selecione **Continue**.
 
     ![](../media/lab-1/image7.png)
@@ -116,10 +118,14 @@ atual no Power BI Desktop para entender as transformações e o modelo.
 5. A caixa de diálogo Sign in é aberta. Insira novamente os dados de
     **Username** copiando-os da guia **Environment Details**.
 
+    - Email/Nome de usuário: <inject key="AzureAdUserEmail"></inject>    
+
 6. Selecione Próximo.
 
 7. Na próxima caixa de diálogo, insira os dados de **Password
     Credentials** copiando-os da guia **Environment Details**.
+
+    - Insira a senha: <inject key="AzureAdUserPassword"></inject>    
 
 8. Selecione **Sign in**.
 
@@ -267,9 +273,9 @@ o relatório e passar para as próximas etapas.
     inserindo o **Nome de usuário** e a **Senha**. As credenciais são
     fornecidas abaixo. Selecione **Conectar**.
 
-    - Email/Nome de usuário: **encontrado na guia Ambiente**
-
-    - Senha: **encontrada na guia Ambiente**
+    - **Email/Nome de usuário:** <inject key="AzureAdUserEmail"></inject>
+    
+    - **Senha:** <inject key="AzureAdUserPassword"></inject>
 
 9. Clique na Consulta **ADLS Base Folder** na janela Consultas. Para
     selecionar essa consulta, forneça as credenciais. Clique em **Editar
@@ -281,7 +287,7 @@ o relatório e passar para as próximas etapas.
     acesso compartilhado)** e insira o **token SAS** fornecido abaixo.
     Em seguida, selecione **Conectar**.
 
-    - **Token SAS:** encontrado na guia Ambiente
+    - **Token SAS:** <inject key="Sas token"></inject>
 
       ![](../media/lab-1/image21.png)
 
@@ -310,13 +316,17 @@ o relatório e passar para as próximas etapas.
     fornecidos abaixo. Use essas credenciais para conectar todas as
     tabelas do Snowflake ao Snowflake e selecione Conectar.
 
-    - **Nome de usuário do Snowflake:** TE_SNOWFLAKE1
-
-    - **Senha do Snowflake:** 8UpfRpExVDXv2AC1
+    - **Nome de usuário do Snowflake:** <inject key="SnowFlake Username"></inject>
+    
+    - **Senha do Snowflake:** <inject key="SnowFlake Password"></inject>
 
     *Observação: Se você encontrar problemas para se conectar ao Snowflake
     usando as credenciais dos detalhes do ambiente, use as credenciais de
     backup fornecidas na guia Ambiente.*
+
+    - **Nome de usuário do Snowflake:** SNOWFLAKE_BACKUP
+
+    - **Senha do Snowflake:** 8UpfRpExVDXv2AC1
 
 14. A pasta SnowflakeData tem a dimensão Supplier e o fato PO
     (Order/Spend).
@@ -336,9 +346,9 @@ o relatório e passar para as próximas etapas.
     Insira o Nome de usuário e a Senha fornecidos abaixo e selecione
     Conectar.
 
-    - **Email/Nome de usuário:** encontrado na guia Ambiente
+    - **Email/Nome de usuário:** <inject key="AzureAdUserEmail"></inject>
 
-    - **Senha:** encontrada na guia Ambiente
+    - **Senha:** <inject key="AzureAdUserPassword"></inject>
 
       ![](../media/lab-1/image24.png)
 

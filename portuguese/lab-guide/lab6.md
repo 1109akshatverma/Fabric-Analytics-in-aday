@@ -34,7 +34,7 @@ Ao final deste laboratório, você terá aprendido:
 
 ## Tarefa 1: Consultar dados usando SQL
 
-1. Vamos voltar ao workspace do Fabric, **FAIAD_<nome de usuário>,**
+1. Vamos voltar ao workspace do Fabric, **FAIAD_<inject key="Deployment ID" enableCopy="false"/>,**
     que você criou no Laboratório 2, Tarefa 8.
 
 2. Você pode escolher **Minimizar o fluxo de tarefas** para exibir toda
@@ -43,8 +43,7 @@ Ao final deste laboratório, você terá aprendido:
 3. Você verá três elementos associados a lh_FAIAD -- Lakehouse, Modelo
     semântico e Ponto de extremidade de SQL. Exploramos o Lakehouse e
     criamos consultas de visual usando o ponto de extremidade da análise
-    SQL em um laboratório anterior. Selecione **FAIAD_<nome de
-    usuário>** na navegação esquerda e escolha o **Ponto de extremidade
+    SQL em um laboratório anterior. Selecione **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** na navegação esquerda e escolha o **Ponto de extremidade
     de análise de SQL lh_FAIAD** para continuar a explorar essa opção.
     Você será direcionado à **exibição de SQL** do explorador.
 
@@ -140,7 +139,7 @@ Ao final deste laboratório, você terá aprendido:
     Fornecedor** na caixa de texto **Inserir um nome para o relatório**.
 
 9.  Certifique-se de que o workspace de destino seja seu workspace do
-    Fabric, **FAIAD_<nome de usuário>**.
+    Fabric, **FAIAD_<inject key="Deployment ID" enableCopy="false"/>**.
 
 10. Selecione **Salvar**.
 
