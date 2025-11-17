@@ -123,18 +123,15 @@ Supplier.
 
     ![](../media/lab-5/image12.png)
 
-11. Você verá no painel **Configurações** que apareceu que temos três
-    opções:**
-    Sobre** -- aqui, podemos alterar o nome do Fluxo de Dados e
-    adicionar uma descrição. Além disso, nós podemos ver quem é o
-    proprietário do fluxo de dados e a última vez que ele foi
-    modificado
-    **Endosso** -- isso nos permite especificar se o fluxo de dados
-    carregará a marca **Promovido** ou **Certificado** para que outras
-    pessoas vejam
-    **Agendamento** -- é aqui que podemos agendar os fluxos de dados
+11. Você verá no painel **Configurações** que apareceu que temos três opções:
 
-    ![](../media/lab-5/image13.png)
+    - **Sobre** - aqui, podemos alterar o nome do Fluxo de Dados e adicionar uma descrição. Além disso, nós podemos ver quem é o proprietário do fluxo de dados e a última vez que ele foi modificado 
+
+    - **Endosso** - isso nos permite especificar se o fluxo de dados carregará a marca **Promovido** ou **Certificado** para que outras pessoas vejam 
+
+    - **Agendamento** - é aqui que podemos agendar os fluxos de dados
+
+        ![](../media/lab-5/image13.png)
 
 12. Selecione a opção **Agendamento**
 
@@ -176,7 +173,7 @@ Supplier.
 
 ## Tarefa 2: Criar Pipeline de dados
 
-1. Voltamos ao workspace do Fabric, **FAIAD_<<inject key="Deployment ID" enableCopy="false"/>**
+1. Voltamos ao workspace do Fabric, **FAIAD_<inject key="Deployment ID" enableCopy="false"/>**
     selecionando-o no painel esquerdo.
 
 2. No menu superior, selecione **+ Novo item (1) -> Pipeline (2)**.
@@ -366,17 +363,17 @@ alcançado criando um novo Pipeline de dados.
 11. Siga etapas semelhantes para adicionar mais três variáveis:
 
     a. **varIsSuccess** do tipo **String** e valor padrão **Não**. Essa
-        variável será usada para indicar se a atualização do fluxo de
-        dados foi bem-sucedida.
+    variável será usada para indicar se a atualização do fluxo de
+    dados foi bem-sucedida.
 
     b. **varSuccess** do tipo **String** e valor padrão **Sim**. Essa
-        variável será usada para definir o valor de varIsSuccess se a
-        atualização do fluxo de dados for bem-sucedida.
+    variável será usada para definir o valor de varIsSuccess se a
+    atualização do fluxo de dados for bem-sucedida.
 
     c. **varWaitTime** do tipo **Integer** e valor padrão **60**. Essa
-        variável será usada para definir o tempo de espera se o fluxo de
-        dados falhar (5 minutos/300 segundos ou 15 minutos/900
-        segundos).
+    variável será usada para definir o tempo de espera se o fluxo de
+    dados falhar (5 minutos/300 segundos ou 15 minutos/900
+    segundos).
 
     **Observação:** certifique-se de que não haja espaço antes ou depois do
     nome da variável.
@@ -417,28 +414,26 @@ alcançado criando um novo Pipeline de dados.
 8. A caixa de diálogo **Construtor de expressão de pipeline** é aberta.
     Na metade inferior da caixa de diálogo, você terá um menu:
 
-    a. **Parâmetros:** constantes em um data factory que podem ser
-        consumidas por um pipeline em qualquer expressão.
+    a. **Parâmetros:** constantes em um data factory que podem ser consumidas por um pipeline em qualquer expressão.
 
     b. **Variáveis do sistema:** podem ser usadas em expressões ao
-        definir entidades em qualquer serviço. Por exemplo, ID do
-        pipeline, nome do pipeline, nome do gatilho, etc.
+    definir entidades em qualquer serviço. Por exemplo, ID do
+    pipeline, nome do pipeline, nome do gatilho, etc.
 
-    c. **Parâmetros de gatilho:** parâmetros que acionaram o pipeline.
-        Por exemplo, Nome do Arquivo ou Caminho da Pasta.
+    c. **Parâmetros de gatilho:** parâmetros que acionaram o pipeline. Por exemplo, Nome do Arquivo ou Caminho da Pasta.
 
     d. **Funções:** você pode chamar funções dentro de expressão. As
-        funções são categorizadas em Collection, Conversion, Date,
-        Logical, Math e String. Por exemplo, concat é  uma função
-        String, add é uma função Math, etc.
+    funções são categorizadas em Collection, Conversion, Date,
+    Logical, Math e String. Por exemplo, concat é  uma função
+    String, add é uma função Math, etc.
 
     e. **Variáveis:** variáveis de pipeline são valores que podem ser
-        definidos e modificados durante a execução de um pipeline. Ao
-        contrário dos parâmetros do pipeline, que são definidos no nível
-        do pipeline e não podem ser alterados durante a execução de
-        pipeline, as variáveis do pipeline podem ser definidas e
-        modificadas dentro de um pipeline usando uma atividade Definir
-        Variável. Usaremos a atividade Definir Variável em breve.
+    definidos e modificados durante a execução de um pipeline. Ao
+    contrário dos parâmetros do pipeline, que são definidos no nível
+    do pipeline e não podem ser alterados durante a execução de
+    pipeline, as variáveis do pipeline podem ser definidas e
+    modificadas dentro de um pipeline usando uma atividade Definir
+    Variável. Usaremos a atividade Definir Variável em breve.
 
     ![](../media/lab-5/image31.png)
 
@@ -573,8 +568,7 @@ definir o valor da variável varIsSuccess como Sim.
 
     a. O ícone de **seta curvada cinza** é usado para pular a atividade.
 
-    b. O ícone de **marca de seleção verde** é usado no sucesso da
-        atividade.
+    b. O ícone de **marca de seleção verde** é usado no sucesso da atividade.
 
     c. O ícone de **marca x vermelho** é usado na falha da atividade.
 
@@ -706,7 +700,7 @@ definir o valor da variável varIsSuccess como Sim.
     digitar esta expressão, usar o menu para selecionar as funções ou
     copiá-la e colá-la.
 
-11. Clique em OK.
+11. Clique em **OK**.
 
     ![](../media/lab-5/image47.png)
 
@@ -730,8 +724,7 @@ Wait e a variável varWaitTime para definir o tempo de espera.
 
 3. No campo **Nome**, insira **wait_onFailure**.
 
-4. No campo **Descrição**, insira **Aguarde 300 segundos na 2ª
-    tentativa e 900 segundos na 3ª**.
+4. No campo **Descrição**, insira **Aguarde 300 segundos na 2nd tentativa e 900 segundos na 3rd**.
 
 5. Clique na **marca de seleção verde** da atividade Definir variável
     set_varCounter e arraste para se conectar à nova **atividade Wait
@@ -786,8 +779,8 @@ Wait e a variável varWaitTime para definir o tempo de espera.
 
 9. Selecione **OK**.
 
-**Ponto de verificação:** o iterador **Until** deve ser semelhante à
-captura de tela abaixo.
+    **Ponto de verificação:** o iterador **Until** deve ser semelhante à
+    captura de tela abaixo.
 
     ![](../media/lab-5/image50.png)
 

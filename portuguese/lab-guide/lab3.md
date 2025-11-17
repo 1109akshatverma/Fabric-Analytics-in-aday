@@ -66,7 +66,7 @@ Windows.
     criou no Laboratório 2, Tarefa 8.
 
 2. Se você não saiu do laboratório anterior, estará na tela Lakehouse.
-    Caso contrário, não tem problema. Selecione **lh_FAIAD** (**2)**
+    Caso contrário, não tem problema. Selecione **lh_FAIAD** **(2)**
     para acessar o Lakehouse.
 
 3. No painel **Explorer**, selecione as **reticências (3)** ao lado de
@@ -87,12 +87,12 @@ Windows.
     <https://stvnextblobstorage.dfs.core.windows.net/fabrikam-sales>
     **(2):**
 
-8. Clique em **Criar Nova Conexão** (3) na seção Conexão
+8. Clique em **Criar Nova Conexão** **(3)** na seção Conexão
 
 9. Selecione **Assinatura de Acesso Compartilhado (SAS) (4)** no menu
     suspenso Tipo de autenticação.
 
-10. Copie o token SAS e cole-o no campo Token SAS (5).
+10. Copie o token SAS e cole-o no campo Token SAS **(5)**.
 
     - **Token SAS:** <inject key="Sas token"></inject>
 
@@ -107,27 +107,27 @@ Windows.
 13. **Selecione** os seguintes diretórios **(2)** e clique em **Avançar
     (3)**:
 
-    a.  Application.Cities
+    a. Application.Cities
 
-    b.  Application.Countries
+    b. Application.Countries
 
-    c.  Application.StateProvinces
+    c. Application.StateProvinces
 
-    d.  DateDim
+    d. DateDim
 
-    e.  Sales.BuyingGroups
+    e. Sales.BuyingGroups
 
-    f.  Sales.Customers
+    f. Sales.Customers
 
-    g.  Sales.InvoiceLines
+    g. Sales.InvoiceLines
 
-    h.  Sales.Invoices
+    h. Sales.Invoices
 
-    i.  Warehouse.StockGroups
+    i. Warehouse.StockGroups
 
-    j.  Warehouse.StockItemStockGroups
+    j. Warehouse.StockItemStockGroups
 
-    k.  Warehouse.StockItems
+    k. Warehouse.StockItems
 
     **Observação:** Sales.Invoices_May é o único diretório que **não está**
     selecionado.
@@ -230,7 +230,7 @@ Windows.
 
     ![](../media/lab-3/image16.png)
 
-6. Com a consulta **Cities(1)** selecionada, na faixa de opções do
+6. Com a consulta **Cities (1)** selecionada, na faixa de opções do
     Editor do Power Query, selecione **Página Inicial (2) ->
     Combinar (3) -> menu suspenso Mesclar consultas (4) -> Mesclar
     consultas como novas (5).** A caixa de diálogo Mesclar consultas é
@@ -292,7 +292,7 @@ Windows.
 
     ![](../media/lab-3/image21.png)
 
-Precisamos de algumas colunas de Countries.
+    Precisamos de algumas colunas de Countries.
 
 20. Na **exibição Dados** (painel inferior), clique na **seta dupla** ao
     lado da coluna **Countries**.
@@ -452,8 +452,8 @@ Visual sem abrir a opção Power Query.
 
     ![](../media/lab-3/image32.png)
 
-Não precisamos de todas as colunas na tabela Customer. Vamos selecionar
-apenas aquelas de que precisamos.
+    Não precisamos de todas as colunas na tabela Customer. Vamos selecionar
+    apenas aquelas de que precisamos.
 
 13. No menu de consulta de Visual, selecione **Gerenciar colunas ->
     Escolher colunas**.
@@ -694,7 +694,7 @@ consulta Visual. Vamos testar esse método.
 
     ![](../media/lab-3/image52.png)
 
-Você receberá um alerta assim que a exibição for salva.
+    Você receberá um alerta assim que a exibição for salva.
 
 34. No painel Explorer (à esquerda), expanda **Views.** Temos a exibição
     recém-criada Sales.

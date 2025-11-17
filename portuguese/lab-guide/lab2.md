@@ -127,7 +127,7 @@ Ao final deste laboratório, você terá aprendido a:
 
 4. No campo **Nome**, insira **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** (encontrado na guia Ambiente).
 
-    ***Observação:** O nome do workspace deve ser exclusivo. Verifique se há
+    **Observação:** O nome do workspace deve ser exclusivo. Verifique se há
     uma marca de seleção verde em "Este nome está disponível", abaixo do
     campo Nome.*
 
@@ -166,10 +166,10 @@ Ao final deste laboratório, você terá aprendido a:
 3. Uma caixa de diálogo Novo lakehouse será exibida. Insira
     **lh_FAIAD** na caixa de texto Nome.
 
-    ***Observação:** "lh" refere-se a Lakehouse. Estamos prefixando "lh"
+    **Observação:** "lh" refere-se a Lakehouse. Estamos prefixando "lh"
     para que seja fácil de identificar e pesquisar.*
 
-    ***Observação:** a versão preliminar do recurso de **Esquemas de
+    **Observação:** a versão preliminar do recurso de **Esquemas de
     Lakehouse** é muito interessante, por isso é algo que você deve
     conhecer. Como ele está no estado **Versão Preliminar**, vamos ignorá-lo
     para que não haja impacto negativo na experiência do laboratório. Assim
@@ -753,7 +753,7 @@ Ao final deste laboratório, você terá aprendido a:
 
     a. **Explorar:** clique em "Abrir" para explorar um banco de dados de
     exemplo.
-    
+
     b. **Database concepts:** explica termos e conceitos comuns em torno do
     banco de dados transacional para que você possa se familiarizar com como
     trabalhar com o Banco de Dados SQL.

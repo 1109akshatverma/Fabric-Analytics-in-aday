@@ -8,7 +8,7 @@
 - Lakehouse - Analisar dados
   - Tarefa 1: Consultar dados usando SQL
   - Tarefa 2: Visualizar resultado de T-SQL
-- Lakehouse – Modelagem semântica
+- Lakehouse - Modelagem semântica
   - Tarefa 3: Criar um modelo semântico
   - Tarefa 4: Criar relacionamentos
   - Tarefa 5: Criar medidas
@@ -281,7 +281,7 @@ vamos ao lugar certo
     laboratório. A seção opcional percorre as etapas para criar os
     relacionamentos restantes.
 
-### Tarefa 5: Criar medidas
+## Tarefa 5: Criar medidas
 
 Vamos adicionar algumas medidas necessárias para criar o dashboard
 Sales.
@@ -466,7 +466,7 @@ Vamos adicionar os relacionamentos restantes.
 
     ![](../media/lab-6/image34.png)
 
-### Tarefa 7: Seção Opcional – Criar medidas
+## Tarefa 7: Seção Opcional – Criar medidas
 
 Vamos adicionar as medidas restantes.
 
@@ -491,15 +491,11 @@ Vamos adicionar as medidas restantes.
 
 8. Siga as etapas semelhantes para adicionar as seguintes medidas:
 
-    a. Na tabela **Sales, GM = SUM('Sales'[LineProfit])** está
-        formatada como **Moeda com 0 casas decimais**.
+    a. Na tabela **Sales, GM = SUM('Sales'[LineProfit])** está formatada como **Moeda com 0 casas decimais**.
 
-    b. Na tabela **Sales** , **GM% = DIVIDE([GM], [Sales])** está
-        formatada como **Porcentagem com 0 casas decimais.**
+    b. Na tabela **Sales** , **GM% = DIVIDE([GM], [Sales])** está formatada como **Porcentagem com 0 casas decimais.**
 
-    c. Na tabela **Customer , No of Customers = COUNTROWS(Customer)**
-        formatado como **Número Inteiro com separador de milhares
-        habilitado.**
+    c. Na tabela **Customer , No of Customers = COUNTROWS(Customer)** formatado como **Número Inteiro com separador de milhares habilitado.**
 
 # Referências
 

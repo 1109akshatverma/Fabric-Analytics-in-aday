@@ -220,8 +220,7 @@ precisamos ingerir os dados de People no Lakehouse.
 
 ## Tarefa 5: Copiar consultas do Snowflake para o Fluxo de Dados
 
-1. Vamos voltar ao workspace do Fabric, **FAIAD_<nome de usuário>
-    (1)**.
+1. Vamos voltar ao workspace do Fabric, **FAIAD_<inject key="Deployment ID" enableCopy="false"/> (1)**.
 
 2. Selecione a opção **+ Novo item (2)** disponível no canto superior
     esquerdo.
@@ -271,11 +270,7 @@ precisamos ingerir os dados de People no Lakehouse.
     mouse em Colar). Se você estiver usando o dispositivo MAC, use Cmd+V
     para colar.
 
-    > **Observação:** se você estiver trabalhando no ambiente de
-    > laboratório, selecione as **reticências(...)** no canto superior
-    > direito da tela. Use o controle deslizante para **habilitar** **VM
-    > Native Clipboard**. Selecione OK na caixa de diálogo. Depois que
-    > terminar de colar as consultas, você poderá desabilitar essa opção.
+    > **Observação:** se você estiver trabalhando no ambiente de laboratório, selecione as **reticências(...)** no canto superior direito da tela. Use o controle deslizante para **habilitar** **VM Native Clipboard**. Selecione OK na caixa de diálogo. Depois que terminar de colar as consultas, você poderá desabilitar essa opção.
 
     ![P123#yIS1](../media/lab-4/image22.png)
 
@@ -296,21 +291,19 @@ conexão.
 
 3. O **Tipo de autenticação** deve ser **Snowflake**.
 
-4. Insira o **Nome de usuário do Snowflake** e a **Senha do Snowflake**
-    fornecidos abaixo. Use essas credenciais para conectar todas as
-    tabelas do Snowflake ao Snowflake e selecione **Conectar**.
+4. Insira o **Nome de Usuário do Snowflake** e a **Senha do Snowflake** fornecidos abaixo. Use essas credenciais para conectar todas as tabelas do Snowflake ao Snowflake e, em seguida, selecione **Connect**.
 
-    - **Nome de usuário do Snowflake:** <inject key="SnowFlake Username"></inject>
+    * **Nome de Usuário do Snowflake:** <inject key="SnowFlake Username" enableCopy="false" />
 
-    - **Senha do Snowflake:** <inject key="SnowFlake Password"></inject>
+    * **Senha do Snowflake:** <inject key="SnowFlake Password" enableCopy="false" />
 
-    **Observação:** Se você encontrar problemas para se conectar ao
-    Snowflake usando as credenciais dos detalhes do ambiente, use as
-    credenciais fornecidas abaixo.
+    > **Observação:** Se você tiver qualquer problema ao se conectar ao Snowflake com as credenciais acima, use as credenciais de backup fornecidas abaixo.
 
-    - **Nome de usuário do Snowflake:** SNOWFLAKE_BACKUP
+    * **Nome de Usuário do Snowflake:** SNOWFLAKE_BACKUP
 
-    - **Senha do Snowflake:** 8UpfRpExVDXv2AC1
+    * **Senha do Snowflake:** 8UpfRpExVDXv2AC1
+
+    > **Observação:** Por favor, **não** insira o nome de usuário ou a senha incorretos mais de três vezes, pois isso bloqueará a conta do Snowflake para todos. Se você estiver com dificuldades para fazer login, entre em contato com `cloudlabs-support@spektrasystems.com` em vez de tentar várias vezes.
 
 5. Selecione **Conectar**.
 
@@ -334,9 +327,7 @@ conexão.
 
     ![](../media/lab-4/image25.png)
 
-3. A caixa de diálogo Conectar ao destino de dados é aberta. Na **lista
-    suspensa Conexão**, selecione **Lakehouse odl_user_<nome de
-    usuário> (nenhum)**.
+3. A caixa de diálogo Conectar ao destino de dados é aberta. Na **lista suspensa Conexão**, selecione **Lakehouse odl_user_<inject key="Deployment ID" enableCopy="false"/>**.
 
 4. Selecione **Próximo**.
 

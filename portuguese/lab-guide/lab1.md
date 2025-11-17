@@ -312,21 +312,19 @@ o relatório e passar para as próximas etapas.
 
     ![](../media/lab-1/image22.png)
 
-13. Insira o **Nome de usuário do Snowflake** e a **Senha do Snowflake**
-    fornecidos abaixo. Use essas credenciais para conectar todas as
-    tabelas do Snowflake ao Snowflake e selecione Conectar.
+13. Insira o **Nome de Usuário do Snowflake** e a **Senha do Snowflake** fornecidos abaixo. Use essas credenciais para conectar todas as tabelas do Snowflake ao Snowflake e, em seguida, selecione **Connect**.
 
-    - **Nome de usuário do Snowflake:** <inject key="SnowFlake Username"></inject>
-    
-    - **Senha do Snowflake:** <inject key="SnowFlake Password"></inject>
+    * **Nome de Usuário do Snowflake:** <inject key="SnowFlake Username" enableCopy="false" />
 
-    *Observação: Se você encontrar problemas para se conectar ao Snowflake
-    usando as credenciais dos detalhes do ambiente, use as credenciais de
-    backup fornecidas na guia Ambiente.*
+    * **Senha do Snowflake:** <inject key="SnowFlake Password" enableCopy="false" />
 
-    - **Nome de usuário do Snowflake:** SNOWFLAKE_BACKUP
+    > **Observação:** Se você tiver qualquer problema ao se conectar ao Snowflake com as credenciais acima, use as credenciais de backup fornecidas abaixo.
 
-    - **Senha do Snowflake:** 8UpfRpExVDXv2AC1
+    * **Nome de Usuário do Snowflake:** SNOWFLAKE_BACKUP
+
+    * **Senha do Snowflake:** 8UpfRpExVDXv2AC1
+
+    > **Observação:** Por favor, **não** insira o nome de usuário ou a senha incorretos mais de três vezes, pois isso bloqueará a conta do Snowflake para todos. Se você estiver com dificuldades para fazer login, entre em contato com `cloudlabs-support@spektrasystems.com` em vez de tentar várias vezes.
 
 14. A pasta SnowflakeData tem a dimensão Supplier e o fato PO
     (Order/Spend).

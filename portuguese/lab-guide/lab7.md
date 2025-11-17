@@ -40,7 +40,7 @@ Ao final deste laboratório, você terá aprendido:
 
 # Power BI
 
-### Tarefa 1: Criar relatório automaticamente
+## Tarefa 1: Criar relatório automaticamente
 
 Vamos começar usando a opção de criação automática de relatório. E, mais
 adiante no laboratório, recriaremos o relatório que temos no Power BI.
@@ -75,13 +75,11 @@ adiante no laboratório, recriaremos o relatório que temos no Power BI.
 6. Escolha um conjunto de dados para usar no relatório quando a página
     for aberta. Observe que temos várias opções. Selecione **sm_FAIAD**.
 
-    a. **sm_FAIAD:** é o modelo semântico que criamos e queremos usar
-        para criar o relatório.
+    a. **sm_FAIAD:** é o modelo semântico que criamos e queremos usar para criar o relatório.
 
     b. **lh_FAIAD:** é o lakehouse em que ingerimos todos os dados.
 
-    c. **Units by Supplier:** é o conjunto de dados que criamos usando
-        T-SQL.
+    c. **Units by Supplier:** é o conjunto de dados que criamos usando T-SQL.
 
 7. Clique na **seta ao lado do botão Relatório de criação automática**.
     Existem duas opções: Criar relatório automaticamente e Criar um
@@ -136,7 +134,7 @@ adiante no laboratório, recriaremos o relatório que temos no Power BI.
 
     ![](../media/lab-7/image13.png)
 
-### Tarefa 2: Configurar plano de fundo para um Novo relatório
+## Tarefa 2: Configurar plano de fundo para um Novo relatório
 
 Vamos criar um novo relatório usando uma tela em branco.
 
@@ -546,7 +544,7 @@ semântico e criar visuais.
 20. Vamos salvar o relatório. Na faixa de opções, selecione **Arquivo
     -> Salvar**.
 
-### Tarefa 11: Adicionar novos dados para simular o modo Direct Lake
+## Tarefa 11: Adicionar novos dados para simular o modo Direct Lake
 
 Geralmente, no modo Import, depois que os dados são atualizados na
 fonte, precisamos atualizar o modelo do Power BI após o qual os dados no
