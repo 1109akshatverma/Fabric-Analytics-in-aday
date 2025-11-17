@@ -304,23 +304,19 @@ de configurer la connexion.
 3. Le champ **Type d'authentification** doit être défini sur
     **Snowflake**.
 
-4. Saisissez le **nom d'utilisateur Snowflake** et le **mot de passe
-    Snowflake** fournis ci-après. Utilisez ces informations
-    d'identification pour connecter toutes les tables sous Snowflake à
-    Snowflake, puis cliquez sur **Connecter**.
+1. Saisissez le **nom d’utilisateur Snowflake** et le **mot de passe Snowflake** fournis ci-dessous. Utilisez ces identifiants pour connecter toutes les tables de Snowflake à Snowflake, puis sélectionnez **Connecter**.
 
-    - **Nom d'utilisateur Snowflake:** <inject key="SnowFlake Username"></inject>
+    * **Nom d’utilisateur Snowflake :** <inject key="SnowFlake Username" enableCopy="false" />
+    * **Mot de passe Snowflake :** <inject key="SnowFlake Password" enableCopy="false" />
 
-    - **Mot de passe Snowflake:** <inject key="SnowFlake Password"></inject>
+    > **Remarque :** Si vous rencontrez des problèmes pour vous connecter à Snowflake avec les identifiants ci-dessus, veuillez utiliser les identifiants de secours fournis ci-dessous.
 
-    **Remarque :** si vous avez des difficultés à vous connecter à Snowflake
-    avec les informations d'identification des détails de l'environnement,
-    veuillez utiliser les informations d'identification fournies ci-après.
+    * **Nom d’utilisateur Snowflake :** **SNOWFLAKE_BACKUP**
+    * **Mot de passe Snowflake :** **8UpfRpExVDXv2AC1**
 
-    - **Nom d'utilisateur Snowflake :** SNOWFLAKE_BACKUP
-
-    - **Mot de passe Snowflake :** 8UpfRpExVDXv2AC1.
-
+    > **Remarque :** Veuillez **ne pas** saisir un nom d’utilisateur ou un mot de passe incorrect plus de trois fois, car cela bloquera le compte Snowflake pour tout le monde.
+    > En cas de difficulté de connexion, veuillez contacter **[cloudlabs-support@spektrasystems.com](mailto:cloudlabs-support@spektrasystems.com)** au lieu d’essayer plusieurs fois.
+    
 5. Cliquez sur **Connexion**.
 
     ![](../media/lab-4/image24.png)
@@ -417,8 +413,7 @@ de configurer la connexion.
 7. Notez que nous disposons maintenant de tables **PO** et **Supplier**
     dans la lakehouse.
 
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](../media/lab-4/image32.png)
+    ![](../media/lab-4/image32.png)
 
     **Remarque :** si vous ne voyez pas les tables venant d'être créées,
     cliquez sur les points de suspension en regard de Tables et sélectionnez

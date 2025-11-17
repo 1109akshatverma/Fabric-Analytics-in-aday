@@ -867,12 +867,9 @@ mai 2024 dans ADLS Gen2 et en mettant à jour la vue Sales.
 Une fois que vous êtes prêt à nettoyer l'environnement de labo, procédez
 comme suit :
 
-1. Sélectionnez l'espace de travail **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** à partir du
-    panneau de gauche pour naviguer vers la page d'accueil de l'espace
-    de travail.
+1. Sélectionnez l'espace de travail **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** à partir du panneau de gauche pour naviguer vers la page d'accueil de l'espace de travail.
 
-2. Dans le menu supérieur, cliquez sur **Paramètres de l'espace de
-    travail**.
+2. Dans le menu supérieur, cliquez sur **Paramètres de l'espace de travail**.
 
     ![](../media/lab-7/image54.png)
 

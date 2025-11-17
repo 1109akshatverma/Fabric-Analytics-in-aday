@@ -333,24 +333,18 @@ la compréhension de l'état et passons aux étapes suivantes.
 
     ![](../media/lab-1/image23.png)
 
-13. Saisissez le **nom d'utilisateur Snowflake** et le **mot de passe
-    Snowflake** fournis ci-après. Utilisez ces informations
-    d'identification pour connecter toutes les tables sous Snowflake à
-    Snowflake, puis cliquez sur Connecter.
+13. Saisissez le **nom d’utilisateur Snowflake** et le **mot de passe Snowflake** fournis ci-dessous. Utilisez ces identifiants pour connecter toutes les tables de Snowflake à Snowflake, puis sélectionnez **Connecter**.
 
-    - **Nom d'utilisateur Snowflake:** <inject key="SnowFlake Username"></inject>
+    * **Nom d’utilisateur Snowflake :** <inject key="SnowFlake Username" enableCopy="false" />
+    * **Mot de passe Snowflake :** <inject key="SnowFlake Password" enableCopy="false" />
 
-    - **Mot de passe Snowflake:** <inject key="SnowFlake Password"></inject>
+    > **Remarque :** Si vous rencontrez des problèmes pour vous connecter à Snowflake avec les identifiants ci-dessus, veuillez utiliser les identifiants de secours fournis ci-dessous.
 
-    *Remarque : si vous avez des difficultés à vous connecter à Snowflake
-    avec les informations d'identification des détails de l'environnement,
-    veuillez utiliser les informations d'identification secondaires fournies
-    dans l'onglet Environnement.*
+    * **Nom d’utilisateur Snowflake :** **SNOWFLAKE_BACKUP**
+    * **Mot de passe Snowflake :** **8UpfRpExVDXv2AC1**
 
-    - **Nom d'utilisateur Snowflake:** SNOWFLAKE_BACKUP
-
-    - **Mot de passe Snowflake:** 8UpfRpExVDXv2AC1
-
+    > **Remarque :** Veuillez **ne pas** saisir un nom d’utilisateur ou un mot de passe incorrect plus de trois fois, car cela bloquera le compte Snowflake pour tout le monde.
+    > En cas de difficulté de connexion, veuillez contacter **[cloudlabs-support@spektrasystems.com](mailto:cloudlabs-support@spektrasystems.com)** au lieu d’essayer plusieurs fois.
 
 14. Notez que le dossier SnowflakeData comporte une dimension Supplier
     et un fait PO (Commande/Dépense).
