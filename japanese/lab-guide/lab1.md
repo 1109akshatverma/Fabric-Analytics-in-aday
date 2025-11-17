@@ -291,21 +291,17 @@ generated](../media/lab-1/image14.jpeg)
 
     ![](../media/lab-1/image23.png)
 
-13. 下記の **Snowflake ユーザー名**と **Snowflake
-    パスワード**を入力します。これらの資格情報を使用して Snowflake
-    にあるすべてのテーブルを Snowflake に接続し、[接続] を選択します。
+13. 以下に提供された **Snowflake ユーザー名** と **Snowflake パスワード** を入力します。これらの認証情報を使用して、Snowflake 内のすべてのテーブルを Snowflake に接続し、[Connect] を選択します。
 
-      - **Snowflake ユーザー名**: <inject key="SnowFlake Username"></inject>
+    * **Snowflake ユーザー名:** <inject key="SnowFlake Username" enableCopy="false" />
+    * **Snowflake パスワード:** <inject key="SnowFlake Password" enableCopy="false" />
 
-      - **Snowflake パスワード**: <inject key="SnowFlake Password"></inject>
+    > **注:** 上記の認証情報で Snowflake に接続する際に問題が発生した場合は、以下のバックアップ認証情報をご使用ください。
 
-    *注: 環境の詳細にある資格情報を使用して Snowflake
-    に接続する際に問題が発生した場合は、[環境]
-    タブに示されているバックアップの資格情報を使用してください。*
+    * **Snowflake ユーザー名:** SNOWFLAKE_BACKUP
+    * **Snowflake パスワード:** 8UpfRpExVDXv2AC1
 
-      - **Snowflake ユーザー名**: SNOWFLAKE_BACKUP
-    
-      - **Snowflake パスワード**: 8UpfRpExVDXv2AC1
+    > **注:** 間違ったユーザー名またはパスワードを 3 回以上入力しないでください。アカウントが全員分ロックされてしまいます。ログインに問題がある場合は、複数回試行するのではなく、`cloudlabs-support@spektrasystems.com` までご連絡ください。
 
 14. **SnowflakeData** フォルダーには、Supplier ディメンションと PO
     (Order / Spend) ファクトが含まれていることがわかります。

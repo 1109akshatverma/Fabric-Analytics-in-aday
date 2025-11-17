@@ -275,19 +275,17 @@ IT チームが作成したテーブルのショートカットを作成しま�
 
 3. **認証の種類**は **Snowflake** にします。
 
-4. 下記の **Snowflake** ユーザー名と **Snowflake**
-    パスワードを入力します。これらの資格情報を使用して Snowflake
-    にあるすべてのテーブルを Snowflake に接続し、**接続**を選択します。
+1. 以下に提供された **Snowflake ユーザー名** と **Snowflake パスワード** を入力します。これらの認証情報を使用して、Snowflake 内のすべてのテーブルを Snowflake に接続し、[Connect] を選択します。
 
-    - **Snowflake ユーザー名:** <inject key="SnowFlake Username"></inject>
-    - **Snowflake パスワード:** <inject key="SnowFlake Password"></inject>
+    * **Snowflake ユーザー名:** <inject key="SnowFlake Username" enableCopy="false" />
+    * **Snowflake パスワード:** <inject key="SnowFlake Password" enableCopy="false" />
 
-    **注:** 環境の詳細にある資格情報を使用して Snowflake
-    に接続する際に問題が発生した場合は、下記の資格情報を使用してください。
+    > **注:** 上記の認証情報で Snowflake に接続する際に問題が発生した場合は、以下のバックアップ認証情報をご使用ください。
 
-    - **Snowflake ユーザー名:** SNOWFLAKE_BACKUP
+    * **Snowflake ユーザー名:** SNOWFLAKE_BACKUP
+    * **Snowflake パスワード:** 8UpfRpExVDXv2AC1
 
-    - **Snowflake パスワード:** 8UpfRpExVDXv2AC1
+    > **注:** 間違ったユーザー名またはパスワードを 3 回以上入力しないでください。アカウントが全員分ロックされてしまいます。ログインに問題がある場合は、複数回試行するのではなく、`cloudlabs-support@spektrasystems.com` までご連絡ください。
 
 5. **接続**を選択します。
 
