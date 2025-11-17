@@ -1,6 +1,6 @@
 # Microsoft Fabric - Fabric Analyst in a Day - ラボ 1
 
-![A diagram of data flow](../media/lab-1/main1.png)
+![](../media/lab-1/main1.png)
 
 # 目次
 
@@ -231,8 +231,7 @@ generated](../media/lab-1/image14.jpeg)
 
 3. **閉じる**を選択して [データ ソース設定] ダイアログを閉じます。
 
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](../media/lab-1/image19.png)
+    ![](../media/lab-1/image19.png)
 
 4. 左側の [クエリ] パネルでは、各クエリがデータ
     ソースごとにグループ化されていることがわかります。
@@ -267,7 +266,7 @@ incorrect.](../media/lab-1/image19.png)
 
       - **SAS** トークン: <inject key="Sas token"></inject>
 
-    ![](../media/lab-1/image22.png)
+        ![](../media/lab-1/image22.png)
 
 11. **ADLSData** フォルダーには複数のディメンション
     (Geo、Product、Reseller、Date) があることがわかります。Sales
