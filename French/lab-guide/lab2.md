@@ -94,8 +94,7 @@ plus encore.
     Cliquez sur **Activer**.
 
     ***Remarque :** laissez la région définie sur la valeur par défaut. Le
-    formateur donnera plus de détails
-    à ce sujet lors de la revue du labo*
+    formateur donnera plus de détails à ce sujet lors de la revue du labo*
 
     ![](../media/lab-2/image10.png)
 
@@ -116,10 +115,10 @@ plus encore.
 ## Tâche 2 : créer un espace de travail Fabric
 
 1. Créons maintenant un espace de travail avec la licence Fabric.
-    Cliquez sur **Espaces de travail** (1) dans la barre de navigation
+    Cliquez sur **Espaces de travail** **(1)** dans la barre de navigation
     gauche. Une boîte de dialogue s'ouvre alors.
 
-2. Cliquez sur **+ Nouvel espace de travail** (2) en bas du menu
+2. Cliquez sur **+ Nouvel espace de travail** **(2)** en bas du menu
     contextuel.
 
     ![](../media/lab-2/image13.png)
@@ -127,8 +126,7 @@ plus encore.
 3. La boîte de dialogue **Créer un espace de travail** s'ouvre alors
     sur le côté droit du navigateur.
 
-4. Dans le champ **Nom**, saisissez **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** (disponible dans
-    l'onglet Environnement).
+4. Dans le champ **Nom**, saisissez **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** (disponible dans l'onglet Environnement).
 
     ***Remarque :** le nom de l'espace de travail doit être unique.
     Assurez-vous qu'une coche verte avec « Ce nom est disponible » s'affiche
@@ -156,10 +154,8 @@ plus encore.
 
 ## Tâche 3 : créer une lakehouse
 
-1. Dans l'espace de travail **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** venant d'être créé,
-    recherchez le bouton **+ Nouvel élément (1)** dans le volet de
-    navigation gauche. C'est dans cette section que vous pouvez
-    commencer à créer des éléments dans votre espace de travail.
+1. Dans l'espace de travail **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** venant d'être créé, recherchez le bouton **+ Nouvel élément (1)** dans le volet de
+navigation gauche. C'est dans cette section que vous pouvez commencer à créer des éléments dans votre espace de travail.
 
 2. Dans la zone de recherche, saisissez **Lakehouse (2)** puis, dans
     les résultats de la recherche, sélectionnez l'option **Lakehouse
@@ -231,89 +227,89 @@ plus encore.
     **Types d'éléments :**
 
     a) **Flux de données Gen2 :** les flux de données sont comme des
-        recettes de transformation des données. Ils proposent plus de
-        300 transformations différentes à appliquer à vos données. Autrement
-        dit, vous pouvez nettoyer, combiner et modifier vos données de
-        plusieurs manières, selon vos besoins.
+    recettes de transformation des données. Ils proposent plus de
+    300 transformations différentes à appliquer à vos données. Autrement
+    dit, vous pouvez nettoyer, combiner et modifier vos données de
+    plusieurs manières, selon vos besoins.
 
     b) **Pipeline :** les pipelines sont des flux de travail qui vous
-        aident à automatiser les processus de données. Ils vous permettent
-        de créer des flux de travail de données flexibles qui peuvent être
-        adaptés à vos besoins spécifiques. Cela facilite la gestion et le
-        traitement des données d'une manière structurée.
+    aident à automatiser les processus de données. Ils vous permettent
+    de créer des flux de travail de données flexibles qui peuvent être
+    adaptés à vos besoins spécifiques. Cela facilite la gestion et le
+    traitement des données d'une manière structurée.
 
     c) **Azure Data Factory** **:** Azure Data Factory est un service
-        d'intégration de données informatique, qui vous permet de créer des
-        flux de travail pilotés par les données pour orchestrer et
-        automatiser le déplacement et la transformation des données.
+    d'intégration de données informatique, qui vous permet de créer des
+    flux de travail pilotés par les données pour orchestrer et
+    automatiser le déplacement et la transformation des données.
 
     d) **Tâche Apache Airflow** **:** Apache Airflow est une plateforme
-        open source permettant de créer, planifier et surveiller par
-        programme des flux de travail. Dans Data Factory, elle vous permet
-        de créer, planifier et gérer des flux de travail de données
-        complexes.
+    open source permettant de créer, planifier et surveiller par
+    programme des flux de travail. Dans Data Factory, elle vous permet
+    de créer, planifier et gérer des flux de travail de données
+    complexes.
 
     e) **Copier la tâche** **:** copier la tâche est une fonctionnalité qui
-        vous permet de copier des données d'une source vers une autre. Elle
-        fournit ainsi un moyen simple et efficace de déplacer des données
-        entre différentes banques de données.
+    vous permet de copier des données d'une source vers une autre. Elle
+    fournit ainsi un moyen simple et efficace de déplacer des données
+    entre différentes banques de données.
 
     f) **Mise en miroir de la base de données :** une fonctionnalité
-        permettant de créer des versions de bases de données mises en miroir
-        pour la sauvegarde, les tests ou un accès en lecture seule.
+    permettant de créer des versions de bases de données mises en miroir
+    pour la sauvegarde, les tests ou un accès en lecture seule.
 
     g) **Mise en miroir Oracle (version préliminaire) :** la mise en miroir
-        dans Fabric réplique vos bases de données Oracle dans une plateforme
-        unifiée, permettant une analyse en quasi-temps réel et à faible
-        latence, aux côtés d'autres sources de données.
+    dans Fabric réplique vos bases de données Oracle dans une plateforme
+    unifiée, permettant une analyse en quasi-temps réel et à faible
+    latence, aux côtés d'autres sources de données.
 
     h) **Mise en miroir Google Big Query (version préliminaire) :** la mise
-        en miroir dans Fabric vous permet de répliquer en continu les
-        données de Google BigQuery vers OneLake, supprimant ainsi la
-        complexité des processus ETL et permettant une utilisation fluide
-        des données dans les domaines de l'analyse, de l'IA et du partage de
-        données.
+    en miroir dans Fabric vous permet de répliquer en continu les
+    données de Google BigQuery vers OneLake, supprimant ainsi la
+    complexité des processus ETL et permettant une utilisation fluide
+    des données dans les domaines de l'analyse, de l'IA et du partage de
+    données.
 
     i) **Bibliothèque de variables (version préliminaire) :** comporte une
-        liste de variables et leurs valeurs par défaut. Elle peut également
-        comporter d'autres ensembles de valeurs contenant des valeurs
-        alternatives
+    liste de variables et leurs valeurs par défaut. Elle peut également
+    comporter d'autres ensembles de valeurs contenant des valeurs
+    alternatives
 
     **Prise en main :**
 
     Pour commencer à utiliser Data Factory, procédez comme suit :
 
     a) **Apprendre à utiliser Data Factory** **:** cette section vous aide
-        à prendre en main Data Factory. Vous y trouverez des conseils afin
-        d'utiliser efficacement l'outil.
+    à prendre en main Data Factory. Vous y trouverez des conseils afin
+    d'utiliser efficacement l'outil.
 
     b) **Créez votre premier flux de données** **:** ici, vous pouvez
-        découvrir comment créer votre premier flux de données. Les flux de
-        données sont essentiels pour transformer vos données selon vos
-        besoins.
+    découvrir comment créer votre premier flux de données. Les flux de
+    données sont essentiels pour transformer vos données selon vos
+    besoins.
 
     c) **Créer votre premier pipeline de données** **:** cette section vous
-        guide afin de vous aider à créer votre premier pipeline de données.
-        Les pipelines permettent d'automatiser et de gérer efficacement vos
-        processus de traitement de données.
+    guide afin de vous aider à créer votre premier pipeline de données.
+    Les pipelines permettent d'automatiser et de gérer efficacement vos
+    processus de traitement de données.
 
     d) **Apprendre à surveiller les Data Factory** **:** la surveillance
-        est essentielle pour garantir le bon fonctionnement de vos processus
-        de traitement des données. Cette section explique comment surveiller
-        vos activités dans Data Factory.
+    est essentielle pour garantir le bon fonctionnement de vos processus
+    de traitement des données. Cette section explique comment surveiller
+    vos activités dans Data Factory.
 
     e) **Apprendre à transformer les données avec des flux de
-        données** **:** cette section vous explique comment transformer
-        efficacement vos données à l'aide de flux de données.
+    données** **:** cette section vous explique comment transformer
+    efficacement vos données à l'aide de flux de données.
 
     f) **Créer votre première API pour GraphQL** **:** si vous souhaitez
-        utiliser des API avec GraphQL, cette section vous explique comment
-        démarrer.
+    utiliser des API avec GraphQL, cette section vous explique comment
+    démarrer.
 
     g) **Créer vos premières fonctions de données utilisateur** **:** cette
-        section vous permet de créer des fonctions de données utilisateur,
-        lesquelles sont utiles pour gérer et transformer les données
-        utilisateur.
+    section vous permet de créer des fonctions de données utilisateur,
+    lesquelles sont utiles pour gérer et transformer les données
+    utilisateur.
 
     ![](../media/lab-2/image21.png)
 
@@ -348,56 +344,53 @@ plus encore.
     **Types d'éléments :**
 
     a)  **Solutions de développement durable** **:** prennent en charge
-        l'ingestion, la standardisation et l'analyse des données
-        environnementales, sociales et de gouvernance (ESG).
+    l'ingestion, la standardisation et l'analyse des données
+    environnementales, sociales et de gouvernance (ESG).
 
     b)  **Solutions de vente au détail** **:** aident à gérer de gros
-        volumes de données, intégrer des données provenant de diverses
-        sources et fournir des analyses en temps réel pour une prise de
-        décision rapide. Les détaillants peuvent utiliser ces solutions pour
-        l'optimisation des stocks, la segmentation des clients, la prévision
-        des ventes, la tarification dynamique et la détection des fraudes.
+    volumes de données, intégrer des données provenant de diverses
+    sources et fournir des analyses en temps réel pour une prise de
+    décision rapide. Les détaillants peuvent utiliser ces solutions pour
+    l'optimisation des stocks, la segmentation des clients, la prévision
+    des ventes, la tarification dynamique et la détection des fraudes.
 
     c)  **Solutions de santé :** sont stratégiquement conçues pour accélérer
-        le délai de création de valeur ajoutée pour les clients en répondant
-        au besoin crucial visant à transformer efficacement les données de
-        santé dans un format approprié pour l'analyse.
+    le délai de création de valeur ajoutée pour les clients en répondant
+    au besoin crucial visant à transformer efficacement les données de
+    santé dans un format approprié pour l'analyse.
 
     **Prise en main :**
     
     Pour commencer à utiliser Industry Solutions, procédez comme suit :
 
     a) **Découvrir les solutions de données de santé** **:** cliquez sur
-        « En savoir plus » pour en apprendre davantage sur les solutions de
-        données de santé et comprendre comment les utiliser dans
-        vos projets.
+    « En savoir plus » pour en apprendre davantage sur les solutions de
+    données de santé et comprendre comment les utiliser dans
+    vos projets.
 
     b) **Déployer les solutions de données de santé** **:** cliquez sur le
-        bouton « Déployer » pour commencer à déployer les solutions de
-        données de santé et les implémenter dans vos projets.
+    bouton « Déployer » pour commencer à déployer les solutions de
+    données de santé et les implémenter dans vos projets.
 
     c) **Découvrir les solutions de développement durable** **:** cliquez
-        sur « En savoir plus » pour en apprendre davantage sur les solutions
-        de développement durable et comprendre comment les utiliser dans vos
-        projets.
+    sur « En savoir plus » pour en apprendre davantage sur les solutions
+    de développement durable et comprendre comment les utiliser dans vos
+    projets.
 
     d) **Déployer les solutions de développement durable** **:** cliquez
-        sur le bouton « Déployer » pour commencer à déployer les solutions
-        de développement durable et les implémenter dans vos projets.
+    sur le bouton « Déployer » pour commencer à déployer les solutions
+    de développement durable et les implémenter dans vos projets.
 
     e) **Découvrir les solutions de vente au détail** **:** cliquez sur le
-        bouton « En savoir plus » pour en apprendre davantage sur les
-        solutions de vente au détail et comprendre comment les utiliser dans
-        vos projets.
+    bouton « En savoir plus » pour en apprendre davantage sur les
+    solutions de vente au détail et comprendre comment les utiliser dans
+    vos projets.
 
     f) **Déployer les solutions de vente au détail** **:** cliquez sur le
-        bouton « Déployer » pour commencer à déployer les solutions de vente
-        au détail et les implémenter dans vos projets.
+    bouton « Déployer » pour commencer à déployer les solutions de vente
+    au détail et les implémenter dans vos projets.
 
-3. Cliquez sur Revenir aux charges de travail dans le coin supérieur
-        gauche de l'écran. Vous êtes alors redirigé(e) vers la page
-        principale des charges de travail, où vous pouvez explorer d'autres
-        outils ou sections.
+3. Cliquez sur Revenir aux charges de travail dans le coin supérieur gauche de l'écran. Vous êtes alors redirigé(e) vers la page principale des charges de travail, où vous pouvez explorer d'autres outils ou sections.
 
     ![](../media/lab-2/image22.png)
 
@@ -408,10 +401,7 @@ plus encore.
 
     ![](../media/lab-2/image24.png)
 
-2. Vous êtes alors redirigé(e) vers la page d'accueil Real-Time
-        Intelligence. Vous trouverez ci-dessous un aperçu détaillé des
-        sections qui se trouvent sur cette page, lesquelles vous aideront à
-        utiliser Real-Time Intelligence efficacement et pas à pas.
+2. Vous êtes alors redirigé(e) vers la page d'accueil Real-Time Intelligence. Vous trouverez ci-dessous un aperçu détaillé des sections qui se trouvent sur cette page, lesquelles vous aideront à utiliser Real-Time Intelligence efficacement et pas à pas.
 
     **En quoi consiste Real-Time Intelligence ?**
 
@@ -424,78 +414,71 @@ plus encore.
     **Types d'éléments :**
 
     a. **Eventhouse** **:** permet de créer un espace de travail d'une ou
-        plusieurs bases de données KQL, qui peuvent être partagées entre les
-        projets.
+    plusieurs bases de données KQL, qui peuvent être partagées entre les
+    projets.
 
     b. **Jeu de requêtes KQL** **:** permet d'exécuter des requêtes sur les
-        données afin de produire des tables et visuels qui peuvent être
-        partagés.
+    données afin de produire des tables et visuels qui peuvent être
+    partagés.
 
     c. **Tableau de bord en temps réel** **:** permet de visualiser des
-        tableaux de bord en temps réel dans les secondes qui suivent
-        l'ingestion des données.
+    tableaux de bord en temps réel dans les secondes qui suivent
+    l'ingestion des données.
 
     d. **Eventstream :** permet de capturer, de transformer et d'acheminer
-        un flux d'événements en temps réel.
+    un flux d'événements en temps réel.
 
-    e. **Activateur** **:** permet de surveiller les jeux de données, les
-        requêtes et les flux d'événements
-        à la recherche de modèles.
+    e. **Activateur** **:** permet de surveiller les jeux de données, les requêtes et les flux d'événements à la recherche de modèles.
 
     f. **Ensemble de schémas d'événements (version préliminaire) :** ils
-        vous aident à organiser et
-        à normaliser les structures de données (schémas) pour vos workflows
-        d'analyse en temps réel,
-        ce qui facilite le traitement et l'analyse cohérents des données en
-        diffusion en continu.
+    vous aident à organiser et à normaliser les structures de données (schémas) pour vos workflows d'analyse en temps réel, ce qui facilite le traitement et l'analyse cohérents des données en diffusion en continu.
 
     g. **Générateur de jumeau numérique (version préliminaire) :** le
-        générateur de jumeau numérique offre aux utilisateurs des
-        expériences low code/no code pour créer et modéliser leurs concepts
-        métier, tels que les actifs et les processus, à l'aide d'une
-        ontologie.
+    générateur de jumeau numérique offre aux utilisateurs des
+    expériences low code/no code pour créer et modéliser leurs concepts
+    métier, tels que les actifs et les processus, à l'aide d'une
+    ontologie.
 
     h. **Carte (version préliminaire) :** apportez des informations
-        géospatiales à Real-Time Intelligence, permettant à chacun de
-        visualiser où les événements se produisent, d'intégrer des données
-        spatiales avec les autres fonctionnalités de Fabric et de prendre
-        des décisions plus intelligentes et contextualisées selon la
-        localisation.
+    géospatiales à Real-Time Intelligence, permettant à chacun de
+    visualiser où les événements se produisent, d'intégrer des données
+    spatiales avec les autres fonctionnalités de Fabric et de prendre
+    des décisions plus intelligentes et contextualisées selon la
+    localisation.
 
     **Démarrer :**
 
     Pour commencer à utiliser Real-Time Intelligence, procédez comme suit :
 
     a. **Expériences de bout en bout dans Real-Time Intelligence :**
-        cliquez sur le bouton « Démarrer » pour explorer l'analyse des
-        données en temps réel avec des exemples de jeux de données.
+    cliquez sur le bouton « Démarrer » pour explorer l'analyse des
+    données en temps réel avec des exemples de jeux de données.
 
     b. **Échantillons de Real-Time Intelligence** **:** cliquez sur le
-        bouton « Ouvrir » pour explorer l'analyse des données en temps réel
-        avec un exemple.
+    bouton « Ouvrir » pour explorer l'analyse des données en temps réel
+    avec un exemple.
 
     c. **Explorer un exemple Eventhouse :** cliquez sur le bouton
-        « Sélectionner » pour utiliser un exemple et découvrir
-        Real-Time Intelligence.
+    « Sélectionner » pour utiliser un exemple et découvrir
+    Real-Time Intelligence.
 
     d. **Présentation de Real-Time Intelligence** **:** cliquez sur le
-        bouton « Ouvrir » pour bénéficier d'une présentation de Real-Time
-        Intelligence et commencer à utiliser efficacement l'outil.
+    bouton « Ouvrir » pour bénéficier d'une présentation de Real-Time
+    Intelligence et commencer à utiliser efficacement l'outil.
 
-    e. **Découvrir KQL avec des exemples de données** **:** cliquez sur le
-        bouton « Ouvrir » pour découvrir KQL à l'aide d'exemples de données.
+    e. **Découvrir KQL avec des exemples de données** **:** cliquez sur le bouton « Ouvrir » pour découvrir KQL à l'aide d'exemples de données.
 
     f. **Nature d'un hub en temps réel** **:** cliquez sur le bouton
-        « Ouvrir » pour découvrir en quoi consiste un hub en temps réel et
-        comment l'utiliser.
+    « Ouvrir » pour découvrir en quoi consiste un hub en temps réel et
+    comment l'utiliser.
 
     g. **Explorer un exemple d'activateur** **:** cliquez sur le bouton
-        « Ouvrir » pour utiliser un exemple d'activateur et comprendre en
-        quoi consistent les fonctionnalités de Real-Time Intelligence.
+    « Ouvrir » pour utiliser un exemple d'activateur et comprendre en
+    quoi consistent les fonctionnalités de Real-Time Intelligence.
 
     h. **Prise en main de l'activateur** **:** cliquez sur le bouton
-        « Ouvrir » pour prendre en main les concepts d'activateur et
-        commencer à utiliser efficacement l'outil.
+    « Ouvrir » pour prendre en main les concepts d'activateur et
+    commencer à utiliser efficacement l'outil.
 
     ![](../media/lab-2/image25.png)
 
@@ -529,66 +512,62 @@ plus encore.
     **Types d'éléments :**
 
     a. **Lakehouse** **:** permet de stocker le Big Data à des fins de
-        nettoyage, d'interrogation, de reporting et de partage.
+    nettoyage, d'interrogation, de reporting et de partage.
 
     b. **Notebook** **:** utilisé pour l'ingestion de données, la
-        préparation, l'analyse et d'autres tâches liées aux données à l'aide
-        de divers langages tels que Python et Scala.
+    préparation, l'analyse et d'autres tâches liées aux données à l'aide
+    de divers langages tels que Python et Scala.
 
     c. **Environnement** **:** permet de configurer les bibliothèques
-        partagées, les paramètres de calcul Spark et les ressources pour les
-        notebooks et les définitions de tâche Spark.
+    partagées, les paramètres de calcul Spark et les ressources pour les
+    notebooks et les définitions de tâche Spark.
 
     d. **Définition de tâche Spark** **:** permet de définir, planifier et
-        gérer des tâches Apache.
+    gérer des tâches Apache.
 
     e. **Fonctions de données utilisateur (version préliminaire)** **:**
-        plateforme qui vous permet d'héberger et d'exécuter des applications
-        dans Fabric.
+    plateforme qui vous permet d'héberger et d'exécuter des applications
+    dans Fabric.
 
-    f. **API pour GraphQL** **:** API permettant d'interroger plusieurs
-        sources de données.
+    f. **API pour GraphQL** **:** API permettant d'interroger plusieurs sources de données.
 
     **Démarrer :**
 
     Pour commencer à utiliser Data Engineering, procédez comme suit :
 
-    a. **Explorer un exemple** **:** cliquez sur le bouton « Sélectionner »
-        pour utiliser un exemple et découvrir Data Engineering.
+    a. **Explorer un exemple** **:** cliquez sur le bouton « Sélectionner » pour utiliser un exemple et découvrir Data Engineering.
 
-    b. **Qu'est-ce qu'un lakehouse ? :** cliquez sur le bouton « Ouvrir »
-        pour découvrir les lakehouses et leur utilisation.
+    b. **Qu'est-ce qu'un lakehouse ? :** cliquez sur le bouton « Ouvrir » pour découvrir les lakehouses et leur utilisation.
 
     c. **Obtenir l'expérience de données dans lakehouse** **:** cliquez
-        sur le bouton « Ouvrir » pour commencer à utiliser l'engineering
-        données avec les lakehouses.
+    sur le bouton « Ouvrir » pour commencer à utiliser l'engineering
+    données avec les lakehouses.
 
     d. **Démarrage avec les définitions de tâche Spark :** cliquez sur le
-        bouton « Ouvrir » pour découvrir comment utiliser les définitions de
-        tâche Spark à des fins de traitement des données.
+    bouton « Ouvrir » pour découvrir comment utiliser les définitions de
+    tâche Spark à des fins de traitement des données.
 
     e. **Développer et exécuter des notebooks** **:** cliquez sur le bouton
-        « Ouvrir » pour découvrir comment développer et exécuter des
-        notebooks à des fins d'analyse des données.
+    « Ouvrir » pour découvrir comment développer et exécuter des
+    notebooks à des fins d'analyse des données.
 
     f. **Utilisation de NotebookUtils** **:** cliquez sur le bouton
-        « Ouvrir » pour découvrir comment utiliser NotebookUtils à des fins
-        d'analyse optimale des données.
+    « Ouvrir » pour découvrir comment utiliser NotebookUtils à des fins
+    d'analyse optimale des données.
 
     g. **Tirer parti des notebooks pour votre lakehouse** **:** cliquez sur
-        le bouton « Ouvrir » pour découvrir comment tirer parti des
-        notebooks pour votre lakehouse.
+    le bouton « Ouvrir » pour découvrir comment tirer parti des
+    notebooks pour votre lakehouse.
 
     h. **Tirer parti des jeux de données pour votre lakehouse :** cliquez
-        sur le bouton « Ouvrir » pour tirer parti des jeux de données pour
-        votre lakehouse.
+    sur le bouton « Ouvrir » pour tirer parti des jeux de données pour
+    votre lakehouse.
 
     i. **Créer vos premières fonctions de données utilisateur** **:**
-        cliquez sur le bouton « Ouvrir » pour découvrir comment créer des
-        fonctions de données utilisateur.
+    cliquez sur le bouton « Ouvrir » pour découvrir comment créer des
+    fonctions de données utilisateur.
 
-    j. **Créer votre première API pour GraphQL** **:** cliquez sur le
-        bouton « Ouvrir » pour découvrir comment créer une API pour GraphQL.
+    j. **Créer votre première API pour GraphQL** **:** cliquez sur le bouton « Ouvrir » pour découvrir comment créer une API pour GraphQL.
 
     ![](../media/lab-2/image27.png)
 
@@ -623,45 +602,41 @@ plus encore.
 
     a. **Modèle ML** **:** permet de créer des modèles Machine Learning.
 
-    b. **Expérience** **:** permet de créer, d'exécuter et de suivre le
-        développement de plusieurs modèles.
+    b. **Expérience** **:** permet de créer, d'exécuter et de suivre le développement de plusieurs modèles.
 
-    c. **Notebook** **:** permet d'explorer des données et de créer des
-        solutions de Machine Learning.
+    c. **Notebook** **:** permet d'explorer des données et de créer des solutions de Machine Learning.
 
     d. **Environnement** **:** permet de configurer les bibliothèques
-        partagées, les paramètres de calcul Spark et les ressources pour les
-        notebooks et les définitions de tâche Spark.
+    partagées, les paramètres de calcul Spark et les ressources pour les
+    notebooks et les définitions de tâche Spark.
 
     e. **Agent de données (version préliminaire)** **:** permet de créer
-        des expériences d'IA conversationnelle qui répondent aux questions
-        sur les données stockées dans les lakehouses, les entrepôts, les
-        modèles sémantiques Power BI et les bases de données KQL.
+    des expériences d'IA conversationnelle qui répondent aux questions
+    sur les données stockées dans les lakehouses, les entrepôts, les
+    modèles sémantiques Power BI et les bases de données KQL.
 
-    f. **Notebook Python** **:** permet d'importer des notebooks Python à
-        partir d'une machine locale.
+    f. **Notebook Python** **:** permet d'importer des notebooks Python à partir d'une machine locale.
 
     **Démarrer :**
 
     Pour commencer à utiliser Data Science, procédez comme suit :
 
     a. **Explorer un exemple** **:** cliquez sur le bouton « Sélectionner »
-        pour utiliser un exemple et découvrir Data Science.
+    pour utiliser un exemple et découvrir Data Science.
 
     b. **Démarrage avec des modèles ML** **:** cliquez sur le bouton
-        « Ouvrir » pour découvrir comment prendre en main les modèles
-        Machine Learning.
+    « Ouvrir » pour découvrir comment prendre en main les modèles
+    Machine Learning.
 
     c. **Démarrage avec des expériences ML** **:** cliquez sur le bouton
-        « Ouvrir » pour découvrir comment mener à bien des expériences
-        Machine Learning.
+    « Ouvrir » pour découvrir comment mener à bien des expériences
+    Machine Learning.
 
     d. **Développer et exécuter des notebooks** **:** cliquez sur le bouton
-        « Ouvrir » pour découvrir comment développer et exécuter des
-        notebooks à des fins d'analyse des données.
+    « Ouvrir » pour découvrir comment développer et exécuter des
+    notebooks à des fins d'analyse des données.
 
-    e. **Démarrage avec notebooks** **:** cliquez sur le bouton « Ouvrir »
-        pour découvrir comment prendre en main les notebooks.
+    e. **Démarrage avec notebooks** **:** cliquez sur le bouton « Ouvrir » pour découvrir comment prendre en main les notebooks.
 
     ![](../media/lab-2/image29.png)
 
@@ -697,59 +672,51 @@ plus encore.
     a. **Entrepôt** **:** permet de créer un entrepôt de données.
 
     b. **Exemple d'entrepôt** **:** permet d'explorer et de tester les
-        fonctionnalités d'entreposage de données à l'aide de jeux de données
-        et de modèles préconfigurés.
+    fonctionnalités d'entreposage de données à l'aide de jeux de données
+    et de modèles préconfigurés.
 
-    c. **Notebook** **:** permet de créer et partager des tâches
-        interactives d'analyse et de visualisation des données.
+    c. **Notebook** **:** permet de créer et partager des tâches interactives d'analyse et de visualisation des données.
 
-    d. **Azure SQL Database en miroir** **:** permet de mettre en miroir
-        Azure SQL Database.
+    d. **Azure SQL Database en miroir** **:** permet de mettre en miroir Azure SQL Database.
 
     e. **Catalogue Azure Databricks en miroir** **:** permet de mettre en
-        miroir des données d'Azure Databricks pour une intégration et une
-        analyse améliorées.
+    miroir des données d'Azure Databricks pour une intégration et une
+    analyse améliorées.
 
-    f. **Snowflake en miroir** **:** permet de mettre en miroir la base de
-        données Snowflake.
+    f. **Snowflake en miroir** **:** permet de mettre en miroir la base de données Snowflake.
 
-    g. **Mise en miroir Oracle (version préliminaire) :** permet la mise en
-        miroir d'Oracle.
+    g. **Mise en miroir Oracle (version préliminaire) :** permet la mise en miroir d'Oracle.
 
-    h. **Mise en miroir de Google Big Query (version préliminaire) :**
-        permet la mise en miroir de Google Big Query.
+    h. **Mise en miroir de Google Big Query (version préliminaire) :** permet la mise en miroir de Google Big Query.
 
-    i. **Mise en miroir Azure Cosmos DB :** permet la mise en miroir
-        d'Azure Cosmos DB.
+    i. **Mise en miroir Azure Cosmos DB :** permet la mise en miroir d'Azure Cosmos DB.
 
-    j. **Mise en miroir SQL Server (version préliminaire) :** permet la
-        mise en miroir de SQL Server.
+    j. **Mise en miroir SQL Server (version préliminaire) :** permet la mise en miroir de SQL Server.
 
-    k. **Azure Database pour PostgreSQL en miroir (version
-        préliminaire) :** permet de mettre en miroir votre instance
-        Azure Database pour PostgreSQL existante.
+    k. **Azure Database pour PostgreSQL en miroir (version préliminaire) :** permet de mettre en miroir votre instance Azure Database pour PostgreSQL existante.
 
-    l. **Base de données gérée par Azure SQL en miroir** **:** permet de
-        mettre en miroir les bases de données gérées par Azure SQL à des
-        fins de haute disponibilité et de récupération d'urgence.
+    l. **Base de données gérée par Azure SQL en miroir** **:** permet de mettre en miroir les bases de données gérées par Azure SQL à des fins de haute disponibilité et de récupération d'urgence.
 
-    m. **Base de données en miroir (version préliminaire)** **:** permet de
-        répliquer des bases de données à des fins de haute disponibilité et
-        de récupération d'urgence.
+    m. **Base de données en miroir (version préliminaire)** **:** permet de répliquer des bases de données à des fins de haute disponibilité et de récupération d'urgence.
 
     **Démarrer :**
 
     Pour commencer à utiliser Data Warehouse, procédez comme suit :
 
-    a. **Explorer un exemple d'entrepôt** **:** démarrez un nouvel entrepôt
-        avec des exemples de données déjà chargés.
+    a. **Explorer un exemple d'entrepôt** **:** démarrez un nouvel entrepôt avec des exemples de données déjà chargés.
 
-    b. **Démarrer avec l'entrepôt** **:** cliquez sur le bouton « Ouvrir »
-        pour découvrir comment analyser des données à l'aide d'un entrepôt.
+    b. **Démarrer avec l'entrepôt** **:** cliquez sur le bouton « Ouvrir » pour découvrir comment analyser des données à l'aide d'un entrepôt.
 
     ![](../media/lab-2/image31.png)
 
-### Tâche 10 : expérience Databases
+3. Cliquez sur **Revenir aux charges de travail** dans le coin
+    supérieur gauche de l'écran. Vous êtes alors redirigé(e) vers la
+    page principale des charges de travail, où vous pouvez explorer
+    d'autres outils ou sections.
+
+    ![](../media/lab-2/image22.png)
+
+## Tâche 10 : expérience Databases
 
 1. Sur la page **Mes charges de travail**, cliquez sur **Databases**
     pour continuer.
@@ -772,36 +739,34 @@ plus encore.
     **Types d'éléments :**
 
     a. **Base de données SQL (version préliminaire)** **:** une base de
-        données SQL dans Fabric fait partie de la charge de travail
-        Databases et les données sont accessibles à partir d'autres éléments
-        de Fabric. Les données de votre base de données SQL sont également
-        tenues à jour dans un format interrogeable dans OneLake, afin que
-        vous puissiez utiliser tous les différents services de Fabric, comme
-        l'exécution d'analyses avec Spark, l'exécution de notebooks,
-        l'engineering données, la visualisation au moyen d'états Power BI,
-        etc.
+    données SQL dans Fabric fait partie de la charge de travail
+    Databases et les données sont accessibles à partir d'autres éléments
+    de Fabric. Les données de votre base de données SQL sont également
+    tenues à jour dans un format interrogeable dans OneLake, afin que
+    vous puissiez utiliser tous les différents services de Fabric, comme
+    l'exécution d'analyses avec Spark, l'exécution de notebooks,
+    l'engineering données, la visualisation au moyen d'états Power BI,
+    etc.
 
     b. **Cosmos DB (Version préliminaire) :** Cosmos DB dans Microsoft
-        Fabric est une base de données NoSQL optimisée pour l'IA, offrant
-        une expérience de gestion simplifiée. En tant que développeur, vous
-        pouvez utiliser Cosmos DB dans Fabric pour créer des applications
-        d'IA plus facilement, sans avoir à gérer les tâches habituelles
-        d'administration de base de données.
+    Fabric est une base de données NoSQL optimisée pour l'IA, offrant
+    une expérience de gestion simplifiée. En tant que développeur, vous
+    pouvez utiliser Cosmos DB dans Fabric pour créer des applications
+    d'IA plus facilement, sans avoir à gérer les tâches habituelles
+    d'administration de base de données.
 
     **Démarrer :**
 
     Pour commencer à utiliser Databases, procédez comme suit :
 
-    a. **Explorer** **:** cliquez sur « Ouvrir » pour explorer un exemple
-        de base de données.
+    a. **Explorer** **:** cliquez sur « Ouvrir » pour explorer un exemple de base de données.
 
     b. **Concepts de base de données** **:** explique les termes et
-        concepts courants autour de la base de données transactionnelle afin
-        que vous puissiez vous familiariser avec l'utilisation de
-        SQL Database.
+    concepts courants autour de la base de données transactionnelle afin
+    que vous puissiez vous familiariser avec l'utilisation de
+    SQL Database.
 
-    c. **Modèles de base de données** **:** parcourez une bibliothèque de
-        modèles pré-créés de conceptions de bases de données courantes.
+    c. **Modèles de base de données** **:** parcourez une bibliothèque de modèles pré-créés de conceptions de bases de données courantes.
 
     ![](../media/lab-2/image33.png)
 

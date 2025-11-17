@@ -95,7 +95,7 @@ Query.
 Vous avez entendu parler de Microsoft Fabric et décidé de l'essayer pour
 voir s'il peut relever vos défis.
 
-### **Présentation de l'état Power BI Desktop**
+## Présentation de l'état Power BI Desktop
 
 Avant de prendre en main Fabric, examinons l'état actuel dans Power BI
 Desktop pour comprendre les transformations et le modèle.
@@ -291,7 +291,7 @@ la compréhension de l'état et passons aux étapes suivantes.
     de passe**. Les informations d'identification sont fournies
     ci-dessous, puis cliquez sur **Connecter**.
 
-    - **Adresse e-mail/nom d'utilisateur:** inject key="AzureAdUserEmail"></inject>
+    - **Adresse e-mail/nom d'utilisateur:** <inject key="AzureAdUserEmail"></inject>
 
     - **Mot de passe:** <inject key="AzureAdUserPassword"></inject>
 
