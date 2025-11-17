@@ -45,8 +45,7 @@ Commençons par utiliser l'option de création automatique d'un état. Plus
 tard dans le labo, nous allons recréer l'état dont nous disposons dans
 Power BI.
 
-1. Revenons à **l'espace de travail Fabric FAIAD_<inject key="Deployment ID" enableCopy="false"/>** que
-    vous avez créé dans le labo 2, dénommé **FAIAD_<inject key="Deployment ID" enableCopy="false"/>.**
+1. Revenons à **l'espace de travail Fabric FAIAD_<inject key="Deployment ID" enableCopy="false"/>** que vous avez créé dans le labo 2, dénommé **FAIAD_<inject key="Deployment ID" enableCopy="false"/>.**
 
 2. Cliquez sur l'icône du **sélecteur de l'expérience Fabric** dans la
     partie inférieure du volet gauche.
@@ -59,7 +58,7 @@ Power BI.
 
     ![](../media/lab-7/image7.png)
 
-4. Cliquez sur **Nouveau rapport** dans le menu supérieur.
+4. Cliquez sur **+ Nouveau rapport** dans le menu supérieur.
 
     ![](../media/lab-7/image8.png)
 
@@ -76,14 +75,11 @@ Power BI.
     page s'ouvre. Notez que nous disposons de plusieurs options.
     Sélectionnez **sm_FAIAD**.
 
-    a. **sm_FAIAD :** il s'agit du modèle sémantique que nous avons
-        créé et à l'aide duquel nous souhaitons créer l'état.
+    a. **sm_FAIAD :** il s'agit du modèle sémantique que nous avons créé et à l'aide duquel nous souhaitons créer l'état.
 
-    b. **lh_FAIAD :** il s'agit de la lakehouse dans laquelle nous
-        avons ingéré toutes les données.
+    b. **lh_FAIAD :** il s'agit de la lakehouse dans laquelle nous avons ingéré toutes les données.
 
-    c. **Units by Supplier :** il s'agit du jeu de données que nous
-        avons créé à l'aide de T-SQL.
+    c. **Units by Supplier :** il s'agit du jeu de données que nous avons créé à l'aide de T-SQL.
 
 7. Cliquez sur la **flèche en regard du bouton Créer automatiquement un
     état**. Notez que deux options sont disponibles : Créer
@@ -362,7 +358,7 @@ modifications au modèle.
 
     ![](../media/lab-7/image28.png)
 
-9.Revenez à **la fenêtre/l'onglet d'état** du navigateur.
+9. Revenez à **la fenêtre/l'onglet d'état** du navigateur.
 
 10. Dans le volet **Données** à droite, développez la table **Date**.
     Notez que Year n'est pas un champ de somme.
@@ -588,8 +584,7 @@ mai 2024 dans ADLS Gen2 et en mettant à jour la vue Sales.
 2. Dans le coin inférieur droit, cliquez sur le **logo Fabric** et
     passez à la **vue Fabric**.
 
-3. Cliquez sur **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** dans la barre de menus gauche
-    pour accéder à la page d'accueil de l'espace de travail.
+3. Cliquez sur **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** dans la barre de menus gauche pour accéder à la page d'accueil de l'espace de travail.
 
 4. Cliquez sur **lh_FAIAD** pour accéder à la lakehouse.
 
@@ -811,7 +806,7 @@ mai 2024 dans ADLS Gen2 et en mettant à jour la vue Sales.
     ![](../media/lab-7/image52.png)
 
 23. Cliquez sur **rpt_Sales_Report** dans la barre de menu de gauche
-    pour revenir à l'état**.**
+    pour revenir à l'état.
 
 24. Dans le menu supérieur, cliquez sur **Actualiser**. Notez maintenant
     que le graphique en courbes comporte des données pour mai 2024.

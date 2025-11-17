@@ -396,8 +396,7 @@ navigation gauche. C'est dans cette section que vous pouvez commencer à créer 
 
 ## Tâche 6 : expérience Real-Time Intelligence
 
-1. Sur la page **Mes charges de travail**, cliquez sur **Real-Time
-        Intelligence** pour continuer.
+1. Sur la page **Mes charges de travail**, cliquez sur **Real-Time Intelligence** pour continuer.
 
     ![](../media/lab-2/image24.png)
 

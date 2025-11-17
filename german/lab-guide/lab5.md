@@ -670,8 +670,8 @@ hinzufügen (varCounter = varCounter + 1). Daher nutzen wir die Variable
 
     ![](../media/lab-5/image45.png)
 
-Nun müssen wir den Wert der Variablen „varCounter" auf den Wert
-„varTempCounter" festlegen.
+    Nun müssen wir den Wert der Variablen „varCounter" auf den Wert
+    „varTempCounter" festlegen.
 
 ## Aufgabe 11: Dritte Aktivität „Variable festlegen" konfigurieren
 

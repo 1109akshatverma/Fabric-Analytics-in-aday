@@ -14,9 +14,9 @@
     - Tâche 6 : créer des variables
     - Tâche 7 : configurer l’activité Until
     - Tâche 8 : configurer l’activité Flux de données
-    - Tâche 9 : configurer une 1re activité Définir une variable
-    - Tâche 10 : configurer une 2e activité Définir une variable
-    - Tâche 11 : configurer une 3e activité Définir une variable
+    - Tâche 9 : configurer une 1st activité Définir une variable
+    - Tâche 10 : configurer une 2nd activité Définir une variable
+    - Tâche 11 : configurer une 3rd activité Définir une variable
     - Tâche 12 : configurer l’activité Attente
     - Tâche 13 : configurer l’actualisation planifiée pour le pipeline de données
 - Références
@@ -128,15 +128,12 @@ Fournisseur.
 
 11. Vous pouvez voir que dans le panneau **Paramètres** qui s'affiche,
     nous avons trois options :
-    **À propos :** ici, nous pouvons modifier le nom du flux de données
-    et ajouter une description. Nous pouvons également voir qui est le
-    propriétaire du flux de données et la date
-    de sa dernière modification
-    **Approbation :** cela nous permet de spécifier si le flux de
-    données portera l'étiquette **Promu** ou **Certifié** afin que les
-    autres puissent l'identifier
-    **Planifier :** c'est ici que nous pouvons planifier les flux de
-    données.
+
+    - **À propos :** ici, nous pouvons modifier le nom du flux de données et ajouter une description. Nous pouvons également voir qui est le propriétaire du flux de données et la date de sa dernière modification
+
+    - **Approbation :** cela nous permet de spécifier si le flux de données portera l'étiquette **Promu** ou **Certifié** afin que les autres puissent l'identifier
+    
+    - **Planifier :** c'est ici que nous pouvons planifier les flux de données.
 
 12. Sélectionnez l'option **Planifier**
 
@@ -220,10 +217,7 @@ Fournisseur.
     vous permettent d'afficher le code au format JSON. En outre, des
     options vous permettent d'aligner automatiquement les activités.
 
-    > **Remarque :** Si vous disposez d'un arrière-plan JSON à la fin du
-    > labo, n'hésitez pas à cliquer sur Afficher le code JSON. Ici, notez
-    > que toute l'orchestration que vous effectuez à l'aide de la vue
-    > de conception peut également être écrite au format JSON.
+    > **Remarque :** Si vous disposez d'un arrière-plan JSON à la fin du labo, n'hésitez pas à cliquer sur Afficher le code JSON. Ici, notez que toute l'orchestration que vous effectuez à l'aide de la vue de conception peut également être écrite au format JSON.
 
     ![](../media/lab-5/image18.png)
 
@@ -239,8 +233,7 @@ utiliser.
     des options de configuration de l'activité Flux de données.
 
 2. Nous allons configurer l'activité pour se connecter au flux de
-    données df_People_SharePoint.
-    Dans le **volet inférieur**, cliquez sur **Paramètres**.
+    données df_People_SharePoint. Dans le **volet inférieur**, cliquez sur **Paramètres**.
 
 3. Assurez-vous que le champ **Espace de travail** est défini sur votre
     espace de travail Fabric **FAIAD_<inject key="Deployment ID" enableCopy="false"/>**.
@@ -272,10 +265,7 @@ utiliser.
     **valeur par défaut** telle quelle, ce qui devrait laisser
     suffisamment de temps au flux de données pour s'actualiser.
 
-    > **Remarque :** compte tenu du fait que les données ne sont pas
-    > disponibles dans les délais, définissons l'activité afin qu'elle se
-    > réexécute toutes les 10 minutes, trois fois. Si elle échoue également
-    > à la troisième tentative, un échec est signalé.
+    > **Remarque :** compte tenu du fait que les données ne sont pas disponibles dans les délais, définissons l'activité afin qu'elle se réexécute toutes les 10 minutes, trois fois. Si elle échoue également à la troisième tentative, un échec est signalé.
 
 10. Définissez le champ **Nombre de nouvelles tentatives** sur **3**.
 
@@ -312,7 +302,7 @@ en créant un pipeline de données.
     accéder à la page d'accueil de l'espace de travail.
 
 2. Dans le menu supérieur, cliquez sur **+ Nouvel élément (1),** puis
-    dans la fenêtre contextuelle**,** cliquez sur **Pipeline de données
+    dans la fenêtre contextuelle **,** cliquez sur **Pipeline de données
     (2)**.
 
     ![](../media/lab-5/image21.png)
@@ -359,8 +349,7 @@ en créant un pipeline de données.
 
 6. Définissez le champ **Valeur par défaut** sur **0**.
 
-    > **Remarque :** nous ajoutons le préfixe var aux noms des variables,
-    > afin qu'il soit facile de les trouver, ce qui est une bonne pratique.
+    > **Remarque :** nous ajoutons le préfixe var aux noms des variables, afin qu'il soit facile de les trouver, ce qui est une bonne pratique.
 
     ![](../media/lab-5/image24.png)
 
@@ -377,17 +366,17 @@ en créant un pipeline de données.
 11. Procédez de même pour ajouter trois variables supplémentaires :
 
     a. **varIsSuccess** de type **String** avec la valeur par défaut
-        **Non**. Cette variable permet d'indiquer si l'actualisation du
-        flux de données a réussi.
+    **Non**. Cette variable permet d'indiquer si l'actualisation du
+    flux de données a réussi.
 
     b. **varSuccess** de type **String** avec la valeur par défaut
-        **Oui**. Cette variable permet de définir la valeur de
-        varIsSuccess si l'actualisation du flux de données réussit.
+    **Oui**. Cette variable permet de définir la valeur de
+    varIsSuccess si l'actualisation du flux de données réussit.
 
     c. **varWaitTime** de type **Integer** avec la valeur par défaut
-        **60**. Cette variable permet de définir le temps d'attente si
-        l'actualisation du flux de données échoue (soit
-        5 minutes/300 secondes, soit 15 minutes/900 secondes).
+    **60**. Cette variable permet de définir le temps d'attente si
+    l'actualisation du flux de données échoue (soit
+    5 minutes/300 secondes, soit 15 minutes/900 secondes).
 
     **Remarque :** assurez-vous qu'il n'y a pas d'espace avant ou après le
     nom de la variable.
@@ -429,31 +418,30 @@ en créant un pipeline de données.
     s'ouvre alors. Dans la moitié inférieure de la boîte de dialogue se
     trouve un menu :
 
-    a. **Paramètres **: constantes dans une fabrique de données qui
-        peuvent être utilisées par un pipeline dans toute expression.
+    a. **Paramètres :** constantes dans une fabrique de données qui peuvent être utilisées par un pipeline dans toute expression.
 
     b. **Variables système :** Peuvent être utilisées dans des
-        expressions lors de la définition d'entités au sein de l'un ou
-        l'autre de ces services. par ex. ID du pipeline, nom du
-        pipeline, nom du déclencheur, etc.
+    expressions lors de la définition d'entités au sein de l'un ou
+    l'autre de ces services. par ex. ID du pipeline, nom du
+    pipeline, nom du déclencheur, etc.
 
     c. **Paramètres de déclenchement :** paramètres ayant déclenché le
-        pipeline. Par ex., Nom du fichier ou Chemin d'accès au dossier.
+    pipeline. Par ex., Nom du fichier ou Chemin d'accès au dossier.
 
     d. **Fonctions :** vous pouvez appeler des fonctions dans des
-        expressions. Les fonctions sont classées selon les catégories
-        suivantes : Collection, Conversion, Date, Logique, Mathématique
-        et Chaîne. Par ex., concat est une fonction Chaîne, add est une
-        fonction Mathématique, etc.
+    expressions. Les fonctions sont classées selon les catégories
+    suivantes : Collection, Conversion, Date, Logique, Mathématique
+    et Chaîne. Par ex., concat est une fonction Chaîne, add est une
+    fonction Mathématique, etc.
 
     e. **Variables :** les variables de pipeline sont des valeurs qui
-        peuvent être définies et modifiées lors de l'exécution d'un
-        pipeline. Contrairement aux paramètres de pipeline, qui sont
-        définis au niveau du pipeline et ne peuvent pas être modifiés
-        pendant l'exécution d'un pipeline, les variables de pipeline
-        peuvent être définies et modifiées dans un pipeline à l'aide
-        d'une activité Définir une variable. Nous allons prochainement
-        utiliser l'activité Définir une variable.
+    peuvent être définies et modifiées lors de l'exécution d'un
+    pipeline. Contrairement aux paramètres de pipeline, qui sont
+    définis au niveau du pipeline et ne peuvent pas être modifiés
+    pendant l'exécution d'un pipeline, les variables de pipeline
+    peuvent être définies et modifiées dans un pipeline à l'aide
+    d'une activité Définir une variable. Nous allons prochainement
+    utiliser l'activité Définir une variable.
 
     ![](../media/lab-5/image28.png)
 
@@ -520,8 +508,7 @@ en créant un pipeline de données.
 
 23. Votre expression devrait être :
 
-    **@or(equals(variables('varCounter'),3),equals(variables('varIsSuccess'),
-    variables('varSuccess')))**
+    **@or(equals(variables('varCounter'),3),equals(variables('varIsSuccess'), variables('varSuccess')))**
 
 24. Cliquez sur **OK**.
 
@@ -590,17 +577,13 @@ varIsSuccess sur Oui.
     zone de l'activité se trouvent quatre icônes. Elles permettent de se
     connecter à l'activité suivante en fonction du résultat de l'activité :
 
-    a. L'icône représentant une **flèche incurvée grise** permet d'ignorer
-        l'activité.
+    a. L'icône représentant une **flèche incurvée grise** permet d'ignorer l'activité.
 
-    b. L'icône représentant une **coche verte** est utilisée en cas de
-        réussite de l'activité.
+    b. L'icône représentant une **coche verte** est utilisée en cas de réussite de l'activité.
 
-    c. L'icône représentant une **croix rouge** est utilisée en cas d'échec
-        de l'activité.
+    c. L'icône représentant une **croix rouge** est utilisée en cas d'échec de l'activité.
 
-    d. L'icône représentant une **flèche droite bleue** est utilisée à la
-        fin de l'activité
+    d. L'icône représentant une **flèche droite bleue** est utilisée à la fin de l'activité
 
 5. Cliquez sur la **coche verte** de l'activité Flux de données
     dfactivity_People_SharePoint et faites-la glisser pour vous
@@ -649,7 +632,7 @@ varIsSuccess sur Oui.
     de compteur varCounter en ajoutant un à sa valeur (varCounter =
     varCounter + 1). Nous utilisons donc la variable varTempCounter.
 
-## Tâche 10 : configurer une 2^e^ activité Définir une variable
+## Tâche 10 : configurer une 2nd activité Définir une variable
 
 1. Dans le menu supérieur, cliquez sur **Activités -> Définir une
     variable**. L'activité Définir une variable est alors ajoutée au
@@ -686,17 +669,13 @@ varIsSuccess sur Oui.
 10. La boîte de dialogue Générateur d'expressions de pipeline s'ouvre
     alors. Saisissez **@add(variables('varCounter'),1)**
 
-    > **Remarque :** n'hésitez pas à saisir cette expression, à sélectionner
-    > les fonctions à l'aide du menu ou à la copier-coller. cette fonction
-    > définit la valeur de la variable varTempCounter sur la valeur
-    > de la variable varCounter plus un (varTempCounter = varCounter + 1).
+    > **Remarque :** n'hésitez pas à saisir cette expression, à sélectionner les fonctions à l'aide du menu ou à la copier-coller. cette fonction définit la valeur de la variable varTempCounter sur la valeur de la variable varCounter plus un (varTempCounter = varCounter + 1).
 
     ![](../media/lab-5/image42.png)
 
-    Nous devons maintenant définir la valeur de la variable varCounter sur
-    la valeur de varTempCounter.
+    Nous devons maintenant définir la valeur de la variable varCounter sur la valeur de varTempCounter.
 
-## Tâche 11 : configurer une 3^e^ activité Définir une variable
+## Tâche 11 : configurer une 3rd activité Définir une variable
 
 1. Dans le menu supérieur, cliquez sur **Activités -> Définir une
     variable**. L'activité Définir une variable est alors ajoutée au
@@ -824,8 +803,7 @@ varWaitTime.
     **Point de contrôle :** votre itérateur **Until** devrait ressembler à
     la capture d'écran ci-dessous.
 
-    ![A screenshot of activities in Until
-activity](../media/lab-5/image47.png)
+    ![](../media/lab-5/image47.png)
 
 10. En haut du canevas de conception à gauche, cliquez sur
     **pl_Refresh_People_Sharepoint_Option2** ou **Main Canvas** pour
@@ -883,13 +861,9 @@ activity](../media/lab-5/image47.png)
     ![](../media/lab-5/image50.png)
 
 11. Sélectionnez votre espace de travail Fabric **FAIAD_<inject key="Deployment ID" enableCopy="false"/>**
-    dans le panneau de gauche pour accéder à l'espace de travail**.**
+    dans le panneau de gauche pour accéder à l'espace de travail.
 
-    > **Remarque** **:** sur l'écran Planifier, aucune option ne permet de
-    > notifier le succès ou l'échec (comme Planification de flux de
-    > données). La notification peut être effectuée en ajoutant une activité
-    > dans le pipeline de données. Nous ne le faisons pas dans ce labo, car
-    > il s'agit d'un environnement de labo.
+    > **Remarque** **:** sur l'écran Planifier, aucune option ne permet de notifier le succès ou l'échec (comme Planification de flux de données). La notification peut être effectuée en ajoutant une activité dans le pipeline de données. Nous ne le faisons pas dans ce labo, car il s'agit d'un environnement de labo.
 
     Nous avons planifié des actualisations pour les différentes sources de
     données. Nous allons créer un modèle sémantique avec des relations, des

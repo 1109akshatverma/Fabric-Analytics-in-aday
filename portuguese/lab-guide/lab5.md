@@ -541,7 +541,7 @@ alcançado criando um novo Pipeline de dados.
 
     ![](../media/lab-5/image40.png)
 
-## Tarefa 9: Configurar 1ª atividade Set variable
+## Tarefa 9: Configurar 1st atividade Set variable
 
 Configuramos a atividade Fluxo de dados como fizemos anteriormente no
 laboratório. Agora, adicionaremos uma nova lógica. Se a atualização do
@@ -619,7 +619,7 @@ definir o valor da variável varIsSuccess como Sim.
     contador varCounter adicionando um ao seu valor
     (varCounter = varCounter + 1). Então, usamos a variável varTempCounter.
 
-## Tarefa 10: Configurar 2ª atividade Set variable
+## Tarefa 10: Configurar 2nd atividade Set variable
 
 1. No menu superior, selecione **Atividades -> Definir variável**. A
     atividade Definir variável é adicionada à tela de design.
@@ -664,7 +664,7 @@ definir o valor da variável varIsSuccess como Sim.
     Agora, precisamos definir o valor da variável varCounter como o valor de
     varTempCounter.
 
-## Tarefa 11: Configurar 3ª atividade Set variable
+## Tarefa 11: Configurar 3rd atividade Set variable
 
 1. No menu superior, selecione **Atividades -> Definir variável**. A
     atividade Definir variável é adicionada à tela de design.

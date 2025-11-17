@@ -88,12 +88,12 @@ de raccourcis sur le bureau Windows.
     <https://stvnextblobstorage.dfs.core.windows.net/fabrikam-sales>
     **(2) :**
 
-8. Cliquez sur **Créer une connexion** (3) dans la section Connexion
+8. Cliquez sur **Créer une connexion** **(3)** dans la section Connexion
 
 9. Sélectionnez **Signature d'accès partagé (SAS) (4)** dans la liste
     déroulante Type d'authentification.
 
-10. Copiez le jeton SAS et collez-le dans le champ Jeton SAS (5).
+10. Copiez le jeton SAS et collez-le dans le champ Jeton SAS **(5)**.
 
     - **Jeton SAS :** <inject key="Sas token"></inject>
 
@@ -101,7 +101,7 @@ de raccourcis sur le bureau Windows.
 
     ![](../media/lab-3/image8.png)
 
-12. connecté(e) à ADLS Gen2 avec la structure de répertoires s'affichant
+12. Connecté(e) à ADLS Gen2 avec la structure de répertoires s'affichant
     dans le volet gauche. Développez **Delta-Parquet-Format-FY25 (1).**
 
 13. **Sélectionnez** les répertoires suivants **(2),** puis cliquez sur
@@ -305,7 +305,7 @@ de raccourcis sur le bureau Windows.
 
     ![](../media/lab-3/image21.png)
 
-Nous avons besoin de quelques colonnes de la table Countries.
+    Nous avons besoin de quelques colonnes de la table Countries.
 
 20. Dans la **vue Données** (volet inférieur), cliquez sur la **double
     flèche** en regard de la colonne **Countries**.
@@ -728,7 +728,7 @@ visuelle. Essayons cette méthode.
 
     ![](../media/lab-3/image52.png)
 
-Une alerte s'affiche une fois la vue enregistrée.
+    Une alerte s'affiche une fois la vue enregistrée.
 
 34. Dans le volet Explorateur (à gauche), développez **Views**. Nous
     disposons de la vue Sales venant d'être créée.

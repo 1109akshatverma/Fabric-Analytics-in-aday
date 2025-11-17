@@ -35,8 +35,7 @@ modélisation dans le service.
 
 ## Tâche 1 : interroger des données à l'aide de SQL
 
-1. Revenons à l'espace de travail Fabric **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** que
-    vous avez créé dans le labo 2, tâche 8.
+1. Revenons à l'espace de travail Fabric **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** que vous avez créé dans le labo 2, tâche 8.
 
 2. Si vous le souhaitez, **réduisez le flux de tâches** pour afficher
     la liste complète des éléments.
@@ -45,10 +44,7 @@ modélisation dans le service.
     sémantique et Point de terminaison SQL. Nous avons exploré la
     lakehouse et créé des requêtes visuelles à l'aide du point de
     terminaison analytique SQL dans un labo précédent. Sélectionnez
-    l'icône **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** dans le volet de navigation de
-    gauche et choisissez l'option **point de terminaison d'analytique
-    SQL lh_FAIAD** pour continuer à explorer cette option. Vous êtes
-    alors redirigé vers la **vue SQL** de l'explorateur.
+    l'icône **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** dans le volet de navigation de gauche et choisissez l'option **point de terminaison d'analytique SQL lh_FAIAD** pour continuer à explorer cette option. Vous êtes alors redirigé vers la **vue SQL** de l'explorateur.
 
     ![](../media/lab-6/image6.png)
 
@@ -106,7 +102,7 @@ modélisation dans le service.
 
     ![](../media/lab-6/image8.png)
 
-##  Tâche 2 : visualiser le résultat T-SQL
+## Tâche 2 : visualiser le résultat T-SQL
 
 1. Nous pouvons également visualiser le résultat de cette requête.
     **Mettez en surbrillance la requête** dans le volet de requête.
@@ -165,8 +161,7 @@ modélisation dans le service.
 
 2. Dans le menu, cliquez sur **Nouveau modèle sémantique**.
 
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](../media/lab-6/image14.png)
+    ![](../media/lab-6/image14.png)
 
 3. La boîte de dialogue Nouveau modèle sémantique s'ouvre alors.
     Saisissez **sm_FAIAD** comme nom du modèle sémantique Direct Lake.
@@ -230,8 +225,7 @@ créé, rendez-vous à l'endroit approprié
 3. Dans le coin supérieur droit, vérifiez que vous êtes en mode
     **Édition**
 
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](../media/lab-6/image19.png)
+    ![](../media/lab-6/image19.png)
 
 4. La première étape consiste à créer des relations entre ces tables.
 
@@ -525,15 +519,11 @@ Ajoutons les mesures restantes.
 
 8. Procédez de même pour ajouter les mesures suivantes :
 
-    a. Dans la table **Sales, GM = SUM('Sales'[LineProfit])** au
-        format **Devise avec 0 décimale**.
+    a. Dans la table **Sales, GM = SUM('Sales'[LineProfit])** au format **Devise avec 0 décimale**.
 
-    b. Dans la table **Sales**, **GM% = DIVIDE([GM], [Sales])** au
-        format **Pourcentage avec 0 décimale**.
+    b. Dans la table **Sales**, **GM% = DIVIDE([GM], [Sales])** au format **Pourcentage avec 0 décimale**.
 
-    c. Dans la table **Customer, No of Customers =
-        COUNTROWS(Customer)** au format **Nombre entier avec l'option
-        Séparateur de milliers activée**.
+    c. Dans la table **Customer, No of Customers = COUNTROWS(Customer)** au format **Nombre entier avec l'option Séparateur de milliers activée**.
 
 # Références
 
