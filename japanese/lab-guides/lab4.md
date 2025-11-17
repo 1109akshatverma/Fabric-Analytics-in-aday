@@ -49,7 +49,7 @@ IT チームが作成したテーブルのショートカットを作成しま�
 ## タスク 1: SharePoint のクエリをデータフローにコピーする
 
 1. ラボ 2 のタスク 8 で作成した Fabric ワークスペース
-    **FAIAD_<ユーザー名> (1)** に戻りましょう。
+    **FAIAD_<inject key="Deployment ID" enableCopy="false"/> (1)** に戻りましょう。
 
 2. 画面の左上隅にある **+ 新しい項目 (2)** オプションを選択します。
 
@@ -137,7 +137,7 @@ IT チームが作成したテーブルのショートカットを作成しま�
     ラジオ ボタンがオンになっていることを確認してください。
 
 5. 先ほど作成したレイクハウスにテーブルを作成する必要があります。左パネルで、**レイクハウス
-    -> FAIAD_<ユーザー名>** に移動します。
+    -> FAIAD_<inject key="Deployment ID" enableCopy="false"/>** に移動します。
 
 6. **lh_FAIAD** を選択します。
 
@@ -168,7 +168,7 @@ IT チームが作成したテーブルのショートカットを作成しま�
 
     ![](../media/lab-4/image16.png)
 
-    **注: FAIAD_<ユーザー名>**
+    **注: FAIAD_<inject key="Deployment ID" enableCopy="false"/>**
     ワークスペースが表示されます。データフローの実行が完了するまで、しばらくかかる場合があります。
 
 3. **Dataflow 1**
@@ -190,7 +190,7 @@ IT チームが作成したテーブルのショートカットを作成しま�
 
     ![](../media/lab-4/image18.png)
 
-    **FAIAD_<ユーザー名> ワークスペース**が表示されます。
+    **FAIAD_<inject key="Deployment ID" enableCopy="false"/> ワークスペース**が表示されます。
 
 7. **lh_FAIAD** を選択して、レイクハウスに移動します。
 
@@ -208,7 +208,7 @@ IT チームが作成したテーブルのショートカットを作成しま�
 
 ## タスク 5: Snowflake のクエリをデータフローにコピーする
 
-1. Fabric ワークスペース **FAIAD_<ユーザー名> (1)** に戻りましょう。
+1. Fabric ワークスペース **FAIAD_<inject key="Deployment ID" enableCopy="false"/> (1)** に戻りましょう。
 
 2. 画面の左上隅にある **+ 新しい項目 (2)** オプションを選択します。
 
@@ -279,9 +279,8 @@ IT チームが作成したテーブルのショートカットを作成しま�
     パスワードを入力します。これらの資格情報を使用して Snowflake
     にあるすべてのテーブルを Snowflake に接続し、**接続**を選択します。
 
-    - Snowflake ユーザー名: TE_SNOWFLAKE1
-
-    - Snowflake パスワード: 8UpfRpExVDXv2AC1
+    - **Snowflake ユーザー名:** <inject key="SnowFlake Username"></inject>
+    - **Snowflake パスワード:** <inject key="SnowFlake Password"></inject>
 
     **注:** 環境の詳細にある資格情報を使用して Snowflake
     に接続する際に問題が発生した場合は、下記の資格情報を使用してください。
@@ -324,7 +323,7 @@ IT チームが作成したテーブルのショートカットを作成しま�
     ラジオ** ボタンがオンになっていることを確認してください。
 
 6. 先ほど作成したレイクハウスにテーブルを作成する必要があります。左パネルで、**レイクハウス
-    -> FAIAD_<ユーザー名>** に移動します。
+    -> FAIAD_<inject key="Deployment ID" enableCopy="false"/>** に移動します。
 
 7. **lh_FAIAD** を選択します。
 
@@ -362,8 +361,8 @@ IT チームが作成したテーブルのショートカットを作成しま�
 
     ![](../media/lab-4/image31.png)
 
-    **FAIAD_<ユーザー名>
-    ワークスペース**が表示されます。データフローが公開されるまで、しばらくかかる場合があります。
+    **FAIAD_<inject key="Deployment ID" enableCopy="false"/>
+    ワークスペース** が表示されます。データフローが公開されるまで、しばらくかかる場合があります。
 
 5. **lh_FAIAD** を選択して、レイクハウスに移動します。
 

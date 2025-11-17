@@ -253,9 +253,9 @@ incorrect.](../media/lab-1/image19.png)
 8. **ユーザー名**と**パスワード**を入力することで、Dataverse データ
     ソースの資格情報を入力できます。資格情報は下記のとおりです。**接続**を選択します。
 
-    - メール/ユーザー名: **[環境] タブで見つけることができます**
+    - メール/ユーザー名: <inject key="AzureAdUserEmail"></inject>
 
-    - パスワード: **[環境] タブで見つけることができます**
+    - パスワード: <inject key="AzureAdUserPassword"></inject>
 
 9. クエリ ウィンドウから **ADLS Base Folder**
     クエリをクリックします。このクエリを選択すると、資格情報を求められます。**資格情報の編集**をクリックします。
@@ -265,7 +265,7 @@ incorrect.](../media/lab-1/image19.png)
 10. ADLS データ ソースの場合、**Shared Access Signature (SAS)**
     オプションを選択し、下記の **SAS トークン**を入力します。
 
-    - **SAS** トークン: [環境] タブで見つけることができます
+      - **SAS** トークン: <inject key="Sas token"></inject>
 
     ![](../media/lab-1/image22.png)
 
@@ -296,13 +296,17 @@ incorrect.](../media/lab-1/image19.png)
     パスワード**を入力します。これらの資格情報を使用して Snowflake
     にあるすべてのテーブルを Snowflake に接続し、[接続] を選択します。
 
-     - **Snowflake ユーザー名**: TE_SNOWFLAKE1
+      - **Snowflake ユーザー名**: <inject key="SnowFlake Username"></inject>
 
-     - **Snowflake パスワード**: 8UpfRpExVDXv2AC1
+      - **Snowflake パスワード**: <inject key="SnowFlake Password"></inject>
 
     *注: 環境の詳細にある資格情報を使用して Snowflake
     に接続する際に問題が発生した場合は、[環境]
     タブに示されているバックアップの資格情報を使用してください。*
+
+      - **Snowflake ユーザー名**: SNOWFLAKE_BACKUP
+    
+      - **Snowflake パスワード**: 8UpfRpExVDXv2AC1
 
 14. **SnowflakeData** フォルダーには、Supplier ディメンションと PO
     (Order / Spend) ファクトが含まれていることがわかります。
@@ -322,9 +326,9 @@ incorrect.](../media/lab-1/image19.png)
     オプションを選択し、**サインイン**をクリックします。下記のユーザー名とパスワードを入力し、[接続]
     を選択します。
 
-     - **メール/ユーザー名:** [環境] タブで見つけることができます
+    - **メール/ユーザー名:** <inject key="AzureAdUserEmail"></inject>
 
-     - **パスワード:** [環境] タブで見つけることができます
+    - **パスワード:** <inject key="AzureAdUserPassword"></inject>
 
        ![](../media/lab-1/image25.png)
 
