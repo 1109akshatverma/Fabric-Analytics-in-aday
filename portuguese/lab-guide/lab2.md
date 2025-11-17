@@ -92,7 +92,7 @@ Ao final deste laboratório, você terá aprendido a:
 9. A caixa de A caixa de diálogo de atualização para uma avaliação
     gratuita do Microsoft Fabric é aberta. Selecione **Ativar**.
 
-    ***Observação:** deixe a região para qualquer que seja o padrão. O
+    **Observação:** deixe a região para qualquer que seja o padrão. O
     instrutor dará mais detalhes sobre isso ao revisar o laboratório*
 
     ![](../media/lab-2/image10.png)
@@ -114,10 +114,10 @@ Ao final deste laboratório, você terá aprendido a:
 ## Tarefa 2: Criar um workspace do Fabric
 
 1. Agora vamos criar um workspace com uma licença do Fabric. Selecione
-    **Workspaces** (1) na barra de navegação esquerda. Uma caixa de
+    **Workspaces** **(1)** na barra de navegação esquerda. Uma caixa de
     diálogo é aberta.
 
-2. Clique em **+ Novo workspace** (2) encontrado na parte inferior do
+2. Clique em **+ Novo workspace** **(2)** encontrado na parte inferior do
     menu pop-out.
 
     ![](../media/lab-2/image13.png)
@@ -125,8 +125,7 @@ Ao final deste laboratório, você terá aprendido a:
 3. A caixa de diálogo **Criar um workspace** é aberta no lado direito
     do navegador.
 
-4. No campo **Nome**, insira **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** (encontrado na guia
-    Ambiente).
+4. No campo **Nome**, insira **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** (encontrado na guia Ambiente).
 
     ***Observação:** O nome do workspace deve ser exclusivo. Verifique se há
     uma marca de seleção verde em "Este nome está disponível", abaixo do
@@ -227,88 +226,85 @@ Ao final deste laboratório, você terá aprendido a:
     **Tipos de item:**
 
     a) **Fluxo de dados Gen2:** os fluxos de dados são como receitas para
-        transformar dados. Eles oferecem mais de 300 transformações
-        diferentes que você pode aplicar aos seus dados. Isso significa que
-        você pode limpar, combinar e alterar os dados de várias maneiras
-        para atender às suas necessidades.
+    transformar dados. Eles oferecem mais de 300 transformações
+    diferentes que você pode aplicar aos seus dados. Isso significa que
+    você pode limpar, combinar e alterar os dados de várias maneiras
+    para atender às suas necessidades.
 
     b) **Pipelines:** pipelines são fluxos de trabalho que ajudam a
-        automatizar os processos de dados. Eles permitem que você crie
-        fluxos de trabalho de dados flexíveis que podem ser adaptados às
-        suas necessidades específicas. Isso facilita o gerenciamento e o
-        processamento de dados de forma estruturada.
+    automatizar os processos de dados. Eles permitem que você crie
+    fluxos de trabalho de dados flexíveis que podem ser adaptados às
+    suas necessidades específicas. Isso facilita o gerenciamento e o
+    processamento de dados de forma estruturada.
 
     c) **Azure Data Factory:** é um serviço de integração de dados baseado
-        em nuvem que permite criar fluxos de trabalho controlados por dados
-        para orquestrar e automatizar a movimentação e a transformação de
-        dados.
+    em nuvem que permite criar fluxos de trabalho controlados por dados
+    para orquestrar e automatizar a movimentação e a transformação de
+    dados.
 
     d) **Trabalho do Apache Airflow:** o Apache Airflow é uma plataforma de
-        código aberto usada para criar, agendar e monitorar fluxos de
-        trabalho de forma programática. No Data Factory, ele permite criar,
-        agendar e gerenciar fluxos de trabalho de dados complexos.
+    código aberto usada para criar, agendar e monitorar fluxos de
+    trabalho de forma programática. No Data Factory, ele permite criar,
+    agendar e gerenciar fluxos de trabalho de dados complexos.
 
     e) **Copiar Trabalho:** é um recurso que permite copiar dados de uma
-        fonte para outra. Ele fornece uma maneira simples e eficiente de
-        mover dados entre diferentes armazenamentos.
+    fonte para outra. Ele fornece uma maneira simples e eficiente de
+    mover dados entre diferentes armazenamentos.
 
     f) **Banco de dados espelhado:** um recurso para criar versões
-        espelhadas de bancos de dados para backup, teste ou acesso somente
-        leitura.
+    espelhadas de bancos de dados para backup, teste ou acesso somente
+    leitura.
 
     g) **Oracle Espelhado (versão preliminar):** um espelhamento no Fabric
-        replica seus bancos de dados Oracle em uma plataforma unificada,
-        permitindo análise quase em tempo real e de baixa latência ao lado
-        de outras fontes de dados.
+    replica seus bancos de dados Oracle em uma plataforma unificada,
+    permitindo análise quase em tempo real e de baixa latência ao lado
+    de outras fontes de dados.
 
     h) **Google BigQuery Espelhado (versão preliminar):** o espelhamento no
-        Fabric permite replicar continuamente dados do Google BigQuery no
-        OneLake, eliminando o ETL complexo e permitindo o uso contínuo em
-        análise, IA e compartilhamento de dados.
+    Fabric permite replicar continuamente dados do Google BigQuery no
+    OneLake, eliminando o ETL complexo e permitindo o uso contínuo em
+    análise, IA e compartilhamento de dados.
 
     i) **Biblioteca de variáveis (versão preliminar):** contém uma lista de
-        variáveis e seus valores padrão. Ela também pode conter outros
-        conjuntos de valores com valores alternativos.
+    variáveis e seus valores padrão. Ela também pode conter outros
+    conjuntos de valores com valores alternativos.
 
     **Introdução:**
 
     Para começar a usar o Data Factory, você pode seguir estas etapas:
 
     a) **Saiba como usar Data Factory:** essa seção ajuda você a começar a
-        usar o Data Factory. Ela fornece orientação sobre como começar a
-        usar a ferramenta de forma eficaz.
+    usar o Data Factory. Ela fornece orientação sobre como começar a
+    usar a ferramenta de forma eficaz.
 
     b) **Crie seu primeiro fluxo de dados:** aqui, você pode aprender como
-        criar seu primeiro fluxo de dados. Os fluxos de dados são essenciais
-        para transformar os dados de acordo com suas necessidades.
+    criar seu primeiro fluxo de dados. Os fluxos de dados são essenciais
+    para transformar os dados de acordo com suas necessidades.
 
     c) **Crie seu primeiro pipeline de dados:** essa seção orienta você
-        sobre como criar seu primeiro pipeline de dados. Os pipelines ajudam
-        a automatizar e gerenciar os processos de dados de forma eficaz.
+    sobre como criar seu primeiro pipeline de dados. Os pipelines ajudam
+    a automatizar e gerenciar os processos de dados de forma eficaz.
 
     d) **Aprenda a monitorar o Data Factory:** o monitoramento é crucial
-        para garantir que os processos de dados estejam funcionando sem
-        problemas. Essa seção ensina como monitorar as atividades do Data
-        Factory.
+    para garantir que os processos de dados estejam funcionando sem
+    problemas. Essa seção ensina como monitorar as atividades do Data
+    Factory.
 
     e) **Aprenda a transformar dados com fluxos de dados:** essa seção
-        ajuda você a entender como usar fluxos de dados para transformar os
-        dados de forma eficaz.
+    ajuda você a entender como usar fluxos de dados para transformar os
+    dados de forma eficaz.
 
     f) **Crie sua primeira API para o GraphQL:** se você estiver
-        interessado em usar APIs com o GraphQL, essa seção orientará você
-        sobre como começar.
+    interessado em usar APIs com o GraphQL, essa seção orientará você
+    sobre como começar.
 
     g) **Crie suas primeiras funções de dados do usuário:** essa seção
-        ajuda você a criar funções de dados do usuário, que são úteis para
-        gerenciar e transformar dados do usuário.
+    ajuda você a criar funções de dados do usuário, que são úteis para
+    gerenciar e transformar dados do usuário.
 
     ![](../media/lab-2/image21.png)
 
-4. Clique em **Retornar às cargas de trabalho** no canto superior
-        esquerdo da tela. Essa ação levará você para a página principal de
-        cargas de trabalho, na qual você poderá explorar outras ferramentas
-        ou seções.
+4. Clique em **Retornar às cargas de trabalho** no canto superior esquerdo da tela. Essa ação levará você para a página principal de cargas de trabalho, na qual você poderá explorar outras ferramentas ou seções.
 
     ![](../media/lab-2/image22.png)
 
@@ -335,46 +331,46 @@ Ao final deste laboratório, você terá aprendido a:
     **Tipos de item:**
 
     a) **Soluções de sustentabilidade:** oferece suporte à ingestão,
-        padronização e análise de dados de ESG (governança ambiental, social
-        e corporativa).
+    padronização e análise de dados de ESG (governança ambiental, social
+    e corporativa).
 
     b) **Soluções de varejo:** ajuda no gerenciamento de grandes volumes de
-        dados, integrando dados de várias fontes e fornecendo análises em
-        tempo real para tomada rápida de decisões. Os varejistas podem usar
-        essas soluções para otimização de estoque, segmentação de clientes,
-        previsão de vendas, preços dinâmicos e detecção de fraudes.
+    dados, integrando dados de várias fontes e fornecendo análises em
+    tempo real para tomada rápida de decisões. Os varejistas podem usar
+    essas soluções para otimização de estoque, segmentação de clientes,
+    previsão de vendas, preços dinâmicos e detecção de fraudes.
 
     c) **Soluções de serviços de saúde:** são estrategicamente projetadas
-        para acelerar o tempo de retorno para os clientes, atendendo à
-        necessidade crítica de transformar com eficiência os dados de saúde
-        em um formato adequado para análise.
+    para acelerar o tempo de retorno para os clientes, atendendo à
+    necessidade crítica de transformar com eficiência os dados de saúde
+    em um formato adequado para análise.
 
     **Introdução:**
     Para começar a usar o Industry Solutions, siga estas etapas:
 
     a) **Saiba mais sobre soluções de dados de saúde:** clique no botão
-        "Saiba mais" para ler sobre soluções de dados de saúde e entender
-        como elas podem ser usadas em seus projetos.
+    "Saiba mais" para ler sobre soluções de dados de saúde e entender
+    como elas podem ser usadas em seus projetos.
 
     b) **Implantar soluções de dados de saúde:** clique no botão
-        "Implantar" para começar a implantar soluções de dados de saúde e
-        implementá-las em seus projetos.
+    "Implantar" para começar a implantar soluções de dados de saúde e
+    implementá-las em seus projetos.
 
     c) **Saiba mais sobre soluções de sustentabilidade:** clique no botão
-        "Saiba mais" para ler sobre soluções de sustentabilidade e
-        entender como elas podem ser usadas em seus projetos.
+    "Saiba mais" para ler sobre soluções de sustentabilidade e
+    entender como elas podem ser usadas em seus projetos.
 
     d) **Implantar soluções de sustentabilidade:** clique no botão
-        "Implantar" para começar a implantar soluções de sustentabilidade
-        e implementá-las em seus projetos.
+    "Implantar" para começar a implantar soluções de sustentabilidade
+    e implementá-las em seus projetos.
 
     e) **Saiba mais sobre soluções de varejo:** clique no botão "Saiba
-        mais" para ler sobre soluções de varejo e entender como elas podem
-        ser usadas em seus projetos.
+    mais" para ler sobre soluções de varejo e entender como elas podem
+    ser usadas em seus projetos.
 
     f) **Implantar soluções de varejo:** clique no botão "Implantar" para
-        começar a implantar soluções de varejo e implementá-las em seus
-        projetos.
+    começar a implantar soluções de varejo e implementá-las em seus
+    projetos.
 
      ![](../media/lab-2/image24.png)
 
@@ -472,7 +468,7 @@ Ao final deste laboratório, você terá aprendido a:
 
     ![](../media/lab-2/image26.png)
 
-3.  Clique em Retornar às cargas de trabalho no canto superior esquerdo
+3. Clique em Retornar às cargas de trabalho no canto superior esquerdo
     da tela. Essa ação levará você para a página principal de cargas de
     trabalho, na qual você poderá explorar outras ferramentas ou seções.
 
@@ -594,7 +590,7 @@ Ao final deste laboratório, você terá aprendido a:
     c. **Notebook:** usado para explorar dados e criar soluções de machine
     learning.
 
-    d**. Ambiente:** usado para configurar bibliotecas compartilhadas,
+    d. **Ambiente:** usado para configurar bibliotecas compartilhadas,
     configurações de computação do Spark e recursos para notebooks e
     definições de trabalho do Spark.
 
@@ -709,6 +705,13 @@ Ao final deste laboratório, você terá aprendido a:
 
     ![](../media/lab-2/image32.png)
 
+3. Clique em **Retornar às cargas de trabalho** no canto superior
+    esquerdo da tela. Essa ação levará você para a página principal de
+    cargas de trabalho, na qual você poderá explorar outras ferramentas
+    ou seções.
+
+    ![](../media/lab-2/image22.png)
+
 ## Tarefa 10: Experiência de Bancos de Dados
 
 1. Na **página de** cargas **de trabalho**, clique em **Databases**
@@ -750,6 +753,7 @@ Ao final deste laboratório, você terá aprendido a:
 
     a. **Explorar:** clique em "Abrir" para explorar um banco de dados de
     exemplo.
+    
     b. **Database concepts:** explica termos e conceitos comuns em torno do
     banco de dados transacional para que você possa se familiarizar com como
     trabalhar com o Banco de Dados SQL.
