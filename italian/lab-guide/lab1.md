@@ -1,3 +1,16 @@
+# Microsoft Fabric - Fabric Analyst in a Day - Lab 1
+
+![](../media/lab-1/main1.png)
+
+# Sommario
+- Struttura del documento
+- Scenario/Esposizione del problema
+- Panoramica del report di Power BI Desktop
+    - Attività 1 - Impostazione di Power BI Desktop nell'ambiente lab
+    - Attività 2 - Analisi del report di Power BI Desktop
+    - Attività 3 - Analisi delle query in Power Query
+- Riferimenti
+
 # Struttura del documento
 
 Il lab include i passaggi che l'utente deve seguire con gli screenshot
@@ -43,7 +56,7 @@ seguenti origini:
   file di esportazione in una cartella di SharePoint. Vengono aggiornati
   ogni mattina alle 9.00.
 
-    ![](images1/media/image6.jpeg)
+    ![](../media/lab-1/image6.jpeg)
 
 Attualmente è in fase di creazione un modello semantico in Power BI
 Premium che estrae i dati dai precedenti sistemi di origine per
@@ -88,7 +101,7 @@ Desktop per comprendere le trasformazioni e il modello.
     sul **Desktop** dell'ambiente lab. Il file si aprirà in Power BI
     Desktop.
 
-    ![](images1/media/image7.png)
+    ![](../media/lab-1/image7.png)
 
 2. Si apre la finestra di dialogo Immettere l'indirizzo e-mail. Andare
     alla scheda **Dettagli ambiente** sul pannello di destra
@@ -99,7 +112,7 @@ Desktop per comprendere le trasformazioni e il modello.
 
 4. Selezionare **Continua**.
 
-    ![](images1/media/image8.png)
+    ![](../media/lab-1/image8.png)
 
 5. Si apre la finestra di dialogo Accedi. Immettere nuovamente il
     **nome utente** copiandolo nella scheda **Dettagli ambiente**.
@@ -110,12 +123,12 @@ Desktop per comprendere le trasformazioni e il modello.
 
 8. Selezionare **Accedi**.
 
-    ![](images1/media/image9.png)
+    ![](../media/lab-1/image9.png)
 
 9. Si apre la finestra di dialogo **Rimani connesso a tutte le tue
     app**. Selezionare **OK**.
 
-    ![](images1/media/image10.png)
+    ![](../media/lab-1/image10.png)
 
 10. **È tutto pronto.** Si apre la finestra di dialogo. Seleziona
     **Fatto**.
@@ -129,7 +142,7 @@ in alto a sinistra nella pagina. Gli oggetti visivi rimanenti
 evidenziano le vendite nel tempo, per area, gruppo di prodotti
 e azienda rivenditrice.
 
-![](images1/media/image11.jpeg)
+![](../media/lab-1/image11.jpeg)
 
 **Nota:** in questo corso di formazione ci concentreremo
 sull'acquisizione, la trasformazione e la modellazione dei dati
@@ -147,7 +160,7 @@ passaggi successivi.
     scorso anno. Dopo un leggero rialzo nel terzo trimestre è nuovamente
     calata nel quarto.
 
-    ![](images1/media/image12.jpeg)
+    ![](../media/lab-1/image12.jpeg)
 
 2. Confrontiamo questi dati con l'area delle Montagne Rocciose.
     Selezionare **Rocky Mountain nel grafico a dispersione Sales
@@ -156,7 +169,7 @@ passaggi successivi.
     notevolmente nel quarto trimestre del 2023 dopo essere state basse
     nei due trimestri precedenti.
 
-    ![](images1/media/image13.jpeg)
+    ![](../media/lab-1/image13.jpeg)
 
 3. Selezionare **Rocky Mountain in Sales Territory** per rimuovere il
     filtro.
@@ -168,7 +181,7 @@ passaggi successivi.
     rispetto all'anno precedente è aumentata negli ultimi due trimestri
     del 2023.
 
-    ![](images1/media/image14.jpeg)
+    ![](../media/lab-1/image14.jpeg)
 
 5. Selezionare il Reseller outlier nel grafico a dispersione per
     **rimuovere il filtro**.
@@ -180,7 +193,7 @@ passaggi successivi.
     finestra di dialogo selezionare **Drill-through -> Product
     Detail**.
 
-    ![](images1/media/image15.png)
+    ![](../media/lab-1/image15.png)
 
 7. Si passerà alla pagina che fornisce i dettagli del prodotto. Notare
     che sono anche presenti alcuni ordini futuri.
@@ -188,13 +201,13 @@ passaggi successivi.
 8. Dopo aver esaminato questa pagina, selezionare **CTRL + freccia
     indietro** in alto nella pagina per tornare al report vendite.
 
-    ![](images1/media/image16.png)
+    ![](../media/lab-1/image16.png)
 
 9. Se lo si desidera, analizzare ulteriormente il report, dopodiché
     esamineremo la vista modello. Nel pannello a sinistra selezionare
     l'icona della vista modello.
 
-    ![](images1/media/image17.png)
+    ![](../media/lab-1/image17.png)
 
 10. Ci sono due tabelle dei fatti **Sales** e **PO**.
 
@@ -218,7 +231,7 @@ passaggi successivi.
 1. Osserviamo Power Query per comprendere le origini dati. Nella barra
     multifunzione selezionare **Home -> Trasforma dati**.
 
-    ![](images1/media/image18.png)
+    ![](../media/lab-1/image18.png)
 
 2. Si apre la finestra Power Query. Nella barra multifunzione
     selezionare **Home -> Impostazioni origine dati**. Si apre la
@@ -237,7 +250,7 @@ passaggi successivi.
 3. Selezionare **Chiudi** per chiudere la finestra di dialogo
     Impostazioni origine dati.
 
-    ![](images1/media/image19.png)
+    ![](../media/lab-1/image19.png)
 
 4. Nel pannello Query a sinistra, le query sono raggruppate per origine
     dati.
@@ -251,7 +264,7 @@ passaggi successivi.
     seleziona questa query, è necessario reinserire le proprie
     credenziali Dataverse. Fare clic su **Modifica credenziali**.
 
-    ![](images1/media/image20.png)
+    ![](../media/lab-1/image20.png)
 
 7. Fare clic su **Accedi** per accedere al proprio account.
 
@@ -267,7 +280,7 @@ passaggi successivi.
     Alla selezione di questa query verranno richieste le credenziali.
     Fare clic su **Modifica credenziali**.
 
-    ![](images1/media/image21.png)
+    ![](../media/lab-1/image21.png)
 
 10. Per l'origine dati ADLS, scegliere l'opzione **Firma di accesso**
     **condiviso (SAS)** e immettere il **token SAS** fornito in
@@ -275,7 +288,7 @@ passaggi successivi.
 
     - **Token SAS:** disponibile nella scheda Ambiente
 
-      ![](images1/media/image22.png)
+      ![](../media/lab-1/image22.png)
 
 11. La cartella **ADLSData** include più dimensioni: Geo, Product,
     Reseller e Date. Include anche i fatti Sales.
@@ -296,7 +309,7 @@ passaggi successivi.
     questa query verranno richieste le credenziali. Fare clic su
     **Modifica credenziali**.
 
-    ![](images1/media/image23.png)
+    ![](../media/lab-1/image23.png)
 
 13. Immettere il **Nome utente Snowflake** e la **Password Snowflake**
     forniti di seguito. Usare queste credenziali per connettere tutte le
@@ -322,7 +335,7 @@ passaggi successivi.
     nella finestra Query. Alla selezione di questa query verranno
     richieste le credenziali. Fare clic su **Modifica credenziali**.
 
-    ![](images1/media/image24.png)
+    ![](../media/lab-1/image24.png)
 
 16. Selezionare l'opzione **Account Microsoft**, quindi fare clic su
     **Accedi**. Immettere il nome utente e la password forniti di
@@ -332,11 +345,11 @@ passaggi successivi.
 
     - **Password:** disponibile nella scheda Ambiente
 
-        ![](images1/media/image25.png)
+        ![](../media/lab-1/image25.png)
 
 17. La cartella **SharepointData** include la dimensione People.
 
-    ![](images1/media/image26.png)
+    ![](../media/lab-1/image26.png)
 
 Ora conosciamo gli elementi con cui dobbiamo lavorare. Nel lab seguenti
 creeremo una query di Power Query analoga usando Dataflow Gen2 e un
@@ -348,7 +361,7 @@ Fabric Analyst in a Day (FAIAD) presenta alcune delle funzionalità
 chiave disponibili in Microsoft Fabric. Nel menu di servizio, la sezione
 Guida (?) include collegamenti ad alcune risorse utili.
 
-![](images1/media/image27.png)
+![](../media/lab-1/image27.png)
 
 Di seguito sono indicate altre risorse utili a progredire nell'uso di
 Microsoft Fabric.
@@ -468,5 +481,4 @@ CONTENUTE NELLA DEMO/NEL LAB PER QUALSIASI SCOPO.
 Questa demo/questo lab contiene solo una parte delle nuove funzionalità
 e dei miglioramenti in Microsoft Power BI. Alcune funzionalità
 potrebbero cambiare nelle versioni future del prodotto. In questa
-demo/in questo lab si apprendono alcune delle nuove funzionalità, ma non
-tutte.
+demo/in questo lab si apprendono alcune delle nuove funzionalità, ma non tutte.
