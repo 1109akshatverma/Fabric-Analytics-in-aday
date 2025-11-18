@@ -5,10 +5,10 @@
 # Sommario
 - Struttura del documento
 - Scenario/Esposizione del problema
-- Panoramica del report di Power BI Desktop
-    - Attività 1 - Impostazione di Power BI Desktop nell'ambiente lab
-    - Attività 2 - Analisi del report di Power BI Desktop
-    - Attività 3 - Analisi delle query in Power Query
+  - Panoramica del report di Power BI Desktop
+  - Attività 1 - Impostazione di Power BI Desktop nell'ambiente lab
+  - Attività 2 - Analisi del report di Power BI Desktop
+   - Attività 3 - Analisi delle query in Power Query
 - Riferimenti
 
 # Struttura del documento
