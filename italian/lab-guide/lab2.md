@@ -46,7 +46,7 @@ In questo lab si apprenderà quanto segue:
 2. Copiare il nome utente e incollarlo nel campo Posta elettronica
     della finestra di dialogo, quindi selezionare Invia.
 
-    - **E-mail/Nome utente:** disponibili nella scheda Ambiente
+    - **E-mail/Nome utente:** <inject key="AzureAdUserEmail"></inject>
 
         ![](../media/lab-2/image6.png)
 
@@ -54,13 +54,13 @@ In questo lab si apprenderà quanto segue:
     accesso visualizzata nella scheda **Accedi a Microsoft Azure**,
     quindi fare clic su **Avanti**.
 
-    - **E-mail/Nome utente:** disponibili nella scheda Ambiente
+    - **E-mail/Nome utente:** <inject key="AzureAdUserEmail"></inject>
 
         ![](../media/lab-2/image7.png)
 
 4. Immettere la **Password** seguente e fare clic su **Accedi**.
 
-    - **Password:** disponibile nella scheda Ambiente
+    - **Password:** <inject key="AzureAdUserPassword"></inject>
 
         ![](../media/lab-2/image8.png)
 
@@ -117,8 +117,7 @@ In questo lab si apprenderà quanto segue:
 3. Si apre la finestra di dialogo **Crea un'area di lavoro** sul lato
     destro del browser.
 
-4. Nel campo **Nome** immettere FAIAD_UserID (disponibile nella scheda
-    Ambiente)
+4. Nel campo **Nome** immettere **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** (disponibile nella scheda Ambiente)
 
     > ***Nota:** il nome dell'area di lavoro deve essere univoco.
     > Assicurarsi che sotto il campo Nome sia presente un segno di spunta
@@ -146,10 +145,7 @@ In questo lab si apprenderà quanto segue:
 
 ## Attività 3 - Creazione di un lakehouse
 
-1. Nella nuova area di lavoro **FAIAD_Username** individuare il
-    pulsante **+ Nuovo elemento (1)** nel riquadro di spostamento a
-    sinistra. Qui è possibile iniziare a creare nuovi elementi
-    nell'area di lavoro.
+1. Nella nuova area di lavoro **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** individuare il pulsante **+ Nuovo elemento (1)** nel riquadro di spostamento a sinistra. Qui è possibile iniziare a creare nuovi elementi nell'area di lavoro.
 
 2. Nella casella di ricerca digitare **Lakehouse (2)** e, dai risultati
     della ricerca, selezionare l'opzione **Lakehouse (3)**. Si creerà

@@ -95,7 +95,7 @@ nel desktop di Windows.
 10. Copiare il token di firma di accesso condiviso e incollarlo nel
     campo Token di firma di accesso condiviso (5).
 
-    - **Token di firma di accesso condiviso:**
+    - **Token di firma di accesso condiviso:** <inject key="Sas token"></inject>
 
 11. Selezionare **Avanti (6)** in basso a destra della schermata.
 

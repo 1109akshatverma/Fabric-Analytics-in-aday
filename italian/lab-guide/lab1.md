@@ -272,9 +272,9 @@ passaggi successivi.
     immettendo **Nome utente** e **Password**. Le credenziali sono
     fornite di seguito. Selezionare **Connetti**.
 
-    - **E-mail/Nome utente**: disponibili nella scheda Ambiente
+    - **E-mail/Nome utente**: <inject key="AzureAdUserEmail"></inject>
 
-    - **Password:** disponibile nella scheda Ambiente
+    - **Password:** <inject key="AzureAdUserPassword"></inject>
 
 9. Fare clic sulla query **ADLS Base Folder** nella finestra Query.
     Alla selezione di questa query verranno richieste le credenziali.
@@ -286,7 +286,7 @@ passaggi successivi.
     **condiviso (SAS)** e immettere il **token SAS** fornito in
     precedenza. Selezionare **Connetti**.
 
-    - **Token SAS:** disponibile nella scheda Ambiente
+    - **Token SAS:** <inject key="Sas token"></inject>
 
       ![](../media/lab-1/image22.png)
 
@@ -344,9 +344,9 @@ passaggi successivi.
     **Accedi**. Immettere il nome utente e la password forniti di
     seguito, quindi selezionare Connetti.
 
-    - **E-mail/Nome utente:** disponibili nella scheda Ambiente
+    - **E-mail/Nome utente:** <inject key="AzureAdUserEmail"></inject>
 
-    - **Password:** disponibile nella scheda Ambiente
+    - **Password:** <inject key="AzureAdUserPassword"></inject>
 
         ![](../media/lab-1/image25.png)
 
