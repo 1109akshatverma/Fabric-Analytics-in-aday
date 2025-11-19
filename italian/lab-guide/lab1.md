@@ -311,17 +311,20 @@ passaggi successivi.
 
     ![](../media/lab-1/image23.png)
 
-13. Immettere il **Nome utente Snowflake** e la **Password Snowflake**
-    forniti di seguito. Usare queste credenziali per connettere tutte le
-    tabelle in Snowflake a Snowflake, quindi selezionare Connetti.
+13. Inserire il **Nome utente Snowflake** e la **Password Snowflake** forniti di seguito. Utilizzare queste credenziali per connettere tutte le tabelle in Snowflake a Snowflake e poi selezionare *Connetti*.
 
-    - **Nome utente Snowflake:** TE_SNOWFLAKE1
-
-    - **Password Snowflake:** 8UpfRpExVDXv2AC1
-
-    *Nota: se si verificano problemi di connessione a Snowflake usando le
-    credenziali dei dettagli dell'ambiente, usare le credenziali di backup
-    fornite nella scheda Ambiente.*
+    * **Nome utente Snowflake:** <inject key="SnowFlake Username" enableCopy="false" />
+    
+    * **Password Snowflake:** <inject key="SnowFlake Password" enableCopy="false" />
+    
+    > **Nota:** Se riscontri problemi nel connetterti a Snowflake con le credenziali sopra indicate, utilizza le credenziali di backup fornite di seguito.
+    
+    * **Nome utente Snowflake:** SNOWFLAKE_BACKUP
+    
+    * **Password Snowflake:** 8UpfRpExVDXv2AC1
+    
+    > **Nota:** Per favore, **non inserire un nome utente o una password errati più di tre volte**, poiché questo bloccherà l’account Snowflake per tutti.
+    > Se hai difficoltà ad accedere, contatta `cloudlabs-support@spektrasystems.com` invece di provare più volte.
 
 14. Notare che la cartella SnowflakeData include la dimensione Supplier
     e il fatto PO (ordine/spesa).
@@ -482,3 +485,4 @@ Questa demo/questo lab contiene solo una parte delle nuove funzionalità
 e dei miglioramenti in Microsoft Power BI. Alcune funzionalità
 potrebbero cambiare nelle versioni future del prodotto. In questa
 demo/in questo lab si apprendono alcune delle nuove funzionalità, ma non tutte.
+
