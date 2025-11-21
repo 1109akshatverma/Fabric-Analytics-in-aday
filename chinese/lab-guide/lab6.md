@@ -32,7 +32,7 @@ Power BI Desktop
 ## 任务 1：使用 SQL 查询数据
 
 1. 让我们导航回您在实验室 2 任务 8 中创建的 Fabric 工作区
-**FAIAD_<username>**。
+**FAIAD_<inject key="Deployment ID" enableCopy="false"/>**。
 
 2. 您可以选择 **最小化任务流** 以查看完整的项目列表。
 
@@ -108,7 +108,7 @@ Power BI Desktop
 
 8. "保存报表"对话框随即打开。在 **为报表输入名称** 文本框中，键入 **Units  by Supplier**。
 
-9. 确保目标工作区是您的 Fabric 工作区 **FAIAD_<username>**
+9. 确保目标工作区是您的 Fabric 工作区 **FAIAD_<inject key="Deployment ID" enableCopy="false"/>**
 
 10. 选择 **保存**。
 
@@ -164,7 +164,7 @@ Power BI Desktop
     Product）的右上角会显示警告标志。这是因为这些是视图。使用这些视图中的字段创建的任何视觉对象都将处于
     Direct Query 模式，而不是 Direct Lake 模式。
 
-    **注意：**Direct Lake 模式比 Direct Query 模式更快。
+    **注意：** Direct Lake 模式比 Direct Query 模式更快。
 
 ## 任务 4：创建关系
 
@@ -299,7 +299,7 @@ incorrect.](../media/lab-6/image19.png)
 
 让我们来添加其余关系。
 
-1. 从菜单中，选择**"主页 -> 管理关系"**。
+1. 从菜单中，选择 **"主页 -> 管理关系"**。
 
 2. "管理关系"对话框随即打开。选择 **+ 新建关系**。
 
@@ -370,7 +370,7 @@ incorrect.](../media/lab-6/image19.png)
 
 29. 选择 **关闭** 以关闭"管理关系"对话框。我们已经创建了所有关系。
 
-    **检查点：**您的模型应类似于下面的屏幕截图。
+    **检查点：** 您的模型应类似于下面的屏幕截图。
 
     ![](../media/lab-6/image34.png)
 

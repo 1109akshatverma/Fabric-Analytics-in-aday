@@ -1,6 +1,6 @@
 # Microsoft Fabric Analyst in a Day - 랩 3
 
-    ![](../media/lab-3/main3.png)
+![](../media/lab-3/main3.png)
 
 # 목차
 - 소개
@@ -89,7 +89,7 @@
 
 10. SAS 토큰을 복사하여 SAS 토큰 (5) 필드에 붙여넣습니다.
 
-    - **SAS 토큰:**
+    - **SAS 토큰:** <inject key="Sas token"></inject>
 
 11. 화면 오른쪽 하단에서 **다음 (6)** 을 선택합니다.
 
@@ -179,7 +179,7 @@
 
 1. SQL 엔드포인트를 사용하여 **레이크하우스** 에 액세스할 수 있습니다.
     이를 통해 데이터를 쿼리하고 뷰를 만들 수 있습니다. 화면 **오른쪽
-    상단 **에서 **Lakehouse (1) -> SQL 분석 엔드포인트 (2)** 를
+    상단** 에서 **Lakehouse (1) -> SQL 분석 엔드포인트 (2)** 를
     선택합니다.
 
     ![](../media/lab-3/image13.png)

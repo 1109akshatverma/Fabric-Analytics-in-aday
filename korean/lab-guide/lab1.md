@@ -244,9 +244,9 @@ Fabric을 시작하기 전에 Power BI Desktop의 현재 보고서를 살펴보�
     자격 증명 정보를 입력할 수 있습니다. 아래에 제공된 자격 증명 정보를
     입력하고 **연결**을 선택합니다.
 
-    - 이메일/사용자 이름: **환경 탭에서 찾을 수 있습니다.**
+    - 이메일/사용자 이름: <inject key="AzureAdUserEmail"></inject>
 
-    - 암호: **환경 탭에서 찾을 수 있습니다.**
+    - 암호: <inject key="AzureAdUserPassword"></inject>
 
 9. **ADLS Base Folder** 쿼리 창에서 고객 쿼리를 클릭합니다. 이 쿼리를
     선택하면 자격 증명을 입력해야 합니다. **자격 증명 편집**을
@@ -255,10 +255,9 @@ Fabric을 시작하기 전에 Power BI Desktop의 현재 보고서를 살펴보�
     ![](../media/lab-1/image20.png)
 
 10. ADLS 데이터 원본의 경우 **SAS(공유 액세스 서명)** 옵션을 선택하고
-    아래에 제공된 **
-    SAS** 토큰을 입력합니다. 그런 다음 **연결**을 선택합니다.
+    아래에 제공된 **SAS** 토큰을 입력합니다. 그런 다음 **연결** 을 선택합니다.
 
-    - **SAS 토큰:** 환경 탭에서 찾을 수 있습니다.
+      - **SAS 토큰:** <inject key="Sas token"></inject>
 
       ![](../media/lab-1/image21.png)
 
@@ -286,13 +285,17 @@ Fabric을 시작하기 전에 Power BI Desktop의 현재 보고서를 살펴보�
     입력합니다. 이 자격 증명을 사용하여 Snowflake 아래의 모든 테이블을
     Snowflake에 연결한 다음 연결을 선택합니다.
 
-    - **Snowflake 사용자 이름:** TE_SNOWFLAKE1
+    - **Snowflake 사용자 이름:** <inject key="SnowFlake Username"></inject>
 
-    - **Snowflake 암호:** 8UpfRpExVDXv2AC1
+    - **Snowflake 암호:** <inject key="SnowFlake Password"></inject>
 
     *참고: 환경 세부 정보의 자격 증명을 사용하여 Snowflake에 연결하는 데
     문제가 있는 경우, 환경 탭에 제공된 백업 자격 증명을 사용하시기
     바랍니다.*
+
+    - **Snowflake 사용자 이름:** SNOWFLAKE_BACKUP
+
+    - **Snowflake 비밀번호:** 8UpfRpExVDXv2AC1    
 
 14. **SnowflakeData** 폴더에는 Supplier 차원과 PO(주문/지출) 팩트가
     있습니다.
@@ -311,9 +314,9 @@ Fabric을 시작하기 전에 Power BI Desktop의 현재 보고서를 살펴보�
 16. **Microsoft 계정** 옵션을 선택한 다음 **로그인** 을 클릭합니다.
     아래에 입력한 사용자 이름과 암호를 입력한 다음 연결을 선택합니다.
 
-    - **이메일/사용자 이름:** 환경 탭에서 찾을 수 있습니다.
+    - **이메일/사용자 이름:** <inject key="AzureAdUserEmail"></inject>
 
-    - **암호:** 환경 탭에서 찾을 수 있습니다.
+    - **암호:** <inject key="AzureAdUserPassword"></inject>
 
     ![](../media/lab-1/image24.png)
 

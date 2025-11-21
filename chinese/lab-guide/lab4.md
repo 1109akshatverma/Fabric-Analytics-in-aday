@@ -59,7 +59,7 @@ IT 团队创建的湖屋创建表的快捷方式。
 ## 任务 1：将 SharePoint 查询复制到数据流
 
 1. 让我们导航回您在实验室 2 任务 8 中创建的 Fabric 工作区
-    **FAIAD_<username> (1)**。
+    **FAIAD_<inject key="Deployment ID" enableCopy="false"/> (1)**。
 
 2. 选择左上角提供的 + **新建项目 (2)** 选项。
 
@@ -129,7 +129,7 @@ incorrect.](../media/lab-4/image10.png)
 4. "选择目标"对话框随即打开。确保选中 **新建表单选按钮**，因为我们要创建一个新表。
 
 5. 我们想要在之前创建的湖屋中创建表。在左侧面板中，导航到**湖屋 ->
-    FAIAD_<username>。**
+    FAIAD_<inject key="Deployment ID" enableCopy="false"/>。**
 
 6. 选择 **lh_FAIAD**
 
@@ -157,7 +157,7 @@ incorrect.](../media/lab-4/image10.png)
 
     ![](../media/lab-4/image16.png)
 
-    **注意：**系统会将您导航回 **FAIAD_<username>** 工作区。数据流可能需要一些 **时间才能完成运行**。
+    **注意：** 系统会将您导航回 **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** 工作区。数据流可能需要一些 **时间才能完成运行**。
 
 3. **Dataflow 1** 是我们正在处理的数据流。让我们先将其重命名，然后再继续。单击"Dataflow 1" 旁边的 **省略号 (...)**。选择 **设置**（在数据流运行时，您无法访问设置）。
 
@@ -171,7 +171,7 @@ incorrect.](../media/lab-4/image10.png)
 
     ![](../media/lab-4/image18.png)
 
-    系统会将您导航回 **FAIAD_<username> 工作区**。
+    系统会将您导航回 **FAIAD_<inject key="Deployment ID" enableCopy="false"/> 工作区**。
 
 7. 选择 **lh_FAIAD** 以导航到湖屋。
 
@@ -185,7 +185,7 @@ incorrect.](../media/lab-4/image10.png)
 
 ## 任务 5：将 Snowflake 查询复制到数据流
 
-1. 让我们导航回 Fabric 工作区 **FAIAD_<username> (1)**。
+1. 让我们导航回 Fabric 工作区 **FAIAD_<inject key="Deployment ID" enableCopy="false"/> (1)**。
 
 2. 选择左上角提供的 **+ 新建项目 (2)** 选项。
 
@@ -240,9 +240,9 @@ incorrect.](../media/lab-4/image10.png)
 
 4. 输入下面提供的 **Snowflake 用户名** 和 **Snowflake 密码**。使用这些凭据将 Snowflake 下的所有表连接到 Snowflake，然后选择 **连接。**
 
-    - Snowflake 用户名：TE_SNOWFLAKE1
+   - Snowflake 用户名：<inject key="SnowFlake Username"></inject>
 
-    - Snowflake 密码：8UpfRpExVDXv2AC1
+   - Snowflake 密码：<inject key="SnowFlake Password"></inject>
 
     **注意：** 如果您在使用环境详细信息中的凭据连接到 Snowflake
     时遇到任何问题，请使用下面提供的凭据。
@@ -266,7 +266,7 @@ incorrect.](../media/lab-4/image10.png)
     ![](../media/lab-4/image25.png)
 
 3. "连接到数据目标"对话框随即打开。从 **连接** 下拉列表中，选择
-    **Lakehouse odl_user_<username> (无)。**
+    **Lakehouse odl_user_<inject key="Deployment ID" enableCopy="false"/> (无)。**
 
 4. 选择**下一步**。
 
@@ -275,7 +275,7 @@ incorrect.](../media/lab-4/image10.png)
 5. "选择目标"对话框随即打开。务必 **选中新建表** 单选按钮，因为我们要创建一个新表。
 
 6. 我们想要在之前创建的湖屋中创建表。在左侧面板中，导航到 **湖屋 ->
-    FAIAD_<username>。**
+    FAIAD_<inject key="Deployment ID" enableCopy="false"/>。**
 
 7. 选择 **lh_FAIAD**
 
@@ -307,7 +307,7 @@ incorrect.](../media/lab-4/image10.png)
 
     ![](../media/lab-4/image31.png)
 
-    系统会将您导航回 **FAIAD_<username> 工作区**。发布数据流可能需要一些时间。
+    系统会将您导航回 **FAIAD_<inject key="Deployment ID" enableCopy="false"/> 工作区**。发布数据流可能需要一些时间。
 
 5. 选择 **lh_FAIAD** 以导航到湖屋。
 

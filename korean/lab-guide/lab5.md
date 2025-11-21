@@ -59,7 +59,7 @@
 
 먼저 공급자 데이터 흐름의 예약된 새로 고침을 구성해 보겠습니다.
 
-1. 왼쪽 패널에서 작업 영역을 선택하여 **FAIAD_<username>** 이라는
+1. 왼쪽 패널에서 작업 영역을 선택하여 **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** 이라는
     Fabric 작업 영역으로 다시 이동해 보겠습니다.
 
 2. 아티팩트 목록이 있는 패널을 최대화하려면 패널 오른쪽 상단에 있는
@@ -159,7 +159,7 @@
 
 ## 작업 2: 데이터 파이프라인 만들기
 
-1. 왼쪽 패널에서 작업 영역을 선택하여 **FAIAD_<username>** 이라는
+1. 왼쪽 패널에서 작업 영역을 선택하여 **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** 이라는
     Fabric 작업 영역으로 다시 이동해 보겠습니다.
 
 2. 상단 메뉴에서 **+ 새 항목 (1) -> 파이프라인 (2)** 을 선택합니다.
@@ -215,7 +215,7 @@
 2. df_People_SharePoint 데이터 흐름에 연결하도록 활동을 구성하겠습니다.
     하단 창에서 설정을 선택합니다.
 
-3. **작업 영역** 이 Fabric 작업 영역 **FAIAD_<username>** (으)로
+3. **작업 영역** 이 Fabric 작업 영역 **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** (으)로
     설정되어 있는지 확인합니다.
 
 4. **데이터 흐름 드롭다운**에서 **df_People_SharePoint** 를 선택합니다.
@@ -275,11 +275,11 @@
 소요됩니다. 재시도를 5분과 15분으로 예약하려고 합니다. 새로운 데이터
 파이프라인을 생성하여 이를 어떻게 달성할 수 있는지 살펴보겠습니다.
 
-1. 왼쪽 패널에서 **FAIAD_<username>** 을(를) 클릭하여 작업 영역
+1. 왼쪽 패널에서 **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** 을(를) 클릭하여 작업 영역
     홈으로 이동합니다.
 
 2. 상단 메뉴에서 **+ 새 항목 (1)** 을 클릭하고 팝업 창에서 **데이터
-    파이프라인 (2)**을 클릭합니다.
+    파이프라인 (2)** 을 클릭합니다.
 
     ![](../media/lab-5/image24.png)
 
@@ -497,7 +497,7 @@
 
 7. 하단 창에서 **설정** 을 선택합니다.
 
-8. **작업 영역** 이 현재 작업 영역 **FAIAD_<username>** (으)로
+8. **작업 영역** 이 현재 작업 영역 **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** (으)로
     설정되어 있는지 확인합니다.
 
 9. **데이터 흐름 드롭다운** 에서 **df_People_SharePoint** 를 선택합니다.
@@ -770,7 +770,7 @@ varWaitTime을 사용하여 대기 시간을 설정하겠습니다.
 
     ![](../media/lab-5/image54.png)
 
-11. 왼쪽 패널에서 Fabric 작업 영역 **FAIAD_<username>** 을(를)
+11. 왼쪽 패널에서 Fabric 작업 영역 **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** 을(를)
     선택하여 작업 영역으로 이동합니다.
 
     **참고:** 일정 화면에는 성공 또는 실패를 알리는 옵션(예: 데이터 흐름

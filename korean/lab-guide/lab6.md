@@ -32,7 +32,7 @@ Desktop에서 관계 생성, 측정값 추가 등과 같은 모델링 활동을 
 
 ## 작업 1: SQL을 사용한 데이터 쿼리
 
-1. 다시 랩 2, 작업 8에서 만든 Fabric 작업 영역 **FAIAD_<username>** (으)로 되돌아가 보겠습니다.
+1. 다시 랩 2, 작업 8에서 만든 Fabric 작업 영역 **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** (으)로 되돌아가 보겠습니다.
 
 2. 원하는 경우 **작업 흐름을 최소화**하여 전체 항목 목록을 볼 수
     있습니다.
@@ -126,7 +126,7 @@ Desktop에서 관계 생성, 측정값 추가 등과 같은 모델링 활동을 
 8. 보고서 저장 대화 상자가 열립니다. **보고서의 이름 입력** 텍스트
     상자에 **Units by Supplier** 를 입력합니다.
 
-9. 대상 작업 영역이 Fabric 작업 영역 **FAIAD_<username>** (으)로
+9. 대상 작업 영역이 Fabric 작업 영역 **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** (으)로
     설정되어 있는지 확인합니다.
 
 10. **저장** 을 선택합니다.

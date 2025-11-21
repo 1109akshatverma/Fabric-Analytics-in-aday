@@ -48,7 +48,7 @@ IT 팀은 이미 Dataverse에 대한 링크를 설정하고 필요한 데이터 
 
 ## 작업 1: SharePoint 쿼리를 데이터 흐름에 복사
 
-1. 다시 랩 2, 작업 8에서 만든 Fabric 작업 영역, **FAIAD_<username>
+1. 다시 랩 2, 작업 8에서 만든 Fabric 작업 영역, **FAIAD_<inject key="Deployment ID" enableCopy="false"/>
     (1)** 으로 되돌아가 보겠습니다.
 
 2. 왼쪽 상단 모서리에 있는 **+ 새 항목 (2)** 옵션을 선택합니다.
@@ -135,7 +135,7 @@ IT 팀은 이미 Dataverse에 대한 링크를 설정하고 필요한 데이터 
     **새 테이블 라디오 버튼** 이 선택되어 있는지 확인합니다.
 
 5. 앞서 만든 레이크하우스에 테이블을 만들고자 합니다. 왼쪽 패널에서
-    **Lakehouse -> FAIAD_<username>** (으)로 이동합니다.
+    **Lakehouse -> FAIAD_<inject key="Deployment ID" enableCopy="false"/>** (으)로 이동합니다.
 
 6. **lh_FAIAD** 를 선택합니다.
 
@@ -165,7 +165,7 @@ IT 팀은 이미 Dataverse에 대한 링크를 설정하고 필요한 데이터 
 
     ![](../media/lab-4/image17.png)
 
-    **참고: FAIAD_<username> 작업 영역** 으로 되돌아갑니다. 데이터 흐름이
+    **참고: FAIAD_FAIAD_<inject key="Deployment ID" enableCopy="false"/> 작업 영역** 으로 되돌아갑니다. 데이터 흐름이
     실행을 완료하는 데 잠시 시간이 걸릴 수 있습니다.
 
 3. **Dataflow 1** 이 작업 중인 데이터 흐름입니다. 계속하기 전에 이름을
@@ -183,7 +183,7 @@ IT 팀은 이미 Dataverse에 대한 링크를 설정하고 필요한 데이터 
 
     ![](../media/lab-4/image19.png)
 
-    **FAIAD_<username> 작업 영역** 으로 되돌아갑니다.
+    **FAIAD_<inject key="Deployment ID" enableCopy="false"/> 작업 영역** 으로 되돌아갑니다.
 
 1. **lh_FAIAD** 를 선택하여 레이크하우스로 이동합니다.
 
@@ -266,9 +266,9 @@ Snowflake에 대해 생성된 연결이 없으므로 연결 구성을 요청하�
     자격 증명을 사용하여 Snowflake 아래의 모든 테이블을 Snowflake에
     **연결** 한 다음 연결을 선택합니다.
 
-    - Snowflake 사용자 이름: TE_SNOWFLAKE1
+    - Snowflake 사용자 이름: <inject key="SnowFlake Username"></inject>
 
-    - Snowflake 암호: 8UpfRpExVDXv2AC1
+    - Snowflake 암호: <inject key="SnowFlake Password"></inject>
 
     **참고:** 환경 세부 정보의 자격 증명을 사용하여 Snowflake에 연결하는 데
     문제가 있는 경우, 아래에 제공된 자격 증명을 사용하시기 바랍니다.
@@ -307,7 +307,7 @@ Snowflake에 대해 생성된 연결이 없으므로 연결 구성을 요청하�
     **새 테이블** 라디오 버튼이 **선택** 되어 있는지 확인합니다.
 
 6. 앞서 만든 레이크하우스에 테이블을 만들고자 합니다. 왼쪽 패널에서
-    **Lakehouse -> FAIAD_<username>** (으)로 이동합니다.
+    **Lakehouse -> FAIAD_<inject key="Deployment ID" enableCopy="false"/>** (으)로 이동합니다.
 
 7. **lh_FAIAD** 를 선택합니다.
 
@@ -347,7 +347,7 @@ Snowflake에 대해 생성된 연결이 없으므로 연결 구성을 요청하�
 
     ![](../media/lab-4/image32.png)
 
-    **FAIAD_<username> 작업 영역**으로 되돌아갑니다. 데이터 흐름이
+    **FAIAD_<inject key="Deployment ID" enableCopy="false"/> 작업 영역**으로 되돌아갑니다. 데이터 흐름이
     게시되는 데 몇 분 정도 걸릴 수 있습니다.
 
 5. **lh_FAIAD** 를 선택하여 Lakehouse 로 이동합니다.
@@ -386,7 +386,7 @@ Lakehouse 보기에 있는지 확인하세요.
 
     ![](../media/lab-4/image36.png)
 
-4. **새 연결 만들기 (1)** 를 선택하면 연결 설정 대화 상자가 열립니다**.
+4. **새 연결 만들기 (1)** 를 선택하면 연결 설정 대화 상자가 열립니다 **.
     환경 도메인** 으로 **org6c18814a.crm.dynamics.com (2)** 을 입력합니다.
 
 5. **인증 종류를 조직 계정 (3)** 으로 그대로 둡니다.
