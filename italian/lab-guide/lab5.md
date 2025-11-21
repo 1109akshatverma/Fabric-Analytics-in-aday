@@ -731,7 +731,7 @@ Sì.
     digitare l'espressione, usare il menu per selezionare le funzioni o
     copiare e incollare l'espressione.
 
-11. Fare clic su OK.
+11. Fare clic su **OK**.
 
     ![](../media/lab-5/image47.png)
 

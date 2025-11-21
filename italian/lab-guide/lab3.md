@@ -235,7 +235,7 @@ i dati.
 
     ![](../media/lab-3/image16.png)
 
-6. Con la query **Cities(1)** selezionata, nella barra multifunzione
+6. Con la query **Cities (1)** selezionata, nella barra multifunzione
     dell'editor di Power Query selezionare **Home (2) -> Combina (3)
     -> Elenco a discesa Esegui merge di query (4) -> Esegui merge di
     query come nuova (5)**. Si apre la finestra di dialogo Esegui merge
@@ -708,7 +708,7 @@ a usare questo metodo.
 
     ![](../media/lab-3/image52.png)
 
-Si riceverà un avviso una volta salvata la vista.
+    Si riceverà un avviso una volta salvata la vista.
 
 34. Nel pannello Explorer (a sinistra), espandere **Views.** Abbiamo la
     vista Sales appena creata.

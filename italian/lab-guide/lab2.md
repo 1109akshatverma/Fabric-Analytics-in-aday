@@ -339,7 +339,7 @@ In questo lab si apprenderà quanto segue:
     rispondendo all'esigenza critica di trasformare in modo efficiente
     i dati sanitari in un formato adatto per l'analisi.
 
-    > **Per iniziare** Per iniziare a usare Industry Solutions, vedere le sezioni seguenti.
+    **Per iniziare** Per iniziare a usare Industry Solutions, vedere le sezioni seguenti.
 
     a. **Informazioni sulle soluzioni per i dati sanitari:** fare clic sul
     pulsante "Altre informazioni" per informazioni sulle soluzioni per
@@ -427,10 +427,7 @@ In questo lab si apprenderà quanto segue:
     spaziali con altre funzionalità di Fabric e prendere decisioni più
     intelligenti e basate sulla posizione.
 
-    **Per iniziare**
-
-    Per iniziare a utilizzare Real-Time Intelligence, vedere le sezioni
-    seguenti.
+    **Per iniziare** Per iniziare a utilizzare Real-Time Intelligence, vedere le sezioni seguenti.
 
     a. **Esperienze end-to-end in tempo reale:** fai clic sul pulsante
     "Attività iniziali" per esplorare un'analisi di dati in tempo
@@ -510,9 +507,7 @@ In questo lab si apprenderà quanto segue:
 
     f. **API per GraphQL:** API per l'esecuzione di query su più origini dati.
 
-    **Per iniziare**
-
-    Per iniziare a usare Data Engineering, vedere le sezioni seguenti.
+    **Per iniziare** Per iniziare a usare Data Engineering, vedere le sezioni seguenti.
 
     a. **Esplorazione di un esempio:** fare clic sul pulsante "Seleziona"
     per imparare a usare Data Engineering tramite un esempio.
@@ -600,9 +595,7 @@ In questo lab si apprenderà quanto segue:
     f. **Notebook Phyton:** permette di importare notebook Python da un
     computer locale.
 
-    **Attività iniziali**
-
-    Per iniziare a usare Data Science, effettuare i passaggi seguenti:
+    **Attività iniziali** Per iniziare a usare Data Science, effettuare i passaggi seguenti:
 
     a. **Esplorare un esempio:** fare clic sul pulsante "Seleziona" per
     usare un esempio e ottenere informazioni su Data Science.
@@ -692,9 +685,7 @@ In questo lab si apprenderà quanto segue:
     m. **Database con mirroring (anteprima):** permette di replicare i
     database per disponibilità elevata e ripristino di emergenza.
 
-    **Per iniziare**
-
-    Per iniziare a usare Data Warehouse, vedere le sezioni seguenti.
+    **Per iniziare** Per iniziare a usare Data Warehouse, vedere le sezioni seguenti.
 
     a. **Esplorazione di un warehouse di esempio:** avviare un nuovo
     warehouse con dati di esempio già caricati.
@@ -746,9 +737,7 @@ In questo lab si apprenderà quanto segue:
     per creare applicazioni IA con meno problemi e senza dover eseguire
     le tipiche attività di gestione dei database.
 
-    **Per iniziare**
-
-    Per iniziare a usare Databases, vedere le sezioni seguenti.
+    **Per iniziare** Per iniziare a usare Databases, vedere le sezioni seguenti.
 
     a. **Esplorazione:** fare clic sul pulsante "Apri" per aprire un
     database di esempio

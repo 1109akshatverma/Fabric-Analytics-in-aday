@@ -13,8 +13,8 @@
     - Attività 6 - Salvataggio del report
     - Attività 7 - Configurazione della colonna Year nella tabella Date
     - Attività 8 - Configurazione della colonna Month Name nella tabella Date
-    - Attività 9 – Formattazione del grafico a linee
-    - Attività 10: Connessione di Power BI Desktop al modello semantico
+    - Attività 9 - Formattazione del grafico a linee
+    - Attività 10 - Connessione di Power BI Desktop al modello semantico
     - Attività 11 - Aggiunta di nuovi dati per simulare la modalità Direct Lake
 - Pulizia dell'ambiente lab
 - Riferimenti
