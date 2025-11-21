@@ -227,7 +227,7 @@ KPI。其余的视觉对象突出显示了按区域、产品组和经销商公�
 
     - **SAS 令牌：** <inject key="Sas token"></inject>
 
-    ![](../media/lab-1/image23.png)
+      ![](../media/lab-1/image23.png)
 
 11. 请注意，**ADLSData** 文件夹具有多个维度：Geo、Product、Reseller 和
     Date。还具有
@@ -285,7 +285,7 @@ KPI。其余的视觉对象突出显示了按区域、产品组和经销商公�
 
     - **密码：** 在"环境"选项卡中找到：
 
-    ![](../media/lab-1/image26.png)
+      ![](../media/lab-1/image26.png)
 
 17. 请注意，**SharepointData** 文件夹具有 People 维度。
 
