@@ -262,20 +262,21 @@ Snowflake에 대해 생성된 연결이 없으므로 연결 구성을 요청하�
 
 3. **인증 종류** 는 **Snowflake** 여야 합니다.
 
-4. 아래에 있는 Snowflake 사용자 이름과 Snowflake 암호를 입력합니다. 이
-    자격 증명을 사용하여 Snowflake 아래의 모든 테이블을 Snowflake에
-    **연결** 한 다음 연결을 선택합니다.
+1. 아래에 제공된 **Snowflake 사용자 이름**과 **Snowflake 비밀번호**를 입력하세요. 이 자격 증명을 사용하여 Snowflake의 모든 테이블을 Snowflake에 연결한 후 **Connect**를 선택합니다.
 
-    - Snowflake 사용자 이름: <inject key="SnowFlake Username"></inject>
+    * **Snowflake 사용자 이름:** <inject key="SnowFlake Username" enableCopy="false" />
 
-    - Snowflake 암호: <inject key="SnowFlake Password"></inject>
+    * **Snowflake 비밀번호:** <inject key="SnowFlake Password" enableCopy="false" />
 
-    **참고:** 환경 세부 정보의 자격 증명을 사용하여 Snowflake에 연결하는 데
-    문제가 있는 경우, 아래에 제공된 자격 증명을 사용하시기 바랍니다.
+    > **참고:** 위의 자격 증명으로 Snowflake에 연결하는 데 문제가 있는 경우, 아래의 백업 자격 증명을 사용하세요.
 
-    - **Snowflake 사용자 이름:** SNOWFLAKE_BACKUP
+    * **Snowflake 사용자 이름:** SNOWFLAKE_BACKUP
 
-    - **Snowflake 암호:** 8UpfRpExVDXv2AC1
+    * **Snowflake 비밀번호:** 8UpfRpExVDXv2AC1
+
+   > **참고:** 사용자 이름이나 비밀번호를 세 번 이상 잘못 입력하지 마세요.
+   > 그렇게 하면 모든 사용자의 Snowflake 계정이 잠길 수 있습니다.
+   > 로그인에 문제가 있는 경우, 여러 번 시도하지 말고 `cloudlabs-support@spektrasystems.com` 으로 문의하세요.
 
 5. **연결** 을 선택합니다.
 
