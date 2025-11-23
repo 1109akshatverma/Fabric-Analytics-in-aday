@@ -150,7 +150,7 @@ this next.
 
 ## Task 3: Create a Lakehouse
 
-1. In the newly created workspace **FAIAD_Username**, locate the **+
+1. In the newly created workspace **FAIAD_<inject key="Deployment ID" enableCopy="false"/>**, locate the **+
     New item (1)** button on the left-hand navigation pane. This is
     where you can begin creating new items in your workspace.
 
