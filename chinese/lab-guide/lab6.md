@@ -31,11 +31,11 @@ Power BI Desktop
 
 ## 任务 1：使用 SQL 查询数据
 
-1. 让我们导航回您在实验室 2 任务 8 中创建的 Fabric 工作区 **FAIAD_<inject key="Deployment ID" enableCopy="false"/>**。
+1. 让我们导航回您在实验室 2 任务 8 中创建的 Fabric 工作区 **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** 。
 
 2. 您可以选择 **最小化任务流** 以查看完整的项目列表。
 
-3. 您将看到与 lh_FAIAD 关联的三个元素 - 湖屋、语义模型和 SQL 终结点。我们在之前的实验室中探索了湖屋并使用 SQL 分析终结点创建了视觉对象查询。在左侧导航中选择 **FAIAD_<用户名>**，然后选择 **lh_FAIAD SQL 分析终结点**选项以继续探索此选项。系统会将您导航回资源管理器的 SQL 视图。
+3. 您将看到与 lh_FAIAD 关联的三个元素 - 湖屋、语义模型和 SQL 终结点。我们在之前的实验室中探索了湖屋并使用 SQL 分析终结点创建了视觉对象查询。在左侧导航中选择 **FAIAD_<用户名>** ，然后选择 **lh_FAIAD SQL 分析终结点**选项以继续探索此选项。系统会将您导航回资源管理器的 SQL 视图。
 
     ![](../media/lab-6/image6.png)
 
@@ -179,8 +179,7 @@ Power BI Desktop
 
 3. 在右上角，确保您处于 **编辑** 模式下
 
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](../media/lab-6/image19.png)
+    ![](../media/lab-6/image19.png)
 
 4. 第一步是创建这些表之间的关系。
 
@@ -196,7 +195,7 @@ incorrect.](../media/lab-6/image19.png)
 
 7. 确保 **到表** 是 **Reseller**，**列** 是 **ResellerID**。
 
-8. 确保 **基数** 是 **多对一(*:1)**。
+8. 确保 **基数** 是 **多对一(*:1)** 。
 
 9. 确保 **交叉筛选器方向** 是 **单向**。
 
@@ -240,7 +239,7 @@ incorrect.](../media/lab-6/image19.png)
 
 2. 从顶部菜单中，选择 **主页 -> 新建度量值**。请注意，编辑栏已显示。
 
-3. 在 **编辑栏** 中输入 **Sales = SUM('Sales'[Sales Amount])**。
+3. 在 **编辑栏** 中输入 **Sales = SUM('Sales'[Sales Amount])** 。
 
 4. 单击编辑栏左侧的 **复选标记**，或单击 **Enter** 按钮。
 
@@ -256,7 +255,7 @@ incorrect.](../media/lab-6/image19.png)
 
 9. 从顶部菜单中选择 **Sales 表** 后，选择 **主页 -> 新建度量值**。请注意，编辑栏已显示。
 
-10. 在 **编辑栏** 中输入 **Units = SUM('Sales'[Quantity])**。
+10. 在 **编辑栏** 中输入 **Units = SUM('Sales'[Quantity])** 。
 
 11. 点击编辑栏左侧的 **复选标记**，或点击 **Enter** 按钮。
 
@@ -270,7 +269,7 @@ incorrect.](../media/lab-6/image19.png)
 
 15. 从顶部菜单中选择 **Sales 表** 后，选择 **主页 -> 新建度量值**。请注意，编辑栏已显示。
 
-16. 在 **编辑栏** 中输入 **Sales Orders = DISTINCTCOUNT('Sales'[InvoiceID])**。
+16. 在 **编辑栏** 中输入 **Sales Orders = DISTINCTCOUNT('Sales'[InvoiceID])** 。
 
 17. 点击编辑栏左侧的 **复选标记**，或点击 **Enter** 按钮。
 
@@ -298,7 +297,7 @@ incorrect.](../media/lab-6/image19.png)
 
 让我们来添加其余关系。
 
-1. 从菜单中，选择 **"主页 -> 管理关系"**。
+1. 从菜单中，选择 **"主页 -> 管理关系"** 。
 
 2. "管理关系"对话框随即打开。选择 **+ 新建关系**。
 
@@ -308,7 +307,7 @@ incorrect.](../media/lab-6/image19.png)
 
 4. 确保 **到表** 是 **People**，**列** 是 **PersonID**。
 
-5. 确保 **基数** 是 **多对一(*:1)**。
+5. 确保 **基数** 是 **多对一(*:1)** 。
 
 6. 确保 **交叉筛选器方向** 是 **单向**。
 
@@ -323,7 +322,7 @@ incorrect.](../media/lab-6/image19.png)
 
 10. 确保 **到表** 是 **Supplier**，**列** 是 **SupplierID**。
 
-11. 确保 **基数** 是 **多对一(*:1)**。
+11. 确保 **基数** 是 **多对一(*:1)** 。
 
 12. 确保 **交叉筛选器方向** 是 **双向**。
 
@@ -337,7 +336,7 @@ incorrect.](../media/lab-6/image19.png)
 
 16. 确保 **到表** 是 **Geo**，**列** 是 **CityID**。
 
-17. 确保 **基数** 是 **多对一(*:1)**。
+17. 确保 **基数** 是 **多对一(*:1)** 。
 
 18. 确保 **交叉筛选器方向** 是 **双向**。
 
@@ -351,7 +350,7 @@ incorrect.](../media/lab-6/image19.png)
 
 22. 确保 **到表** 是 **Reseller**，**列** 是 **ResellerID**。
 
-23. 确保 **基数** 是 **多对一(*:1)**。
+23. 确保 **基数** 是 **多对一(*:1)** 。
 
 24. 确保 **交叉筛选器方向** 是 **单向**。
 
@@ -379,7 +378,7 @@ incorrect.](../media/lab-6/image19.png)
 
 1. 选择 **Sales** 表，然后从顶部菜单中选择 **主页 -> 新建度量值**。
 
-2. 在编辑栏中输入 **Avg Order = DIVIDE([Sales], [Sales Orders])**。
+2. 在编辑栏中输入 **Avg Order = DIVIDE([Sales], [Sales Orders])** 。
 
 3. 单击编辑栏中的 **复选标记**，或单击 Enter 按钮。
 

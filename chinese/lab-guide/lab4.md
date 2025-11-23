@@ -99,8 +99,7 @@ IT 团队创建的湖屋创建表的快捷方式。
 
 1. 选择 **配置连接**。
 
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](../media/lab-4/image10.png)
+    ![](../media/lab-4/image10.png)
 
 2. "连接到数据源"对话框随即打开。在 **连接** 下拉列表中，确保选择 **创建新连接**。
 
@@ -236,18 +235,22 @@ incorrect.](../media/lab-4/image10.png)
 
 3. **身份验证种类** 应为 **Snowflake**。
 
-4. 输入下面提供的 **Snowflake 用户名** 和 **Snowflake 密码**。使用这些凭据将 Snowflake 下的所有表连接到 Snowflake，然后选择 **连接。**
+1. 输入下面提供的 **Snowflake 用户名** 和 **Snowflake 密码**。
+   使用这些凭据将 Snowflake 中的所有表连接到 Snowflake，然后选择 **Connect**。
 
-   - Snowflake 用户名：<inject key="SnowFlake Username"></inject>
+   * **Snowflake 用户名：** <inject key="SnowFlake Username" enableCopy="false" />
 
-   - Snowflake 密码：<inject key="SnowFlake Password"></inject>
+   * **Snowflake 密码：** <inject key="SnowFlake Password" enableCopy="false" />
 
-    **注意：** 如果您在使用环境详细信息中的凭据连接到 Snowflake
-    时遇到任何问题，请使用下面提供的凭据。
+   > **注意：** 如果您在使用上述凭据连接 Snowflake 时遇到问题，请使用下面提供的备用凭据。
 
-    - **Snowflake 用户名：** SNOWFLAKE_BACKUP
+   * **Snowflake 用户名：** SNOWFLAKE_BACKUP
 
-    - **Snowflake 密码：** 8UpfRpExVDXv2AC1
+   * **Snowflake 密码：** 8UpfRpExVDXv2AC1
+
+   > **注意：** 请不要连续三次以上输入错误的用户名或密码，
+   > 否则会导致所有人的 Snowflake 帐户被锁定。
+   > 如果您登录有困难，请不要多次尝试，请联系 `cloudlabs-support@spektrasystems.com`。
 
 5.  选择 **连接**。
 
@@ -301,7 +304,7 @@ incorrect.](../media/lab-4/image10.png)
 
     ![](../media/lab-4/image30.png)
 
-4. 在左上角，选择 **保存并运行 (1)**。一旦您看到刷新已开始的通知，您就可以关闭数据流 **(2)**
+4. 在左上角，选择 **保存并运行 (1)** 。一旦您看到刷新已开始的通知，您就可以关闭数据流 **(2)**
 
     ![](../media/lab-4/image31.png)
 

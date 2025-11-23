@@ -249,20 +249,22 @@ KPI。其余的视觉对象突出显示了按区域、产品组和经销商公�
 
     ![](../media/lab-1/image24.png)
 
-13. 输入下面提供的 **Snowflake 用户名**和 **Snowflake
-    密码**。使用这些凭据将 Snowflake 下的所有表连接到
-    Snowflake，然后选择"连接"。
+1. 输入下面提供的 **Snowflake 用户名** 和 **Snowflake 密码**。
+   使用这些凭据将 Snowflake 中的所有表连接到 Snowflake，然后选择 **Connect**。
 
-    - **Snowflake 用户名：** <inject key="SnowFlake Username"></inject>
+   * **Snowflake 用户名：** <inject key="SnowFlake Username" enableCopy="false" />
 
-    - **Snowflake 密码：** <inject key="SnowFlake Password"></inject>
+   * **Snowflake 密码：** <inject key="SnowFlake Password" enableCopy="false" />
 
-    *注意：如果您在使用环境详细信息中的凭据连接到 Snowflake
-    时遇到任何问题，请使用"环境"选项卡中提供的备份凭据。*
+   > **注意：** 如果您在使用上述凭据连接 Snowflake 时遇到问题，请使用下面提供的备用凭据。
 
-    - **Snowflake 用户名**：SNOWFLAKE_BACKUP
+   * **Snowflake 用户名：** SNOWFLAKE_BACKUP
 
-    - **Snowflake 密码**：8UpfRpExVDXv2AC1
+   * **Snowflake 密码：** 8UpfRpExVDXv2AC1
+
+   > **注意：** 请不要连续三次以上输入错误的用户名或密码，
+   > 否则会导致所有人的 Snowflake 帐户被锁定。
+   > 如果您登录有困难，请不要多次尝试，请联系 `cloudlabs-support@spektrasystems.com`。
 
 14. 请注意，**SnowflakeData** 文件夹包含 Supplier 维度和
     PO（订单/支出）事实。
