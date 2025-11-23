@@ -110,9 +110,9 @@ BI Desktop to understand the transformations and the model.
 
       <img width="648" height="634" alt="image" src="https://github.com/user-attachments/assets/cb0f0e87-6594-4a62-8c89-54a03d6c894e" />
 
-5. **Automatically sign in to all desktop apps and websites on this device?** dialog opens. Select **Yes, all apps**.
+5. When the prompt **Sign in to all apps, websites, and services on this device?** appears, **click on the Yes button** to continue.
 
-    <img width="652" height="635" alt="image" src="https://github.com/user-attachments/assets/bcb16236-9722-4990-bc7c-a49005fe8cca" />
+    ![](../media/lab-1/23112025(1).png)
 
 1. **You're all set!** Dialog opens. Select **Done**.
 
@@ -124,7 +124,7 @@ The report below analyzes Sales for Fabrikam. KPIs are listed on the
 left top of the page. The remaining visuals highlight Sales over time,
 by Territory, Product Group, and Reseller Company.
 
-![A screenshot of Power BI Desktop report](../media/lab-1/image11.png)
+![](../media/lab-1/image11.png)
 
 >**Note:** In this training, we are focusing on data acquisition,
 transformation, and modeling using tools available in Fabric. We will
