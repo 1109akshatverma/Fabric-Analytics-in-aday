@@ -59,7 +59,7 @@ IT 团队创建的湖屋创建表的快捷方式。
 ## 任务 1：将 SharePoint 查询复制到数据流
 
 1. 让我们导航回您在实验室 2 任务 8 中创建的 Fabric 工作区
-    **FAIAD_<inject key="Deployment ID" enableCopy="false"/> (1)**。
+    **FAIAD_<inject key="Deployment ID" enableCopy="false"/> (1)** 。
 
 2. 选择左上角提供的 + **新建项目 (2)** 选项。
 
@@ -118,7 +118,7 @@ incorrect.](../media/lab-4/image10.png)
 
 1. 选择 **People (1)** 查询。
 
-2. 从功能区中，选择 **主页 -> 查询 (2) ->** **添加数据目标 (3) ->** **湖屋 (4)**。
+2. 从功能区中，选择 **主页 -> 查询 (2) ->** **添加数据目标 (3) ->** **湖屋 (4)** 。
 
     ![](../media/lab-4/image12.png)
 
@@ -149,23 +149,23 @@ incorrect.](../media/lab-4/image10.png)
 
 ## 任务 4：发布并重命名 SharePoint 数据流
 
-1. 系统会将您导航回 **Power Query** 窗口。请注意，右下角的数据目标设置为湖屋 **(1)**。
+1. 系统会将您导航回 **Power Query** 窗口。请注意，右下角的数据目标设置为湖屋 **(1)** 。
 
-2. 在左上角，选择保存并运行 **(2)**。一旦您看到刷新已开始的通知，您就可以关闭数据流 **(3)**
+2. 在左上角，选择保存并运行 **(2)** 。一旦您看到刷新已开始的通知，您就可以关闭数据流 **(3)**
 
     ![](../media/lab-4/image16.png)
 
     **注意：** 系统会将您导航回 **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** 工作区。数据流可能需要一些 **时间才能完成运行**。
 
-3. **Dataflow 1** 是我们正在处理的数据流。让我们先将其重命名，然后再继续。单击"Dataflow 1" 旁边的 **省略号 (...)**。选择 **设置**（在数据流运行时，您无法访问设置）。
+3. **Dataflow 1** 是我们正在处理的数据流。让我们先将其重命名，然后再继续。单击"Dataflow 1" 旁边的 **省略号 (...)** 。选择 **设置**（在数据流运行时，您无法访问设置）。
 
     ![](../media/lab-4/image17.png)
 
-4. "数据流设置"窗口随即打 **开**。将 **名称** 更改为 **df_People_SharePoint (1)**。
+4. "数据流设置"窗口随即打 **开**。将 **名称** 更改为 **df_People_SharePoint (1)** 。
 
-5. 在 **说明文本框** 中，添加 **Dataflow to ingest People data from SharePoint to Lakehouse (2)**。
+5. 在 **说明文本框** 中，添加 **Dataflow to ingest People data from SharePoint to Lakehouse (2)** 。
 
-6. 完成后，关闭设置窗口 **(3)**。
+6. 完成后，关闭设置窗口 **(3)** 。
 
     ![](../media/lab-4/image18.png)
 
@@ -183,11 +183,11 @@ incorrect.](../media/lab-4/image10.png)
 
 ## 任务 5：将 Snowflake 查询复制到数据流
 
-1. 让我们导航回 Fabric 工作区 **FAIAD_<inject key="Deployment ID" enableCopy="false"/> (1)**。
+1. 让我们导航回 Fabric 工作区 **FAIAD_<inject key="Deployment ID" enableCopy="false"/> (1)** 。
 
 2. 选择左上角提供的 **+ 新建项目 (2)** 选项。
 
-3. 在"建议项目"下，选择 **数据流 Gen2 (3)**。
+3. 在"建议项目"下，选择 **数据流 Gen2 (3)** 。
 
     ![](../media/lab-4/image20.png)
 
@@ -219,7 +219,7 @@ incorrect.](../media/lab-4/image10.png)
 
 9. 在 **数据流窗格** 中，选择 **中间窗格**，然后输入 **Ctrl+V**（目前不支持右键单击"粘贴"）。如果您使用的是 MAC 设备，请使用 Cmd+V 进行粘贴。
 
-    **注意：** 如果您在实验室环境中工作，请选择屏幕右上角的 **省略号 (...)**。使用滑块 **启用 VM 本机剪贴板**。在对话框中选择"确定"。粘贴查询后，您可以禁用此选项。
+    **注意：** 如果您在实验室环境中工作，请选择屏幕右上角的 **省略号 (...)** 。使用滑块 **启用 VM 本机剪贴板**。在对话框中选择"确定"。粘贴查询后，您可以禁用此选项。
 
     ![](../media/lab-4/image22.png)
 
@@ -343,7 +343,7 @@ incorrect.](../media/lab-4/image10.png)
 
 4. **选择"创建新连接 (1)"，** "连接设置"对话框随即打开。输 **org6c18814a.crm.dynamics.com (2)** 作为 **环境域。**
 
-5. 将**身份验证种类**保留为 **组织帐户 (3)**。
+5. 将**身份验证种类**保留为 **组织帐户 (3)** 。
 
 6. 如果您尚未登录，请选择 **登录。**
 
