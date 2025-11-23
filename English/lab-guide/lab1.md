@@ -235,6 +235,8 @@ settings](../media/lab-1/image19.png)
 
 7. Click on **Sign in** to log into your account.
 
+    ![](../media/lab-1/23112025(2).png)
+
 8. You can enter the credentials for the Dataverse data source by
     entering the **Username** and **Password**. The credentials are
     provided below, and select **Connect**.
