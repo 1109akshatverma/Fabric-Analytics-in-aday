@@ -147,8 +147,6 @@ incorrect.](../media/lab-4/image10.png)
 
     ![](../media/lab-4/image15.png)
 
-### 
-
 ## 任务 4：发布并重命名 SharePoint 数据流
 
 1. 系统会将您导航回 **Power Query** 窗口。请注意，右下角的数据目标设置为湖屋 **(1)**。

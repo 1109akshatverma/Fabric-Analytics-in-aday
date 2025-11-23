@@ -31,8 +31,7 @@ Power BI Desktop
 
 ## 任务 1：使用 SQL 查询数据
 
-1. 让我们导航回您在实验室 2 任务 8 中创建的 Fabric 工作区
-**FAIAD_<inject key="Deployment ID" enableCopy="false"/>**。
+1. 让我们导航回您在实验室 2 任务 8 中创建的 Fabric 工作区 **FAIAD_<inject key="Deployment ID" enableCopy="false"/>**。
 
 2. 您可以选择 **最小化任务流** 以查看完整的项目列表。
 
