@@ -138,12 +138,7 @@ By the end of this lab, you will have learned:
 
 ## Task 3: Create Semantic model
 
-1. Select **Lakehouse** to be navigated to the Lakehouse view from the
-    SQL analytics endpoint.
-
-    ![](../media/lab-6/image13.png)
-
-2. From the menu select **New semantic model.**
+1. From the SQL analytics endpoint menu select **New semantic model.**
 
     ![](../media/lab-6/image14.png)
 
