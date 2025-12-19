@@ -64,6 +64,8 @@ into the lakehouse. This is like creating shortcuts in Windows desktop.
     in the Lakehouse screen. If you have navigated away, that is fine.
     Select **lh_FAIAD** **(2)** to navigate to the Lakehouse.
 
+    ![](../media/lab-3/fabimgup5.png)
+
 3. In the **Explorer** panel, select the **ellipsis (3)** next to
     **Tables**.
 

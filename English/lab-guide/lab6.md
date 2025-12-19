@@ -195,9 +195,9 @@ let's get to the right place
 
     ![](../media/lab-6/image17.png)
 
-2. Click on **Open data model.**
+2. Click on **Open semantic model.**
 
-    ![](../media/lab-6/image18.png)
+    ![](../media/lab-6/fabimgup6.png)
 
 3. In the upper-right corner make sure that you are in **Editing**
     mode

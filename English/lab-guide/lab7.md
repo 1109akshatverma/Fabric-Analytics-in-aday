@@ -10,13 +10,12 @@
     - Task 2: Configure background for a New report
     - Task 3: Add Header to the report
     - Task 4: Add KPIs to the report
-    - Task 5: Add Line chart to the report
-    - Task 6: Save the report
-    - Task 7: Configure Year column in Date table
-    - Task 8: Configure Month Name column in Date table
-    - Task 9: Format Line chart
-    - Task 10: Connect Power BI Desktop to Semantic model
-    - Task 11: Add new data to simulate Direct Lake Mode
+    - Task 5: Save the report
+    - Task 6: Configure Year column in Date table
+    - Task 7: Configure Month Name column in Date table
+    - Task 8: Format Line chart
+    - Task 9: Connect Power BI Desktop to Semantic model
+    - Task 10: Add new data to simulate Direct Lake Mode
 - Clean up Lab environment
 - References
 
@@ -208,82 +207,74 @@ Let's create a new report using a blank canvas.
 1. Let's add Sales KPI. Select the **white space** in the canvas to
     take focus off the text box.
 
-2. From the **Visualizations** **section** select **Multi-row card
+1. From the **Visualizations** **section** select **Multi-row card
     visual**.
 
-3. From the **Data section** expand **Sales** **table**.
+1. If you are not able to see the **Multi-row card visual**, click on **...** from visualization and select **Restore default visuals**.
 
-4. Select **Sales measure**.
+    ![](../media/lab-7/fabimgup7.png)
+
+1. In the next dialog, click on **OK**.
+
+   ![](../media/lab-7/fabimgup8.png)
+
+1. From the **Data section** expand **Sales** **table**.
+
+1. Select **Sales measure**.
 
     ![](../media/lab-7/image20.png)
 
-5. With **multi-row card visual selected**, select **Format visual**
+1. With **multi-row card visual selected**, select **Format visual**
     **icon** from **Visualizations** section.
 
-6. Expand **Category labels** section.
+1. Expand **Category labels** section.
 
-7. Increase **font size** to **14**.
+1. Increase **font size** to **14**.
 
-8. Select **Color drop down**. Color palette dialog opens.
+1. Select **Color drop down**. Color palette dialog opens.
 
-9. Select **More Colors**.
+1. Select **More Colors**.
 
-10. Set Hex value to **#004753**.
+1. Set Hex value to **#004753**.
 
     ![](../media/lab-7/image21.png)
 
-11. Expand **Cards** section.
+1. Expand **Cards** section.
 
-12. Use **Accent bar** slider to set it to **Off**.
+1. Use **Accent bar** slider to set it to **Off**.
 
     ![](../media/lab-7/image22.png)
 
-13. Select **General** in the Visualizations pane.
+1. Select **General** in the Visualizations pane.
 
-14. Expand **Effects section**.
+1. Expand **Effects section**.
 
-15. Use **Background** slider to set it to **Off**.
+1. Use **Background** slider to set it to **Off**.
 
-16. Resize the **visual** and move it to the **left box as shown in the screenshot**.
+1. Resize the **visual** and move it to the **left box as shown in the screenshot**.
 
     ![](../media/lab-7/image23.png)
 
-17. Let's add another KPI. Select the **Sales multi-row card** we just
+1. Let's add another KPI. Select the **Sales multi-row card** we just
     created. **Copy** the visual by selecting **Ctrl+C** from your
     keyboard.
 
-18. **Paste** the visual by selecting **Ctrl+V** from your keyboard.
+1. **Paste** the visual by selecting **Ctrl+V** from your keyboard.
     Notice the visual is pasted onto the canvas.
 
-19. With the **new visual highlighted**, in the **Visualization pane ->
+1. With the **new visual highlighted**, in the **Visualization pane ->
     Build visual -> Fields** section remove **Sales** measure.
 
-20. From the **Data** section, expand **Sales** table and select
+1. From the **Data** section, expand **Sales** table and select
     **Units** measure.
 
-21. Resize the **visual** and **place it in the box below the Sales
+1. Resize the **visual** and **place it in the box below the Sales
     visual**.
 
     ![](../media/lab-7/image24.png)
 
-## Task 5: Add Line chart to the report
 
-Let's create a line chart to visualize Sales over time by Reseller
-Company.
-
-1. Select the **white space** in the canvas to take focus off the
-    multi-row card visual.
-
-2. From the **Visualizations** **section** select **Line chart**.
-
-3. From the **Data section** expand **Date** table.
-
-4. Select **Year** field. Notice Year is summed by default and added to
-    the Y-axis. Let's rectify this.
-
-    ![](../media/lab-7/image25.png)
-
-## Task 6: Save the report
+## Task 5: Save the report
 
 Let's save the report before we navigate away from the report to make
 changes to the model.
@@ -302,14 +293,14 @@ changes to the model.
 
     ![](../media/lab-7/image26.png)
 
-## Task 7: Configure Year column in Date table
+## Task 6: Configure Year column in Date table
 
 1. From the **top menu**, select **Edit** to go back into Edit mode.
 
-2. From the **top menu**, select **Open data model**. Notice the
+2. From the **top menu**, select **Open Semantic model**. Notice the
     semantic model is opened in a new browser window/tab.
 
-    ![](../media/lab-7/image27.png)
+    ![](../media/lab-7/fabimgup9.png)
 
 3. In the upper-right corner switch to **Editing** mode
 
@@ -331,8 +322,7 @@ changes to the model.
 10. On the **Data pane** of the right, expand **Date** table. Notice
     Year is not a summation field.
 
-11. With the **Line chart visual selected**, **remove Sum of Year** from
-    the Y-axis.
+11. Select **Line Chart**.
 
 12. Select **Year** field and it will be added to the **X-axis**.
 
@@ -340,7 +330,7 @@ changes to the model.
 
     ![A screenshot of a computer](../media/lab-7/image29.png)
 
-## Task 8: Configure Month Name column in Date table
+## Task 7: Configure Month Name column in Date table
 
 1. Let's add Month to this chart. From the Date table, drag
     **MonthNameShort** field below **Year** in the **X-axis**. Notice
@@ -378,7 +368,7 @@ changes to the model.
 
     ![](../media/lab-7/image33.png)
 
-## Task 9: Format Line chart
+## Task 8: Format Line chart
 
 Notice how easy it is to update the semantic model while building the
 reports. This gives a seamless interaction like Power BI Desktop.
@@ -432,7 +422,7 @@ reports. This gives a seamless interaction like Power BI Desktop.
 As mentioned earlier, we will not build all the visuals in this lab. At
 your leisure, feel free to build more visuals.
 
-## Task 10: Connect Power BI Desktop to Semantic model
+## Task 9: Connect Power BI Desktop to Semantic model
 
 Now let's see how easy it is to connect Power BI Desktop to the semantic
 model and build visuals.
@@ -511,7 +501,7 @@ model and build visuals.
 
 20. Let's save the report, from the ribbon select **File -> Save**.
 
-## Task 11: Add new data to simulate Direct Lake Mode
+## Task 10: Add new data to simulate Direct Lake Mode
 
 Typically, in Import mode, once data in the source is refreshed, we need
 to refresh the Power BI model after which the data in the report is

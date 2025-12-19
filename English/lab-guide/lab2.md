@@ -96,9 +96,21 @@ By the end of this lab, you will have learned:
     ![](../media/lab-2/image10.png)
 
 10. Successfully upgraded to Microsoft Fabric dialog opens. Select
-    **Fabric Home Page**.
+    **Ok**.
 
-    ![](../media/lab-2/image11.png)
+    ![](../media/lab-2/fabimgup1.png)
+
+11. In the next pane, to invite members, select **X** to cancel the dialog.
+
+    ![](../media/lab-2/fabimgup2.png)
+
+12. Now, to navigate to fabric experience, click on the **Power BI** icon from bottom left corner.
+
+    ![](../media/lab-2/fabimgup3.png)
+
+13. From the menu, select **Fabric**.
+
+    ![](../media/lab-2/fabimgup4.png)
 
 11. You will be navigated to the **Microsoft** **Fabric Home page**. A
     "Welcome to the Fabric view" dialogue may open. If you would like,
@@ -154,13 +166,13 @@ this next.
     New item (1)** button on the left-hand navigation pane. This is
     where you can begin creating new items in your workspace.
 
-2. In the search box, type **Lakehouse (2)** and, from the search
+1. In the search box, type **Lakehouse (2)** and, from the search
     results, select the **Lakehouse (3)** option. This will enable you
     to create a new Lakehouse to store, query, and manage your big data.
 
     ![](../media/lab-2/image16.png)
 
-3. A new lakehouse dialog will appear. Enter **lh_FAIAD (1)** in the **Name**
+1. A new lakehouse dialog will appear. Enter **lh_FAIAD (1)** in the **Name**
     textbox.
     
     >**Note:** Please make sure to deselect the Lakehouse Schema feature, as it is now enabled by default.
@@ -176,9 +188,9 @@ this next.
 
 1. Choose **FAIAD_<inject key="Deployment ID" enableCopy="false"/> (2)** as the **location**.
 
-2. Make sure **Lakehouse schemas (3)** is unchecked.
+1. Make sure **Lakehouse schemas (3)** is unchecked.
 
-3. Then, select **Create (4)** to proceed.
+1. Then, select **Create (4)** to proceed.
     
     ![](../media/lab-2/lakehouse22.png)
 
