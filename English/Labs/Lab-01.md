@@ -29,7 +29,7 @@ individuals. Fabrikam sells to retail customers across the United States
 including specialty stores, supermarkets, computing stores, and tourist
 attraction shops. Fabrikam also sells to other wholesalers via a network
 of agents who promote the products on Fabrikam's behalf. While all
-Fabrikam\'s customers are currently based in the United States, the
+Fabrikam's customers are currently based in the United States, the
 company is intending to push for expansion into other countries /
 regions.
 
@@ -96,7 +96,7 @@ BI Desktop to understand the transformations and the model.
 
     ![](../media/Lab-01/image7.png)
 
-2. Once the \"Enter your email address\" dialog appears, copy the **Username** and paste it into the **Email** field of the dialog and select **Continue**.
+2. Once the "Enter your email address" dialog appears, copy the **Username** and paste it into the **Email** field of the dialog and select **Continue**.
 
    * Email/Username: <inject key="AzureAdUserEmail"></inject>
 
@@ -383,7 +383,7 @@ feedback. You will not give feedback that is subject to a license that
 requires Microsoft to license its software or documentation to third
 parties because we include your feedback in them. These rights survive
 this agreement.
->
+
 MICROSOFT CORPORATION HEREBY DISCLAIMS ALL WARRANTIES AND CONDITIONS
 WITH REGARD TO THE DEMO/LAB, INCLUDING ALL WARRANTIES AND CONDITIONS
 OF MERCHANTABILITY, WHETHER EXPRESS, IMPLIED OR STATUTORY, FITNESS FOR
