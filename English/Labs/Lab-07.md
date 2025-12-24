@@ -717,7 +717,7 @@ Fabric Analyst in a Day (FAIAD) introduces you to some of the key functions avai
 
 Here are a few more resources that will help you with your next steps with Microsoft Fabric.
 
-- See blog to read the full\u00A0[Microsoft Fabric GA announcement](https://aka.ms/Fabric-Hero-Blog-Ignite23)
+- See blog to read the full[Microsoft Fabric GA announcement](https://aka.ms/Fabric-Hero-Blog-Ignite23)
 
 - Explore Fabric through the [Guided Tour](https://aka.ms/Fabric-GuidedTour)
 
@@ -735,11 +735,11 @@ Here are a few more resources that will help you with your next steps with Micro
 
 Read the more in-depth Fabric experience announcement blogs:
 
-- [Data Factory experience in Fabric blog](https://aka.ms/Fabric-Data-Factory-Blog)\u00A0
+- [Data Factory experience in Fabric blog](https://aka.ms/Fabric-Data-Factory-Blog)\
 
-- [Synapse Data Engineering experience in Fabric blog](https://aka.ms/Fabric-DE-Blog)\u00A0
+- [Synapse Data Engineering experience in Fabric blog](https://aka.ms/Fabric-DE-Blog)\
 
-- [Synapse Data Science experience in Fabric blog](https://aka.ms/Fabric-DS-Blog)\u00A0
+- [Synapse Data Science experience in Fabric blog](https://aka.ms/Fabric-DS-Blog)\
 
 - [Synapse Data Warehousing experience in Fabric blog](https://aka.ms/Fabric-DW-Blog)
 
@@ -747,7 +747,7 @@ Read the more in-depth Fabric experience announcement blogs:
 
 - [Power BI announcement blog](https://aka.ms/Fabric-PBI-Blog)
 
-- [Data Activator experience in Fabric blog](https://aka.ms/Fabric-DA-Blog)\u00A0
+- [Data Activator experience in Fabric blog](https://aka.ms/Fabric-DA-Blog)\
 
 - [Administration and governance in Fabric blog](https://aka.ms/Fabric-Admin-Gov-Blog)
 

@@ -612,7 +612,7 @@ Let's create the Product view, which is created by merging
 
     ![](../media/Lab-03/image59.png)
 
-    >**Note:**\u00A0If you're unable to find the Advanced Editor, you can access it under\u00A0**Home -\> Query -\> Advanced Editor**.
+    >**Note:** If you're unable to find the Advanced Editor you can access it under **Home -\> Query -\> Advanced Editor**.
 
 12. **Select all the code** in Advanced editor and **delete** it.
 

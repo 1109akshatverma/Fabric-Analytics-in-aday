@@ -412,7 +412,7 @@ Here are a few more resources that will help you with your next steps with Micro
 
 - Read the [free e-book on getting started with Fabric](https://aka.ms/fabric-get-started-ebook)
 
-- Join the\u00A0[Fabric community](https://aka.ms/fabric-community) to post your questions, share your feedback, and learn from others
+- Join the[Fabric community](https://aka.ms/fabric-community) to post your questions, share your feedback, and learn from others
 
 Read the more in-depth Fabric experience announcement blogs:
 
