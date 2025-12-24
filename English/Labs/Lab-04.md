@@ -1,83 +1,52 @@
-# ![](images4/media/image4.png) {#section .TOC-Heading}
+# Microsoft Fabric - Fabric Analyst in a Day - Lab 4
 
-# Contents {#contents .TOC-Heading}
+![](../media/Lab-04/l4.png)
 
-[Introduction [3](#introduction)](#introduction)
+# Contents
 
-[Dataflow Gen2 [3](#dataflow-gen2)](#dataflow-gen2)
+- Introduction 
 
-[Task 1: Copy SharePoint queries to Dataflow
-[3](#task-1-copy-sharepoint-queries-to-dataflow)](#task-1-copy-sharepoint-queries-to-dataflow)
+- Dataflow Gen2
 
-[Task 2: Create SharePoint connection
-[5](#task-2-create-sharepoint-connection)](#task-2-create-sharepoint-connection)
+    - Task 1: Copy SharePoint queries to Dataflow
 
-[Task 3: Configure Data destination for People query
-[6](#task-3-configure-data-destination-for-people-query)](#task-3-configure-data-destination-for-people-query)
+    - Task 2: Create SharePoint connection
 
-[Task 4: Publish and Rename SharePoint Dataflow
-[10](#task-4-publish-and-rename-sharepoint-dataflow)](#task-4-publish-and-rename-sharepoint-dataflow)
+    - Task 3: Configure Data destination for People query
 
-[Task 5: Copy Snowflake queries to Dataflow
-[12](#task-5-copy-snowflake-queries-to-dataflow)](#task-5-copy-snowflake-queries-to-dataflow)
+    - Task 4: Publish and Rename SharePoint Dataflow
 
-[Task 6: Create connection to Snowflake
-[14](#task-6-create-connection-to-snowflake)](#task-6-create-connection-to-snowflake)
+    - Task 5: Copy Snowflake queries to Dataflow
 
-[Task 7: Configure Data Destination for Supplier and PO queries
-[15](#task-7-configure-data-destination-for-supplier-and-po-queries)](#task-7-configure-data-destination-for-supplier-and-po-queries)
+    - Task 6: Create connection to Snowflake
 
-[Task 8: Rename and Publish Snowflake Dataflow
-[17](#task-8-rename-and-publish-snowflake-dataflow)](#task-8-rename-and-publish-snowflake-dataflow)
+    - Task 7: Configure Data Destination for Supplier and PO queries
 
-[Shortcut to Internal Lakehouse
-[19](#shortcut-to-internal-lakehouse)](#shortcut-to-internal-lakehouse)
+    - Task 8: Rename and Publish Snowflake Dataflow
 
-[Task 9: How to create a Shortcut to Dataverse
-[19](#task-9-how-to-create-a-shortcut-to-dataverse)](#task-9-how-to-create-a-shortcut-to-dataverse)
+- Shortcut to Internal Lakehouse
 
-[Task 10: Create a Shortcut to a Lakehouse
-[22](#task-10-create-a-shortcut-to-a-lakehouse)](#task-10-create-a-shortcut-to-a-lakehouse)
+    - Task 9: How to create a Shortcut to Dataverse
 
-[References [26](#references)](#references)
+    - Task 10: Create a Shortcut to a Lakehouse
 
-# 
-
-# 
-
-# 
-
-# 
-
-# 
-
-# 
-
-# 
+- References
 
 # Introduction 
 
 In our scenario, Supplier Data is in Snowflake, Customer Data is in
 Dataverse, and Employee Data is in SharePoint. All these data sources
-are updated at different times. To minimize the number of data refreshes
-for Dataflows, we are going to create individual Dataflows for Snowflake
-and SharePoint data sources.
+are updated at different times. To minimize the number of data refreshes for Dataflows, we are going to create individual Dataflows for Snowflake and SharePoint data sources.
 
-**Note:** Multiple data sources are supported in a single Dataflow.
+>**Note:** Multiple data sources are supported in a single Dataflow.
 
-The IT team has already established a link to Dataverse and applied the
-necessary data transformations, mirroring those in the Power BI Desktop
-file. They have ingested this data into the Lakehouse in the Admin
-workspace and have given us access to the table(s). We are going to
-create a Shortcut to table(s) the Lakehouse IT team has created.
+The IT team has already established a link to Dataverse and applied the necessary data transformations, mirroring those in the Power BI Desktop file. They have ingested this data into the Lakehouse in the Admin workspace and have given us access to the table(s). We are going to create a Shortcut to table(s) the Lakehouse IT team has created.
 
 By the end of this lab, you will have learned:
 
-- How to connect to SharePoint using Dataflow Gen2 and ingest data into
-  Lakehouse
+- How to connect to SharePoint using Dataflow Gen2 and ingest data into Lakehouse
 
-- How to connect to Snowflake using Dataflow Gen2 and ingest data into
-  Lakehouse
+- How to connect to Snowflake using Dataflow Gen2 and ingest data into Lakehouse
 
 - How to ingest data from a Shared Lakehouse
 
@@ -85,108 +54,73 @@ By the end of this lab, you will have learned:
 
 ### Task 1: Copy SharePoint queries to Dataflow
 
-1.  Let's navigate back to the Fabric workspace, **FAIAD\_\<username\>**
-    **(1)** you created in Lab 2, Task 8.
+1.  Let's navigate back to the Fabric workspace, **FAIAD\_\<username\>** **(1)** you created in Lab 2, Task 8.
 
 2.  Select + **New item (2)** option available in the upper left corner.
 
 3.  Under the **Get Data (3)** section, select **Dataflow Gen2 (4).**
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](images4/media/image6.png)
+    ![](../media/Lab-04/image6.png)
 
-Leave the default name and ensure "Enable Git integration" is checked.
-Then select **Create.** You will be navigated to the **Dataflow page**.
-The Dataflow Gen2 interface is like Power Query in Power BI Desktop. We
-can copy queries from Power BI Desktop into Dataflow Gen2. Let's give
-this a try.
+Leave the default name and ensure "Enable Git integration" is checked. Then select **Create.** You will be navigated to the **Dataflow page**. The Dataflow Gen2 interface is like Power Query in Power BI Desktop. We can copy queries from Power BI Desktop into Dataflow Gen2. Let's give this a try.
 
-4.  If you have not already opened it, open the **FAIAD.pbix** located
-    in **Reports** folder on the desktop of your lab environment.
+4.  If you have not already opened it, open the **FAIAD.pbix** located in **Reports** folder on the desktop of your lab environment.
 
-5.  From the ribbon select **Home -\> Transform data**. Power Query
-    window opens. As you have noticed in the earlier labs, queries in
-    the left panel are organized by data source.
+5.  From the ribbon select **Home -\> Transform data**. Power Query window opens. As you have noticed in the earlier labs, queries in the left panel are organized by data source.
 
-6.  From the left panel, under the SharepointData folder **select**
-    **the** **People** query.
+6.  From the left panel, under the SharepointData folder **select** **the** **People** query.
 
 7.  **Right click** and select **Copy**.
 
-![A screenshot of Queries in Power
-Query](images4/media/image7.png)
+    ![](../media/Lab-04/image7.png)
 
 8.  Navigate back to the **Dataflow screen** in the browser.
 
-9.  In the **Dataflow pane**, enter **Ctrl+V** (currently right click
-    Paste is not supported). If you are using MAC device, please use
-    Cmd+V to paste.\
-    \
-    ![A screenshot of a
-    computer](images4/media/image8.png)
+9.  In the **Dataflow pane**, enter **Ctrl+V** (currently right click Paste is not supported). If you are using MAC device, please use Cmd+V to paste.
+    
+    ![](../media/Lab-04/image8.png)
 
-**Note**: If you are working in the lab environment, please select the
-ellipsis on the top right of the screen. Use the slider to **enable**
-**VM Native Clipboard**. Select OK in the dialog. Once done pasting the
-queries you can disable this option.
+    >**Note**: If you are working in the lab environment, please select the ellipsis on the top right of the screen. Use the slider to **enable** **VM Native Clipboard**. Select OK in the dialog. Once done pasting the queries you can disable this option.
 
-![A blue and white box with red circle and black text Description
-automatically generated](images4/media/image9.png)
+    ![](../media/Lab-04/image9.png)
 
-Notice the query has been pasted and is available in the left panel.
-Since we do not have a connection created to SharePoint, you will see a
-warning message requesting you to configure the connection.\
-    \
-    ![A screenshot of a computer AI-generated content may be
-    incorrect.](images4/media/image10.png)
+Notice the query has been pasted and is available in the left panel. Since we do not have a connection created to SharePoint, you will see a warning message requesting you to configure the connection.
+    
+![](../media/Lab-04/image10.png)
 
 ### Task 2: Create SharePoint connection
 
 1.  Select **Configure connection**.
 
-![A screenshot to Configure
-connection](images4/media/image11.png)
+    ![](../media/Lab-04/image11.png)
 
-2.  Connect to data source dialog opens. In the **Connection** dropdown
-    make sure **Create new connection** is selected.
+2.  Connect to data source dialog opens. In the **Connection** dropdown make sure **Create new connection** is selected.
 
 3.  **Authentication kind** should be **Organizational Account**.
 
 4.  Select **Connect**.
 
-**Note:** You will be signed in using your credentials. They will be
-different than the screenshot below.
+    >**Note:** You will be signed in using your credentials. They will be different than the screenshot below.
 
-![A screenshot of Connect to data source
-dialog](images4/media/image12.png)
+    ![](../media/Lab-04/image12.png)
 
 ### Task 3: Configure Data destination for People query
 
-The connection is established, and you can view the data in the preview
-panel. Feel free to navigate through the Applied Steps of the queries.
-Now we need to ingest the People data into the Lakehouse.
+The connection is established, and you can view the data in the preview panel. Feel free to navigate through the Applied Steps of the queries. Now we need to ingest the People data into the Lakehouse.
 
 1.  Select **People (1)** query.
 
-2.  From the ribbon select **Home -\> Query (2) -\> Add data
-    destination (3) -\> Lakehouse (4).**
+2.  From the ribbon select **Home -\> Query (2) -\> Add data destination (3) -\> Lakehouse (4).**
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](images4/media/image13.png)
+    ![](../media/Lab-04/image13.png)
 
-3.  Connect to data destination dialog opens. We need to create a new
-    Connection to the Lakehouse. With **Create new connection** selected
-    in the Connection dropdown and **Authentication kind** set to
-    **Organizational account**, select **Next**.
+3.  Connect to data destination dialog opens. We need to create a new Connection to the Lakehouse. With **Create new connection** selected in the Connection dropdown and **Authentication kind** set to **Organizational account**, select **Next**.
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](images4/media/image14.png)
+    ![](../media/Lab-04/image14.png)
 
-4.  Choose destination target dialog opens. Make sure the **New table**
-    radio button is selected, since we are creating a new table.
+4.  Choose destination target dialog opens. Make sure the **New table** radio button is selected, since we are creating a new table.
 
-5.  We want to create the table in the Lakehouse we created earlier. In
-    the left panel, navigate to **Lakehouse -\> FAIAD\_\<username\>.**
+5.  We want to create the table in the Lakehouse we created earlier. In the left panel, navigate to **Lakehouse -\> FAIAD\_\<username\>.**
 
 6.  Select **lh_FAIAD**
 
@@ -194,96 +128,65 @@ incorrect.](images4/media/image14.png)
 
 8.  Select **Next**.
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](images4/media/image15.png)
+    ![](../media/Lab-04/image15.png)
 
-9.  Choose destination settings dialog opens. Make sure "**Use automatic
-    settings**" is **enabled**.
+9.  Choose destination settings dialog opens. Make sure "**Use automatic settings**" is **enabled**.
 
-**Note**: You can disable automatic settings and notice you have options
-to set Update method and Schema options. Once done exploring, make sure
-"**Use automatic settings**" is **enabled**.
+    >**Note**: You can disable automatic settings and notice you have options to set Update method and Schema options. Once done exploring, make sure "**Use automatic settings**" is **enabled**.
 
 10. Select **Save settings**.
 
-![A screenshot of a
-computer](images4/media/image16.png)
+    ![](../media/Lab-04/image16.png)
 
 ### Task 4: Publish and Rename SharePoint Dataflow
 
-1.  You will be navigated back to the **Power Query window**. Notice on
-    the bottom **right corner**, Data destination is set to **Lakehouse
-    (1)**.
+1.  You will be navigated back to the **Power Query window**. Notice on the bottom **right corner**, Data destination is set to **Lakehouse (1)**.
 
-2.  In the upper left corner, select **Save & run (2)**. Once you see
-    the notification that a refresh has been started you can close out
-    of the dataflow **(3)**
+2.  In the upper left corner, select **Save & run (2)**. Once you see the notification that a refresh has been started you can close out of the dataflow **(3)**
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](images4/media/image17.png)
+    ![](../media/Lab-04/image17.png)
 
-**Note:** You will be navigated back to **FAIAD\_\<username\>
-workspace**. It may take a few moments for the Dataflow to finish
-running.
+    >**Note:** You will be navigated back to **FAIAD\_\<username\>workspace**. It may take a few moments for the Dataflow to finish running.
 
-3.  **Dataflow 1** is the dataflow we were working on. Let's rename it
-    before we continue. Click on the **ellipsis (...)** next to
-    Dataflow 1. Select **Settings** (While the Dataflow is running you
-    cannot access the settings).
+3.  **Dataflow 1** is the dataflow we were working on. Let's rename it before we continue. Click on the **ellipsis (...)** next to Dataflow 1. Select **Settings** (While the Dataflow is running you cannot access the settings).
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](images4/media/image18.png)
+    ![](../media/Lab-04/image18.png)
 
-4.  Dataflow settings window opens. Change the **name** to
-    **df_People_SharePoint (1).**
+4.  Dataflow settings window opens. Change the **name** to **df_People_SharePoint (1).**
 
-5.  In the **Description** text box add **Dataflow to ingest People data
-    from SharePoint to Lakehouse (2)**.
+5.  In the **Description** text box add **Dataflow to ingest People data from SharePoint to Lakehouse (2)**.
 
 6.  Once done, close out of the settings window **(3)**.
 
-![A screenshot of a computer](images4/media/image19.png)
+    ![](../media/Lab-04/image19.png)
 
 You will be navigated back to **FAIAD\_\<username\> workspace** .
 
 7.  Select **lh_FAIAD** to navigate to the lakehouse.
 
-8.  Make sure you are in the Lakehouse view (not SQL analytics
-    endpoint).
+8.  Make sure you are in the Lakehouse view (not SQL analytics endpoint).
 
-9.  Notice **People** table is now available in the Lakehouse.\
-    \
-    ![A screenshot of a computer AI-generated content may be
-    incorrect.](images4/media/image20.png)
+9.  Notice **People** table is now available in the Lakehouse.
+    
+    ![](../media/Lab-04/image20.png)
 
-**Note:** If you do not see the newly created tables, select the
-ellipsis next to Tables and select refresh to refresh the Tables.
+    >**Note:** If you do not see the newly created tables, select the ellipsis next to Tables and select refresh to refresh the Tables.
 
 ### Task 5: Copy Snowflake queries to Dataflow
 
-1.  Let's navigate back to the Fabric workspace, **FAIAD\_\<username\>
-    (1).**
+1.  Let's navigate back to the Fabric workspace, **FAIAD\_\<username\> (1).**
 
 2.  Select **+ New item (2)** option available in the upper left corner.
 
 3.  Under Recommended items, select **Dataflow Gen2 (3)**.
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](images4/media/image21.png)
+    ![](../media/Lab-04/image21.png)
 
-Leave the default name and ensure "Enable Git integration" is
-checked**.** Then select **create**. If you receive a message stating "A
-dataflow with this name already exists" then change the name to
-**Dataflow 2.** You will be navigated to the **Dataflow page**. Now that
-we are familiar with Dataflow, let's go ahead and copy the queries from
-Power BI Desktop into Dataflow.
+Leave the default name and ensure "Enable Git integration" is **checked**. Then select **create**. If you receive a message stating "A dataflow with this name already exists" then change the name to **Dataflow 2.** You will be navigated to the **Dataflow page**. Now that we are familiar with Dataflow, let's go ahead and copy the queries from Power BI Desktop into Dataflow.
 
-4.  If you have not already opened it, open the **FAIAD.pbix** located
-    in **Reports** folder on the desktop of your lab environment.
+4.  If you have not already opened it, open the **FAIAD.pbix** located in **Reports** folder on the desktop of your lab environment.
 
-5.  From the ribbon select **Home -\> Transform data**. Power Query
-    window opens. As you have noticed in the earlier lab, queries in the
-    left panel are organized by data source.
+5.  From the ribbon select **Home -\> Transform data**. Power Query window opens. As you have noticed in the earlier lab, queries in the left panel are organized by data source.
 
 6.  From the left panel, under the **SnowflakeData** folder
     **Ctrl+Select** or Shift+Select the following queries:
@@ -300,49 +203,35 @@ Power BI Desktop into Dataflow.
 
 7.  **Right click** and select **Copy**.
 
-![A screenshot of a
-computer](images4/media/image22.png)
+    ![](../media/Lab-04/image22.png)
 
 8.  Navigate back to the **browser**.
 
-9.  In the **Dataflow pane** select the **center pane**, enter
-    **Ctrl+V** (currently right click Paste is not supported). If you
-    are using MAC device, please use Cmd+V to paste.
+9.  In the **Dataflow pane** select the **center pane**, enter **Ctrl+V** (currently right click Paste is not supported). If you are using MAC device, please use Cmd+V to paste.
 
-**Note**: If you are working in the lab environment, please select the
-**ellipsis (...)** on the top right of the screen. Use the slider to
-**enable** **VM Native Clipboard**. Select OK in the dialog. Once done
-pasting the queries you can disable this option.
+    >**Note**: If you are working in the lab environment, please select the **ellipsis (...)** on the top right of the screen. Use the slider to **enable** **VM Native Clipboard**. Select OK in the dialog. Once done pasting the queries you can disable this option.
 
-![A screenshot to enable copy option in
-environment](images4/media/image23.png)
+    ![](../media/Lab-04/image23.png)
 
 ### Task 6: Create connection to Snowflake
 
-Notice the five queries are pasted and now you have the Queries panel on
-the left. Since we do not have a connection created for Snowflake, you
-will see a warning message requesting you to configure the connection.
+Notice the five queries are pasted and now you have the Queries panel on the left. Since we do not have a connection created for Snowflake, you will see a warning message requesting you to configure the connection.
 
 1.  Select **Configure connection**.
 
-![](images4/media/image24.png)
+    ![](../media/Lab-04/image24.png)
 
-2.  Connect to data source dialog opens. In the **Connection** dropdown
-    make sure, **Create new connection** is selected.
+2.  Connect to data source dialog opens. In the **Connection** dropdown make sure, **Create new connection** is selected.
 
 3.  **Authentication kind** should be **Snowflake**.
 
-4.  Enter the **Snowflake Username** and **Snowflake Password** provided
-    below. Use these credentials to connect all the tables under
-    **Snowflake** to Snowflake and then select **Connect**.
+4.  Enter the **Snowflake Username** and **Snowflake Password** provided below. Use these credentials to connect all the tables under **Snowflake** to Snowflake and then select **Connect**.
 
 - Snowflake Username: TE_SNOWFLAKE1
 
 - Snowflake Password: 8UpfRpExVDXv2AC1
 
-**Note**: If you encounter any issues connecting to Snowflake using the
-credentials from the environment details, please use the credentials
-provided below.
+    >**Note**: If you encounter any issues connecting to Snowflake using the credentials from the environment details, please use the credentials provided below.
 
 - **Snowflake Username:** SNOWFLAKE_BACKUP
 
@@ -350,41 +239,29 @@ provided below.
 
 5.  Select **Connect**.
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](images4/media/image25.png)
+    ![](../media/Lab-04/image25.png)
 
-Connection is established and you can view the data in the preview
-panel. Feel free to navigate through the Applied Steps of the queries.
-Basically, the Suppliers query has the details of suppliers and
-SupplierCategories, as the name implies this table has all the supplier
-categories. These two tables are joined to create the Supplier
-dimension, with the columns we need. Similarly, we have PO Line Items
-merged with PO to create the PO fact. Now we need to ingest the Supplier
+Connection is established and you can view the data in the preview panel. Feel free to navigate through the Applied Steps of the queries. Basically, the Suppliers query has the details of suppliers and Supplier Categories, as the name implies this table has all the supplier categories. These two tables are joined to create the Supplier dimension, with the columns we need. Similarly, we have PO Line Items merged with PO to create the PO fact. Now we need to ingest the Supplier
 and PO data into the Lakehouse.
 
 ### Task 7: Configure Data Destination for Supplier and PO queries
 
 1.  Select the **Supplier (1)** query.
 
-2.  From the ribbon select **Home (2) -\> Add data destination (3) -\>
-    Lakehouse (4)**.
+2.  From the ribbon select **Home (2) -\> Add data destination (3) -\> Lakehouse (4)**.
 
-![A screenshot of a
-computer](images4/media/image26.png)
+    ![](../media/Lab-04/image26.png)
 
 3.  Connect to data destination dialog opens. From the **Connection
     dropdown** select **Lakehouse odl_user\_\<username\> (none)**.
 
 4.  Select **Next**.
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](images4/media/image27.png)
+    ![](../media/Lab-04/image27.png)
 
-5.  Choose destination target dialog opens. Make sure the **New table**
-    radio button is selected, since we are creating a new table.
+5.  Choose destination target dialog opens. Make sure the **New table** radio button is selected, since we are creating a new table.
 
-6.  We want to create the table in the Lakehouse we created earlier. In
-    the left panel, navigate to **Lakehouse -\> FAIAD\_\<username\>.**
+6.  We want to create the table in the Lakehouse we created earlier. In the left panel, navigate to **Lakehouse -\> FAIAD\_\<username\>.**
 
 7.  Select **lh_FAIAD**
 
@@ -392,60 +269,41 @@ incorrect.](images4/media/image27.png)
 
 9.  Select **Next**.
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](images4/media/image28.png)
+    ![](../media/Lab-04/image28.png)
 
-10. Choose destination settings dialog opens. We will use the automatic
-    settings as this will do a full update of the data. Also, it will
-    rename the columns as needed. Select **Save settings**.
+10. Choose destination settings dialog opens. We will use the automatic settings as this will do a full update of the data. Also, it will rename the columns as needed. Select **Save settings**.
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](images4/media/image29.png)
+    ![](../media/Lab-04/image29.png)
 
-11. You will be navigated back to the **Power Query window**. Notice on
-    the bottom **right corner, Data destination** is set to
-    **Lakehouse**. Similarly, **set up the Data Destination for PO
-    query**. Once it is done, your **PO** query should have **Data
-    Destination** set to **Lakehouse** as shown in the screenshot below.
+11. You will be navigated back to the **Power Query window**. Notice on the bottom **right corner, Data destination** is set to **Lakehouse**. Similarly, **set up the Data Destination for PO query**. Once it is done, your **PO** query should have **Data Destination** set to **Lakehouse** as shown in the screenshot below.
 
-![A screenshot of a
-computer](images4/media/image30.png)
+    ![](../media/Lab-04/image30.png)
 
 ### Task 8: Rename and Publish Snowflake Dataflow
 
-1.  From the top of the screen, select the **arrow next to Dataflow 2
-    (name may be different)** to rename.
+1.  From the top of the screen, select the **arrow next to Dataflow 2 (name may be different)** to rename.
 
 2.  In the dialog, change the name to **df_Supplier_Snowflake**
 
 3.  Click on **Enter** to save the name change.
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](images4/media/image31.png)
+    ![](../media/Lab-04/image31.png)
 
-4.  In the upper left corner, select **Save & run (1)**. Once you see
-    the notification that a refresh has been started you can close out
-    of the dataflow **(2)**
+4.  In the upper left corner, select **Save & run (1)**. Once you see the notification that a refresh has been started you can close out of the dataflow **(2)**
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](images4/media/image32.png)
+    ![](../media/Lab-04/image32.png)
 
-You will be navigated back to **FAIAD\_\<username\> workspace**. It may
-take a few moments for the Dataflow to Publish.
+You will be navigated back to **FAIAD\_\<username\> workspace**. It may take a few moments for the Dataflow to Publish.
 
 5.  Select **lh_FAIAD** to navigate to the lakehouse.
 
-6.  Make sure you are in the Lakehouse view (not SQL analytics
-    endpoint).
+6.  Make sure you are in the Lakehouse view (not SQL analytics endpoint).
 
-7.  Notice the **PO** and **Supplier** table are now available in the
-    Lakehouse.\
-    \
-    ![A screenshot of a computer AI-generated content may be
-    incorrect.](images4/media/image33.png)
+7.  Notice the **PO** and **Supplier** table are now available in the Lakehouse.
+    
+    ![](../media/Lab-04/image33.png)
 
-**Note:** If you do not see the newly created tables, select the
-ellipsis next to Tables and select refresh to refresh the Tables.
+    >**Note:** If you do not see the newly created tables, select the ellipsis next to Tables and select refresh to refresh the Tables.
 
 Now let's create a shortcut to bring in data from Dataverse.
 
@@ -453,67 +311,45 @@ Now let's create a shortcut to bring in data from Dataverse.
 
 ### Task 9: How to create a Shortcut to Dataverse
 
-You should be in the Lakehouse **lh_FAIAD**. Make sure you are in
-Lakehouse view (not SQL analytics endpoint).
+You should be in the Lakehouse **lh_FAIAD**. Make sure you are in Lakehouse view (not SQL analytics endpoint).
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](images4/media/image34.png)
+![](../media/Lab-04/image34.png)
 
 1.  In **Explorer** panel, select the **ellipsis** next to **Tables**.
 
 2.  Select **New Shortcut**.
 
-![A screenshot of a
-computer](images4/media/image35.png)
+    ![](../media/Lab-04/image35.png)
 
-3.  New shortcut dialog opens. Under **External sources**, select
-    **Dataverse**.
+3.  New shortcut dialog opens. Under **External sources**, select **Dataverse**.
 
-**Note**: In the previous lab, we followed similar steps to create a
-shortcut to Azure Data Lake Storage Gen2.
+    >**Note**: In the previous lab, we followed similar steps to create a shortcut to Azure Data Lake Storage Gen2.
 
-![A screenshot of a
-computer](images4/media/image36.png)
+    ![](../media/Lab-04/image36.png)
 
-4.  **Select New connection (1)**, Connection settings dialog opens.
-    Enter **org6c18814a.crm.dynamics.com (2**) as **Environment
-    domain**.
+4.  **Select New connection (1)**, Connection settings dialog opens. Enter **org6c18814a.crm.dynamics.com (2**) as **Environment domain**.
 
 5.  Leave **Authentication kind** as **Organizational account (3)**.
 
 6.  Select **Sign in** if you are not already logged in.
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](images4/media/image37.png)
+    ![](../media/Lab-04/image37.png)
 
-7.  From the sign in dialog box, select the **user account** you have
-    been using for these labs. **Note**: Your account will be different
-    than the screenshot below.
+7.  From the sign in dialog box, select the **user account** you have been using for these labs. 
 
-![A screenshot to select
-account](images4/media/image38.png)
+    >**Note**: Your account will be different than the screenshot below.
+
+    ![](../media/Lab-04/image38.png)
 
 8.  Select **Next** in Connection settings dialog.
 
-You will be navigated to a dialog where you can pick the different
-bucket/directory from Dataverse. Notice there are a lot of different
-buckets available. We could pick the bucket(s) we need and follow the
-process like Lab 3 (use Visual query to transform data and create
-views). We could also use Dataflow Gen2 like we used earlier in this lab
-to connect to SharePoint.
+You will be navigated to a dialog where you can pick the different bucket/directory from Dataverse. Notice there are a lot of different buckets available. We could pick the bucket(s) we need and follow the process like Lab 3 (use Visual query to transform data and create views). We could also use Dataflow Gen2 like we used earlier in this lab to connect to SharePoint.
 
-In our scenario, the IT team has already established a link to Dataverse
-and applied the necessary data transformations, mirroring those in the
-Power BI Desktop file. They have ingested this data into the Lakehouse
-in the Admin workspace and given us access to the table(s). Since our IT
-team has done all the hard work, we can create a shortcut to this
-Lakehouse in Admin workspace.
+In our scenario, the IT team has already established a link to Dataverse and applied the necessary data transformations, mirroring those in the Power BI Desktop file. They have ingested this data into the Lakehouse in the Admin workspace and given us access to the table(s). Since our IT team has done all the hard work, we can create a shortcut to this Lakehouse in Admin workspace.
 
-9.  Select **Cancel** in the New shortcut dialog to be navigated back to
-    the Lakehouse.
+9.  Select **Cancel** in the New shortcut dialog to be navigated back to the Lakehouse.
 
-![A screenshot of a computer program Description automatically
-generated](images4/media/image39.png)
+    ![](../media/Lab-04/image39.png)
 
 ### Task 10: Create a Shortcut to a Lakehouse
 
@@ -521,48 +357,37 @@ generated](images4/media/image39.png)
 
 2.  Select **New Shortcut**.
 
-![A screenshot of a
-computer](images4/media/image35.png)
+    ![](../media/Lab-04/image35.png)
 
-3.  New shortcut dialog opens. Select **Microsoft OneLake** option under
-    Internal sources.
+3.  New shortcut dialog opens. Select **Microsoft OneLake** option under Internal sources.
 
-![A screenshot of a
-computer](images4/media/image40.png)
+    ![](../media/Lab-04/image40.png)
 
 4.  Select **lh_dataverse**.
 
 5.  Select **Next**.
 
-![](images4/media/image41.png)
+    ![](../media/Lab-04/image41.png)
 
-6.  In the left panel, expand **lh_dataverse -\> Tables**. Notice the IT
-    admin has provided access to Customer table.
+6.  In the left panel, expand **lh_dataverse -\> Tables**. Notice the IT admin has provided access to Customer table.
 
 7.  Select **Customer**.
 
 8.  Select **Next**.
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](images4/media/image42.png)
+    ![](../media/Lab-04/image42.png)
 
-9.  Select **Create** on the next dialog. You will be navigated back to
-    lh_FAIAD lakehouse.
+9.  Select **Create** on the next dialog. You will be navigated back to lh_FAIAD lakehouse.
 
-![](images4/media/image43.png)
+    ![](../media/Lab-04/image43.png)
 
-10. In the **Explorer** panel on the left, notice the new **Customer**
-    table has been created.
+10. In the **Explorer** panel on the left, notice the new **Customer** table has been created.
 
 11. Select **Customer** table to view the data in the preview panel.
 
-![A screenshot of a
-computer](images4/media/image44.png)
+    ![](../media/Lab-04/image44.png)
 
-We have successfully created a shortcut to another Lakehouse.
-
-We have now ingested all the needed data into our Lakehouse. In the next
-lab we will schedule a refresh for our SharePoint Dataflow.
+We have successfully created a shortcut to another Lakehouse. We have now ingested all the needed data into our Lakehouse. In the next lab we will schedule a refresh for our SharePoint Dataflow.
 
 # References
 
@@ -570,115 +395,98 @@ Fabric Analyst in a Day (FAIAD) introduces you to some of the key
 functions available in Microsoft Fabric. In the menu of the service, the
 Help (?) section has links to some great resources.
 
-![A screenshot of help
-options](images4/media/image45.png)
+![](../media/Lab-04/image45.png)
 
-Here are a few more resources that will help you with your next steps
-with Microsoft Fabric.
+Here are a few more resources that will help you with your next steps with Microsoft Fabric.
 
-- See blog\u00A0post\u00A0to read the full\u00A0[Microsoft Fabric GA
-  announcement](https://aka.ms/Fabric-Hero-Blog-Ignite23)
+- See blog to read the full [Microsoft Fabric GA announcement](https://aka.ms/Fabric-Hero-Blog-Ignite23)
 
-- Explore Fabric through the [Guided
-  Tour](https://aka.ms/Fabric-GuidedTour)
+- Explore Fabric through the [Guided Tour](https://aka.ms/Fabric-GuidedTour)
 
-- Sign up for the [Microsoft Fabric free
-  trial](https://aka.ms/try-fabric)
+- Sign up for the [Microsoft Fabric free trial](https://aka.ms/try-fabric)
 
 - Visit the [Microsoft Fabric website](https://aka.ms/microsoft-fabric)
 
-- Learn new skills by exploring the [Fabric Learning
-  modules](https://aka.ms/learn-fabric)
+- Learn new skills by exploring the [Fabric Learning modules](https://aka.ms/learn-fabric)
 
-- Explore the [Fabric technical
-  documentation](https://aka.ms/fabric-docs)
+- Explore the [Fabric technical documentation](https://aka.ms/fabric-docs)
 
-- Read the [free e-book on getting started with
-  Fabric](https://aka.ms/fabric-get-started-ebook)
+- Read the [free e-book on getting started with Fabric](https://aka.ms/fabric-get-started-ebook)
 
-- Join the\u00A0[Fabric community](https://aka.ms/fabric-community) to post
-  your questions, share your feedback, and learn from others
+- Join the\u00A0[Fabric community](https://aka.ms/fabric-community) to post your questions, share your feedback, and learn from others
 
 Read the more in-depth Fabric experience announcement blogs:
 
-- [Data Factory experience in Fabric
-  blog](https://aka.ms/Fabric-Data-Factory-Blog)\u00A0
+- [Data Factory experience in Fabric blog](https://aka.ms/Fabric-Data-Factory-Blog)\
 
-- [Synapse Data Engineering experience in Fabric
-  blog](https://aka.ms/Fabric-DE-Blog)\u00A0
+- [Synapse Data Engineering experience in Fabric blog](https://aka.ms/Fabric-DE-Blog)\
 
-- [Synapse Data Science experience in Fabric
-  blog](https://aka.ms/Fabric-DS-Blog)\u00A0
+- [Synapse Data Science experience in Fabric blog](https://aka.ms/Fabric-DS-Blog)\
 
-- [Synapse Data Warehousing experience in Fabric
-  blog](https://aka.ms/Fabric-DW-Blog)
+- [Synapse Data Warehousing experience in Fabric blog](https://aka.ms/Fabric-DW-Blog)
 
-- [Synapse Real-Time Analytics experience in Fabric
-  blog](https://aka.ms/Fabric-RTA-Blog)
+- [Synapse Real-Time Analytics experience in Fabric blog](https://aka.ms/Fabric-RTA-Blog)
 
 - [Power BI announcement blog](https://aka.ms/Fabric-PBI-Blog)
 
-- [Data Activator experience in Fabric
-  blog](https://aka.ms/Fabric-DA-Blog)\u00A0
+- [Data Activator experience in Fabric blog](https://aka.ms/Fabric-DA-Blog)\
 
-- [Administration and governance in Fabric
-  blog](https://aka.ms/Fabric-Admin-Gov-Blog)
+- [Administration and governance in Fabric blog](https://aka.ms/Fabric-Admin-Gov-Blog)
 
 - [OneLake in Fabric blog](https://aka.ms/Fabric-OneLake-Blog)
 
-- [Dataverse and Microsoft Fabric integration
-  blog](https://aka.ms/Dataverse-Fabric-Blog)
+- [Dataverse and Microsoft Fabric integration blog](https://aka.ms/Dataverse-Fabric-Blog)
 
-> © 2023 Microsoft Corporation. All rights reserved.
->
-> By using this demo/lab, you agree to the following terms:
->
-> The technology/functionality described in this demo/lab is provided by
-> Microsoft Corporation for purposes of obtaining your feedback and to
-> provide you with a learning experience. You may only use the demo/lab
-> to evaluate such technology features and functionality and provide
-> feedback to Microsoft. You may not use it for any other purpose. You
-> may not modify, copy, distribute, transmit, display, perform,
-> reproduce, publish, license, create derivative works from, transfer,
-> or sell this demo/lab or any portion thereof.
->
-> COPYING OR REPRODUCTION OF THE DEMO/LAB (OR ANY PORTION OF IT) TO ANY
-> OTHER SERVER OR LOCATION FOR FURTHER REPRODUCTION OR REDISTRIBUTION IS
-> EXPRESSLY PROHIBITED.
->
-> THIS DEMO/LAB PROVIDES CERTAIN SOFTWARE TECHNOLOGY/PRODUCT FEATURES
-> AND FUNCTIONALITY, INCLUDING POTENTIAL NEW FEATURES AND CONCEPTS, IN A
-> SIMULATED ENVIRONMENT WITHOUT COMPLEX SET-UP OR INSTALLATION FOR THE
-> PURPOSE DESCRIBED ABOVE. THE TECHNOLOGY/CONCEPTS REPRESENTED IN THIS
-> DEMO/LAB MAY NOT REPRESENT FULL FEATURE FUNCTIONALITY AND MAY NOT WORK
-> THE WAY A FINAL VERSION MAY WORK. WE ALSO MAY NOT RELEASE A FINAL
-> VERSION OF SUCH FEATURES OR CONCEPTS. YOUR EXPERIENCE WITH USING SUCH
-> FEATURES AND FUNCITONALITY IN A PHYSICAL ENVIRONMENT MAY ALSO BE
-> DIFFERENT.
->
-> **FEEDBACK**. If you give feedback about the technology features,
-> functionality and/or concepts described in this demo/lab to Microsoft,
-> you give to Microsoft, without charge, the right to use, share and
-> commercialize your feedback in any way and for any purpose. You also
-> give to third parties, without charge, any patent rights needed for
-> their products, technologies and services to use or interface with any
-> specific parts of a Microsoft software or service that includes the
-> feedback. You will not give feedback that is subject to a license that
-> requires Microsoft to license its software or documentation to third
-> parties because we include your feedback in them. These rights survive
-> this agreement.
->
-> MICROSOFT CORPORATION HEREBY DISCLAIMS ALL WARRANTIES AND CONDITIONS
-> WITH REGARD TO THE DEMO/LAB, INCLUDING ALL WARRANTIES AND CONDITIONS
-> OF MERCHANTABILITY, WHETHER EXPRESS, IMPLIED OR STATUTORY, FITNESS FOR
-> A PARTICULAR PURPOSE, TITLE AND NON-INFRINGEMENT. MICROSOFT DOES NOT
-> MAKE ANY ASSURANCES OR REPRESENTATIONS WITH REGARD TO THE ACCURACY OF
-> THE RESULTS, OUTPUT THAT DERIVES FROM USE OF DEMO/ LAB, OR SUITABILITY
-> OF THE INFORMATION CONTAINED IN THE DEMO/LAB FOR ANY PURPOSE.
->
-> **DISCLAIMER**
->
-> This demo/lab contains only a portion of new features and enhancements
-> in Microsoft Power BI. Some of the features might change in future
-> releases of the product. In this demo/lab, you will learn about some,
-> but not all, new features.
+© 2023 Microsoft Corporation. All rights reserved.
+
+ By using this demo/lab, you agree to the following terms:
+
+The technology/functionality described in this demo/lab is provided by
+Microsoft Corporation for purposes of obtaining your feedback and to
+provide you with a learning experience. You may only use the demo/lab
+to evaluate such technology features and functionality and provide
+feedback to Microsoft. You may not use it for any other purpose. You
+may not modify, copy, distribute, transmit, display, perform,
+reproduce, publish, license, create derivative works from, transfer,
+or sell this demo/lab or any portion thereof.
+
+COPYING OR REPRODUCTION OF THE DEMO/LAB (OR ANY PORTION OF IT) TO ANY
+OTHER SERVER OR LOCATION FOR FURTHER REPRODUCTION OR REDISTRIBUTION IS
+EXPRESSLY PROHIBITED.
+
+THIS DEMO/LAB PROVIDES CERTAIN SOFTWARE TECHNOLOGY/PRODUCT FEATURES
+AND FUNCTIONALITY, INCLUDING POTENTIAL NEW FEATURES AND CONCEPTS, IN A
+SIMULATED ENVIRONMENT WITHOUT COMPLEX SET-UP OR INSTALLATION FOR THE
+PURPOSE DESCRIBED ABOVE. THE TECHNOLOGY/CONCEPTS REPRESENTED IN THIS
+DEMO/LAB MAY NOT REPRESENT FULL FEATURE FUNCTIONALITY AND MAY NOT WORK
+THE WAY A FINAL VERSION MAY WORK. WE ALSO MAY NOT RELEASE A FINAL
+VERSION OF SUCH FEATURES OR CONCEPTS. YOUR EXPERIENCE WITH USING SUCH
+FEATURES AND FUNCITONALITY IN A PHYSICAL ENVIRONMENT MAY ALSO BE
+DIFFERENT.
+
+**FEEDBACK**. If you give feedback about the technology features,
+functionality and/or concepts described in this demo/lab to Microsoft,
+you give to Microsoft, without charge, the right to use, share and
+commercialize your feedback in any way and for any purpose. You also
+give to third parties, without charge, any patent rights needed for
+their products, technologies and services to use or interface with any
+specific parts of a Microsoft software or service that includes the
+feedback. You will not give feedback that is subject to a license that
+requires Microsoft to license its software or documentation to third
+parties because we include your feedback in them. These rights survive
+this agreement.
+
+MICROSOFT CORPORATION HEREBY DISCLAIMS ALL WARRANTIES AND CONDITIONS
+WITH REGARD TO THE DEMO/LAB, INCLUDING ALL WARRANTIES AND CONDITIONS
+OF MERCHANTABILITY, WHETHER EXPRESS, IMPLIED OR STATUTORY, FITNESS FOR
+A PARTICULAR PURPOSE, TITLE AND NON-INFRINGEMENT. MICROSOFT DOES NOT
+MAKE ANY ASSURANCES OR REPRESENTATIONS WITH REGARD TO THE ACCURACY OF
+THE RESULTS, OUTPUT THAT DERIVES FROM USE OF DEMO/ LAB, OR SUITABILITY
+OF THE INFORMATION CONTAINED IN THE DEMO/LAB FOR ANY PURPOSE.
+
+**DISCLAIMER**
+
+This demo/lab contains only a portion of new features and enhancements
+in Microsoft Power BI. Some of the features might change in future
+releases of the product. In this demo/lab, you will learn about some,
+but not all, new features.
