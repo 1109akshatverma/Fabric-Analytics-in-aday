@@ -1,37 +1,19 @@
-# ![](images6/media/image4.png)c {#c .TOC-Heading}
+# Microsoft Fabric - Fabric Analyst in a Day - Lab 6
 
-# Contents {#contents .TOC-Heading}
+![](../media/Lab-06/image4a.png)
 
-[Introduction [3](#introduction)](#introduction)
-
-[Lakehouse -- Analyzing data
-[3](#lakehouse-analyzing-data)](#lakehouse-analyzing-data)
-
-[Task 1: Query data using SQL
-[3](#task-1-query-data-using-sql)](#task-1-query-data-using-sql)
-
-[Task 2: Visualize T-SQL result
-[5](#task-2-visualize-t-sql-result)](#task-2-visualize-t-sql-result)
-
-[Lakehouse -- Semantic Modeling
-[7](#lakehouse-semantic-modeling)](#lakehouse-semantic-modeling)
-
-[Task 3: Create Semantic model
-[7](#task-3-create-semantic-model)](#task-3-create-semantic-model)
-
-[Task 4: Create Relationships
-[9](#task-4-create-relationships)](#task-4-create-relationships)
-
-[Task 5: Create Measures
-[14](#task-5-create-measures)](#task-5-create-measures)
-
-[Task 6: Optional section -- Create Relationships
-[17](#task-6-optional-section-create-relationships)](#task-6-optional-section-create-relationships)
-
-[Task 7: Optional section -- Create Measures
-[21](#task-7-optional-section-create-measures)](#task-7-optional-section-create-measures)
-
-[References [23](#references)](#references)
+# Contents
+- Introduction
+- Lakehouse – Analyzing data
+    - Task 1: Query data using SQL
+    - Task 2: Visualize T-SQL result
+- Lakehouse – Semantic Modeling
+    - Task 3: Create Semantic model
+    - Task 4: Create Relationships
+    - Task 5: Create Measures
+    - Task 6: Optional section – Create Relationships
+    - Task 7: Optional section – Create Measures
+- References
 
 # Introduction 
 
@@ -47,514 +29,352 @@ By the end of this lab, you will have learned:
 
 - How to Create a semantic model
 
-# Lakehouse -- Analyzing data
+# Lakehouse - Analyzing data
 
-### Task 1: Query data using SQL
+## Task 1: Query data using SQL
 
-1.  Let's navigate back to the Fabric workspace, **FAIAD\_\<username\>**
-    you created in Lab 2, Task 8.
+1. Let's navigate back to the Fabric workspace, **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** you created in Lab 2, Task 8.
 
-2.  If you choose to, **Minimize the task flow** to view the entire list
-    of items.
+2. If you choose to, **Minimize the task flow** to view the entire list of items.
 
-3.  You will see three elements associated with the lh_FAIAD --
-    Lakehouse, Semantic model and SQL endpoint. We explored the
-    Lakehouse and created visual queries using SQL analytics endpoint in
-    an earlier lab. Select the **FAIAD\_\<username\>** in the left
-    navigation and choose the **lh_FAIAD SQL analytics endpoint** option
-    to continue to explore this option. You will be navigated to the
-    **SQL view** of the explorer.
+3. You will see three elements associated with the lh_FAIAD -- Lakehouse, Semantic model and SQL endpoint. We explored the Lakehouse and created visual queries using SQL analytics endpoint in an earlier lab. Select the **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** in the left navigation and choose the **lh_FAIAD SQL analytics endpoint** option to continue to explore this option. You will be navigated to the **SQL view** of the explorer.
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](images6/media/image6.png){width="3.102642169728784in"
-height="3.6091940069991253in"}
+    ![](../media/Lab-06/image6.png)
 
-If you would like to explore the data before creating a data model, you
-can use SQL to do so. There are two options to use SQL. Option one is
-visual query, which we used in the earlier lab. Option 2 is writing TSQL
-code. This is a developer-friendly option. Let's explore this.
+    If you would like to explore the data before creating a data model, you can use SQL to do so. There are two options to use SQL. Option one is visual query, which we used in the earlier lab. Option 2 is writing TSQL code. This is a developer-friendly option. Let's explore this.
 
-Let's assume you want to quickly find out the Units sold by Supplier
-using SQL.
+    Let's assume you want to quickly find out the Units sold by Supplier using SQL.
 
-In the Lakehouse, SQL analytics endpoint, notice on the left panel, you
-can view the Tables. If you expand the tables, you can view the Columns
-that make up the table. Also, there are options to create SQL Views,
-Functions, and Stored Procedures. If you have a SQL background, feel
-free to explore these options. Let's try to write a simple SQL query.
+    In the Lakehouse, SQL analytics endpoint, notice on the left panel, you can view the Tables. If you expand the tables, you can view the Columns that make up the table. Also, there are options to create SQL Views, Functions, and Stored Procedures. If you have a SQL background, feel free to explore these options. Let's try to write a simple SQL query.
 
-4.  From the **top menu** select **New SQL query** or from the center of
-    the screen click **New SQL query**. You will be navigated to SQL
-    query view.
+4. From the **top menu** select **New SQL query** or from the center of the screen click **New SQL query**. You will be navigated to SQL query view.
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](images6/media/image7.png){width="3.43546697287839in"
-height="1.9620330271216098in"}
+    ![](../media/Lab-06/image7.png)
 
-5.  Paste the **below SQL query** into the **query window**. This query
-    will return the units by Supplier Name. It is joining the Sales
-    table with the Product and Supplier tables to achieve this.
+5. Paste the **below SQL query** into the **query window**. This query will return the units by Supplier Name. It is joining the Sales table with the Product and Supplier tables to achieve this.
 
-[SELECT su.SupplierName, SUM(Quantity) as Units]{.mark}
+   ```
+   SELECT su.SupplierName, SUM(Quantity) as Units
+   FROM dbo.Sales s
+   JOIN dbo.Product p on p.StockItemID = s.StockItemID
+   JOIN dbo.Supplier su on su.SupplierID = p.SupplierID
+   GROUP BY su.SupplierName
+   ```
 
-[FROM dbo.Sales s]{.mark}
+6. Click **Run** in the SQL editor menu to view the results.
 
-[JOIN dbo.Product p on p.StockItemID = s.StockItemID]{.mark}
+7. Notice there is an option to save this query as a View by selecting **Save as view**.
 
-[JOIN dbo.Supplier su on su.SupplierID = p.SupplierID]{.mark}
+8. On the **left** **Explorer** panel, under **Queries** section notice this query is saved under **My queries** as **SQL query 1**. This provides an option to rename the query and save it for future use. There is also an option to view queries that are shared with you using the **Shared queries** folder.
 
-[GROUP BY su.SupplierName]{.mark}
+    >**Note**: Visual queries you had created in earlier labs are also available under My queries folder.
 
-6.  Click **Run** in the SQL editor menu to view the results.
+    ![](../media/Lab-06/image8.png)
 
-7.  Notice there is an option to save this query as a View by selecting
-    **Save as view**.
+## Task 2: Visualize T-SQL result
 
-8.  On the **left** **Explorer** panel, under **Queries** section notice
-    this query is saved under **My queries** as **SQL query 1**. This
-    provides an option to rename the query and save it for future use.
-    There is also an option to view queries that are shared with you
-    using the **Shared queries** folder.
+1. We can also visualize the result of this query. **Highlight the query** in the query pane
 
-**Note**: Visual queries you had created in earlier labs are also
-available under My queries folder.
+2. In the Results pane menu, select the drop-down icon **-> Visualize results**.
 
-![A screenshot of a
-computer](images6/media/image8.png){width="5.141201881014873in"
-height="3.251700568678915in"}
+    ![](../media/Lab-06/image9.png)
 
-###  Task 2: Visualize T-SQL result
+3. **Visualize results** dialog opens. Select **Continue**.
 
-1.  We can also visualize the result of this query. **Highlight the
-    query** in the query pane
+    **Visualize results** dialog opens and looks like Power BI Desktop report view. This has all the features available in Power BI Desktop report view, you can format the page, select different visuals, format visuals, add filters, etc. We will not be exploring these options on this course.
 
-2.  In the Results pane menu, select the drop-down icon **-\> Visualize
-    results**.
+4. Expand **Data** pane and expand **SQL query 1**.
 
-![A screenshot of a chat AI-generated content may be
-incorrect.](images6/media/image9.png){width="3.565660542432196in"
-height="3.866007217847769in"}
+5. Select **Supplier_Name** and **Units** **fields**. Table visual is created.
 
-3.  **Visualize results** dialog opens. Select **Continue**.
+    ![](../media/Lab-06/image10.png)
 
-**Visualize results** dialog opens and looks like Power BI Desktop
-report view. This has all the features available in Power BI Desktop
-report view, you can format the page, select different visuals, format
-visuals, add filters, etc. We will not be exploring these options on
-this course.
+6. From the **Visualization** section, change the visual type by selecting the **Stacked column chart**.
 
-4.  Expand **Data** pane and expand **SQL query 1**.
+7. Select **Save as report** on the bottom right of the screen.
 
-5.  Select **Supplier_Name** and **Units** **fields**. Table visual is
-    created.
+    ![](../media/Lab-06/image11.png)
 
-![A screenshot of a
-computer](images6/media/image10.png){width="6.285880358705162in"
-height="2.153047900262467in"}
+8. Save your report dialog opens. Type **Units by Supplier** in the **Enter a name for your report** textbox.
 
-6.  From the **Visualization** section, change the visual type by
-    selecting the **Stacked column chart**.
-
-7.  Select **Save as report** on the bottom right of the screen.
-
-![A screenshot of a
-computer](images6/media/image11.png){width="5.4547014435695536in"
-height="3.5764424759405076in"}
-
-8.  Save your report dialog opens. Type **Units by Supplier** in the
-    **Enter a name for your report** textbox.
-
-9.  Make sure the destination workspace is your Fabric workspace,
-    **FAIAD\_\<username\>**
+9. Make sure the destination workspace is your Fabric workspace, **FAIAD_<inject key="Deployment ID" enableCopy="false"/>**
 
 10. Select **Save.**
 
-![A screenshot of a computer Description automatically
-generated](images6/media/image12.png){width="3.9791666666666665in"
-height="3.3854166666666665in"}
+    ![](../media/Lab-06/image12.png)
 
-You will be navigated to back to the SQL query screen.
+    You will be navigated to back to the SQL query screen.
 
-# Lakehouse -- Semantic Modeling
+# Lakehouse - Semantic Modeling
 
-### Task 3: Create Semantic model
+## Task 3: Create Semantic model
 
-1.  From the SQL analytics endpoint menu select **New semantic Model.\
-    \**
-    ![](images6/media/image13.png){width="4.11132217847769in"
-    height="1.1875612423447068in"}**\**
+1. From the SQL analytics endpoint menu select **New semantic Model.**
 
-2.  **New semantic model** dialog opens. Enter **sm_FAIAD** as the
-    Direct Lake semantic model name.
+    ![](../media/Lab-06/image13.png)
 
-3.  We have the option to select a subset of the tables by default.
-    Remember, we created views in the earlier lab. We want to include
-    these views in the model. Expand the **dbo** schema, from here you
-    can see all tables and views in your lakehouse.
+2. **New semantic model** dialog opens. Enter **sm_FAIAD** as the Direct Lake semantic model name.
 
-![A screenshot of a
-computer](images6/media/image14.png){width="4.072456255468066in"
-height="3.0238856080489938in"}
+3. We have the option to select a subset of the tables by default. Remember, we created views in the earlier lab. We want to include these views in the model. Expand the **dbo** schema, from here you can see all tables and views in your lakehouse.
 
-4.  **Select** the following tables/views:
+    ![](../media/Lab-06/image14.png)
 
-    a.  **Customer**
+4. **Select** the following tables/views:
 
-    b.  **Date**
+    a. **Customer**
 
-    c.  **People**
+    b. **Date**
 
-    d.  **PO**
+    c. **People**
 
-    e.  **Supplier**
+    d. **PO**
 
-    f.  **Geo**
+    e. **Supplier**
 
-    g.  **Product**
+    f. **Geo**
 
-    h.  **Reseller**
+    g. **Product**
 
-    i.  **Sales**
+    h. **Reseller**
 
-5.  Select **Confirm.**
+    i. **Sales**
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](images6/media/image15.png){width="6.5in"
-height="5.311111111111111in"}**\
-\**
-You will be navigated to the new semantic model with the selected
-tables. Feel free to **rearrange** the tables as needed. Notice that
-some of the tables (Geo, Reseller, Sales and Product) have a warning
-sign on the top right of the table. This is because these are views. Any
-visuals created with fields from these views will be in direct query
-mode and not direct lake mode.
+5. Select **Confirm.**
 
-**Note**: Direct lake mode is faster than direct query mode.
+    ![](../media/Lab-06/image15.png)
 
-### Task 4: Create Relationships
+    You will be navigated to the new semantic model with the selected tables. Feel free to **rearrange** the tables as needed. Notice that some of the tables (Geo, Reseller, Sales and Product) have a warning sign on the top right of the table. This is because these are views. Any visuals created with fields from these views will be in direct query mode and not direct lake mode.
+
+    >**Note**: Direct lake mode is faster than direct query mode.
+
+## Task 4: Create Relationships
 
 If you are not currently inside of the newly created semantic model,
 let's get to the right place
 
-1.  Let's navigate back to the **Fabric** **workspace** and select
-    **sm_FAIAD** Semantic model.
+1. Let's navigate back to the **Fabric** **workspace** and select **sm_FAIAD** Semantic model.
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](images6/media/image16.png){width="4.1911461067366576in"
-height="1.2846139545056867in"}
+    ![](../media/Lab-06/image16.png)
 
-2.  Click on **Open semantic model.**
+2. Click on **Open semantic model.**
 
-![](images6/media/image17.png){width="6.014198381452318in"
-height="4.694686132983377in"}
+    ![](../media/Lab-06/image17.png)
 
-3.  In the upper-right corner make sure that you are in **Editing**
-    mode\
-    \
-    ![A screenshot of a
-    computer](images6/media/image18.png){width="1.8297440944881889in"
-    height="1.1808989501312337in"}
+3. In the upper-right corner make sure that you are in **Editing** mode
+    
+    ![](../media/Lab-06/image18.png)
 
-4.  The first step is to create relationships between these tables.
+4. The first step is to create relationships between these tables.
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](images6/media/image19.png){width="4.10251968503937in"
-height="3.9083530183727033in"}
+    ![](../media/Lab-06/image19.png)
 
-5.  Let's create a relationship between Sales and Reseller tables.
-    Select **ResellerID** from the **Sales** table and drag it over to
-    **ResellerID** in the **Reseller** table.
+5. Let's create a relationship between Sales and Reseller tables. Select **ResellerID** from the **Sales** table and drag it over to **ResellerID** in the **Reseller** table.
 
-![A screenshot of a
-computer](images6/media/image20.png){width="4.906932414698162in"
-height="2.9441601049868766in"}
+    ![](../media/Lab-06/image20.png)
 
-6.  New relationship dialog opens. Make sure **From table** is **Sales**
-    and **Column** is **ResellerID.**
+6. New relationship dialog opens. Make sure **From table** is **Sales** and **Column** is **ResellerID.**
 
-7.  Make sure **To table** is **Reseller** and **Column** is
-    **ResellerID.**
+7. Make sure **To table** is **Reseller** and **Column** is **ResellerID.**
 
-8.  Make sure **Cardinality** is **Many to one (\*:1)**.
+8. Make sure **Cardinality** is **Many to one (*:1)**.
 
-9.  Make sure **Cross filter direction** is **Single**.
+9. Make sure **Cross filter direction** is **Single**.
 
 10. Select **Save**.
 
-![A screenshot of a
-computer](images6/media/image21.png){width="3.6789468503937006in"
-height="4.3101859142607175in"}
+    ![](../media/Lab-06/image21.png)
 
-11. Similarly, create a relationship between Sales and Date tables.
-    Select **InvoiceDate** from the **Sales** table and drag it over to
-    **Date** in the **Date** table.
+11. Similarly, create a relationship between Sales and Date tables. Select **InvoiceDate** from the **Sales** table and drag it over to **Date** in the **Date** table.
 
-12. New relationship dialog opens. Make sure **From table** is **Sales**
-    and **Column** is **InvoiceDate.**
+12. New relationship dialog opens. Make sure **From table** is **Sales** and **Column** is **InvoiceDate.**
 
 13. Make sure **To table** is **Date** and **Column** is **Date.**
 
-14. Make sure **Cardinality** is **Many to one (\*:1)**.
+14. Make sure **Cardinality** is **Many to one (*:1)**.
 
 15. Make sure **Cross filter direction** is **Single**.
 
 16. Select **Save**.
 
-![A screenshot of a
-computer](images6/media/image22.png){width="4.186072834645669in"
-height="4.90879593175853in"}
+    ![](../media/Lab-06/image22.png)
 
-17. Similarly, create a **many-to-one** relationship between **Sales**
-    and **Product** tables. Select **StockItemID** from the **Sales**
-    table and **StockItemID** from the **Product** table.
+17. Similarly, create a **many-to-one** relationship between **Sales** and **Product** tables. Select **StockItemID** from the **Sales** table and **StockItemID** from the **Product** table.
 
-**Note:** All our updates are automatically saved.
+    >**Note:** All our updates are automatically saved.
 
-**Checkpoint:** Your model should have the three relationships between
-Sales and Reseller tables, Sales and Date and Sales and Product tables
-as shown in the below screenshot:
+    >**Checkpoint:** Your model should have the three relationships between Sales and Reseller tables, Sales and Date and Sales and Product tables as shown in the below screenshot:
 
-![A screenshot of a
-computer](images6/media/image23.png){width="5.17903980752406in"
-height="3.846101268591426in"}
+    ![](../media/Lab-06/image23.png)
 
-In the interest of time, we will not be creating all the relationships.
-If time permits, you can complete the optional section at the end of the
-lab. The optional section walks through the steps to create the
-remaining relationships.
+    In the interest of time, we will not be creating all the relationships. If time permits, you can complete the optional section at the end of the lab. The optional section walks through the steps to create the remaining relationships.
 
-### Task 5: Create Measures
+## Task 5: Create Measures
 
 Let's add a few measures we need to create the Sales dashboard.
 
-1.  Select **Sales table** from the model view. We want to add the
-    measures to the Sales table.
+1. Select **Sales table** from the model view. We want to add the measures to the Sales table.
 
-2.  From the top menu, select **Home -\> New Measure**. Notice the
-    formula bar is displayed.
+2. From the top menu, select **Home -\> New Measure**. Notice the formula bar is displayed.
 
-3.  Enter **Sales = SUM('Sales'\[Sales Amount\])** in the **formula
-    bar**.
+3. Enter **Sales = SUM('Sales'\[Sales Amount\])** in the **formula bar**.
 
-4.  Click the **check mark** left of the formula bar or click the
-    **Enter** button.
+4. Click the **check mark** left of the formula bar or click the **Enter** button.
 
-5.  Expand the Properties panel on the right.
+5. Expand the Properties panel on the right.
 
-6.  Expand the **Formatting** section.
+6. Expand the **Formatting** section.
 
-7.  From the **Format** dropdown select **Currency**.
+7. From the **Format** dropdown select **Currency**.
 
-8.  Set Decimal places to **0**.
+8. Set Decimal places to **0**.
 
-![A screenshot of a
-computer](images6/media/image24.png){width="5.402530621172353in"
-height="4.716247812773403in"}
+    ![](../media/Lab-06/image24.png)
 
-9.  With the **Sales table** selected from the top menu, select **Home
-    -\> New Measure**. Notice the formula bar is displayed.
+9. With the **Sales table** selected from the top menu, select **Home -> New Measure**. Notice the formula bar is displayed.
 
-10. Enter **Units = SUM('Sales'\[Quantity\])** in the **formula bar.**
+10. Enter **Units = SUM('Sales'[Quantity])** in the **formula bar.**
 
-11. Click the **check mark** left of the formula bar or click the
-    **Enter** button.
+11. Click the **check mark** left of the formula bar or click the **Enter** button.
 
-12. In the Properties panel on the right, expand the **Formatting**
-    section (it may take a few moments for the Properties panel to
-    load).
+12. In the Properties panel on the right, expand the **Formatting** section (it may take a few moments for the Properties panel to load).
 
 13. From the **Format** dropdown select **Whole number**.
 
 14. Use the slider to set **Thousands separator** to **Yes**.
 
-![A screenshot of a
-computer](images6/media/image25.png){width="4.952450787401575in"
-height="3.7524332895888013in"}
+    ![](../media/Lab-06/image25.png)
 
-15. With the **Sales table** selected from the top menu, select **Home
-    -\> New Measure**. Notice the formula bar is displayed.
+15. With the **Sales table** selected from the top menu, select **Home -> New Measure**. Notice the formula bar is displayed.
 
-16. Enter **Sales Orders = DISTINCTCOUNT('Sales'\[InvoiceID\])** in the
-    **formula bar.**
+16. Enter **Sales Orders = DISTINCTCOUNT('Sales'[InvoiceID])** in the **formula bar.**
 
-17. Click the **check mark** left of the formula bar or click the
-    **Enter** button.
+17. Click the **check mark** left of the formula bar or click the **Enter** button.
 
-18. In the Properties panel on the right, expand the **Formatting**
-    section.
+18. In the Properties panel on the right, expand the **Formatting** section.
 
 19. From the **Format** dropdown select **Whole number**.
 
 20. Use the slider to set **Thousands separator** to **Yes**.
 
-![A screenshot of a
-computer](images6/media/image26.png){width="4.337790901137358in"
-height="3.2885640857392824in"}
+    ![](../media/Lab-06/image26.png)
 
-21. In the **Data panel** (on the right), select **Model**. Notice this
-    provides a view that will help organize all the items in the
-    semantic model.
+21. In the **Data panel** (on the right), select **Model**. Notice this provides a view that will help organize all the items in the semantic model.
 
-22. Expand **Semantic model -\> Measures** to view all the measures you
-    just created.
+22. Expand **Semantic model -> Measures** to view all the measures you just created.
 
-23. You can also **expand individual Tables** to view the Columns,
-    Hierarchies and Measures in each one of them.
+23. You can also **expand individual Tables** to view the Columns, Hierarchies and Measures in each one of them.
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](images6/media/image27.png){width="1.4949037620297463in"
-height="4.670886920384952in"}
+    ![](../media/Lab-06/image27.png)
 
-Again, in the interest of time, we will not be creating all the
-measures. If time permits, you can complete the optional section at the
-end of the lab. The optional section walks through the steps to create
-the remaining measures.
+    Again, in the interest of time, we will not be creating all the measures. If time permits, you can complete the optional section at the end of the lab. The optional section walks through the steps to create the remaining measures.
 
-We have created a semantic model, the next step is to create a report.
-We will do it in the next lab.
+    We have created a semantic model, the next step is to create a report. We will do it in the next lab.
 
-### Task 6: Optional section -- Create Relationships
+## Task 6: Optional section - Create Relationships
 
 Let's add the remaining relationships.
 
-1.  From the menu, select **Home -\> Manage relationships**.
+1. From the menu, select **Home -> Manage relationships**.
 
-2.  Manage relationships dialog opens. Select **+** **New
-    relationship**.
+2. Manage relationships dialog opens. Select **+** **New relationship**.
 
-![A screenshot of a
-computer](images6/media/image28.png){width="4.198153980752406in"
-height="3.001751968503937in"}
+    ![](../media/Lab-06/image28.png)
 
-3.  New relationship dialog opens. Make sure **From table** is **Sales**
-    and **Column** is **SalespersonPersonID.**
+3. New relationship dialog opens. Make sure **From table** is **Sales** and **Column** is **SalespersonPersonID.**
 
-4.  Make sure **To table** is **People** and **Column** is **PersonID.**
+4. Make sure **To table** is **People** and **Column** is **PersonID.**
 
-5.  Make sure **Cardinality** is **Many to one (\*:1)**.
+5. Make sure **Cardinality** is **Many to one (*:1)**.
 
-6.  Make sure **Cross-filter direction** is **Single**.
+6. Make sure **Cross-filter direction** is **Single**.
 
-7.  Select **Save**. Manage relationships dialog opens with the new
-    relationship added.
+7. Select **Save**. Manage relationships dialog opens with the new relationship added.
 
-![A screenshot of a
-computer](images6/media/image29.png){width="3.884381014873141in"
-height="4.502727471566054in"}
+    ![](../media/Lab-06/image29.png)
 
-8.  Now let's create a relationship between Product and Supplier. Select
-    **+** **New relationship**.
+8. Now let's create a relationship between Product and Supplier. Select **+** **New relationship**.
 
-9.  Make sure **From table** is **Product** and **Column** is
-    **SupplierID.**
+9. Make sure **From table** is **Product** and **Column** is **SupplierID.**
 
-10. Make sure **To table** is **Supplier** and **Column** is
-    **SupplierID.**
+10. Make sure **To table** is **Supplier** and **Column** is **SupplierID.**
 
-11. Make sure **Cardinality** is **Many to one (\*:1)**.
+11. Make sure **Cardinality** is **Many to one (*:1)**.
 
 12. Make sure **Cross-filter direction** is **Both**.
 
 13. Select **Save**.
 
-![A screenshot of a
-computer](images6/media/image30.png){width="3.6553510498687665in"
-height="4.243488626421697in"}
+    ![](../media/Lab-06/image30.png)
 
-14. Now let's create a relationship between Reseller and Geo. Select **+
-    New relationship**.
+14. Now let's create a relationship between Reseller and Geo. Select **+ New relationship**.
 
-15. New relationship dialog opens. Make sure **From table** is
-    **Reseller** and **Column** is **PostalCityID.**
+15. New relationship dialog opens. Make sure **From table** is **Reseller** and **Column** is **PostalCityID.**
 
 16. Make sure **To table** is **Geo** and **Column** is **CityID.**
 
-17. Make sure **Cardinality** is **Many to one (\*:1)**.
+17. Make sure **Cardinality** is **Many to one (*:1)**.
 
 18. Make sure **Cross-filter direction** is **Both**.
 
 19. Select **Save**.
 
-![A screenshot of a
-computer](images6/media/image31.png){width="2.9899781277340334in"
-height="3.4739326334208225in"}
+    ![](../media/Lab-06/image31.png)
 
-20. Similarly, create a relationship between Customer and Reseller.
-    Select **+ New relationship**.
+20. Similarly, create a relationship between Customer and Reseller. Select **+ New relationship**.
 
-21. New relationship dialog opens. Make sure **From table** is
-    **Customer** and **Column** is **ResellerID.**
+21. New relationship dialog opens. Make sure **From table** is **Customer** and **Column** is **ResellerID.**
 
-22. Make sure **To table** is **Reseller** and **Column** is
-    **ResellerID.**
+22. Make sure **To table** is **Reseller** and **Column** is **ResellerID.**
 
-23. Make sure **Cardinality** is **Many to one (\*:1)**.
+23. Make sure **Cardinality** is **Many to one (*:1)**.
 
 24. Make sure **Cross-filter direction** is **Single**.
 
 25. Select **Save**.
 
-**Checkpoint:** Manage relationships should look like screenshot below.
+    >**Checkpoint:** Manage relationships should look like screenshot below.
 
-![A screenshot of Manage relationship
-dialog](images6/media/image32.png){width="4.110675853018373in"
-height="3.535181539807524in"}
+    ![](../media/Lab-06/image32.png)
 
-26. Similarly, create a **many to one** relationship between **PO** and
-    **Date**. Select **Order_Date** from **PO** and **Date** from
-    **Date**.
+26. Similarly, create a **many to one** relationship between **PO** and **Date**. Select **Order_Date** from **PO** and **Date** from **Date**.
 
-27. Similarly, create a **many to one** relationship between **PO** and
-    **Product**. Select **StockItemID** from **PO** and **StockItemID**
-    from **Product**.
+27. Similarly, create a **many to one** relationship between **PO** and **Product**. Select **StockItemID** from **PO** and **StockItemID** from **Product**.
 
-28. Similarly, create a **many to one** relationship between **PO** and
-    **People**. Select **ContactPersonID** from **PO** and **PersonID**
-    from **People**.
+28. Similarly, create a **many to one** relationship between **PO** and **People**. Select **ContactPersonID** from **PO** and **PersonID** from **People**.
 
-29. Select **Close** to close Manage relationships dialog. We are done
-    creating all the relationships.
+29. Select **Close** to close Manage relationships dialog. We are done creating all the relationships.
 
-**Checkpoint:** Your model should look like the screenshot below.
+    >**Checkpoint:** Your model should look like the screenshot below.
 
-![A screenshot of semantic model with
-relationship](images6/media/image33.png){width="5.462543744531933in"
-height="3.1638265529308836in"}
+    ![](../media/Lab-06/image33.png)
 
-### Task 7: Optional section -- Create Measures
+## Task 7: Optional section - Create Measures
 
 Let's add the remaining measures.
 
-1.  Select **Sales** table and from the top menu select **Home -\> New
-    Measure**.
+1. Select **Sales** table and from the top menu select **Home -> New Measure**.
 
-2.  Enter **Avg Order = DIVIDE(\[Sales\], \[Sales Orders\])** in the
-    formula bar.
+2. Enter **Avg Order = DIVIDE([Sales], [Sales Orders])** in the formula bar.
 
-3.  Click the **check mark** in the formula bar or click Enter button.
+3. Click the **check mark** in the formula bar or click Enter button.
 
-4.  Expand the Properties panel on the right.
+4. Expand the Properties panel on the right.
 
-5.  Expand the **Formatting** section.
+5. Expand the **Formatting** section.
 
-6.  From the **Format** dropdown select **Currency**.
+6. From the **Format** dropdown select **Currency**.
 
-7.  Set Decimal places to 0.
+7. Set Decimal places to 0.
 
-![A screenshot of a
-computer](images6/media/image34.png){width="5.414762685914261in"
-height="4.714776902887139in"}
+    ![](../media/Lab-06/image34.png)
 
-8.  Follow similar steps to add the following measures:
+8. Follow similar steps to add the following measures:
 
-    a.  In **Sales** table, **GM = SUM('Sales'\[LineProfit\])**
-        formatted as **Currency with 0 decimal places.**
+    a. In **Sales** table, **GM = SUM('Sales'[LineProfit])** formatted as **Currency with 0 decimal places.**
 
-    b.  In **Sales** table, **GM% = DIVIDE(\[GM\], \[Sales\])**
-        formatted as **Percentage with 0 decimal places.**
+    b. In **Sales** table, **GM% = DIVIDE([GM], [Sales])** formatted as **Percentage with 0 decimal places.**
 
-    c.  In **Customer** table**, No of Customers = COUNTROWS(Customer)**
-        formatted as **Whole Number with Thousands separator enabled.**
+    c. In **Customer** table, **No of Customers = COUNTROWS(Customer)** formatted as **Whole Number with Thousands separator enabled.**
 
 # References
 
@@ -562,9 +382,7 @@ Fabric Analyst in a Day (FAIAD) introduces you to some of the key
 functions available in Microsoft Fabric. In the menu of the service, the
 Help (?) section has links to some great resources.
 
-![A screenshot of help
-options](images6/media/image35.png){width="1.8736504811898513in"
-height="4.344214785651793in"}
+![](../media/Lab-06/image35.png)
 
 Here are a few more resources that will help you with your next steps
 with Microsoft Fabric.
@@ -622,56 +440,56 @@ Read the more in-depth Fabric experience announcement blogs:
 - [Dataverse and Microsoft Fabric integration
   blog](https://aka.ms/Dataverse-Fabric-Blog)
 
-> © 2023 Microsoft Corporation. All rights reserved.
->
-> By using this demo/lab, you agree to the following terms:
->
-> The technology/functionality described in this demo/lab is provided by
-> Microsoft Corporation for purposes of obtaining your feedback and to
-> provide you with a learning experience. You may only use the demo/lab
-> to evaluate such technology features and functionality and provide
-> feedback to Microsoft. You may not use it for any other purpose. You
-> may not modify, copy, distribute, transmit, display, perform,
-> reproduce, publish, license, create derivative works from, transfer,
-> or sell this demo/lab or any portion thereof.
->
-> COPYING OR REPRODUCTION OF THE DEMO/LAB (OR ANY PORTION OF IT) TO ANY
-> OTHER SERVER OR LOCATION FOR FURTHER REPRODUCTION OR REDISTRIBUTION IS
-> EXPRESSLY PROHIBITED.
->
-> THIS DEMO/LAB PROVIDES CERTAIN SOFTWARE TECHNOLOGY/PRODUCT FEATURES
-> AND FUNCTIONALITY, INCLUDING POTENTIAL NEW FEATURES AND CONCEPTS, IN A
-> SIMULATED ENVIRONMENT WITHOUT COMPLEX SET-UP OR INSTALLATION FOR THE
-> PURPOSE DESCRIBED ABOVE. THE TECHNOLOGY/CONCEPTS REPRESENTED IN THIS
-> DEMO/LAB MAY NOT REPRESENT FULL FEATURE FUNCTIONALITY AND MAY NOT WORK
-> THE WAY A FINAL VERSION MAY WORK. WE ALSO MAY NOT RELEASE A FINAL
-> VERSION OF SUCH FEATURES OR CONCEPTS. YOUR EXPERIENCE WITH USING SUCH
-> FEATURES AND FUNCITONALITY IN A PHYSICAL ENVIRONMENT MAY ALSO BE
-> DIFFERENT.
->
-> **FEEDBACK**. If you give feedback about the technology features,
-> functionality and/or concepts described in this demo/lab to Microsoft,
-> you give to Microsoft, without charge, the right to use, share and
-> commercialize your feedback in any way and for any purpose. You also
-> give to third parties, without charge, any patent rights needed for
-> their products, technologies and services to use or interface with any
-> specific parts of a Microsoft software or service that includes the
-> feedback. You will not give feedback that is subject to a license that
-> requires Microsoft to license its software or documentation to third
-> parties because we include your feedback in them. These rights survive
-> this agreement.
->
-> MICROSOFT CORPORATION HEREBY DISCLAIMS ALL WARRANTIES AND CONDITIONS
-> WITH REGARD TO THE DEMO/LAB, INCLUDING ALL WARRANTIES AND CONDITIONS
-> OF MERCHANTABILITY, WHETHER EXPRESS, IMPLIED OR STATUTORY, FITNESS FOR
-> A PARTICULAR PURPOSE, TITLE AND NON-INFRINGEMENT. MICROSOFT DOES NOT
-> MAKE ANY ASSURANCES OR REPRESENTATIONS WITH REGARD TO THE ACCURACY OF
-> THE RESULTS, OUTPUT THAT DERIVES FROM USE OF DEMO/ LAB, OR SUITABILITY
-> OF THE INFORMATION CONTAINED IN THE DEMO/LAB FOR ANY PURPOSE.
->
-> **DISCLAIMER**
->
-> This demo/lab contains only a portion of new features and enhancements
-> in Microsoft Power BI. Some of the features might change in future
-> releases of the product. In this demo/lab, you will learn about some,
-> but not all, new features.
+© 2023 Microsoft Corporation. All rights reserved.
+
+By using this demo/lab, you agree to the following terms:
+
+The technology/functionality described in this demo/lab is provided by
+Microsoft Corporation for purposes of obtaining your feedback and to
+provide you with a learning experience. You may only use the demo/lab
+to evaluate such technology features and functionality and provide
+feedback to Microsoft. You may not use it for any other purpose. You
+may not modify, copy, distribute, transmit, display, perform,
+reproduce, publish, license, create derivative works from, transfer,
+or sell this demo/lab or any portion thereof.
+
+COPYING OR REPRODUCTION OF THE DEMO/LAB (OR ANY PORTION OF IT) TO ANY
+OTHER SERVER OR LOCATION FOR FURTHER REPRODUCTION OR REDISTRIBUTION IS
+EXPRESSLY PROHIBITED.
+
+THIS DEMO/LAB PROVIDES CERTAIN SOFTWARE TECHNOLOGY/PRODUCT FEATURES
+AND FUNCTIONALITY, INCLUDING POTENTIAL NEW FEATURES AND CONCEPTS, IN A
+SIMULATED ENVIRONMENT WITHOUT COMPLEX SET-UP OR INSTALLATION FOR THE
+PURPOSE DESCRIBED ABOVE. THE TECHNOLOGY/CONCEPTS REPRESENTED IN THIS
+DEMO/LAB MAY NOT REPRESENT FULL FEATURE FUNCTIONALITY AND MAY NOT WORK
+THE WAY A FINAL VERSION MAY WORK. WE ALSO MAY NOT RELEASE A FINAL
+VERSION OF SUCH FEATURES OR CONCEPTS. YOUR EXPERIENCE WITH USING SUCH
+FEATURES AND FUNCITONALITY IN A PHYSICAL ENVIRONMENT MAY ALSO BE
+DIFFERENT.
+
+**FEEDBACK**. If you give feedback about the technology features,
+functionality and/or concepts described in this demo/lab to Microsoft,
+you give to Microsoft, without charge, the right to use, share and
+commercialize your feedback in any way and for any purpose. You also
+give to third parties, without charge, any patent rights needed for
+their products, technologies and services to use or interface with any
+specific parts of a Microsoft software or service that includes the
+feedback. You will not give feedback that is subject to a license that
+requires Microsoft to license its software or documentation to third
+parties because we include your feedback in them. These rights survive
+this agreement.
+
+MICROSOFT CORPORATION HEREBY DISCLAIMS ALL WARRANTIES AND CONDITIONS
+WITH REGARD TO THE DEMO/LAB, INCLUDING ALL WARRANTIES AND CONDITIONS
+OF MERCHANTABILITY, WHETHER EXPRESS, IMPLIED OR STATUTORY, FITNESS FOR
+A PARTICULAR PURPOSE, TITLE AND NON-INFRINGEMENT. MICROSOFT DOES NOT
+MAKE ANY ASSURANCES OR REPRESENTATIONS WITH REGARD TO THE ACCURACY OF
+THE RESULTS, OUTPUT THAT DERIVES FROM USE OF DEMO/ LAB, OR SUITABILITY
+OF THE INFORMATION CONTAINED IN THE DEMO/LAB FOR ANY PURPOSE.
+
+**DISCLAIMER**
+
+This demo/lab contains only a portion of new features and enhancements
+in Microsoft Power BI. Some of the features might change in future
+releases of the product. In this demo/lab, you will learn about some,
+but not all, new features.
