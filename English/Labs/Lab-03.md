@@ -663,65 +663,49 @@ In the next lab, we will learn how to use Dataflow Gen2 and create Shortcut to a
 
 # References
 
-Fabric Analyst in a Day (FAIAD) introduces you to some of the key
-functions available in Microsoft Fabric. In the menu of the service, the
-Help (?) section has links to some great resources.
+Fabric Analyst in a Day (FAIAD) introduces you to some of the key functions available in Microsoft Fabric. In the menu of the service, the Help (?) section has links to some great resources.
 
 ![](../media/Lab-03/image64.png)
 
 Here are a few more resources that will help you with your next steps with Microsoft Fabric.
 
-- See blog to read the full [Microsoft Fabric GA
-  announcement](https://aka.ms/Fabric-Hero-Blog-Ignite23)
+- See blog to read the full [Microsoft Fabric GA announcement](https://aka.ms/Fabric-Hero-Blog-Ignite23)
 
-- Explore Fabric through the [Guided
-  Tour](https://aka.ms/Fabric-GuidedTour)
+- Explore Fabric through the [Guided Tour](https://aka.ms/Fabric-GuidedTour)
 
-- Sign up for the [Microsoft Fabric free
-  trial](https://aka.ms/try-fabric)
+- Sign up for the [Microsoft Fabric free trial](https://aka.ms/try-fabric)
 
 - Visit the [Microsoft Fabric website](https://aka.ms/microsoft-fabric)
 
-- Learn new skills by exploring the [Fabric Learning
-  modules](https://aka.ms/learn-fabric)
+- Learn new skills by exploring the [Fabric Learning modules](https://aka.ms/learn-fabric)
 
-- Explore the [Fabric technical
-  documentation](https://aka.ms/fabric-docs)
+- Explore the [Fabric technical documentation](https://aka.ms/fabric-docs)
 
-- Read the [free e-book on getting started with
-  Fabric](https://aka.ms/fabric-get-started-ebook)
+- Read the [free e-book on getting started with Fabric](https://aka.ms/fabric-get-started-ebook)
 
 - Join the [Fabric community](https://aka.ms/fabric-community) to post your questions, share your feedback, and learn from others
 
 Read the more in-depth Fabric experience announcement blogs:
 
-- [Data Factory experience in Fabric
-  blog](https://aka.ms/Fabric-Data-Factory-Blog)\u00A0
+- [Data Factory experience in Fabric blog](https://aka.ms/Fabric-Data-Factory-Blog)
 
-- [Synapse Data Engineering experience in Fabric
-  blog](https://aka.ms/Fabric-DE-Blog)\u00A0
+- [Synapse Data Engineering experience in Fabric blog](https://aka.ms/Fabric-DE-Blog)
 
-- [Synapse Data Science experience in Fabric
-  blog](https://aka.ms/Fabric-DS-Blog)\u00A0
+- [Synapse Data Science experience in Fabric blog](https://aka.ms/Fabric-DS-Blog)
 
-- [Synapse Data Warehousing experience in Fabric
-  blog](https://aka.ms/Fabric-DW-Blog)
+- [Synapse Data Warehousing experience in Fabric blog](https://aka.ms/Fabric-DW-Blog)
 
-- [Synapse Real-Time Analytics experience in Fabric
-  blog](https://aka.ms/Fabric-RTA-Blog)
+- [Synapse Real-Time Analytics experience in Fabric blog](https://aka.ms/Fabric-RTA-Blog)
 
 - [Power BI announcement blog](https://aka.ms/Fabric-PBI-Blog)
 
-- [Data Activator experience in Fabric
-  blog](https://aka.ms/Fabric-DA-Blog)\u00A0
+- [Data Activator experience in Fabric blog](https://aka.ms/Fabric-DA-Blog)
 
-- [Administration and governance in Fabric
-  blog](https://aka.ms/Fabric-Admin-Gov-Blog)
+- [Administration and governance in Fabric blog](https://aka.ms/Fabric-Admin-Gov-Blog)
 
 - [OneLake in Fabric blog](https://aka.ms/Fabric-OneLake-Blog)
 
-- [Dataverse and Microsoft Fabric integration
-  blog](https://aka.ms/Dataverse-Fabric-Blog)
+- [Dataverse and Microsoft Fabric integration blog](https://aka.ms/Dataverse-Fabric-Blog)
 
 © 2023 Microsoft Corporation. All rights reserved.
 By using this demo/lab, you agree to the following terms:
