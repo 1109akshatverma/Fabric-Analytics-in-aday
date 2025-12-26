@@ -4,22 +4,37 @@
 
 # Contents 
 - Introduction
+
 - Dataflow Gen2
+
     - Task 1: Configure scheduled refresh for Supplier Dataflow
 - Pipeline
+
     - Task 2: Create Pipeline
+
     - Task 3: Build simple Pipeline
+
     - Task 4: Create new Pipeline
+
     - Task 5: Create Until Activity
+
     - Task 6: Create Variables
+
     - Task 7: Configure Until Activity
+
     - Task 8: Configure Dataflow Activity
+
     - Task 9: Configure 1st Set variable Activity
+
     - Task 10: Configure 2nd Set variable Activity
+
     - Task 11: Configure 3rd Set variable Activity
+
     - Task 12: Configure Wait Activity
+
     - Task 13: Configure Schedule Refresh for Pipeline
 - References
+
 
 # Introduction 
 
@@ -27,20 +42,20 @@ We have ingested data from different data sources into the Lakehouse. In
 this lab, you will set up a refresh schedule for the data sources. Just
 to recap the requirement:
 
-- **Supplier Data:** Snowflake is updated at midnight / 12 AM every day.
+- **Supplier Data:** Snowflake is updated at midnight 12 AM every day.
 
 - **Employee Data:** in SharePoint is updated at 9 AM every day.
-  However, we have noticed that sometimes there is a 5 -- 15 minute
+  However, we have noticed that sometimes there is a 5 - 15 minute
   delay. We need to create a refresh schedule to accommodate this.
 
 - **Customer Data:** in Dataverse is always up to date. Previously we
-  refreshed this four times a day, at midnight / 12 AM, 6 AM, noon / 12
+  refreshed this four times a day, at midnight  12 AM, 6 AM, noon  12
   PM, and 6 PM. Now, the IT team has created a link to Dataverse to
   ingest this data to an Admin Lakehouse. They have also transformed
   this data. We do not need to set up refresh as we are linking to the
   Lakehouse provided by the IT team.
 
-- **Sales Data:** in ADLS is updated at noon / 12 PM every day. We do
+- **Sales Data:** in ADLS is updated at noon  12 PM every day. We do
   not need to set up refresh for this since we have created a shortcut.
   As soon as data is updated in ADLS, it is available.
 
@@ -232,7 +247,7 @@ new Pipeline.
 
 1. From the left panel, click **FAIAD_<inject key="Deployment ID" enableCopy="false"/>**, to be navigated to the workspace home.
 
-2. From the top menu, click **+ New item (1)** and from the popout window**,** click **Pipeline (2)**.
+2. From the top menu, click **+ New item (1)** and from the **popout window**, click **Pipeline (2)**.
 
     ![](../media/Lab-05/image25.png)
 
@@ -470,7 +485,7 @@ variable.
 
 3. In the **Name** field, enter **set_varTempCounter**
 
-4. In the **Description** field, enter "**Increment variable varTempCounter".**
+4. In the **Description** field, enter **Increment variable varTempCounter.**
 
 5. Click the **red x-mark** from Dataflow activity to the new Set variable activity. So, on failure of dataflow refresh we want to execute this Set variable activity.
 

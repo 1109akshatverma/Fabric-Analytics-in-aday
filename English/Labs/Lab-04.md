@@ -54,13 +54,11 @@ By the end of this lab, you will have learned:
 
 ### Task 1: Copy SharePoint queries to Dataflow
 
-1.  Let's navigate back to the Fabric workspace, **FAIAD_<inject key="AzureAdUserEmail"></inject>** **(1)** you created in Lab 2, Task 8.
+1.  Let's navigate back to the Fabric workspace, **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** **(1)** you created in Lab 2, Task 2.
 
-2.  Select + **New item (2)** option available in the upper left corner.
+3.  Under the **Get Data (2)** section, select **New Dataflow Gen2 (4).**
 
-3.  Under the **Get Data (3)** section, select **Dataflow Gen2 (4).**
-
-    ![](../media/Lab-04/image6.png)
+    ![](../media/Lab-04/getdatal4.png)
 
 Leave the default name and ensure "Enable Git integration" is checked. Then select **Create.** You will be navigated to the **Dataflow page**. The Dataflow Gen2 interface is like Power Query in Power BI Desktop. We can copy queries from Power BI Desktop into Dataflow Gen2. Let's give this a try.
 
@@ -114,13 +112,15 @@ The connection is established, and you can view the data in the preview panel. F
 
     ![](../media/Lab-04/image13.png)
 
+    >**Note:** If add data destination option is greyed out please remove Lakehouse from default data destination.
+
 3.  Connect to data destination dialog opens. We need to create a new Connection to the Lakehouse. With **Create new connection** selected in the Connection dropdown and **Authentication kind** set to **Organizational account**, select **Next**.
 
     ![](../media/Lab-04/image14.png)
 
 4.  Choose destination target dialog opens. Make sure the **New table** radio button is selected, since we are creating a new table.
 
-5.  We want to create the table in the Lakehouse we created earlier. In the left panel, navigate to **Lakehouse -\> FAIAD_<inject key="AzureAdUserEmail"></inject> .**
+5.  We want to create the table in the Lakehouse we created earlier. In the left panel, navigate to **Lakehouse -\> FAIAD_<inject key="Deployment ID" enableCopy="false"/> .**
 
 6.  Select **lh_FAIAD**
 
@@ -146,7 +146,7 @@ The connection is established, and you can view the data in the preview panel. F
 
     ![](../media/Lab-04/image17.png)
 
-    >**Note:** You will be navigated back to **FAIAD_<inject key="AzureAdUserEmail"></inject> workspace**. It may take a few moments for the Dataflow to finish running.
+    >**Note:** You will be navigated back to **FAIAD_<inject key="Deployment ID" enableCopy="false"/> workspace**. It may take a few moments for the Dataflow to finish running.
 
 3.  **Dataflow 1** is the dataflow we were working on. Let's rename it before we continue. Click on the **ellipsis (...)** next to Dataflow 1. Select **Settings** (While the Dataflow is running you cannot access the settings).
 
@@ -160,7 +160,7 @@ The connection is established, and you can view the data in the preview panel. F
 
     ![](../media/Lab-04/image19.png)
 
-You will be navigated back to **FAIAD_<inject key="AzureAdUserEmail"></inject> workspace** .
+You will be navigated back to **FAIAD_<inject key="Deployment ID" enableCopy="false"/> workspace** .
 
 7.  Select **lh_FAIAD** to navigate to the lakehouse.
 
@@ -174,13 +174,13 @@ You will be navigated back to **FAIAD_<inject key="AzureAdUserEmail"></inject> w
 
 ### Task 5: Copy Snowflake queries to Dataflow
 
-1.  Let's navigate back to the Fabric workspace, **FAIAD_<inject key="AzureAdUserEmail"></inject> (1).**
+1.  Let's navigate back to the Fabric workspace, **FAIAD_<inject key="Deployment ID" enableCopy="false"/> (1).**
 
-2.  Select **+ New item (2)** option available in the upper left corner.
+2.  Select **Get Data (2)** option available in the upper left corner.
 
-3.  Under Recommended items, select **Dataflow Gen2 (3)**.
+3.  Under Recommended items, select **New Dataflow Gen2 (3)**.
 
-    ![](../media/Lab-04/image21.png)
+    ![](../media/Lab-04/getdatal4.png)
 
 Leave the default name and ensure "Enable Git integration" is **checked**. Then select **create**. If you receive a message stating "A dataflow with this name already exists" then change the name to **Dataflow 2.** You will be navigated to the **Dataflow page**. Now that we are familiar with Dataflow, let's go ahead and copy the queries from Power BI Desktop into Dataflow.
 
@@ -252,6 +252,8 @@ and PO data into the Lakehouse.
 
     ![](../media/Lab-04/image26.png)
 
+    >**Note:** If add data destination option is greyed out please remove Lakehouse from default data destination.
+
 3.  Connect to data destination dialog opens. From the **Connection dropdown** select **Lakehouse odl_user_<inject key="Deployment ID" enableCopy="false"/> (none)**.
 
 4.  Select **Next**.
@@ -260,7 +262,7 @@ and PO data into the Lakehouse.
 
 5.  Choose destination target dialog opens. Make sure the **New table** radio button is selected, since we are creating a new table.
 
-6.  We want to create the table in the Lakehouse we created earlier. In the left panel, navigate to **Lakehouse -\> FAIAD_<inject key="AzureAdUserEmail"></inject> .**
+6.  We want to create the table in the Lakehouse we created earlier. In the left panel, navigate to **Lakehouse -\> FAIAD_<inject key="Deployment ID" enableCopy="false"/> .**
 
 7.  Select **lh_FAIAD**
 
@@ -292,7 +294,7 @@ and PO data into the Lakehouse.
 
     ![](../media/Lab-04/image32.png)
 
-You will be navigated back to **FAIAD_<inject key="AzureAdUserEmail"></inject> workspace**. It may take a few moments for the Dataflow to Publish.
+You will be navigated back to **FAIAD_<inject key="Deployment ID" enableCopy="false"/> workspace**. It may take a few moments for the Dataflow to Publish.
 
 5.  Select **lh_FAIAD** to navigate to the lakehouse.
 

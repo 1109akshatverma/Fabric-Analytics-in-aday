@@ -4,19 +4,33 @@
 
 # Contents
 - Introduction
+
 - Fabric License
+
     - Task 1: Enable a Microsoft Fabric trial license
+
 - Fabric Workspace
+
     - Task 2: Create a Fabric Workspace
+
     - Task 3: Create a Lakehouse
+
 - Overview of Fabric Experiences
+
     - Task 4: Data Factory Experience
+
     - Task 5: Industry Solutions Experience
+
     - Task 6: Real-Time Intelligence Experience
+
     - Task 7: Data Engineering Experience
+
     - Task 8: Data Science Experience
+
     - Task 9: Data Warehouse Experience
+
     - Task 10: Databases Experience
+
 - References
 
 # Introduction 
@@ -85,6 +99,8 @@ By the end of this lab, you will have learned:
 
     ![](../media/Lab-02/image12.png)
 
+    >**Note**: If Fabric Home Page button doesn't appear   feel free to close pop-up and navigate to  http://app.fabric.microsoft.com/ in the browser
+
 11. You will be navigated to the **Microsoft** **Fabric Home page**. A "Welcome to the Fabric view" dialogue may open. If you would like, you can select either the **Start tour** option or **Cancel**.
 
     ![](../media/Lab-02/image13.png)
@@ -124,7 +140,7 @@ create a Lakehouse. We will do this next.
 
 ## Task 3: Create a Lakehouse
 
-1. In the newly created workspace **FAIAD_<inject key="Deployment ID" enableCopy="false"/>**, locate the **+ New item (1)** button on the left-hand navigation pane. This is where you can begin creating new items in your workspace.
+1. In the newly created workspace **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** , locate the **+ New item (1)** button on the left-hand navigation pane. This is where you can begin creating new items in your workspace.
 
 2. In the search box, type **Lakehouse (2)** and, from the search results, select the **Lakehouse (3)** option. This will enable you to create a new Lakehouse to store, query, and manage your big data.
 
@@ -151,6 +167,8 @@ create a Lakehouse. We will do this next.
 ## Task 4: Data Factory Experience
 
 1. Select Workloads icon on the left of your screen. A dialog with the list of Fabric experiences will open. The list of experiences includes Power BI, Data Factory, Industry Solutions, Real-Time Intelligence, Data Engineering, Data Science and Data Warehouse. Let's explore.
+
+    >**Note:** If the Workloads icon is not visible, click on 3 dots **(...)** in the left navigation pane and select Workloads. Scroll down to view all the workloads.
 
     ![](../media/Lab-02/image20.png)
 

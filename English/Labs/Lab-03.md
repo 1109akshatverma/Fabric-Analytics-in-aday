@@ -70,7 +70,7 @@ Shortcuts are used to create a link to the target location. Shortcuts provide ac
 
 6.  Enter the following link for the **URL** property:
     https://stvnextblobstorage.dfs.core.windows.net/fabrikam-sales
-    **(2):**
+    **(2)**
 
 7.  Click on **Create New Connection (3)** under the Connection section
 
@@ -79,7 +79,7 @@ Shortcuts are used to create a link to the target location. Shortcuts provide ac
 
 9.  Copy the SAS token and paste it into the SAS token (5) field.
 
-- **SAS token:**
+- **SAS token:** <inject key="Sas token"></inject>
 
 10. Select **Next (6)** on the bottom right of the screen.
 
@@ -535,7 +535,7 @@ We are going to copy code from Power BI Desktop and paste it using the Advanced 
 If it is easier, delete all the code in the Advanced Editor and paste
 the below code into Advanced Editor.
 
-    ```
+```
     let
     Source = Table.NestedJoin(InvoiceLineItems, {"InvoiceID"}, Invoices, {"InvoiceID"}, "Invoices", JoinKind.Inner),
         #"Expanded Invoice" = Table.ExpandTableColumn(Source, "Invoices", {"CustomerID", "BillToCustomerID", "SalespersonPersonID", "InvoiceDate"}, {"CustomerID", "BillToCustomerID", "SalespersonPersonID", "InvoiceDate"}),
@@ -547,7 +547,7 @@ the below code into Advanced Editor.
         #"Removed Columns" = Table.RemoveColumns(#"Changed Type",{"Customer"})
     in
         #"Removed Columns"
-    ```
+```
 
 27. You will be navigated back to the Power Query Editor. In the left, Queries panel, **double-click on Merge** query to rename it.
 
