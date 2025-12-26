@@ -653,11 +653,9 @@ Notice in the **Explorer pane** on the left, we now have the InvoicesMay table. 
     )
     ```
 
-22. From the visual query menu, select **Run** to execute the code.
+22. From the visual query menu, select **Run** to execute the code. Once the code is executed, we have updated Sales table to include May 2024 data.
 
-Once the code is executed, we have updated Sales table to include May 2024 data.
-
-![](../media/Lab-07/image53.png)
+    ![](../media/Lab-07/image53.png)
 
 23. Select **rpt_Sales_Report** from the left menu bar to navigate back to the **report**.
 
