@@ -73,9 +73,11 @@ By the end of this lab, you will have learned:
 
 6. Click **Run** in the SQL editor menu to view the results.
 
-7. Notice there is an option to save this query as a View by selecting **Save as view**.
+7. Notice that there is an option to save the query before selecting **Save as view**. Press **Ctrl + A** to select the entire query, and then click on **Save as view**.
 
-8. On the **left** **Explorer** panel, under **Queries** section notice this query is saved under **My queries** as **SQL query 1**. This provides an option to rename the query and save it for future use. There is also an option to view queries that are shared with you using the **Shared queries** folder.
+8. On the Save as view page, keep the view name as is and then click OK.
+
+9. On the **left** **Explorer** panel, under **Queries** section notice this query is saved under **My queries** as **SQL query 1**. This provides an option to rename the query and save it for future use. There is also an option to view queries that are shared with you using the **Shared queries** folder.
 
     >**Note**: Visual queries you had created in earlier labs are also available under My queries folder.
 
