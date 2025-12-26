@@ -170,13 +170,13 @@ Let's use a Pipeline to solve this.
 
     You are on the **Home** screen. If you look at the top menu, you will find options to add the commonly used activities: validate, run a pipeline, and view the run history. Also, in the center pane, you will find quick options to start building the pipeline.
 
-    ![](../media/Lab-05/image19.png)
+    ![](../media/Lab-05/l5t2s3.png)
 
 4. From the top menu select **Activities**. Now in the menu you will find a list of commonly used Activities.
 
 5. Select the **ellipsis (...)** on the right on the menu to view all the other available Activities. We are going to use a few of these Activities in the lab.
 
-    ![](../media/Lab-05/image20.png)
+    ![](../media/Lab-05/l5t2s5.png)
 
 6. From the top menu click **Run**. You will find options to run and schedule the pipeline execution. You will also find the option to view execution history by using View run history.
 
