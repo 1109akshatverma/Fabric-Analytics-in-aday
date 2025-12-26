@@ -4,11 +4,17 @@
 
 # Contents
 - Document Structure
+
 - Scenario / Problem Statement
+
 - Overview of Power BI Desktop Report
+
   - Task 1: Set up Power BI Desktop in lab environment
+
   - Task 2: Analyze Power BI Desktop Report
+
   - Task 3: Review Power Queries
+
 - References
 
 # Document Structure
@@ -42,18 +48,13 @@ In order to draw valuable insights from the data, you pull data from
 multiple systems, clean it and mash it together. You pull data from the
 following sources:
 
-- **Sales Data:** comes from the ERP system and data is stored in an
-  ADLS Gen2 database. It gets updated at noon / 12 PM every day.
+- **Sales Data:** comes from the ERP system and data is stored in an ADLS Gen2 database. It gets updated at noon  12 PM everyday.
 
-- **Supplier Data:** comes from different suppliers and data is stored
-  in a Snowflake database. It gets updated at midnight / 12 AM every
-  day.
+- **Supplier Data:** comes from different suppliers and data is stored in a Snowflake database. It gets updated at midnight  12 AM everyday.
 
-- **Customer Data:** comes from Customer Insights and data is stored in
-  Dataverse. The data is always up to date.
+- **Customer Data:** comes from Customer Insights and data is stored in Dataverse. The data is always up to date.
 
-- **Employee Data:** comes from the HR system; it is stored as an export
-  file in a SharePoint folder. It gets updated every morning at 9 AM.
+- **Employee Data:** comes from the HR system; it is stored as an export file in a SharePoint folder. It gets updated every morning at 9 AM.
 
   ![](../media/Lab-01/image6.png)
 
@@ -118,7 +119,7 @@ BI Desktop to understand the transformations and the model.
 
     ![](../media/Lab-01/image11.png)
 
-6. **You're all set!** Dialog opens. Select **Done**.
+6. **Account added to this Device** Dialog opens. Select **Done**.
 
 Power BI Desktop will now open.
 
@@ -146,7 +147,7 @@ couple of minutes understanding the report and move to the next steps.
 
 3. Select **Rocky Mountain from Sales Territory** to remove the filter.
 
-4. From the Scatter plot visual on the bottom center of the screen (Sales Orders by Sales) select the outlier on the top right (4^th^ quadrant). Notice the margin % is 52%, which is above the average of 50%. Also, the Sales YoY% has gone up the last two quarters of 2023.
+4. From the Scatter plot visual on the bottom center of the screen (Sales Orders by Sales) select the outlier on the top right (4th quadrant). Notice the margin % is 52%, which is above the average of 50%. Also, the Sales YoY% has gone up the last two quarters of 2023.
 
     ![](../media/Lab-01/image15.png)
 
@@ -248,7 +249,7 @@ couple of minutes understanding the report and move to the next steps.
 
     * **Snowflake Password:** <inject key="SnowFlake Password"></inject>
 
-      >**Note:** If you experience any issues connecting to Snowflake with the credentials above, please use the backup credentials provided below.*
+      >**Note:** If you experience any issues connecting to Snowflake with the credentials above, please use the backup credentials provided below.
 
       - **Snowflake Username:** SNOWFLAKE_BACKUP
 

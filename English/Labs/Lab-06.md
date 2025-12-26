@@ -4,15 +4,25 @@
 
 # Contents
 - Introduction
+
 - Lakehouse – Analyzing data
+
     - Task 1: Query data using SQL
+
     - Task 2: Visualize T-SQL result
+
 - Lakehouse – Semantic Modeling
+
     - Task 3: Create Semantic model
+
     - Task 4: Create Relationships
+
     - Task 5: Create Measures
+
     - Task 6: Optional section – Create Relationships
+    
     - Task 7: Optional section – Create Measures
+
 - References
 
 # Introduction 
