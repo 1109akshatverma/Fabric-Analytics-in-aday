@@ -535,7 +535,7 @@ We are going to copy code from Power BI Desktop and paste it using the Advanced 
 If it is easier, delete all the code in the Advanced Editor and paste
 the below code into Advanced Editor.
 
-```
+   ```
     let
     Source = Table.NestedJoin(InvoiceLineItems, {"InvoiceID"}, Invoices, {"InvoiceID"}, "Invoices", JoinKind.Inner),
         #"Expanded Invoice" = Table.ExpandTableColumn(Source, "Invoices", {"CustomerID", "BillToCustomerID", "SalespersonPersonID", "InvoiceDate"}, {"CustomerID", "BillToCustomerID", "SalespersonPersonID", "InvoiceDate"}),
@@ -547,7 +547,7 @@ the below code into Advanced Editor.
         #"Removed Columns" = Table.RemoveColumns(#"Changed Type",{"Customer"})
     in
         #"Removed Columns"
-```
+   ```
 
 27. You will be navigated back to the Power Query Editor. In the left, Queries panel, **double-click on Merge** query to rename it.
 
