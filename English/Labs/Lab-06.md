@@ -43,7 +43,7 @@ By the end of this lab, you will have learned:
 
 ## Task 1: Query data using SQL
 
-1. Let's navigate back to the Fabric workspace, **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** you created in Lab 2, Task 8.
+1. Let's navigate back to the Fabric workspace, **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** you created in Lab 2, Task 2.
 
 2. If you choose to, **Minimize the task flow** to view the entire list of items.
 

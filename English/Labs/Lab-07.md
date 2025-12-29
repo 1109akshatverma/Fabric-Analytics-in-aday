@@ -476,7 +476,7 @@ In a real scenario, data is updated at the source. Since we are in a training en
 
 9.  If you did not create this connection earlier in the course, click **Create New connection** and complete the following steps:
 
-10. Under **Connection Settings -\> URL** enter this link <https://stvnextblobstorage.dfs.core.windows.net/>fabrikam-sales
+10. Under **Connection Settings -\> URL** enter this link <https://stvnextblobstorage.dfs.core.windows.net/fabrikam-sales>
 
 11. Select **Next**.
 
@@ -733,11 +733,11 @@ Here are a few more resources that will help you with your next steps with Micro
 
 Read the more in-depth Fabric experience announcement blogs:
 
-- [Data Factory experience in Fabric blog](https://aka.ms/Fabric-Data-Factory-Blog)\
+- [Data Factory experience in Fabric blog](https://aka.ms/Fabric-Data-Factory-Blog)
 
-- [Synapse Data Engineering experience in Fabric blog](https://aka.ms/Fabric-DE-Blog)\
+- [Synapse Data Engineering experience in Fabric blog](https://aka.ms/Fabric-DE-Blog)
 
-- [Synapse Data Science experience in Fabric blog](https://aka.ms/Fabric-DS-Blog)\
+- [Synapse Data Science experience in Fabric blog](https://aka.ms/Fabric-DS-Blog)
 
 - [Synapse Data Warehousing experience in Fabric blog](https://aka.ms/Fabric-DW-Blog)
 
@@ -745,7 +745,7 @@ Read the more in-depth Fabric experience announcement blogs:
 
 - [Power BI announcement blog](https://aka.ms/Fabric-PBI-Blog)
 
-- [Data Activator experience in Fabric blog](https://aka.ms/Fabric-DA-Blog)\
+- [Data Activator experience in Fabric blog](https://aka.ms/Fabric-DA-Blog)
 
 - [Administration and governance in Fabric blog](https://aka.ms/Fabric-Admin-Gov-Blog)
 
