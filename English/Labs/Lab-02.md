@@ -85,7 +85,7 @@ By the end of this lab, you will have learned:
 
 7. On the top right corner of the screen, select the **user** **icon**.
 
-8.  Select **Free trial**.
+8. Select **Free trial**.
 
     ![](../media/Lab-02/image10.png)
 
@@ -109,15 +109,15 @@ By the end of this lab, you will have learned:
 
 ## Task 2: Create a Fabric Workspace
 
-1. Now let's create a workspace with a Fabric license. Select **Workspaces (1)**  from the left navigation bar. A dialog opens.
+1. Now let's create a workspace with a Fabric license. Select **Workspaces**  from the left navigation bar. A dialog opens.
 
-2. Click **+ New workspace (2)**  found at the bottom of the pop-out menu.
+2. Click **+ New workspace**  found at the bottom of the pop-out menu.
 
     ![](../media/Lab-02/image14.png)
 
 3. **Create a workspace** dialog opens on the right side of the browser.
 
-4. In the **Name** field enter **FAIAD_<inject key="Deployment ID" enableCopy="false"/>**.
+4. In the **Name** field enter **FAIAD_<inject key="Deployment ID" enableCopy="false"/>**
 
     >**Note:** The workspace name must be unique. Make sure a green check mark with "This name is available" is displayed below the Name field.
 
@@ -184,52 +184,52 @@ create a Lakehouse. We will do this next.
 
     **Item types:**
 
-    a) **Dataflow Gen2:** Dataflows are like recipes for transforming data. They offer over 300 different transformations that you can apply to your data. This means you can clean, combine, and change your data in many ways to suit your needs.
+    a. **Dataflow Gen2:** Dataflows are like recipes for transforming data. They offer over 300 different transformations that you can apply to your data. This means you can clean, combine, and change your data in many ways to suit your needs.
 
-    b) **Pipeline:** Pipelines are workflows that help you automate data processes. They allow you to create flexible data workflows that can
+    b. **Pipeline:** Pipelines are workflows that help you automate data processes. They allow you to create flexible data workflows that can
     be tailored to your specific requirements. This makes it easier to
     manage and process data in a structured way.
 
-    c) **Azure Data Factory**: Azure Data Factory is a cloud-based data
+    c. **Azure Data Factory**: Azure Data Factory is a cloud-based data
     integration service that allows you to create data-driven workflows
     for orchestrating and automating data movement and data
     transformation.
 
-    d) **Apache Airflow Job**: Apache Airflow is an open-source platform used to programmatically author, schedule, and monitor workflows. In Data Factory, it allows you to create, schedule, and manage complex data workflows.
+    d. **Apache Airflow Job**: Apache Airflow is an open-source platform used to programmatically author, schedule, and monitor workflows. In Data Factory, it allows you to create, schedule, and manage complex data workflows.
 
-    e) **Copy Job**: Copy Job is a feature that allows you to copy data from one source to another. It provides a simple and efficient way to move data between different data stores.
+    e. **Copy Job**: Copy Job is a feature that allows you to copy data from one source to another. It provides a simple and efficient way to move data between different data stores.
 
-    f) **Mirrored database**: A feature for creating mirrored versions of databases for backup, testing, or read-only access.
+    f. **Mirrored database**: A feature for creating mirrored versions of databases for backup, testing, or read-only access.
 
-    g) **Mirrored SAP (preview):** Seamlessly integrate your existing SAP estate with the rest of your data in Fabric.
+    g. **Mirrored SAP (preview):** Seamlessly integrate your existing SAP estate with the rest of your data in Fabric.
 
-    h) **Mirrored Oracle (preview):** Mirroring in Fabric replicates your Oracle databases into a unified platform, enabling near real-time, low-latency analysis alongside other data sources.
+    h. **Mirrored Oracle (preview):** Mirroring in Fabric replicates your Oracle databases into a unified platform, enabling near real-time, low-latency analysis alongside other data sources.
 
-    i) **Mirrored Google Big Query (preview):** Mirroring in Fabric lets you continuously replicate Google BigQuery data into OneLake, eliminating complex ETL and enabling seamless use across analytics, AI, and data sharing.
+    i. **Mirrored Google Big Query (preview):** Mirroring in Fabric lets you continuously replicate Google BigQuery data into OneLake, eliminating complex ETL and enabling seamless use across analytics, AI, and data sharing.
 
-    j) **Variable library**: contains a list of variables and their default values. It can also contain other value sets holding alternate values.
+    j. **Variable library**: contains a list of variables and their default values. It can also contain other value sets holding alternate values.
 
     **Get Started:**
 
     To start using Data Factory, you can follow these steps:
 
-    a) **Learn to Use Data Factory**: This section helps you get started with Data Factory. It provides guidance on how to begin using the tool effectively.
+    a. **Learn to Use Data Factory**: This section helps you get started with Data Factory. It provides guidance on how to begin using the tool effectively.
 
-    b) **Create Your First Dataflow**: Here, you can learn how to create your first dataflow. Dataflows are essential for transforming your data according to your needs.
+    b. **Create Your First Dataflow**: Here, you can learn how to create your first dataflow. Dataflows are essential for transforming your data according to your needs.
 
-    c) **Create Your First Pipeline**: This section guides you on how to create your first pipeline. Pipelines help automate and manage your data processes efficiently.
+    c. **Create Your First Pipeline**: This section guides you on how to create your first pipeline. Pipelines help automate and manage your data processes efficiently.
 
-    d) **Learn to Monitor Data Factory**: Monitoring is crucial to ensure that your data processes are running smoothly. This section teaches you how to monitor your Data Factory activities.
+    d. **Learn to Monitor Data Factory**: Monitoring is crucial to ensure that your data processes are running smoothly. This section teaches you how to monitor your Data Factory activities.
 
-    e) **Learn to Transform Data with Dataflows**: This section helps you understand how to use dataflows to transform your data effectively.
+    e. **Learn to Transform Data with Dataflows**: This section helps you understand how to use dataflows to transform your data effectively.
 
-    f) **Create Your First API for GraphQL**: If you are interested in using APIs with GraphQL, this section will guide you on how to get started.
+    f. **Create Your First API for GraphQL**: If you are interested in using APIs with GraphQL, this section will guide you on how to get started.
 
-    g) **Create Your First User Data Functions**: This section helps you create user data functions, which are useful for managing and transforming user data.
+    g. **Create Your First User Data Functions**: This section helps you create user data functions, which are useful for managing and transforming user data.
 
     ![](../media/Lab-02/image22.png)
 
-4.  Click on **Return to workloads** at the top left corner of the screen. This action will take you to the main workloads page, where you can explore other tools or sections.
+4. Click on **Return to workloads** at the top left corner of the screen. This action will take you to the main workloads page, where you can explore other tools or sections.
     
     ![](../media/Lab-02/image23.png)
 
@@ -247,31 +247,31 @@ create a Lakehouse. We will do this next.
 
     **Item types:**
 
-    a) **Sustainability solutions**: supports the ingestion, standardization, and analysis of Environmental, Social, and Governance (ESG) data.
+    a. **Sustainability solutions**: supports the ingestion, standardization, and analysis of Environmental, Social, and Governance (ESG) data.
 
-    b) **Retail solutions**: helps in managing large volumes of data, integrating data from various sources, and providing real-time analytics for prompt decision-making. Retailers can use these solutions for inventory optimization, customer segmentation, sales forecasting, dynamic pricing, and fraud detection.
+    b. **Retail solutions**: helps in managing large volumes of data, integrating data from various sources, and providing real-time analytics for prompt decision-making. Retailers can use these solutions for inventory optimization, customer segmentation, sales forecasting, dynamic pricing, and fraud detection.
 
-    c) **Healthcare solutions:** are strategically designed to accelerate the time to value for customers by addressing the critical need to efficiently transform healthcare data into a suitable format for analysis.
+    c. **Healthcare solutions:** are strategically designed to accelerate the time to value for customers by addressing the critical need to efficiently transform healthcare data into a suitable format for analysis.
 
     **Get Started:**
 
     To start using Industry Solutions, follow these steps:
 
-    a) **Learn About Healthcare Data Solutions**: Click on the "Learn more" button to read about healthcare data solutions and understand how they can be used in your projects.
+    a. **Learn About Healthcare Data Solutions**: Click on the "Learn more" button to read about healthcare data solutions and understand how they can be used in your projects.
 
-    b) **Get started with Healthcare data solutions**: Start deploying healthcare data solutions and implement them in your projects.
+    b. **Get started with Healthcare data solutions**: Start deploying healthcare data solutions and implement them in your projects.
 
-    c) **Learn About Sustainability Solutions**: Click on the "Learn more" button to read about sustainability solutions and understand how they can be used in your projects.
+    c. **Learn About Sustainability Solutions**: Click on the "Learn more" button to read about sustainability solutions and understand how they can be used in your projects.
 
-    d) **Get started with Sustainability solutions**: Start deploying sustainability solutions and implement them in your projects.
+    d. **Get started with Sustainability solutions**: Start deploying sustainability solutions and implement them in your projects.
 
-    e) **Learn About Retail Solution**s: Click on the "Learn more" button to read about retail solutions and understand how they can be used in your projects.
+    e. **Learn About Retail Solution**s: Click on the "Learn more" button to read about retail solutions and understand how they can be used in your projects.
 
-    f) **Get started with Retail solutions**: Start deploying retail solutions and implement them in your projects.
+    f. **Get started with Retail solutions**: Start deploying retail solutions and implement them in your projects.
 
     ![](../media/Lab-02/image25.png)
 
-3.  Click on Return to workloads at the top left corner of the screen.
+3. Click on **Return to workloads** at the top left corner of the screen.
     This action will take you to the main workloads page, where you can
     explore other tools or sections.
     
@@ -370,7 +370,7 @@ create a Lakehouse. We will do this next.
 
     a. **Explore a Sample**: Click on the "Select" button to use sample and learn about Data Engineering.
 
-    b. **What's a Lakehouse?:** Click on the "Open" button to learn about lakehouses and how they can be used.
+    b. **What's a Lakehouse?**: Click on the "Open" button to learn about lakehouses and how they can be used.
 
     c. **Get Data Experience in Lakehouse**: Click on the "Open" button to get started with data engineering using Lakehouses.
 
@@ -441,7 +441,7 @@ create a Lakehouse. We will do this next.
 
     ![](../media/Lab-02/image31.png)
 
-3.  Click on **Return to workloads** at the top left corner of the
+3. Click on **Return to workloads** at the top left corner of the
     screen. This action will take you to the main workloads page, where
     you can explore other tools or sections.
     
@@ -449,11 +449,11 @@ create a Lakehouse. We will do this next.
 
 ## Task 9: Data Warehouse Experience
 
-1.  From the **Workloads** page, click on **Data Warehouse** to proceed.
+1. From the **Workloads** page, click on **Data Warehouse** to proceed.
 
     ![](../media/Lab-02/image32.png)
 
-2.  You will be directed to the Data Warehouse Home page. Below is a detailed overview of its sections, designed to help you use Data Warehouse effectively and step-by-step.
+2. You will be directed to the Data Warehouse Home page. Below is a detailed overview of its sections, designed to help you use Data Warehouse effectively and step-by-step.
     
     **What is Data Warehouse?**
 
@@ -497,13 +497,19 @@ create a Lakehouse. We will do this next.
 
     ![](../media/Lab-02/image33.png)
 
+3. Click on **Return to workloads** at the top left corner of the
+    screen. This action will take you to the main workloads page, where
+    you can explore other tools or sections.
+    
+    ![](../media/Lab-02/image23.png)
+
 ## Task 10: Databases Experience
 
-1.  From the **Workloads** page, click on **Databases** to proceed.
+1. From the **Workloads** page, click on **Databases** to proceed.
 
     ![](../media/Lab-02/image34.png)
 
-2.  You will be directed to the Databases Home page. Below is a detailed
+2. You will be directed to the Databases Home page. Below is a detailed
     overview of its sections, designed to help you use Databases
     effectively.
     
@@ -529,7 +535,7 @@ create a Lakehouse. We will do this next.
 
     ![](../media/Lab-02/image35.png)
 
-3.  Click on Return to workloads at the top left corner of the screen. This action will take you to the main workloads page, where you can explore other tools or sections.
+3. Click on **Return to workloads** at the top left corner of the screen. This action will take you to the main workloads page, where you can explore other tools or sections.
     
     ![](../media/Lab-02/image23.png)
 
@@ -601,7 +607,7 @@ Read the more in-depth Fabric experience announcement blogs:
 - [Dataverse and Microsoft Fabric integration
   blog](https://aka.ms/Dataverse-Fabric-Blog)
 
-© 2023 Microsoft Corporation. All rights reserved.
+© 2025 Microsoft Corporation. All rights reserved.
 
 By using this demo/lab, you agree to the following terms:
 

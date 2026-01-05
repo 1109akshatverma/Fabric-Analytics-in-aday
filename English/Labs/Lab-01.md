@@ -95,7 +95,7 @@ BI Desktop to understand the transformations and the model.
 
 1. Open the **FAIAD.pbix** located in **Reports** folder on the **desktop** of your lab environment. The file will open in Power BI Desktop.
 
-    ![](../media/Lab-01/image7.png)
+   ![](../media/Lab-01/image7.png)
 
 2. Once the "Enter your email address" dialog appears, copy the **Username** and paste it into the **Email** field of the dialog and select **Continue**.
 
@@ -183,7 +183,7 @@ couple of minutes understanding the report and move to the next steps.
 
 1. Let's look at Power Query to understand the data sources. From the ribbon select **Home -> Transform data.**
 
-    ![](../media/Lab-01/image19.png)
+   ![](../media/Lab-01/image19.png)
 
 2. Power Query window opens. From the ribbon, select **Home -> Data** **source settings**. Data source settings dialog opens. As you scroll through the list you will notice there are four data sources as mentioned in the problem statement:
 
@@ -245,20 +245,19 @@ couple of minutes understanding the report and move to the next steps.
 
 13. Enter the **Snowflake Username** and **Snowflake Password** provided below. Use these credentials to connect all the tables under Snowflake to Snowflake and then select **Connect**.
 
-    * **Snowflake Username:** <inject key="SnowFlake Username"></inject>
+    * **Snowflake Username:** <inject key="SnowFlake Username" enableCopy="false" />
 
-    * **Snowflake Password:** <inject key="SnowFlake Password"></inject>
+    * **Snowflake Password:** <inject key="SnowFlake Username" enableCopy="false" />
 
       >**Note:** If you experience any issues connecting to Snowflake with the credentials above, please use the backup credentials provided below.
 
-      - **Snowflake Username:** SNOWFLAKE_BACKUP
+    - **Snowflake Username:** SNOWFLAKE_BACKUP
 
-      - **Snowflake Password:** 8UpfRpExVDXv2AC1
+    - **Snowflake Password:** 8UpfRpExVDXv2AC1
 
 14. Notice the **SnowflakeData** folder has Supplier dimension and PO(Order / Spend) fact.
 
-    * **Supplier dimension** is created by merging Suppliers query with
-      SupplierCategories query.
+    * **Supplier dimension** is created by merging Suppliers query with SupplierCategories query.
 
     * **PO fact** is created by merging PO with PO Line Items query.
 
@@ -278,9 +277,7 @@ couple of minutes understanding the report and move to the next steps.
 
     ![](../media/Lab-01/image28.png)
 
-Now we know what we are dealing with. In the following labs, we will
-create a similar Power Query using Dataflow Gen2 and do modeling using a
-Lakehouse.
+Now we know what we are dealing with. In the following labs, we will create a similar Power Query using Dataflow Gen2 and do modeling using a Lakehouse.
 
 # References
 
@@ -346,7 +343,7 @@ Read the more in-depth Fabric experience announcement blogs:
 - [Dataverse and Microsoft Fabric integration
   blog](https://aka.ms/Dataverse-Fabric-Blog)
 
-© 2023 Microsoft Corporation. All rights reserved.
+© 2025 Microsoft Corporation. All rights reserved.
 
 By using this demo/lab, you agree to the following terms:
 

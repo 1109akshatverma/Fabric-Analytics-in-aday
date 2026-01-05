@@ -121,7 +121,7 @@ By the end of this lab, you will have learned:
 
 ## Task 3: Create Semantic model
 
-1. From the SQL analytics endpoint menu select **New semantic Model.**
+1. From the SQL analytics endpoint menu select **New semantic model**.
 
     ![](../media/Lab-06/image13.png)
 
@@ -452,7 +452,7 @@ Read the more in-depth Fabric experience announcement blogs:
 - [Dataverse and Microsoft Fabric integration
   blog](https://aka.ms/Dataverse-Fabric-Blog)
 
-© 2023 Microsoft Corporation. All rights reserved.
+© 2025 Microsoft Corporation. All rights reserved.
 
 By using this demo/lab, you agree to the following terms:
 

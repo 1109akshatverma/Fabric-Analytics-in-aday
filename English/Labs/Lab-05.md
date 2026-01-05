@@ -2,7 +2,8 @@
 
 ![](../media/Lab-05/image4a.png)
 
-# Contents 
+# Contents
+
 - Introduction
 
 - Dataflow Gen2
@@ -33,8 +34,8 @@
     - Task 12: Configure Wait Activity
 
     - Task 13: Configure Schedule Refresh for Pipeline
-- References
 
+- References
 
 # Introduction 
 
@@ -119,7 +120,7 @@ Let's start by configuring a scheduled refresh of Supplier Dataflow.
     description. Also, we can see who is the owner of the dataflow and
     the last time it was modified.
 
-    - **Endorsement --** This allows us to specify if the dataflow will
+    - **Endorsement -** This allows us to specify if the dataflow will
     carry the **Promoted** or the **Certified** tag for others to see.
 
     - **Schedule -** This is where we can schedule out dataflows.
@@ -128,7 +129,7 @@ Let's start by configuring a scheduled refresh of Supplier Dataflow.
 
 12. Select the **Schedule** option
 
-13. To activate a schedule, we simply must click **Add Schedule**
+13. To activate a schedule, we simply must click **+ Add schedule**.
 
     ![](../media/Lab-05/image14.png)
 
@@ -259,7 +260,7 @@ new Pipeline.
 
 1. You will be navigated to the Pipeline screen. From the menu, select **Activities**.
 
-2. Click the **ellipsis(...)** on the right.
+2. Click the **ellipsis (...)** on the right.
 
 3. From the activity list, click **Until**.
 
@@ -327,14 +328,14 @@ new Pipeline.
     evaluates to false. Once the expression evaluates to true, the Until
     activity stops the iteration and moves on to the next activity.
 
-7.  Select **Add dynamic content (3)** link that appears below the text
+7. Select **Add dynamic content (3)** link that appears below the text
     box.
 
     ![](../media/Lab-05/image31.png)
 
     We need to write an expression which would execute until either the value of **varCounter is 3** or value **varIsSuccess is Yes.** (varCounter and varIsSuccess are the variables we just created.)
 
-8.  **Pipeline expression builder** dialog opens. In the bottom half of
+8. **Pipeline expression builder** dialog opens. In the bottom half of
     the dialog, you will have a menu:
 
     a. **Parameters:** Values that are passed to the pipeline. E.g. Value from one pipeline passed to another pipeline. These values can be used in any expression but cannot be changed during the pipeline run.
@@ -703,7 +704,7 @@ Read the more in-depth Fabric experience announcement blogs:
 - [Dataverse and Microsoft Fabric integration
   blog](https://aka.ms/Dataverse-Fabric-Blog)
 
-© 2023 Microsoft Corporation. All rights reserved.
+© 2025 Microsoft Corporation. All rights reserved.
 
 By using this demo/lab, you agree to the following terms:
 
