@@ -56,7 +56,7 @@ By the end of this lab, you will have learned:
 
 1. Let's navigate back to the Fabric workspace, **FAIAD_<inject key="Deployment ID" enableCopy="false"/>** **(1)** you created in Lab 2, Task 2.
 
-3. Under the **Get Data (2)** section, select **New Dataflow Gen2 (3)**.
+3. Under the **Get data (2)** section, select **New Dataflow Gen2 (3)**.
 
     ![](../media/Lab-04/getdatal4.png)
 
